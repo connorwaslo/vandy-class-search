@@ -1,14 +1,55 @@
 import React, {Component} from 'react';
+import {Route} from 'react-router-dom';
+import LoginForm from "../components/LoginForm";
+import firebase from 'firebase/app';
+import 'firebase/auth';
+import {Grid} from "@material-ui/core";
 
 class Login extends Component {
-  state = {};
+  state = {
+    email: '',
+    pass: '',
+    errorMsg: null
+  };
 
   render() {
     return (
-      <div>
-        <h1>Login</h1>
-      </div>
+      <Grid container justify='center' direction='column' alignContent='center'>
+        <h1 style={{textAlign: 'center'}}>Login</h1>
+        <Route render={({history}) => (
+          <LoginForm
+            state={this.state}
+            handleChange={this._handleChange}
+            onSubmit={(e) => this._onSubmit(e, history)}/>
+        )} />
+        {this.state.errorMsg ? <p style={{color: 'red', textAlign: 'center'}}>{this.state.errorMsg}</p> : null}
+      </Grid>
     )
+  }
+
+  _handleChange = name => event => {
+    event.preventDefault();
+
+    this.setState({
+      [name]: event.target.value
+    });
+  };
+
+  _onSubmit = (event, history) => {
+    event.preventDefault();
+    const {email, pass} = this.state;
+
+    // Login
+    firebase.auth().signInWithEmailAndPassword(email, pass)
+      .then(() => {
+        history.push('/loggedin');
+      })
+      .catch((error) => {
+        console.log('Error signing in:', error);
+        this.setState({
+          errorMsg: error.message
+        });
+      })
   }
 }
 

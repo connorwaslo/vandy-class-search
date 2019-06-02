@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
-import {Route} from 'react-router-dom';
+import {Route, Link} from 'react-router-dom';
+import {Container, Grid} from "@material-ui/core";
 import SignupForm from "../components/SignupForm";
 import firebase from 'firebase/app';
 import 'firebase/auth';
@@ -13,15 +14,19 @@ class Signup extends Component {
 
   render() {
     return (
-      <div>
-        <h1>Make the most of your time at Vandy</h1>
+      <Container component='main'>
+        <h1 style={{textAlign: 'center'}}>Sign Up</h1>
         <Route render={({history}) => (
           <SignupForm
             state={this.state}
             handleChange={this._handleChange}
             onSubmit={(e) => this._onSubmit(e, history)}/>
         )} />
-      </div>
+        <Grid container justify='center' direction='column' alignContent='center'>
+          <h6 style={{textAlign: 'center'}}>or</h6>
+          <Link to='/login'>Login</Link>
+        </Grid>
+      </Container>
     )
   }
 
