@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {Route} from 'react-router-dom';
+import {Route, Link} from 'react-router-dom';
 import LoginForm from "../components/LoginForm";
 import firebase from 'firebase/app';
 import 'firebase/auth';
@@ -23,6 +23,8 @@ class Login extends Component {
             onSubmit={(e) => this._onSubmit(e, history)}/>
         )} />
         {this.state.errorMsg ? <p style={{color: 'red', textAlign: 'center'}}>{this.state.errorMsg}</p> : null}
+
+        <Link style={{textAlign: 'center'}} to='/'>Back to Sign Up</Link>
       </Grid>
     )
   }
