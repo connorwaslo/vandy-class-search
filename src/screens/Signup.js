@@ -1,5 +1,8 @@
 import React, {Component} from 'react';
+import {Route} from 'react-router-dom';
 import SignupForm from "../components/SignupForm";
+import firebase from 'firebase/app';
+import 'firebase/auth';
 
 class Signup extends Component {
   state = {
@@ -12,10 +15,12 @@ class Signup extends Component {
     return (
       <div>
         <h1>Make the most of your time at Vandy</h1>
-        <SignupForm
-          state={this.state}
-          handleChange={this._handleChange}
-          onSubmit={this._onSubmit}/>
+        <Route render={({history}) => (
+          <SignupForm
+            state={this.state}
+            handleChange={this._handleChange}
+            onSubmit={(e) => this._onSubmit(e, history)}/>
+        )} />
       </div>
     )
   }
@@ -28,14 +33,31 @@ class Signup extends Component {
     });
   };
 
-  _onSubmit = () => {
+  _onSubmit = (event, history) => {
+    event.preventDefault();
     const {pass, confPass} = this.state;
 
+    // Match the password and confirmed password
     if (pass === confPass) {
-      console.log('Password is good')
-    } else {
-      console.log('Password is bad')
+      // Create an account with firebase
+      this._createAccount(history);
     }
+  };
+
+  _createAccount = (history) => {
+    const {email, pass} = this.state;
+
+    // Firebase authentication. Only requires email and password.
+    // Should look into using a google account for this
+    firebase.auth().createUserWithEmailAndPassword(email, pass)
+      .then(() => {
+        // Navigate away
+        history.push('/questions');
+        console.log('Account created!');
+      })
+      .catch((error) => {
+        console.log('Something went wrong...', error);
+      })
   }
 }
 

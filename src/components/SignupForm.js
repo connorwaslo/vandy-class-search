@@ -40,28 +40,16 @@ function SignupForm(props) {
           value={props.state.pass}
           onChange={props.handleChange('pass')}/>
 
-        {props.state.pass === props.state.confPass ||
-          props.state.confPass === '' ?
-          <TextField
-            label='Confirm Password'
-            className={classes.input}
-            required
-            fullWidth
-            type='password'
-            value={props.state.confPass}
-            onChange={props.handleChange('confPass')}/> :
-
-          <TextField
-            label='Confirm Password'
-            id='standard-error'
-            className={classes.input}
-            error
-            required
-            fullWidth
-            type='password'
-            value={props.state.confPass}
-            onChange={props.handleChange('confPass')}/>
-        }
+        <TextField
+          label='Confirm Password'
+          id='standard-error'
+          className={classes.input}
+          error={!(props.state.pass === props.state.confPass || props.state.confPass === '')}
+          required
+          fullWidth
+          type='password'
+          value={props.state.confPass}
+          onChange={props.handleChange('confPass')}/>
 
         <Button
           type='submit'
