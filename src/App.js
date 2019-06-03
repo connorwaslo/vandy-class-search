@@ -7,6 +7,7 @@ import {Container} from "@material-ui/core";
 import Signup from "./screens/Signup";
 import Login from "./screens/Login";
 import ProfileQuestions from "./screens/ProfileQuestions";
+import Dashboard from "./screens/Dashboard";
 
 firebase.initializeApp(config);
 
@@ -18,6 +19,8 @@ function App() {
         <Route path='/login' component={Login} />
         <Route path='/profile-setup' component={ProfileQuestions} />
       </Container>
+
+      <Route path='/dashboard' component={Dashboard} />
     </Router>
   );
 }

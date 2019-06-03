@@ -1,8 +1,8 @@
 import React from 'react';
 import {Container, TextField, Button} from "@material-ui/core";
-import formStyles from '../styles/FormStyles';
+import formStyles from "../../styles/FormStyles";
 
-function LoginForm(props) {
+function SignupForm(props) {
   const classes = formStyles();
 
   return (
@@ -25,6 +25,17 @@ function LoginForm(props) {
           value={props.state.pass}
           onChange={props.handleChange('pass')}/>
 
+        <TextField
+          label='Confirm Password'
+          id='standard-error'
+          className={classes.input}
+          error={!(props.state.pass === props.state.confPass || props.state.confPass === '')}
+          required
+          fullWidth
+          type='password'
+          value={props.state.confPass}
+          onChange={props.handleChange('confPass')}/>
+
         <Button
           type='submit'
           className={classes.submit}
@@ -35,7 +46,7 @@ function LoginForm(props) {
         </Button>
       </form>
     </Container>
-  );
+  )
 }
 
-export default LoginForm;
+export default SignupForm;

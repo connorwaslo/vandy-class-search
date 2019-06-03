@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import {Container, Button} from "@material-ui/core";
 import {Route} from 'react-router-dom';
 import ProfQues from "../components/ProfQues";
-import LoginForm from "../components/LoginForm";
+import LoginForm from "../components/forms/LoginForm";
 import formStyles from "../styles/FormStyles";
 
 class ProfileQuestions extends Component {

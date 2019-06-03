@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import {Route, Link} from 'react-router-dom';
-import LoginForm from "../components/LoginForm";
+import LoginForm from "../components/forms/LoginForm";
 import firebase from 'firebase/app';
 import 'firebase/auth';
 import {Grid} from "@material-ui/core";

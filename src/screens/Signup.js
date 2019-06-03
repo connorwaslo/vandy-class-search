@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import {Route, Link} from 'react-router-dom';
 import {Container, Grid} from "@material-ui/core";
-import SignupForm from "../components/SignupForm";
+import SignupForm from "../components/forms/SignupForm";
 import firebase from 'firebase/app';
 import 'firebase/auth';
 
