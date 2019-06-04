@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import Navbar from "../components/Navbar";
+import Navbar from "../components/nav/Navbar";
 
 class Dashboard extends Component {
   state = {};

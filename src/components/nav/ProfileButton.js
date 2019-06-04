@@ -15,7 +15,7 @@ const ProfileButton = (props) => (
       onClose={props.handleClose}
     >
       <MenuItem onClick={() => props.nav('/profile')}>Profile</MenuItem>
-      <MenuItem onClick={props.handleClose}>Log Out</MenuItem>
+      <MenuItem onClick={props.logout}>Log Out</MenuItem>
     </Menu>
   </div>
 );

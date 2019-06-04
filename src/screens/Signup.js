@@ -57,11 +57,10 @@ class Signup extends Component {
     firebase.auth().createUserWithEmailAndPassword(email, pass)
       .then(() => {
         // Navigate away
-        history.push('/questions');
-        console.log('Account created!');
+        history.push('/profile-setup');
       })
       .catch((error) => {
-        console.log('Something went wrong...', error);
+        console.log('Error creating account:', error);
       })
   }
 }
