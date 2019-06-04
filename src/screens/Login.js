@@ -44,7 +44,7 @@ class Login extends Component {
     // Login
     firebase.auth().signInWithEmailAndPassword(email, pass)
       .then(() => {
-        history.push('/loggedin');
+        history.push('/profile-setup');
       })
       .catch((error) => {
         console.log('Error signing in:', error);

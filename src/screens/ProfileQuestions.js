@@ -2,8 +2,8 @@ import React, {Component} from 'react';
 import {Container, Button} from "@material-ui/core";
 import {Route} from 'react-router-dom';
 import ProfQues from "../components/ProfQues";
-import LoginForm from "../components/forms/LoginForm";
-import formStyles from "../styles/FormStyles";
+import firebase from 'firebase/app';
+import 'firebase/database';
 
 class ProfileQuestions extends Component {
   state = {
@@ -27,7 +27,7 @@ class ProfileQuestions extends Component {
     // className={formStyles().submit}
 
     return (
-      <Container>
+      <Container maxWidth='sm'>
         <ProfQues question={questions[0]} handleChange={this._handleChange} value={yearSel}/>
         <Route render={({history}) => (
           <Button
@@ -52,6 +52,12 @@ class ProfileQuestions extends Component {
     event.preventDefault();
 
     // Save this answer to Firebase Realtime database
+    const uid = firebase.auth().currentUser.uid;
+    firebase.database().ref('profiles/' + uid).set({
+      year: this.state.yearSel
+    }).catch((error) => {
+      console.log('Error:', error.message);
+    });
 
     history.push('/dashboard');
   }
