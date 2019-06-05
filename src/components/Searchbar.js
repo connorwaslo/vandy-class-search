@@ -6,9 +6,9 @@ import TextField from "@material-ui/core/TextField";
 const Searchbar = (props) => (
   <Container
     maxWidth='sm'
-    style={{height: '100%'}}>
+    style={{paddingBottom: '3vh'}}>
 
-    <form>
+    <form onSubmit={props.onSubmit}>
       <TextField
         label='Search...'
         type='search'
@@ -16,7 +16,7 @@ const Searchbar = (props) => (
         fullWidth
         value={props.search}
         onChange={e => props.handleChange(e)}
-        style={{marginTop: '45vh'}}
+        style={{marginTop: '18vh'}}
         />
 
       <Button
