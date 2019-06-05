@@ -2,6 +2,7 @@
   "name": "portal",
   "version": "0.1.0",
   "private": true,
+  "homepage": "/course-search/",
   "engines": {
     "node": "10.13.0"
   },

@@ -13,7 +13,7 @@ firebase.initializeApp(config);
 
 function App() {
   return (
-    <Router>
+    <Router basename='/course-search/'>
       {/*<Container>
         <Route exact path='/' component={Signup} />
         <Route path='/login' component={Login} />
