@@ -1,0 +1,6735 @@
+{
+    "AFRICAN AMERICAN AND DIASPORA STUDIES": {
+        "AADS 1001": {
+            "Name": "Commons Seminar",
+            "Credits": 1,
+            "Axle": "None",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "AADS 1010": {
+            "Name": "Introduction to African American and Diaspora Studies ",
+            "Credits": 3,
+            "Axle": "P",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "AADS 1016": {
+            "Name": "Race Matters",
+            "Credits": 3,
+            "Axle": "US",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "AADS 1108": {
+            "Name": "Making of the African Diaspora",
+            "Credits": 3,
+            "Axle": "P",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "AADS 1111": {
+            "Name": "AADS First-Year Writing Seminar",
+            "Credits": 3,
+            "Axle": "Writing",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "AADS 1204": {
+            "Name": "Diaspora Feminisms",
+            "Credits": 3,
+            "Axle": "INT",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "AADS 1506": {
+            "Name": "Reel to Real: Film Aesthetics and Representation",
+            "Credits": 3,
+            "Axle": "P",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "AADS 1706": {
+            "Name": "Capoeira: Afro-Brazilian Race, Culture, and Expression",
+            "Credits": 3,
+            "Axle": "INT",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "AADS 2104": {
+            "Name": "Popular Culture and Black Sexual Politics",
+            "Credits": 3,
+            "Axle": "HCA",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "AADS 2106": {
+            "Name": "African Diaspora: A Problem for Thought",
+            "Credits": 3,
+            "Axle": "P",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "AADS 2148": {
+            "Name": "Blakcs in Latin American and the Caribbean",
+            "Credits": 3,
+            "Axle": "INT",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "AADS 2166": {
+            "Name": "African American Influences on Country Music",
+            "Credits": 3,
+            "Axle": "US",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "AADS 2168": {
+            "Name": "Black Migrations in the African Diaspora",
+            "Credits": 3,
+            "Axle": "INT",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "AADS 2178": {
+            "Name": "Global Africa",
+            "Credits": 3,
+            "Axle": "INT",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "AADS 2204": {
+            "Name": "Black Women and the Politics of Blackness and Beauty",
+            "Credits": 3,
+            "Axle": "HCA",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "AADS 2214": {
+            "Name": "History and Myth: Black Women in the United States",
+            "Credits": 3,
+            "Axle": "HCA",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "AADS 2294": {
+            "Name": "Black Paris-Paris Noir: The Afircan Diaspora and the City of Light",
+            "Credits": 3,
+            "Axle": "INT",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "AADS 2306": {
+            "Name": "Race, Mixed Race, and \"Passing\" ",
+            "Credits": 3,
+            "Axle": "HCA",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "AADS 2356": {
+            "Name": "African Spirits in Exile: Diaspora Religions in the Americas ",
+            "Credits": 3,
+            "Axle": "P",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "AADS 2514": {
+            "Name": "Insider/Outider: The Genealogy of Black LGBTQ Peoples",
+            "Credits": 3,
+            "Axle": "P",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "AADS 2654": {
+            "Name": "Memoirs and Biographies",
+            "Credits": 3,
+            "Axle": "US",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "AADS 2698": {
+            "Name": "African Diaspora Ethnography",
+            "Credits": 3,
+            "Axle": "INT",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "AADS 3016": {
+            "Name": "GOAT: Life, Times, and Politics of Muhammad Ali",
+            "Credits": 3,
+            "Axle": "US",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "AADS 3104W": {
+            "Name": "Soul Food as Text in Text: An Examination of African American Foodways",
+            "Credits": 3,
+            "Axle": "HCA",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "AADS 3178": {
+            "Name": "Colonialism and After",
+            "Credits": 3,
+            "Axle": "INT",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "AADS 3204W": {
+            "Name": "African American Children's Literature",
+            "Credits": 3,
+            "Axle": "HCA",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "AADS 3206": {
+            "Name": "Mystery, Murder, and Mayhem in Black Detective Fiction",
+            "Credits": 3,
+            "Axle": "HCA",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "AADS 3208W": {
+            "Name": "Blacks in the Military",
+            "Credits": 3,
+            "Axle": "P",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "AADS 3214": {
+            "Name": "Black Masculinity: Social Imagery and Public Policy",
+            "Credits": 3,
+            "Axle": "SBS",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "AADS 3248": {
+            "Name": "Atlantic African Slave Trade",
+            "Credits": 3,
+            "Axle": "SBS",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "AADS 3258": {
+            "Name": "Black Issues in Education",
+            "Credits": 3,
+            "Axle": "SBS",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "AADS 3278": {
+            "Name": "Black Europe",
+            "Credits": 3,
+            "Axle": "INT",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "AADS 3306": {
+            "Name": "Black Detroit",
+            "Credits": 3,
+            "Axle": "HCA",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "AADS 3850": {
+            "Name": "Independent Study",
+            "Credits": "2019-01-03 00:00:00",
+            "Axle": "None",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "AADS 3880": {
+            "Name": "Internship Training",
+            "Credits": "2019-01-09 00:00:00",
+            "Axle": "None",
+            "Pre-reqs": 0,
+            "Co-reqs": "AADS 3881"
+        },
+        "AADS 3881": {
+            "Name": "Internship Readings and Research",
+            "Credits": "2019-03-09 00:00:00",
+            "Axle": "None",
+            "Pre-reqs": 0,
+            "Co-reqs": "AADS 3880"
+        },
+        "AADS 3890": {
+            "Name": "Special Topics",
+            "Credits": 3,
+            "Axle": "None",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "AADS 4104": {
+            "Name": "Soul Food as Text in Text II: An Examination of African American Foodways II",
+            "Credits": 3,
+            "Axle": "HCA",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "AADS 4198": {
+            "Name": "Global Anti-Blackness and Black POwer",
+            "Credits": 3,
+            "Axle": "INT",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "AADS 4228W": {
+            "Name": "Black Girlhood: History, Perforamnce, and Counternarratives",
+            "Credits": 3,
+            "Axle": "SBS",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "AADS 4256": {
+            "Name": "Haiti: Freedom and Democracy",
+            "Credits": 3,
+            "Axle": "INT",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "AADS 4264": {
+            "Name": "Black Diaspora Women WRiters",
+            "Credits": 3,
+            "Axle": "HCA",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "AADS 4270": {
+            "Name": "Reserach Methods",
+            "Credits": 3,
+            "Axle": "SBS",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "AADS 4506": {
+            "Name": "Slavery and Public Memory",
+            "Credits": 3,
+            "Axle": "SBS",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "AADS 4580": {
+            "Name": "The Black Studies MOvment",
+            "Credits": 3,
+            "Axle": "SBS",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "AADS 4979": {
+            "Name": "Senior Thesis in African American and Diaspora STudies",
+            "Credits": 3,
+            "Axle": "None",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "AADS 4999": {
+            "Name": "Senior Honors Thesis ",
+            "Credits": 3,
+            "Axle": "None",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        }
+    },
+    "AMERICAN STUDIES": {
+        "AMER 1001": {
+            "Name": "Commons Seminar",
+            "Credits": 1,
+            "Axle": "NONE",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "AMER 1002W": {
+            "Name": "Introduction to American STudies",
+            "Credits": 3,
+            "Axle": "US, WRITING",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "AMER 1111": {
+            "Name": "American Studies FYS ",
+            "Credits": 3,
+            "Axle": "WRITING",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "AMER 1200": {
+            "Name": "Introduction to SOuthern Studies",
+            "Credits": 3,
+            "Axle": "US",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "AMER 1700W": {
+            "Name": "Writing for SOcial CHange",
+            "Credits": 3,
+            "Axle": "HCA, WRITING",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "AMER 2100": {
+            "Name": "Sports, Culture, and Society",
+            "Credits": 3,
+            "Axle": "SBS",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "AMER 3100": {
+            "Name": "RHetoric of SOcial Movements",
+            "Credits": 3,
+            "Axle": "US",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "AMER 3200": {
+            "Name": "Global Perspectives on the U.S.",
+            "Credits": 3,
+            "Axle": "US",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "AMER 3830": {
+            "Name": "Serving and Learning",
+            "Credits": 3,
+            "Axle": "P",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "AMER 3851": {
+            "Name": "Independent Readings and Research",
+            "Credits": "2019-01-03 00:00:00",
+            "Axle": "NONE",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "AMER 3880": {
+            "Name": "Internship Training",
+            "Credits": "2019-01-03 00:00:00",
+            "Axle": "NONE",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "AMER 3881": {
+            "Name": "Internship Readings and Research",
+            "Credits": "2019-01-06 00:00:00",
+            "Axle": "NONE",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "AMER 3890": {
+            "Name": "Topics in American Studies",
+            "Credits": 3,
+            "Axle": "SBS",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "AMER 4000": {
+            "Name": "The American Studies Workshop",
+            "Credits": 3,
+            "Axle": "HCA",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "AMER 4100": {
+            "Name": "Undergraduate Seminar in American STudies",
+            "Credits": 3,
+            "Axle": "SBS",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "AMER 4960": {
+            "Name": "Senior Project",
+            "Credits": 3,
+            "Axle": "SBS",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "AMER 4998": {
+            "Name": "Senior Honors Research",
+            "Credits": 3,
+            "Axle": "NONE",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "AMER 4999": {
+            "Name": "Senior Honors Thesis ",
+            "Credits": 3,
+            "Axle": "NONE",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        }
+    },
+    "ANTHROPOLOGY": {
+        "ANTH 1001": {
+            "Name": "Commons Seminar",
+            "Credits": 1,
+            "Axle": "NONE",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "ANTH 1101": {
+            "Name": "Introduction to Anthropology",
+            "Credits": 3,
+            "Axle": "SBS",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "ANTH 1111": {
+            "Name": "Anthropology FYS ",
+            "Credits": 3,
+            "Axle": "WRITING",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "ANTH 1130W": {
+            "Name": "America through the Lens of Disney",
+            "Credits": 3,
+            "Axle": "P",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "ANTH 1201W": {
+            "Name": "Introduction to Archaeology",
+            "Credits": 3,
+            "Axle": "SBS",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "ANTH 1301": {
+            "Name": "Introduction to Biological Anthropology",
+            "Credits": 3,
+            "Axle": "MNS",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "ANTH 1601": {
+            "Name": "Introduction to Language and Culture",
+            "Credits": 3,
+            "Axle": "SBS",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "ANTH 2105": {
+            "Name": "Race in the Americas",
+            "Credits": 3,
+            "Axle": "P",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "ANTH 2106": {
+            "Name": "Culture and Power in Latin America",
+            "Credits": 3,
+            "Axle": "INT",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "ANTH 2108": {
+            "Name": "Indigenous Peoples of Lowland South America",
+            "Credits": 3,
+            "Axle": "SBS",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "ANTH 2109": {
+            "Name": "Food and Politics in America",
+            "Credits": 3,
+            "Axle": "US",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "ANTH 2110": {
+            "Name": "Gender and Cultural Politics",
+            "Credits": 3,
+            "Axle": "P",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "ANTH 2113W": {
+            "Name": "Food, Identity, and Culture",
+            "Credits": 3,
+            "Axle": "INT",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "ANTH 2114": {
+            "Name": "Above and Below the Surface: The Caribbean between Climate CHagne and Tourism",
+            "Credits": 3,
+            "Axle": "INT",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "ANTH 2120": {
+            "Name": "Sports, Culture, and Society",
+            "Credits": 3,
+            "Axle": "SBS",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "ANTH 2130": {
+            "Name": "Global Infrastructure and Everyday Life",
+            "Credits": 3,
+            "Axle": "INT",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "ANTH 2150": {
+            "Name": "Urban Ecology",
+            "Credits": 3,
+            "Axle": "SBS",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "ANTH 2160W": {
+            "Name": "Creating Community",
+            "Credits": 3,
+            "Axle": "SBS WRITING",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "ANTH 2211": {
+            "Name": "Archaeology",
+            "Credits": 3,
+            "Axle": "SBS",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "ANTH 2214": {
+            "Name": "Art and Architecture in the Ancient Americas",
+            "Credits": 3,
+            "Axle": "INT",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "ANTH 22202": {
+            "Name": "Human Landscapes",
+            "Credits": 3,
+            "Axle": "SBS WRITING",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "ANTH 2221": {
+            "Name": "Old World Archaelogy",
+            "Credits": 3,
+            "Axle": "INT",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "ANTH 2222": {
+            "Name": "North American Arcahaelogy ",
+            "Credits": 3,
+            "Axle": "US",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "ANTH 2223": {
+            "Name": "Native North Americans",
+            "Credits": 3,
+            "Axle": "US",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "ANTH 2225": {
+            "Name": "Climate Change, Collapse, and Sustainability in History",
+            "Credits": 3,
+            "Axle": "P",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "ANTH 2227": {
+            "Name": "Food in the Ancient WOrld",
+            "Credits": 3,
+            "Axle": "SBS",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "ANTH 2230": {
+            "Name": "South American Archaeology",
+            "Credits": 3,
+            "Axle": "SBS",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "ANTH 2231": {
+            "Name": "Ancient Andean Civilizations",
+            "Credits": 3,
+            "Axle": "INT",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "ANTH 2242W": {
+            "Name": "The Archaeology of Ancient Maya Civilization",
+            "Credits": 3,
+            "Axle": "INT WRITING",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "ANTH 2250": {
+            "Name": "Contemporary Middle East and Kurdistan",
+            "Credits": 3,
+            "Axle": "INT",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "ANTH 2342": {
+            "Name": "Biology of Inequality",
+            "Credits": 3,
+            "Axle": "SBS",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "ANTH 2370": {
+            "Name": "Death and the Body",
+            "Credits": 3,
+            "Axle": "SBS",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "ANTH 2375": {
+            "Name": "Making Racism Visible: Media and Civil Rights from MLK to Black Lives Matter",
+            "Credits": 3,
+            "Axle": "P",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "ANTH 2601": {
+            "Name": "Introduction to Linguistics",
+            "Credits": 3,
+            "Axle": "SBS",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "ANTH 2602": {
+            "Name": "Anthropological Linguistics",
+            "Credits": 3,
+            "Axle": "SBS",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "ANTH 2603": {
+            "Name": "Comparative WRiting Systems",
+            "Credits": 3,
+            "Axle": "HCA",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "ANTH 3120": {
+            "Name": "Sociocultural Field Methods",
+            "Credits": 3,
+            "Axle": "SBS",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "ANTH 3121": {
+            "Name": "Global Wealth and Poverty ",
+            "Credits": 3,
+            "Axle": "P",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "ANTH 3122": {
+            "Name": "The Anthropology of Globalization",
+            "Credits": 3,
+            "Axle": "INT",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "ANTH 3125": {
+            "Name": "Public Scholarhship Practicum in Community Research",
+            "Credits": 3,
+            "Axle": "NONE",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "ANTH 3130": {
+            "Name": "Andean Culture and Society",
+            "Credits": 3,
+            "Axle": "SBS",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "ANTH 3132": {
+            "Name": "Social Movements",
+            "Credits": 3,
+            "Axle": "INT",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "ANTH 3133": {
+            "Name": "Political Anthropology",
+            "Credits": 3,
+            "Axle": "SBS",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "ANTH 3134": {
+            "Name": "Human Rights of Indigenous Poeples",
+            "Credits": 3,
+            "Axle": "P",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "ANTH 3135": {
+            "Name": "Development, Social Enterprise, Social Justice",
+            "Credits": 3,
+            "Axle": "P",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "ANTH 3138": {
+            "Name": "Global Food Politics",
+            "Credits": 3,
+            "Axle": "INT",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "ANTH 3140": {
+            "Name": "Myth, Ritual, Belief: The Anthropology of Religion",
+            "Credits": 3,
+            "Axle": "HCA",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "ANTH 3141": {
+            "Name": "Anthropology of Healing",
+            "Credits": 3,
+            "Axle": "P",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "ANTH 3143": {
+            "Name": "Medical Anthropology",
+            "Credits": 3,
+            "Axle": "SBS",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "ANTH 3144": {
+            "Name": "Politics of Reproductive Health",
+            "Credits": 3,
+            "Axle": "P",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "ANTH 3145": {
+            "Name": "Sexuality, Gender, and Culture",
+            "Credits": 3,
+            "Axle": "P",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "ANTH 3150W": {
+            "Name": "Cognitive Anthropology",
+            "Credits": 3,
+            "Axle": "SBS WRITING",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "ANTH 3161": {
+            "Name": "Colonial Encounters in the Americas",
+            "Credits": 3,
+            "Axle": "SBS",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "ANTH 3162": {
+            "Name": "Material Culture of New World Slavery",
+            "Credits": 3,
+            "Axle": "SBS",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "ANTH 3200": {
+            "Name": "Ancient Cities",
+            "Credits": 3,
+            "Axle": "SBS",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "ANTH 3202": {
+            "Name": "The Collapse of Civilizations",
+            "Credits": 3,
+            "Axle": "P",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "ANTH 3240": {
+            "Name": "Ancient Mesoamerican Civilizations",
+            "Credits": 3,
+            "Axle": "INT",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "ANTH 3241": {
+            "Name": "The Aztecs",
+            "Credits": 3,
+            "Axle": "INT",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "ANTH 3243W": {
+            "Name": "Ancient Maya Gods and Rulers",
+            "Credits": 3,
+            "Axle": "SBS WRITING",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "ANTH 3250": {
+            "Name": "The Inca Empire",
+            "Credits": 3,
+            "Axle": "INT",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "ANTH 3260": {
+            "Name": "Ceramic Analysis in Archaeology",
+            "Credits": 3,
+            "Axle": "HCA",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "ANTH 3261": {
+            "Name": "Introduction to Geographic Information Systems and Remote SEnsing",
+            "Credits": 3,
+            "Axle": "MNS",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "ANTH 3262": {
+            "Name": "Ethics in Antrhopology, Archaeology, and Development",
+            "Credits": 3,
+            "Axle": "P",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "ANTH 3343": {
+            "Name": "Biology and Culture of Race",
+            "Credits": 3,
+            "Axle": "P",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "ANTH 3344": {
+            "Name": "Genetic Anthropology Lab Techniques",
+            "Credits": 3,
+            "Axle": "MNS",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "ANTH 3345": {
+            "Name": "Genetics in Soceity",
+            "Credits": 3,
+            "Axle": "P",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "ANTH 3346": {
+            "Name": "Human Adaptaion and Disease",
+            "Credits": 3,
+            "Axle": "MNS",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "ANTH 3371": {
+            "Name": "Social and Health Consequences of Pandemics",
+            "Credits": 3,
+            "Axle": "SBS",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "ANTH 3372": {
+            "Name": "Human Osteology",
+            "Credits": 3,
+            "Axle": "MNS",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "ANTH 3620": {
+            "Name": "Maya Language and Literature",
+            "Credits": 3,
+            "Axle": "NONE",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "ANTH 3622 W": {
+            "Name": "Classic Maya Language and Hieroglyphs",
+            "Credits": 3,
+            "Axle": "SBS WRITING",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "ANTH 3850": {
+            "Name": "Independent Research",
+            "Credits": "2019-01-03 00:00:00",
+            "Axle": "NONE",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "ANTH 3865": {
+            "Name": "Field Reserach",
+            "Credits": "2019-01-06 00:00:00",
+            "Axle": "NONE",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "ANTH 3866": {
+            "Name": "Archaeological Excavation",
+            "Credits": 3,
+            "Axle": "MNS",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "ANTH 3900": {
+            "Name": "Theories of Culture and Human Nature",
+            "Credits": 3,
+            "Axle": "SBS",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "ANTH 3901": {
+            "Name": "Problems in Anthropological Thinking",
+            "Credits": 3,
+            "Axle": "SBS",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "ANTH 4152": {
+            "Name": "Activism and Social Change: Theory, Experience, and Practice",
+            "Credits": 3,
+            "Axle": "SBS",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "ANTH 4153": {
+            "Name": "Economic Anthropology",
+            "Credits": 3,
+            "Axle": "SBS",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "ANTH 4154": {
+            "Name": "Environmental Anthropology",
+            "Credits": 3,
+            "Axle": "SBS",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "ANTH 4155": {
+            "Name": "Realities and Worldviews: Why Culture Matters",
+            "Credits": 3,
+            "Axle": "SBS",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "ANTH 4345": {
+            "Name": "Human Evolutionary Genetics",
+            "Credits": 3,
+            "Axle": "MNS",
+            "Pre-reqs": "BSCI 1100, 1105, OR 1510",
+            "Co-reqs": 0
+        },
+        "ANTH 4373": {
+            "Name": "Health and Disease in Ancient Popoulations",
+            "Credits": 3,
+            "Axle": "MNS",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        }
+    },
+    "ARABIC": {
+        "ARA 1101": {
+            "Name": "Elementary Arabic",
+            "Credits": 5,
+            "Axle": "NONE",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "ARA 1102": {
+            "Name": "Elementary Arabic II",
+            "Credits": 5,
+            "Axle": "NONE",
+            "Pre-reqs": "ARA 1101",
+            "Co-reqs": 0
+        },
+        "ARA 2201": {
+            "Name": "Intermediate Arabic",
+            "Credits": 3,
+            "Axle": "INT",
+            "Pre-reqs": "ARA 1102",
+            "Co-reqs": 0
+        },
+        "ARA 2202": {
+            "Name": "Intermediate Arabic II ",
+            "Credits": 3,
+            "Axle": "INT",
+            "Pre-reqs": "ARA 2201",
+            "Co-reqs": 0
+        },
+        "ARA 3101": {
+            "Name": "Advanced Arabic",
+            "Credits": 3,
+            "Axle": "INT",
+            "Pre-reqs": "ARA 2202",
+            "Co-reqs": 0
+        },
+        "ARA 3102": {
+            "Name": "Advanced Arabic II",
+            "Credits": 3,
+            "Axle": "INT",
+            "Pre-reqs": "ARA 3101",
+            "Co-reqs": 0
+        },
+        "ARA 3201": {
+            "Name": "Media Arabic",
+            "Credits": 3,
+            "Axle": "INT",
+            "Pre-reqs": "ARA 3102",
+            "Co-reqs": 0
+        },
+        "ARA 32301": {
+            "Name": "Arabic of the Qur'an and Other Classical Texts",
+            "Credits": 3,
+            "Axle": "INT",
+            "Pre-reqs": "ARA 2201",
+            "Co-reqs": 0
+        }
+    },
+    "ARMANIC": {
+        "ARAM 2400": {
+            "Name": "Introduction to Classical Syriac",
+            "Credits": 3,
+            "Axle": "INT",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "ARAM 2500": {
+            "Name": "Egyptian Aramaic",
+            "Credits": 3,
+            "Axle": "INT",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        }
+    },
+    "Art Studio": {
+        "ARTS 1001": {
+            "Name": "Commons Seminar",
+            "Credits": 1,
+            "Axle": "NONE",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "ARTS 1099": {
+            "Name": "Maymester Contemporary Art Blitz",
+            "Credits": 3,
+            "Axle": "HCA",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "ARTS 1101": {
+            "Name": "Introduction to Studio Art",
+            "Credits": 3,
+            "Axle": "HCA",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "ARTS 1102": {
+            "Name": "Drawing and Composition I",
+            "Credits": 3,
+            "Axle": "HCA",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "ARTS 1111": {
+            "Name": "Art FYS ",
+            "Credits": 3,
+            "Axle": "HCA",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "ARTS 1200": {
+            "Name": "Photography I ",
+            "Credits": 3,
+            "Axle": "HCA",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "ARTS 1201": {
+            "Name": "Alternative Photography",
+            "Credits": 3,
+            "Axle": "HCA",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "ARTS 1202": {
+            "Name": "Digital Imaging",
+            "Credits": 3,
+            "Axle": "HCA",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "ARTS 1300": {
+            "Name": "Painting",
+            "Credits": 3,
+            "Axle": "HCA",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "ARTS 1400": {
+            "Name": "Ceramics",
+            "Credits": 3,
+            "Axle": "HCA",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "ARTS 1401": {
+            "Name": "Sculptrual Ceramics",
+            "Credits": 3,
+            "Axle": "HCA",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "ARTS 1500": {
+            "Name": "Sculpture",
+            "Credits": 3,
+            "Axle": "HCA",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "ARTS 1501": {
+            "Name": "Assemblage",
+            "Credits": 3,
+            "Axle": "HCA",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "ARTS 1502": {
+            "Name": "Installation Art",
+            "Credits": 3,
+            "Axle": "HCA",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "ARTS 1503": {
+            "Name": "Text and Image",
+            "Credits": 3,
+            "Axle": "HCA",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "ARTS 1600": {
+            "Name": "Printmaking: Etching and Relief",
+            "Credits": 3,
+            "Axle": "HCA",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "ARTS 1601": {
+            "Name": "Printmaking: Screen and Lithography",
+            "Credits": 3,
+            "Axle": "HCA",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "ARTS 1700": {
+            "Name": "Video Art",
+            "Credits": 3,
+            "Axle": "HCA",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "ARTS 1701": {
+            "Name": "Performance Art",
+            "Credits": 3,
+            "Axle": "HCA",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "ARTS 1702": {
+            "Name": "Portable Media I",
+            "Credits": 3,
+            "Axle": "HCA",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "ARTS 1800": {
+            "Name": "Sources of Contemporary Art",
+            "Credits": 3,
+            "Axle": "HCA",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "ARTS 1900": {
+            "Name": "Social Collective Art Practice",
+            "Credits": 3,
+            "Axle": "HCA",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "ARTS 2100": {
+            "Name": "Drawing and Composition II ",
+            "Credits": 3,
+            "Axle": "HCA",
+            "Pre-reqs": "ARTS 1102",
+            "Co-reqs": 0
+        },
+        "ARTS 2101": {
+            "Name": "Life Drawing I ",
+            "Credits": 3,
+            "Axle": "HCA",
+            "Pre-reqs": "ARTS 1102",
+            "Co-reqs": 0
+        },
+        "ARTS 2102": {
+            "Name": "Drawing: Color Media I ",
+            "Credits": 3,
+            "Axle": "HCA",
+            "Pre-reqs": "ARTS 1102",
+            "Co-reqs": 0
+        },
+        "ARTS 2103": {
+            "Name": "Experimental Drawing",
+            "Credits": 3,
+            "Axle": "HCA",
+            "Pre-reqs": "ARTS 1102",
+            "Co-reqs": 0
+        },
+        "ARTS 2200": {
+            "Name": "Photography II",
+            "Credits": 3,
+            "Axle": "HCA",
+            "Pre-reqs": "ARTS 1200, 1201, 1202",
+            "Co-reqs": 0
+        },
+        "ARTS 2202": {
+            "Name": "Digital Imaging II ",
+            "Credits": 3,
+            "Axle": "HCA",
+            "Pre-reqs": "ARTS 1202",
+            "Co-reqs": 0
+        },
+        "ARTS 2300": {
+            "Name": "Painting II ",
+            "Credits": 3,
+            "Axle": "HCA",
+            "Pre-reqs": "ARTS 1300",
+            "Co-reqs": 0
+        },
+        "ARTS 2400": {
+            "Name": "Ceramics II ",
+            "Credits": 3,
+            "Axle": "HCA",
+            "Pre-reqs": "ARTS 1400",
+            "Co-reqs": 0
+        },
+        "ARTS 2401": {
+            "Name": "Concept and Clay: Composite Forms",
+            "Credits": 3,
+            "Axle": "HCA",
+            "Pre-reqs": "ARTS 1400 OR 1401",
+            "Co-reqs": 0
+        },
+        "ARTS 2500": {
+            "Name": "Sculpture II ",
+            "Credits": 3,
+            "Axle": "HCA",
+            "Pre-reqs": "ARTS 1500, 1501, OR 1502",
+            "Co-reqs": 0
+        },
+        "ARTS 2502": {
+            "Name": "Advanced Installation Art",
+            "Credits": 3,
+            "Axle": "HCA",
+            "Pre-reqs": "ARTS 1502",
+            "Co-reqs": 0
+        },
+        "ARTS 2600": {
+            "Name": "Printmaking II ",
+            "Credits": 3,
+            "Axle": "HCA",
+            "Pre-reqs": "ARTS 1600 OR 1601",
+            "Co-reqs": 0
+        },
+        "ARTS 2700": {
+            "Name": "VIdeo Art II ",
+            "Credits": 3,
+            "Axle": "HCA",
+            "Pre-reqs": "ARTS 1700",
+            "Co-reqs": 0
+        },
+        "ARTS 2701": {
+            "Name": "Performance Art II ",
+            "Credits": 3,
+            "Axle": "HCA",
+            "Pre-reqs": "ARTS 1701",
+            "Co-reqs": 0
+        },
+        "ARTS 2702": {
+            "Name": "Portable Media II ",
+            "Credits": 3,
+            "Axle": "HCA",
+            "Pre-reqs": "ARTS 1700, 1701, OR 1702",
+            "Co-reqs": 0
+        },
+        "ARTS 3100": {
+            "Name": "Drawing and Composition II ",
+            "Credits": 3,
+            "Axle": "HCA",
+            "Pre-reqs": "ARTS 1102 AND 2100",
+            "Co-reqs": 0
+        },
+        "ARTS 3101": {
+            "Name": "Life Drawing II",
+            "Credits": 3,
+            "Axle": "HCA",
+            "Pre-reqs": "ARTS 2101",
+            "Co-reqs": 0
+        },
+        "ARTS 3102": {
+            "Name": " Drawing: Color MEdia II ",
+            "Credits": 3,
+            "Axle": "HCA",
+            "Pre-reqs": "ARTS 2102",
+            "Co-reqs": 0
+        },
+        "ARTS 3200": {
+            "Name": "Photography III",
+            "Credits": 3,
+            "Axle": "HCA",
+            "Pre-reqs": "ARTS 2200 OR 2202",
+            "Co-reqs": 0
+        },
+        "ARTS 3300": {
+            "Name": "Painting III ",
+            "Credits": 3,
+            "Axle": "HCA",
+            "Pre-reqs": "ARTS 2300",
+            "Co-reqs": 0
+        },
+        "ARTS 3600": {
+            "Name": "Printmaking III ",
+            "Credits": 3,
+            "Axle": "HCA",
+            "Pre-reqs": "ARTS 2600",
+            "Co-reqs": 0
+        },
+        "ARTS 3891": {
+            "Name": "Arts: Selected Topics",
+            "Credits": 3,
+            "Axle": "HCA",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "ARTS 3971": {
+            "Name": "Directed Study: Senior Show and Contemporary Practices",
+            "Credits": 3,
+            "Axle": "HCA",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        }
+    },
+    "ASIAN STUDIES": {
+        "ASIA 1001": {
+            "Name": "Asia Commons Seminar",
+            "Credits": 1,
+            "Axle": "NONE",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "ASIA 1111": {
+            "Name": "Asia FYS",
+            "Credits": 3,
+            "Axle": "WRITING",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "ASIA 1201": {
+            "Name": "Writing Southeast Asia",
+            "Credits": 3,
+            "Axle": "HCA",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "ASIA 1680": {
+            "Name": "Inside China",
+            "Credits": 3,
+            "Axle": "INT",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "ASIA 1857": {
+            "Name": "Living Languages and Cultures of India",
+            "Credits": 3,
+            "Axle": "INT",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "ASIA 1881W": {
+            "Name": "The Body in Modern Japanese Culture ",
+            "Credits": 3,
+            "Axle": "INT",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "ASIA 2100W": {
+            "Name": "Fashioning the Self: Coming of Age and Asian Modernities",
+            "Credits": 3,
+            "Axle": "INT, WRITING",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "ASIA 2210W": {
+            "Name": "Hollywood Hanoi",
+            "Credits": 3,
+            "Axle": "INT, WRITING",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "ASIA 2511": {
+            "Name": "Popular Culture in MOdern Japan",
+            "Credits": 3,
+            "Axle": "INT",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "ASIA 2512": {
+            "Name": "Explorations of Japanese ANimation",
+            "Credits": 3,
+            "Axle": "INT",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "ASIA 2513W": {
+            "Name": "Media Monsters in Contemporary Japan",
+            "Credits": 3,
+            "Axle": "HCA, WRITING",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "ASIA 2560": {
+            "Name": "Current Japan-US Relations",
+            "Credits": 3,
+            "Axle": "INT",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "ASIA 2605": {
+            "Name": "Romacning the Nation in Modern CHinese Literature",
+            "Credits": 3,
+            "Axle": "HCA",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "ASIA 2606": {
+            "Name": "Martial Tradition in CHinese Literature",
+            "Credits": 3,
+            "Axle": "HCA",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "ASIA 2607": {
+            "Name": "Self and Society in Pre-Modern Chinese LIterature",
+            "Credits": 3,
+            "Axle": "HCA",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "ASIA 2608": {
+            "Name": "Chinese Drama: 13th to 20th Centuries",
+            "Credits": 3,
+            "Axle": "HCA",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "ASIA 2609W": {
+            "Name": "Writing and Gender in Traditional China",
+            "Credits": 3,
+            "Axle": "HCA, WRITING",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "ASIA 2630": {
+            "Name": "Chinese Medicine",
+            "Credits": 3,
+            "Axle": "P",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "ASIA 3151": {
+            "Name": "The Third World and LIterature",
+            "Credits": 3,
+            "Axle": "INT",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "ASIA 3633": {
+            "Name": "Self-Cultivation in Ancient China",
+            "Credits": 3,
+            "Axle": "INT",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        }
+    },
+    "ASTRONOMY": {
+        "ASTR 1001": {
+            "Name": "Astro Commons Seminar",
+            "Credits": 1,
+            "Axle": "NONE",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "ASTR 1010": {
+            "Name": "Introductory Astronomy: Stars and Galaxies",
+            "Credits": 3,
+            "Axle": "MNS",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "ASTR 1010L": {
+            "Name": "Introductory Nighttime Astronomy Lab",
+            "Credits": 1,
+            "Axle": "NONE",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "ASTR 1020L": {
+            "Name": "Introductory Daytime Astronomy Lab",
+            "Credits": 1,
+            "Axle": "NONE",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "ASTR 1111": {
+            "Name": "Astronomy FYS ",
+            "Credits": 3,
+            "Axle": "WRITING",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "ASTR 1210": {
+            "Name": "Introduction to Observational Astronomy",
+            "Credits": 3,
+            "Axle": "MNS",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "ASTR 2110": {
+            "Name": "The Solar System",
+            "Credits": 3,
+            "Axle": "MNS",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "ASTR 2130": {
+            "Name": "The Trial of Galileo and Its Background",
+            "Credits": 3,
+            "Axle": "P",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "ASTR 2150": {
+            "Name": "Celestial Navigation and Celestial Dynamics",
+            "Credits": 3,
+            "Axle": "MNS",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "ASTR 3000": {
+            "Name": "Principles of Astrophysics",
+            "Credits": 3,
+            "Axle": "MNS",
+            "Pre-reqs": "ONE OF MATH 1200 OR 1300 AND ONE OF PHYS 1501, 1601, OR 1901",
+            "Co-reqs": 0
+        },
+        "ASTR 3600": {
+            "Name": "Stellar Astrophysics",
+            "Credits": 3,
+            "Axle": "MNS",
+            "Pre-reqs": "ONE OF MATH 2400, 2420, OR 2610; ONE OF PHYS 2255 OR 3651, AND ONE OF CS 1101 OR 1103",
+            "Co-reqs": 0
+        },
+        "ASTR 3700": {
+            "Name": "Galactic Astrophysics ",
+            "Credits": 3,
+            "Axle": "MNS",
+            "Pre-reqs": "ONE OF MATH 2400, 2420, OR 2610; ONE OF PHYS 2255 OR 3651, AND ONE OF CS 1101 OR 1103",
+            "Co-reqs": "CS 1101 OR 1103"
+        },
+        "ASTR 3800": {
+            "Name": "Structure Formation in the Universe",
+            "Credits": 3,
+            "Axle": "MNS",
+            "Pre-reqs": "ONE OF PHYS 1502, 1602, OR 1902; AND ONE OF MATH 2400, 2420, OR 1610; AND ONE OF CS 1101 OR 1103",
+            "Co-reqs": 0
+        },
+        "ASTR 3900": {
+            "Name": "General Relativity and Cosmology",
+            "Credits": 3,
+            "Axle": "MNS",
+            "Pre-reqs": "PHYS 2270 AND 2290",
+            "Co-reqs": 0
+        }
+    },
+    "BIOCHEMISTRY AND CHEMICAL BIOLOGY": {
+        "BCB 2101": {
+            "Name": "Chemical Biology Focus",
+            "Credits": 1,
+            "Axle": "NONE",
+            "Pre-reqs": "CHEM 2221 AND BSCI 1510",
+            "Co-reqs": 0
+        },
+        "BCB 3101": {
+            "Name": "Speical Topics in Chemical Biology",
+            "Credits": 3,
+            "Axle": "MNS",
+            "Pre-reqs": "CHEM 3710",
+            "Co-reqs": 0
+        },
+        "BCB 4320": {
+            "Name": "Advanced Chemical Biology",
+            "Credits": 3,
+            "Axle": "MNS",
+            "Pre-reqs": "CHEM 3710",
+            "Co-reqs": 0
+        },
+        "BCB 4965": {
+            "Name": "Advanced Integrated Lab",
+            "Credits": 3,
+            "Axle": "MNS",
+            "Pre-reqs": "BSCI 2520 AND CHEM 3710",
+            "Co-reqs": 0
+        }
+    },
+    "BIOLOGICAL SCIENCES": {
+        "BSCI 1001": {
+            "Name": "Biology Commons Seminar",
+            "Credits": 1,
+            "Axle": "NONE",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "BSCI 1100": {
+            "Name": "Biology Today",
+            "Credits": 3,
+            "Axle": "MNS",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "BSCI 1100L": {
+            "Name": "Biology Today Lab",
+            "Credits": 1,
+            "Axle": "NONE",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "BSCI 1103": {
+            "Name": "Green Earth: The Biodiversity and Evolution of Plants",
+            "Credits": 4,
+            "Axle": "MNS",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "BSCI 1105": {
+            "Name": "Human Biology",
+            "Credits": 4,
+            "Axle": "MNS",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "BSCI 1111": {
+            "Name": "Bio FYS ",
+            "Credits": 3,
+            "Axle": "MNS",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "BSCI 1510": {
+            "Name": "Intro to Biological Sciences",
+            "Credits": 3,
+            "Axle": "MNS",
+            "Pre-reqs": "CHEM 1601",
+            "Co-reqs": 0
+        },
+        "BSCI 1510L": {
+            "Name": "Biological Sciences Lab",
+            "Credits": 1,
+            "Axle": "NONE",
+            "Pre-reqs": 0,
+            "Co-reqs": "BSCI 1510"
+        },
+        "BSCI 1511": {
+            "Name": "Intro to Bio II",
+            "Credits": 3,
+            "Axle": "MNS",
+            "Pre-reqs": "BSCI 1510",
+            "Co-reqs": 0
+        },
+        "BSCI 1511L": {
+            "Name": "Intro to Bio Lab II ",
+            "Credits": 1,
+            "Axle": "NONE",
+            "Pre-reqs": 0,
+            "Co-reqs": "BSCI 1511"
+        },
+        "BSCI 2201": {
+            "Name": "Introduction to Cell Biology",
+            "Credits": 3,
+            "Axle": "MNS",
+            "Pre-reqs": "BSCI 1510",
+            "Co-reqs": 0
+        },
+        "BSCI 2201L": {
+            "Name": "Cell Biology Lab",
+            "Credits": 1,
+            "Axle": "NONE",
+            "Pre-reqs": 0,
+            "Co-reqs": "BSCI 2201"
+        },
+        "BSCI 2205": {
+            "Name": "Evolution",
+            "Credits": 3,
+            "Axle": "MNS",
+            "Pre-reqs": "BSCI 1511",
+            "Co-reqs": 0
+        },
+        "BSCI 2210": {
+            "Name": "Principles of Geneticcs",
+            "Credits": 3,
+            "Axle": "MNS",
+            "Pre-reqs": "BSCI 1511",
+            "Co-reqs": 0
+        },
+        "BSCI 2210L": {
+            "Name": "Genetics Lab",
+            "Credits": 1,
+            "Axle": "NONE",
+            "Pre-reqs": 0,
+            "Co-reqs": "BSCI 2210"
+        },
+        "BSCI 2218": {
+            "Name": "Introduction to Plant Biology",
+            "Credits": 4,
+            "Axle": "MNS",
+            "Pre-reqs": "BSCI 1511",
+            "Co-reqs": 0
+        },
+        "BSCI 2219": {
+            "Name": "Introduction to Zoology",
+            "Credits": 4,
+            "Axle": "MNS",
+            "Pre-reqs": "BSCI 1511",
+            "Co-reqs": 0
+        },
+        "BSCI 2238": {
+            "Name": "Ecology",
+            "Credits": 3,
+            "Axle": "MNS",
+            "Pre-reqs": "BSCI 1511",
+            "Co-reqs": 0
+        },
+        "BSCI 2238L": {
+            "Name": "Ecology Lab",
+            "Credits": 1,
+            "Axle": "NONE",
+            "Pre-reqs": 0,
+            "Co-reqs": "BSCI 2238"
+        },
+        "BSCI 2520": {
+            "Name": "Biochemistry ",
+            "Credits": 3,
+            "Axle": "MNS",
+            "Pre-reqs": "BSCI 1510 OR CHBE 2150 AND CHEM 2211 OR 2221",
+            "Co-reqs": 0
+        },
+        "BSCI 3226": {
+            "Name": "Immunology",
+            "Credits": 3,
+            "Axle": "MNS",
+            "Pre-reqs": "BSCI 2201 OR 2210",
+            "Co-reqs": 0
+        },
+        "BSCI 3228": {
+            "Name": "Biodiversity: Great Barrier Reef and Rainforests of Australia",
+            "Credits": 3,
+            "Axle": "MNS",
+            "Pre-reqs": "BSCI 1511",
+            "Co-reqs": 0
+        },
+        "BSCI 3230": {
+            "Name": "Biological Clocks",
+            "Credits": 3,
+            "Axle": "MNS",
+            "Pre-reqs": "BSCI 1511",
+            "Co-reqs": 0
+        },
+        "BSCI 3233": {
+            "Name": "Conservation Biology",
+            "Credits": 3,
+            "Axle": "MNS",
+            "Pre-reqs": "BSCI 1511",
+            "Co-reqs": 0
+        },
+        "BSCI 3234": {
+            "Name": "Microbial Ecology and Evolution",
+            "Credits": 3,
+            "Axle": "MNS",
+            "Pre-reqs": "BSCI 1511",
+            "Co-reqs": 0
+        },
+        "BSCI 3236": {
+            "Name": "Parasitology",
+            "Credits": 3,
+            "Axle": "MNS",
+            "Pre-reqs": "BSCI 1511",
+            "Co-reqs": 0
+        },
+        "BSCI 3239": {
+            "Name": "Evolution of Behavior ",
+            "Credits": 3,
+            "Axle": "MNS",
+            "Pre-reqs": "BSCI 1511 AND 2210",
+            "Co-reqs": 0
+        },
+        "BSCI 3243": {
+            "Name": "Genetics of Disease",
+            "Credits": 3,
+            "Axle": "MNS",
+            "Pre-reqs": "BSCI 2210 ",
+            "Co-reqs": 0
+        },
+        "BSCI 3245": {
+            "Name": "Biology of Cancer",
+            "Credits": 3,
+            "Axle": "MNS",
+            "Pre-reqs": "BSCI 1511",
+            "Co-reqs": 0
+        },
+        "BSCI 3247": {
+            "Name": "Molecular Evolution",
+            "Credits": 3,
+            "Axle": "MNS",
+            "Pre-reqs": "BSCI 2210 AND 2205",
+            "Co-reqs": 0
+        },
+        "BSCI 3252": {
+            "Name": "Cellular Neurobiology",
+            "Credits": 3,
+            "Axle": "MNS",
+            "Pre-reqs": "BSCI 1511",
+            "Co-reqs": 0
+        },
+        "BSCI 3254": {
+            "Name": "Neurobiology of Behavior",
+            "Credits": 3,
+            "Axle": "MNS",
+            "Pre-reqs": "BSCI 1511 OR NSC 2201",
+            "Co-reqs": 0
+        },
+        "BSCI 3256": {
+            "Name": "Molecules of the Brain",
+            "Credits": 3,
+            "Axle": "MNS",
+            "Pre-reqs": "BSCI 1511",
+            "Co-reqs": 0
+        },
+        "BSCI 3258": {
+            "Name": "Vertebrate Physiology",
+            "Credits": 3,
+            "Axle": "MNS",
+            "Pre-reqs": "BSCI 2201 OR 2250",
+            "Co-reqs": 0
+        },
+        "BSCI 3260": {
+            "Name": "Vertebrate Biology",
+            "Credits": 3,
+            "Axle": "MNS",
+            "Pre-reqs": "BSCI 1511",
+            "Co-reqs": 0
+        },
+        "BSCI 3270": {
+            "Name": "Statistical Methods in Biology",
+            "Credits": 3,
+            "Axle": "MNS",
+            "Pre-reqs": "BSCI 1511",
+            "Co-reqs": 0
+        },
+        "BSCI 3372": {
+            "Name": "Genome Science",
+            "Credits": 3,
+            "Axle": "MNS",
+            "Pre-reqs": "BSCI 1511",
+            "Co-reqs": 0
+        },
+        "BSCI 3890": {
+            "Name": "Speical Topics in Biological Sciences",
+            "Credits": 3,
+            "Axle": "MNS",
+            "Pre-reqs": "BSCI 1511",
+            "Co-reqs": 0
+        },
+        "BSCI 4265": {
+            "Name": "Biochemistry II ",
+            "Credits": 3,
+            "Axle": "MNS",
+            "Pre-reqs": "BSCI 2520",
+            "Co-reqs": 0
+        },
+        "BSCI 4266": {
+            "Name": "Advanced Molecular Genetics",
+            "Credits": 3,
+            "Axle": "MNS",
+            "Pre-reqs": "BSCI 2210",
+            "Co-reqs": 0
+        },
+        "BSCI 4274": {
+            "Name": "Proteins",
+            "Credits": 3,
+            "Axle": "MNS",
+            "Pre-reqs": "BSCI 2520",
+            "Co-reqs": 0
+        }
+    },
+    "CATALAN": {
+        "CTLN 1103": {
+            "Name": "Intensive Elementary Catalan",
+            "Credits": 3,
+            "Axle": "INT",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        }
+    },
+    "CHEMISTRY ": {
+        "CHEM 1001": {
+            "Name": "Chemstiry Commons Seminar",
+            "Credits": 1,
+            "Axle": "NONE",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "CHEM 1010": {
+            "Name": "Introductory Chemistry",
+            "Credits": 3,
+            "Axle": "MNS",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "CHEM 1010L": {
+            "Name": "Introduction Chemistry Lab",
+            "Credits": 1,
+            "Axle": "NONE",
+            "Pre-reqs": 0,
+            "Co-reqs": "CHEM 1010"
+        },
+        "CHEM 1020": {
+            "Name": "Introduction Chemistry II",
+            "Credits": 3,
+            "Axle": "MNS",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "CHEM 1020L": {
+            "Name": "Introduction Chemistry Lab II",
+            "Credits": 1,
+            "Axle": "NONE",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "CHEM 1111": {
+            "Name": "Chemstiry FYS ",
+            "Credits": 3,
+            "Axle": "WRITING",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "CHEM 1601": {
+            "Name": "General Chemistry",
+            "Credits": 3,
+            "Axle": "MNS",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "CHEM 1601L": {
+            "Name": "General Chemistry Lab",
+            "Credits": 1,
+            "Axle": "NONE",
+            "Pre-reqs": 0,
+            "Co-reqs": "CHEM 1601"
+        },
+        "CHEM 1602": {
+            "Name": "General Chemistry II ",
+            "Credits": 3,
+            "Axle": "MNS",
+            "Pre-reqs": "CHEM 1601",
+            "Co-reqs": 0
+        },
+        "CHEM 1602L": {
+            "Name": "General Chemistry Lab II ",
+            "Credits": 1,
+            "Axle": "NONE",
+            "Pre-reqs": 0,
+            "Co-reqs": "CHEM 1602"
+        },
+        "CHEM 2100": {
+            "Name": "Introduction to Analytical Chemistry",
+            "Credits": 3,
+            "Axle": "MNS",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "CHEM 2100L": {
+            "Name": "Introduction to Analytical Chemistry Lab",
+            "Credits": 1,
+            "Axle": "NONE",
+            "Pre-reqs": 0,
+            "Co-reqs": "CHEM 2100"
+        },
+        "CHEM 2211": {
+            "Name": "Organic Chemistry for Advanced Placement Students I",
+            "Credits": 3,
+            "Axle": "MNS",
+            "Pre-reqs": "FRESHMAN ENTERING W/ 5 ON AP ",
+            "Co-reqs": "CHEM 2221L"
+        },
+        "CHEM 2212": {
+            "Name": "Organic Chemistry for Advanced Placement Students II",
+            "Credits": 3,
+            "Axle": "MNS",
+            "Pre-reqs": 0,
+            "Co-reqs": "CHEM 2222L "
+        },
+        "CHEM 2221": {
+            "Name": "Organic Chemistry",
+            "Credits": 3,
+            "Axle": "MNS",
+            "Pre-reqs": "CHEM 1602",
+            "Co-reqs": 0
+        },
+        "CHEM 2221L": {
+            "Name": "Organic Chemistry Lab",
+            "Credits": 1,
+            "Axle": "NONE",
+            "Pre-reqs": 0,
+            "Co-reqs": "CHEM 2221"
+        },
+        "CHEM 2222": {
+            "Name": "Organic Chemistry II",
+            "Credits": 3,
+            "Axle": "MNS",
+            "Pre-reqs": "CHEM 2221",
+            "Co-reqs": 0
+        },
+        "CHEM 2222L": {
+            "Name": "Organic Chemistry Lab II ",
+            "Credits": 1,
+            "Axle": "NONE",
+            "Pre-reqs": 0,
+            "Co-reqs": "CHEM 2222"
+        },
+        "CHEM 2610": {
+            "Name": "Introduction to Nanochemistry",
+            "Credits": 3,
+            "Axle": "MNS",
+            "Pre-reqs": "CHEM 1602",
+            "Co-reqs": 0
+        },
+        "CHEM 3010": {
+            "Name": "Inorganic Chemistry",
+            "Credits": 3,
+            "Axle": "MNS",
+            "Pre-reqs": "CHEM 3300 OR 3310",
+            "Co-reqs": 0
+        },
+        "CHEM 3020": {
+            "Name": "Introduction to Bioinorganic Chemistry",
+            "Credits": 3,
+            "Axle": "MNS",
+            "Pre-reqs": "CHEM 2212 OR 2222",
+            "Co-reqs": 0
+        },
+        "CHEM 3120": {
+            "Name": "Instrumental Analytical CHemistry",
+            "Credits": 3,
+            "Axle": "MNS",
+            "Pre-reqs": "CHEM 2100 + EITHER 2212 OR 2222",
+            "Co-reqs": 0
+        },
+        "CHEM 3135W": {
+            "Name": "Forensic Analytical CHemistry",
+            "Credits": 3,
+            "Axle": "MNS",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "CHEM 3220": {
+            "Name": "Spectroscopic Identification of Organic Compounds",
+            "Credits": 3,
+            "Axle": "MNS",
+            "Pre-reqs": "CHEM 2212 OR 2222",
+            "Co-reqs": 0
+        },
+        "CHEM 3300": {
+            "Name": "Physcial Chemistry: Quantum Mechanics, Spectroscopy, and Kinetics",
+            "Credits": 3,
+            "Axle": "MNS",
+            "Pre-reqs": "PHYS 1501, 1601 OR 1901; AND MATH 1201 OR 1301",
+            "Co-reqs": 0
+        },
+        "CHEM 3310": {
+            "Name": "Biophysical Chemistry: Thermodynamics in Chemical and Biological Systems",
+            "Credits": 3,
+            "Axle": "MNS",
+            "Pre-reqs": "PHYS 1501, 1601 OR 1901; AND MATH 1201 OR 1301",
+            "Co-reqs": 0
+        },
+        "CHEM 3315L": {
+            "Name": "Physical Chemistry Lab",
+            "Credits": 1,
+            "Axle": "NONE",
+            "Pre-reqs": "CHEM 2222L + MATH 1201 OR 1301",
+            "Co-reqs": 0
+        },
+        "CHEM 3600": {
+            "Name": "Chemical LIterature",
+            "Credits": 1,
+            "Axle": "NONE",
+            "Pre-reqs": "CHEM 2212 OR 2222",
+            "Co-reqs": 0
+        },
+        "CHEM 3630": {
+            "Name": "Macromolecular Chemistry: Polymers, Dendrimers, and Surface Modifications",
+            "Credits": 3,
+            "Axle": "MNS",
+            "Pre-reqs": "CHEM 1602",
+            "Co-reqs": 0
+        },
+        "CHEM 3710": {
+            "Name": "Bioorganic Chemistry",
+            "Credits": 3,
+            "Axle": "MNS",
+            "Pre-reqs": "CHEM 2212 OR 2222",
+            "Co-reqs": 0
+        },
+        "CHEM 3715": {
+            "Name": "Chemistry of the Coral Reef",
+            "Credits": 3,
+            "Axle": "MNS",
+            "Pre-reqs": "CHEM 2100, 21000L, 2222, 2222L",
+            "Co-reqs": 0
+        },
+        "CHEM  4050": {
+            "Name": "Introduction to Organometallic Chemistry",
+            "Credits": 3,
+            "Axle": "MNS",
+            "Pre-reqs": "CHEM 3010 OR 3020",
+            "Co-reqs": 0
+        },
+        "CHEM 4210": {
+            "Name": "Organic Chemistry Structure and Mechanism",
+            "Credits": 4,
+            "Axle": "MNS",
+            "Pre-reqs": "CHEM 2212 OR 2222 AND 3300 OR 3311",
+            "Co-reqs": 0
+        },
+        "CHEM 4230": {
+            "Name": "Physical ORganic Chemistry",
+            "Credits": 3,
+            "Axle": "MNS",
+            "Pre-reqs": "CHEM 3300 OR 3310",
+            "Co-reqs": 0
+        },
+        "CHEM 4240": {
+            "Name": "Advanced Organic Reactions",
+            "Credits": 3,
+            "Axle": "MNS",
+            "Pre-reqs": "CHEM 4210",
+            "Co-reqs": 0
+        },
+        "CHEM 4350": {
+            "Name": "STatistical Thermodynamics",
+            "Credits": 3,
+            "Axle": "MNS",
+            "Pre-reqs": "CHEM 3300 OR 3310, AND MATH 2300",
+            "Co-reqs": 0
+        },
+        "CHEM 4720": {
+            "Name": "Drug Design and Development ",
+            "Credits": 3,
+            "Axle": "MNS",
+            "Pre-reqs": "CHEM 3710 OR BSCI 2520",
+            "Co-reqs": 0
+        },
+        "CHEM 4966": {
+            "Name": "Advanced Integrated Laboratory",
+            "Credits": 3,
+            "Axle": "MNS",
+            "Pre-reqs": "CHEM 2100, 2100L",
+            "Co-reqs": 0
+        }
+    },
+    "CHINESE ": {
+        "CHIN 1011": {
+            "Name": "Basic Chinese",
+            "Credits": 3,
+            "Axle": "NONE",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "CHIN 1012": {
+            "Name": "Basic Chinese",
+            "Credits": 3,
+            "Axle": "NONE",
+            "Pre-reqs": "CHIN 1011",
+            "Co-reqs": 0
+        },
+        "CHIN 1101": {
+            "Name": "Elementary Chinese I",
+            "Credits": 5,
+            "Axle": "NONE",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "CHIN 1102": {
+            "Name": "Elementary Chinese II ",
+            "Credits": 5,
+            "Axle": "NONE",
+            "Pre-reqs": "CHIN 1101",
+            "Co-reqs": 0
+        },
+        "CHIN 1231": {
+            "Name": "Calligraphy",
+            "Credits": 1,
+            "Axle": "NONE",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "CHIN 2201": {
+            "Name": "Intermediate Chinese I",
+            "Credits": 5,
+            "Axle": "INT",
+            "Pre-reqs": "CHIN 1102",
+            "Co-reqs": 0
+        },
+        "CHIN 2202": {
+            "Name": "Intermediate Chinese II ",
+            "Credits": 5,
+            "Axle": "INT",
+            "Pre-reqs": "CHIN 2201",
+            "Co-reqs": 0
+        },
+        "CHIN 2211": {
+            "Name": "Chinese ofr Heritage Learners I",
+            "Credits": 3,
+            "Axle": "INT",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "CHIN 2212": {
+            "Name": "Chinese for Heritage Learners II ",
+            "Credits": 3,
+            "Axle": "INT",
+            "Pre-reqs": "CHIN 2211",
+            "Co-reqs": 0
+        },
+        "CHIN 3301": {
+            "Name": "Advanced Chinese I",
+            "Credits": 3,
+            "Axle": "INT",
+            "Pre-reqs": "CHIN 2202",
+            "Co-reqs": 0
+        },
+        "CHIN 3302W": {
+            "Name": "Advanced Chinese II ",
+            "Credits": 3,
+            "Axle": "INT, WRITING",
+            "Pre-reqs": "CHIN 3301",
+            "Co-reqs": 0
+        },
+        "CHIN 4401": {
+            "Name": "Business Chinese I",
+            "Credits": 3,
+            "Axle": "INT",
+            "Pre-reqs": "CHIN 3302W",
+            "Co-reqs": 0
+        },
+        "CHIN 4402": {
+            "Name": "Business Chinese II ",
+            "Credits": 3,
+            "Axle": "INT",
+            "Pre-reqs": "CHIN 3302W",
+            "Co-reqs": 0
+        },
+        "CHIN 4403": {
+            "Name": "Readings in Modern Chinese Media ",
+            "Credits": 3,
+            "Axle": "INT",
+            "Pre-reqs": "CHIN 3302W",
+            "Co-reqs": 0
+        },
+        "CHIN 4404": {
+            "Name": "Readings in Modern Chinese Media II ",
+            "Credits": 3,
+            "Axle": "INT",
+            "Pre-reqs": "CHIN 3302W",
+            "Co-reqs": 0
+        },
+        "CHIN 4405": {
+            "Name": "Classical Chinese Literature and Philosophy",
+            "Credits": 3,
+            "Axle": "INT",
+            "Pre-reqs": "CHIN 3302W",
+            "Co-reqs": 0
+        },
+        "CHIN 4406": {
+            "Name": "Readings in Modern LIteracy Chinese ",
+            "Credits": 3,
+            "Axle": "INT",
+            "Pre-reqs": "CHIN 3302W",
+            "Co-reqs": 0
+        }
+    },
+    "CINEMA AND MEDIA ARTS": {
+        "CMA 1001": {
+            "Name": "CMA Commons Seminar",
+            "Credits": 1,
+            "Axle": "NONE",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "CMA 1002W": {
+            "Name": "Moving Images and Analytical Thinking",
+            "Credits": 3,
+            "Axle": "HCA",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "CMA 1111": {
+            "Name": "CMA FYS ",
+            "Credits": 3,
+            "Axle": "WRITING",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "CMA 1500": {
+            "Name": "Fundamentals of Film and Video Production",
+            "Credits": 3,
+            "Axle": "HCA",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "CMA 1600": {
+            "Name": "Introduction to FIlm and Media Studies",
+            "Credits": 3,
+            "Axle": "HCA",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "CMA 2250": {
+            "Name": "16mm Filmmaking",
+            "Credits": 3,
+            "Axle": "NONE",
+            "Pre-reqs": "CMA 1500",
+            "Co-reqs": 0
+        },
+        "CMA 2260": {
+            "Name": "Digital Production Workshop",
+            "Credits": 3,
+            "Axle": "NONE",
+            "Pre-reqs": "CMA 1500",
+            "Co-reqs": 0
+        },
+        "CMA 2300": {
+            "Name": "Film and Media Theory ",
+            "Credits": 3,
+            "Axle": "P",
+            "Pre-reqs": "CMA 1600",
+            "Co-reqs": 0
+        },
+        "CMA 2400": {
+            "Name": "History of World Cinema",
+            "Credits": 3,
+            "Axle": "HCA",
+            "Pre-reqs": "CMA 1600",
+            "Co-reqs": 0
+        },
+        "CMA 2500W": {
+            "Name": "Screenwriting",
+            "Credits": 3,
+            "Axle": "HCA",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "CMA 2600W": {
+            "Name": "Adavnced Screenwriting",
+            "Credits": 3,
+            "Axle": "HCA",
+            "Pre-reqs": "CMA 2500 OR THTR 2270W",
+            "Co-reqs": 0
+        },
+        "CMA 3891": {
+            "Name": "Special Topics in Film and Video Production",
+            "Credits": 3,
+            "Axle": "HCA",
+            "Pre-reqs": "CMA 1500",
+            "Co-reqs": 0
+        },
+        "CMA 3892": {
+            "Name": "Special Topics in the Study of Film ",
+            "Credits": 3,
+            "Axle": "HCA",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "CMA 3893": {
+            "Name": "Special Topics in National Cinema and Movements",
+            "Credits": 3,
+            "Axle": "HCA",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "CMA 4961": {
+            "Name": "Senior Seminar on Criticism, Theory, and History",
+            "Credits": 3,
+            "Axle": "HCA",
+            "Pre-reqs": "CMA 1600",
+            "Co-reqs": 0
+        },
+        "CMA 4962": {
+            "Name": "Senior Seminar on FIlm Practice ",
+            "Credits": 3,
+            "Axle": "HCA",
+            "Pre-reqs": "CMA 1500",
+            "Co-reqs": 0
+        }
+    },
+    "Classical Hebrew": {
+        "CHEB 1101": {
+            "Name": "Beginning Classical Hebrew",
+            "Credits": 3,
+            "Axle": "NONE",
+            "Pre-reqs": "CHEB 1101",
+            "Co-reqs": 0
+        },
+        "CHEB 1102": {
+            "Name": "Beginning Classical Hebrew II ",
+            "Credits": 3,
+            "Axle": "INT",
+            "Pre-reqs": "CHEB 1102",
+            "Co-reqs": 0
+        },
+        "CHEB 2200": {
+            "Name": "Intermediate Classical Hebrew",
+            "Credits": 3,
+            "Axle": "INT",
+            "Pre-reqs": "CHEB 1102",
+            "Co-reqs": 0
+        },
+        "CHEB 2300": {
+            "Name": "Ugaritic",
+            "Credits": 3,
+            "Axle": "INT",
+            "Pre-reqs": "CHEB 2200",
+            "Co-reqs": 0
+        },
+        "CHEB 3010": {
+            "Name": "Historical Hebrew Grammar",
+            "Credits": 3,
+            "Axle": "HCA",
+            "Pre-reqs": "CHEB 2200",
+            "Co-reqs": 0
+        },
+        "CHEB 3020": {
+            "Name": "Classical Hebrew Poetry",
+            "Credits": 3,
+            "Axle": "HCA",
+            "Pre-reqs": "CHEB 2200",
+            "Co-reqs": 0
+        },
+        "CHEB 3030": {
+            "Name": "West Semitic Inscriptions",
+            "Credits": 3,
+            "Axle": "HCA",
+            "Pre-reqs": "CHEB 2200",
+            "Co-reqs": 0
+        }
+    },
+    "Classics": {
+        "CLAS 1001": {
+            "Name": "Classics Commons Seminar",
+            "Credits": 1,
+            "Axle": "NONE",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "CLAS 1010": {
+            "Name": "Introduction to Mediterranean Studies",
+            "Credits": 3,
+            "Axle": "INT",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "CLAS 1020": {
+            "Name": "Introduction to Mediterranean Archaeology ",
+            "Credits": 3,
+            "Axle": "SBS",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "CLAS 1111": {
+            "Name": "Classics FYS ",
+            "Credits": 3,
+            "Axle": "WRITING",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "CLAS 1120": {
+            "Name": "Greek Civilization ",
+            "Credits": 3,
+            "Axle": "INT",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "CLAS 1130": {
+            "Name": "The Greek Myths",
+            "Credits": 3,
+            "Axle": "HCA",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "CLAS 1150": {
+            "Name": "Roman Civilization",
+            "Credits": 3,
+            "Axle": "INT",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "CLAS 2100": {
+            "Name": "History of the Ancient Near East",
+            "Credits": 3,
+            "Axle": "INT",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "CLA 2110": {
+            "Name": "History of Greece to Alexander the Great",
+            "Credits": 3,
+            "Axle": "INT",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "CLAS 2120": {
+            "Name": "Greece and the Near East from Alexander to Constantine",
+            "Credits": 3,
+            "Axle": "INT",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "CLAS 2150": {
+            "Name": "Hitsory of the Roman Republic",
+            "Credits": 3,
+            "Axle": "INT",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "CLAS 2160": {
+            "Name": "History of the Roman Empire",
+            "Credits": 3,
+            "Axle": "INT",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "CLAS 2180": {
+            "Name": "The Mediterranean World from Late Antiquity to the Middle Ages",
+            "Credits": 3,
+            "Axle": "INT",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "CLAS 2200": {
+            "Name": "Archaic and Classical Greek Art and Architecture, 1000 to 400 B.C.E ",
+            "Credits": 3,
+            "Axle": "HCA",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "CLAS 2210": {
+            "Name": "Late Classical Greek and Hellenistic Art and Architecture",
+            "Credits": 3,
+            "Axle": "HCA",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "CLAS 2250": {
+            "Name": "Roman Art and Architecture",
+            "Credits": 3,
+            "Axle": "HCA",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "CLAS 3000": {
+            "Name": "Classical Tradition in America",
+            "Credits": 3,
+            "Axle": "US",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "CLAS 3010": {
+            "Name": "The Ancient Origins of Religious Conflict in the Middle East",
+            "Credits": 3,
+            "Axle": "P",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "CLAS 3030": {
+            "Name": "Death, Disease, and Health in the Ancient World",
+            "Credits": 3,
+            "Axle": "SBS",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "CLAS 3100": {
+            "Name": "Women, Sexuality, adn the Family in Ancient Greece and Rome",
+            "Credits": 3,
+            "Axle": "SBS",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "CLAS 3110": {
+            "Name": "Warfare in the ANcient Mediterranean",
+            "Credits": 3,
+            "Axle": "INT",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "CLAS 3120": {
+            "Name": "Humor, Acient to MOdern",
+            "Credits": 3,
+            "Axle": "HCA",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "CLAS 3150": {
+            "Name": "Roman Law",
+            "Credits": 3,
+            "Axle": "SBS",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "CLAS 3160": {
+            "Name": "Roman Law and Social History",
+            "Credits": 3,
+            "Axle": "SBS",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "CLAS 3190W": {
+            "Name": "Augustan Rome",
+            "Credits": 3,
+            "Axle": "HCA, WRITING",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "CLAS 3200": {
+            "Name": "The Greek City",
+            "Credits": 3,
+            "Axle": "SBS",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "CLAS 3210": {
+            "Name": "The Archaeology of Greek Sanctuaries",
+            "Credits": 3,
+            "Axle": "INT",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "CLAS 3220": {
+            "Name": "Alexander the Great",
+            "Credits": 3,
+            "Axle": "HCA",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "CLAS 3300": {
+            "Name": "Akkadian",
+            "Credits": 3,
+            "Axle": "INT",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "CLAS 3301": {
+            "Name": "Akkadian II ",
+            "Credits": 3,
+            "Axle": "INT",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "CLAS 3310": {
+            "Name": "Culture of the Ancient Near East",
+            "Credits": 3,
+            "Axle": "INT",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "CLAS 3320": {
+            "Name": "The Amarna Age",
+            "Credits": 3,
+            "Axle": "INT",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "CLAS 3350": {
+            "Name": "History of Early and Medieval Christianity",
+            "Credits": 3,
+            "Axle": "INT",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "CLAS 3360": {
+            "Name": "Early Christian Poetry",
+            "Credits": 3,
+            "Axle": "INT",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "CLAS 3370": {
+            "Name": "Hist Syriac Christianity",
+            "Credits": 3,
+            "Axle": "INT",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "CLAS 3380": {
+            "Name": "Desert Spirituality in Early Christianity",
+            "Credits": 3,
+            "Axle": "INT",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "CLAS 3600": {
+            "Name": "Seminar in Digital Humanities",
+            "Credits": 3,
+            "Axle": "SBS",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "CLAS 3700": {
+            "Name": "Uncovering Greek Religion: Cults, Festivals, and Sanctuaries in the Ancient World",
+            "Credits": 3,
+            "Axle": "INT",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "CLAS 3710": {
+            "Name": "Archaeology, History, and Culture in Greece: Kenchreai Field SChool",
+            "Credits": 3,
+            "Axle": "INT",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "CLAS 3720": {
+            "Name": "History and Art of ANcient Rome",
+            "Credits": 3,
+            "Axle": "INT",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "CLAS 3730": {
+            "Name": "The Roman to Medieval Near East: Caesarea Excavations, Israel",
+            "Credits": 3,
+            "Axle": "INT",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        }
+    },
+    "COMMUNICATION OF SCIENCE AND TECHNOLOGY": {
+        "CSET 2100": {
+            "Name": "Science Communication Tools and Techniques",
+            "Credits": 3,
+            "Axle": "HCA",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "CSET 3841": {
+            "Name": "Project in Science Writing and Communicating ",
+            "Credits": 3,
+            "Axle": "NONE",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        }
+    },
+    "COMMUNICATIONS STUDIES ": {
+        "CMST 1001": {
+            "Name": "Communications Commons Seminar",
+            "Credits": 1,
+            "Axle": "NONE",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "CMST 1002": {
+            "Name": "Introduction to Communication STudies",
+            "Credits": 3,
+            "Axle": "HCA",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "CMST 1111": {
+            "Name": "Communications FYS ",
+            "Credits": 3,
+            "Axle": "WRITING",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "CMST 1500": {
+            "Name": "Fundamentals of Public SPeaking",
+            "Credits": 3,
+            "Axle": "HCA",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "CMST 1850": {
+            "Name": "Interpersonal Communication",
+            "Credits": 3,
+            "Axle": "SBS",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "CMST 2100": {
+            "Name": "Argumentation and Debate",
+            "Credits": 3,
+            "Axle": "HCA",
+            "Pre-reqs": "CMST 1500",
+            "Co-reqs": 0
+        },
+        "CMST 2110": {
+            "Name": "Persuasion",
+            "Credits": 3,
+            "Axle": "HCA",
+            "Pre-reqs": "CMST 1500",
+            "Co-reqs": 0
+        },
+        "CMST 2120": {
+            "Name": "Business Communication",
+            "Credits": 3,
+            "Axle": "HCA",
+            "Pre-reqs": "CMT 1500",
+            "Co-reqs": 0
+        },
+        "CMST 2400": {
+            "Name": "History of WOrld Cinema",
+            "Credits": 3,
+            "Axle": "HCA",
+            "Pre-reqs": "CMA 1600",
+            "Co-reqs": 0
+        },
+        "CMST 2800": {
+            "Name": "Rhetoric and Civic Life",
+            "Credits": 3,
+            "Axle": "HCA",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "CMST 2900": {
+            "Name": "Values in Modern Communication ",
+            "Credits": 3,
+            "Axle": "P",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "SMST 2950": {
+            "Name": "Rhetoric of Mass Media",
+            "Credits": 3,
+            "Axle": "HCA",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "SMST 3000": {
+            "Name": " Rhetoric of the American Experience 1640-1865",
+            "Credits": 3,
+            "Axle": "HUS",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "CMST 3001": {
+            "Name": "Rhetoric of the AMerican Experience 1865-1945",
+            "Credits": 3,
+            "Axle": "US",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "CMST 3002": {
+            "Name": "Rhetoric of the AMerican Experience 1945-Present",
+            "Credits": 3,
+            "Axle": "US",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "CMST 3100": {
+            "Name": "Rhetoric of Social Movements",
+            "Credits": 3,
+            "Axle": "US",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "CMST 3110": {
+            "Name": "Women, Rhetoric, and Social Change",
+            "Credits": 3,
+            "Axle": "US",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "CMST 3120": {
+            "Name": "Rhetoric of U.S. Religion",
+            "Credits": 3,
+            "Axle": "US",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "CMST 3140": {
+            "Name": "Communication and the First Amendment",
+            "Credits": 3,
+            "Axle": "US",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "CMST 3150": {
+            "Name": "Law, Media, and Society",
+            "Credits": 3,
+            "Axle": "HCA",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "CMST 3600": {
+            "Name": "The Rhetorical Tradition",
+            "Credits": 3,
+            "Axle": "HCA",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "CMST 3620W": {
+            "Name": "Rhetoric, Culture, and Critique ",
+            "Credits": 3,
+            "Axle": "HCA",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "CMST 3700": {
+            "Name": "Politics and Mass Media",
+            "Credits": 3,
+            "Axle": "HCA",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "CMST 3710": {
+            "Name": "Cultural Rhetorics of Film",
+            "Credits": 3,
+            "Axle": "HCA",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "CMST 3720": {
+            "Name": "Communicating Gender",
+            "Credits": 3,
+            "Axle": "P",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "CMST 3740": {
+            "Name": "Rhetoric of Medicine and Health",
+            "Credits": 3,
+            "Axle": "P",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "CMST 3750": {
+            "Name": "Rhetoric of the Body",
+            "Credits": 3,
+            "Axle": "P",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "CMST 3840": {
+            "Name": "Directed Readings",
+            "Credits": 3,
+            "Axle": "NONE",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        }
+    },
+    "CREOLE": {
+        "CREO 1101": {
+            "Name": "Elemntary Creole 1 (Duke)",
+            "Credits": 3,
+            "Axle": "NONE",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "CREO 1102": {
+            "Name": "Elementary Creole II (Duke)",
+            "Credits": 3,
+            "Axle": "INT",
+            "Pre-reqs": "CREO 1101",
+            "Co-reqs": 0
+        },
+        "CREO 2201": {
+            "Name": "Intermediate Creole I (Duke) ",
+            "Credits": 3,
+            "Axle": "INT",
+            "Pre-reqs": "CREO 1102",
+            "Co-reqs": 0
+        },
+        "CREO 2202": {
+            "Name": "Intermediate Creole II (Duke) ",
+            "Credits": 3,
+            "Axle": "INT",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        }
+    },
+    "Earth and Environemntal Sciences": {
+        "EES 1001": {
+            "Name": "Earth and Environemntal Sciences Commons Seminar",
+            "Credits": 1,
+            "Axle": "NONE",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "EES 1030": {
+            "Name": "Oceanography",
+            "Credits": 3,
+            "Axle": "MN",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "EES 1030L ": {
+            "Name": "Oceanography Laboratory",
+            "Credits": 1,
+            "Axle": "NONE",
+            "Pre-reqs": 0,
+            "Co-reqs": "EES 1030"
+        },
+        "EES 1080": {
+            "Name": "Volcanoes: Impacts on Earth and Society",
+            "Credits": 3,
+            "Axle": "MNS",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "EES 1090": {
+            "Name": "Earth and Atmosphere",
+            "Credits": 3,
+            "Axle": "P",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "EES 1111": {
+            "Name": "Earth and Environemntal Sciences FYS",
+            "Credits": 3,
+            "Axle": "WRITING",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "EES 1140": {
+            "Name": "Ecology, Evolution, and Climates through Time",
+            "Credits": 3,
+            "Axle": "MNS",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "EES 1400": {
+            "Name": "Iceland's Geology",
+            "Credits": 4,
+            "Axle": "MNS",
+            "Pre-reqs": "EES 1510, 1080 OR 1111",
+            "Co-reqs": 0
+        },
+        "EES 1510": {
+            "Name": "The Dynamic Earth: introduction to Geological Sciences ",
+            "Credits": 3,
+            "Axle": "MNS",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "EES 1510L ": {
+            "Name": "Dynamic Earth Laboratory",
+            "Credits": 1,
+            "Axle": "NONE",
+            "Pre-reqs": 0,
+            "Co-reqs": "EES 1510"
+        },
+        "EES 2110": {
+            "Name": "Global Climate Change",
+            "Credits": 3,
+            "Axle": "MNS",
+            "Pre-reqs": "EES 1510 OR 1080",
+            "Co-reqs": 0
+        },
+        "EES 2114": {
+            "Name": "Abovea nd Below the Surface: The Caribbean between Climate Change and Tourism",
+            "Credits": 3,
+            "Axle": "INT",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "EES 2150": {
+            "Name": "Science, Risk, and Policy",
+            "Credits": 3,
+            "Axle": "P",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "EES 2510": {
+            "Name": "Earth Systems through Time",
+            "Credits": 4,
+            "Axle": "MNS",
+            "Pre-reqs": "EES 1030 AND 1030L OR 1510/1510L",
+            "Co-reqs": 0
+        },
+        "EES 2550": {
+            "Name": "Earth Materials",
+            "Credits": 4,
+            "Axle": "MNS",
+            "Pre-reqs": "EES 1030 AND 1030L OR 1510/1510L",
+            "Co-reqs": 0
+        },
+        "EES 2580": {
+            "Name": "Earth System Dynamics",
+            "Credits": 3,
+            "Axle": "MNS",
+            "Pre-reqs": "EES 1030 AND 1030L OR 1510/1510L",
+            "Co-reqs": 0
+        },
+        "EES 3220": {
+            "Name": "Life Through Time",
+            "Credits": 4,
+            "Axle": "MNS",
+            "Pre-reqs": "EES 2510, 2550, 2580 OR BSCI 1100/1511",
+            "Co-reqs": 0
+        },
+        "EES 3260": {
+            "Name": "Petrology",
+            "Credits": 4,
+            "Axle": "MNS",
+            "Pre-reqs": "EES 2550",
+            "Co-reqs": 0
+        },
+        "EES 3280": {
+            "Name": "Environmental Geochemistry",
+            "Credits": 4,
+            "Axle": "MNS",
+            "Pre-reqs": "EES 215O, 2550, OR 2580",
+            "Co-reqs": 0
+        },
+        "EES 3310": {
+            "Name": "Global Climate Change",
+            "Credits": 4,
+            "Axle": "MNS",
+            "Pre-reqs": "EES 1030, 1090, 1510, OR BSCI 1510 OR CHEM 1601 OR ECON 1010 OR ES 1401 OR PHYS 1501, 1601, 1901",
+            "Co-reqs": 0
+        },
+        "EES 3330": {
+            "Name": "Sedimentology",
+            "Credits": 4,
+            "Axle": "MNS",
+            "Pre-reqs": "EES 2510, 2550, OR 2580",
+            "Co-reqs": 0
+        },
+        "EES 3340": {
+            "Name": "Structural Geology and Rock Mechanics",
+            "Credits": 4,
+            "Axle": "MNS",
+            "Pre-reqs": "EES 2510, 2550, OR 2580",
+            "Co-reqs": 0
+        },
+        "EES 3865": {
+            "Name": "Field Investigations",
+            "Credits": 3,
+            "Axle": "MNS",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "EES 3891": {
+            "Name": "SPecial Topics",
+            "Credits": 3,
+            "Axle": "NONE",
+            "Pre-reqs": "EES 1030 OR 1510",
+            "Co-reqs": 0
+        },
+        "EES 4420": {
+            "Name": "Geomorphology",
+            "Credits": 3,
+            "Axle": "MNS",
+            "Pre-reqs": "EES 1030 OR 1510",
+            "Co-reqs": 0
+        },
+        "EES 4550": {
+            "Name": "Transport Processes in Earth and Environemntal Systems",
+            "Credits": 3,
+            "Axle": "MNS",
+            "Pre-reqs": "SENIOR WITH MAJOR IN EES, BSCI, CHEM, MATH, PHYS, OR ENGINEERING",
+            "Co-reqs": 0
+        },
+        "EES 4600": {
+            "Name": "Geochemistry",
+            "Credits": 3,
+            "Axle": "MNS",
+            "Pre-reqs": "EES 2550 AND CHEM 1602",
+            "Co-reqs": 0
+        },
+        "EES 4650": {
+            "Name": "Physics of the Climate System",
+            "Credits": 3,
+            "Axle": "MNS",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "EES 4680": {
+            "Name": "Paleoclimates",
+            "Credits": 3,
+            "Axle": "MNS",
+            "Pre-reqs": "EES 1510 AND 2510",
+            "Co-reqs": 0
+        },
+        "EES 4750": {
+            "Name": "SUstainability: An Environmental Science Perspective ",
+            "Credits": 3,
+            "Axle": "MNS",
+            "Pre-reqs": "JUNIOR",
+            "Co-reqs": 0
+        },
+        "EES 4760": {
+            "Name": "Agent-and Individual-Based Computational Modeling",
+            "Credits": 3,
+            "Axle": "MNS",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "EES 4820": {
+            "Name": "Paleoecological Methods",
+            "Credits": 3,
+            "Axle": "MNS",
+            "Pre-reqs": "EES 1030 OR 1510",
+            "Co-reqs": 0
+        },
+        "EES 4830": {
+            "Name": "Volcanic Processes",
+            "Credits": 3,
+            "Axle": "MNS",
+            "Pre-reqs": "EES 3620",
+            "Co-reqs": 0
+        }
+    },
+    "ECONOMICS": {
+        "ECON 1001": {
+            "Name": "Economics Commons Seminar",
+            "Credits": 1,
+            "Axle": "NONE",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "ECON 1010": {
+            "Name": "Principles of Macroeconomics",
+            "Credits": 3,
+            "Axle": "SBS",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "ECON 1020": {
+            "Name": "Principles of Microeconomics",
+            "Credits": 3,
+            "Axle": "SBS",
+            "Pre-reqs": "ECON 1010",
+            "Co-reqs": 0
+        },
+        "ECON 1111": {
+            "Name": "Econ FYS ",
+            "Credits": 3,
+            "Axle": "WRITING",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "ECON 1500": {
+            "Name": "Economic Statistics",
+            "Credits": 3,
+            "Axle": "SBS",
+            "Pre-reqs": "MATH 1100, 1200, OR 1300",
+            "Co-reqs": 0
+        },
+        "ECON 1510": {
+            "Name": "Intensive Economic Statistics ",
+            "Credits": 3,
+            "Axle": "SBS",
+            "Pre-reqs": "MATH 1100, 1200, OR 1300",
+            "Co-reqs": 0
+        },
+        "ECON 2100": {
+            "Name": "Labor Economics",
+            "Credits": 3,
+            "Axle": "SBS",
+            "Pre-reqs": "ECON 1010 AND 1020",
+            "Co-reqs": 0
+        },
+        "ECON 2150": {
+            "Name": "Economic History of the United States",
+            "Credits": 3,
+            "Axle": "US",
+            "Pre-reqs": "ECON 1010 AND 1020",
+            "Co-reqs": 0
+        },
+        "ECON 2160": {
+            "Name": "Strategic Analysis",
+            "Credits": 3,
+            "Axle": "SBS",
+            "Pre-reqs": "ECON 1010 AND 1020",
+            "Co-reqs": 0
+        },
+        "ECON 2170": {
+            "Name": "Environmental Economics ",
+            "Credits": 3,
+            "Axle": "SBS",
+            "Pre-reqs": "ECON 1010 AND 1020",
+            "Co-reqs": 0
+        },
+        "ECON 2180": {
+            "Name": "Sports Economics",
+            "Credits": 3,
+            "Axle": "SBS",
+            "Pre-reqs": "ECON 1010 AND 1020",
+            "Co-reqs": 0
+        },
+        "ECON 2220": {
+            "Name": "Latin American Development",
+            "Credits": 3,
+            "Axle": "SBS",
+            "Pre-reqs": "ECON 1010",
+            "Co-reqs": 0
+        },
+        "ECON 2260": {
+            "Name": "International Economics",
+            "Credits": 3,
+            "Axle": "SBS",
+            "Pre-reqs": "ECON 1010 AND 1020",
+            "Co-reqs": 0
+        },
+        "ECON 2300": {
+            "Name": "Money and Banking",
+            "Credits": 3,
+            "Axle": "SBS",
+            "Pre-reqs": "ECON 1010 AND 1020",
+            "Co-reqs": 0
+        },
+        "ECON 2340": {
+            "Name": "Plunder and Pillage: The Economics of Warfare and Conflict",
+            "Credits": 3,
+            "Axle": "SBS",
+            "Pre-reqs": "ECON 1010 AND 1020",
+            "Co-reqs": 0
+        },
+        "ECON 2350": {
+            "Name": "Health Care Policy",
+            "Credits": 3,
+            "Axle": "SBS",
+            "Pre-reqs": "ECON 1010 AND 1020",
+            "Co-reqs": 0
+        },
+        "ECON 2890": {
+            "Name": "Econ SPecial Topics",
+            "Credits": 3,
+            "Axle": "NONE",
+            "Pre-reqs": "ECON 1010 AND 1020",
+            "Co-reqs": 0
+        },
+        "ECON 3010": {
+            "Name": "INtermediate Microeconomic Theory",
+            "Credits": 3,
+            "Axle": "SBS",
+            "Pre-reqs": "ECON 1010 AND 1020, AND MATH 1100, OR 1200 OR 1300",
+            "Co-reqs": 0
+        },
+        "ECON 3012": {
+            "Name": "Microeconomics",
+            "Credits": 3,
+            "Axle": "SBS",
+            "Pre-reqs": "ECON 1010 AND 1020, AND MATH 1201 OR 1301",
+            "Co-reqs": 0
+        },
+        "ECON 3020": {
+            "Name": "Intermediate Macroeconomic Theory",
+            "Credits": 3,
+            "Axle": "SBS",
+            "Pre-reqs": "ECON 1010 AND 1020, AND MATH 1100, OR 1200 OR 1300",
+            "Co-reqs": 0
+        },
+        "ECON 3022": {
+            "Name": "Macroeconomics ",
+            "Credits": 3,
+            "Axle": "SBS",
+            "Pre-reqs": "ECON 1010 AND 1020, AND MATH 1201 OR 1301",
+            "Co-reqs": 0
+        },
+        "ECON 3032": {
+            "Name": "Applied Econometrics",
+            "Credits": 3,
+            "Axle": "SBS",
+            "Pre-reqs": "ECON 1020, EITHER 1500, 1510, OR BOTH MATH 2820L AND EITHER MATH 2810 OR 2820; AND EITHER MATH 1201 OR 1301",
+            "Co-reqs": 0
+        },
+        "ECON 3035": {
+            "Name": "Econometric Methods",
+            "Credits": 3,
+            "Axle": "SBS",
+            "Pre-reqs": "ECON 1020, EITHER 1500, 1510, OR BOTH MATH 2820L AND EITHER MATH 2810 OR 2820; AND EITHER MATH 1201 OR 1301",
+            "Co-reqs": 0
+        },
+        "ECON 3050": {
+            "Name": "Introduction to Econometrics ",
+            "Credits": 3,
+            "Axle": "SBS",
+            "Pre-reqs": "ECON 3010 OR 3012 AND EITHER 1500 OR 1510; OR MATH 2820L WITH EITHER MATH 2810 OR 2820 ",
+            "Co-reqs": 0
+        },
+        "ECON 3100": {
+            "Name": "Wages, Employment, and Labor Markets",
+            "Credits": 3,
+            "Axle": "SBS",
+            "Pre-reqs": "ECON 3010 OR 3012",
+            "Co-reqs": 0
+        },
+        "ECON 3110": {
+            "Name": "Poverty and Discrmination",
+            "Credits": 3,
+            "Axle": "SBS",
+            "Pre-reqs": "ECON 3010 OR 3012; ONE OF 1500, 1410, 3032, 3035, 3050",
+            "Co-reqs": 0
+        },
+        "ECON 3150": {
+            "Name": "Topics in the Economic History of the U.S.",
+            "Credits": 3,
+            "Axle": "US",
+            "Pre-reqs": "ECON 3010 OR 3012",
+            "Co-reqs": 0
+        },
+        "ECON 3160": {
+            "Name": "Economic History of Europe",
+            "Credits": 3,
+            "Axle": "SBS",
+            "Pre-reqs": "ECON 3010 OR 3012",
+            "Co-reqs": 0
+        },
+        "ECON 3200": {
+            "Name": "Public Finance",
+            "Credits": 3,
+            "Axle": "SBS",
+            "Pre-reqs": "ECON 3010 OR 3012",
+            "Co-reqs": 0
+        },
+        "ECON 3230": {
+            "Name": "Urban Economics",
+            "Credits": 3,
+            "Axle": "SBS",
+            "Pre-reqs": "ECON 3010 OR 3012",
+            "Co-reqs": 0
+        },
+        "ECON 3250": {
+            "Name": " Industrial Organization",
+            "Credits": 3,
+            "Axle": "SBS",
+            "Pre-reqs": "ECON 3010 OR 3012",
+            "Co-reqs": 0
+        },
+        "ECON 3270": {
+            "Name": "Economics of Information and Communications Technology",
+            "Credits": 3,
+            "Axle": "SBS",
+            "Pre-reqs": "ECON 3010 OR 3012",
+            "Co-reqs": 0
+        },
+        "ECON 3300": {
+            "Name": "Financial Instruments and Markets",
+            "Credits": 3,
+            "Axle": "SBS",
+            "Pre-reqs": "ECON 3010 OR 3012; AND EITHER 3020 OR 3022",
+            "Co-reqs": 0
+        },
+        "ECON 3330": {
+            "Name": "Economics of Risk",
+            "Credits": 3,
+            "Axle": "SBSS",
+            "Pre-reqs": "ECON 3010 OR 3012 WITH EITHER 1500 OR 1510; OR MATH 2820L WITH EITHER MATH 2810 OR MATH 2820",
+            "Co-reqs": 0
+        },
+        "ECON 3350": {
+            "Name": "Economics of Health",
+            "Credits": 3,
+            "Axle": "SBS",
+            "Pre-reqs": "ECON 3010 OR 3012ECON 3010 OR 3012",
+            "Co-reqs": 0
+        },
+        "ECON 3600": {
+            "Name": "International Trade",
+            "Credits": 3,
+            "Axle": "SBS",
+            "Pre-reqs": "ECON 3010 OR 3012",
+            "Co-reqs": 0
+        },
+        "ECON 3610": {
+            "Name": "International Finance",
+            "Credits": 3,
+            "Axle": "SBS",
+            "Pre-reqs": "ECON 3020 OR 3022",
+            "Co-reqs": 0
+        },
+        "ECON 3650": {
+            "Name": "Development Economics",
+            "Credits": 3,
+            "Axle": "INT",
+            "Pre-reqs": "ECON 3010 OR 3012, AND EITHER 1500, 1510, 3032, 3035, OR 3050",
+            "Co-reqs": 0
+        },
+        "ECON 3700": {
+            "Name": "Economic Growth",
+            "Credits": 3,
+            "Axle": "SBS",
+            "Pre-reqs": "ECON 3010 OR 3012, AND 3020 OR 3022",
+            "Co-reqs": 0
+        },
+        "ECON 37050": {
+            "Name": "Econometrics for Big Data",
+            "Credits": 3,
+            "Axle": "SBS",
+            "Pre-reqs": "ECON 3010 OR 3012; EITHER 3032, 3035, 3050; OR MATH 2820L WITH MATH 2810 OR 2820",
+            "Co-reqs": 0
+        },
+        "ECON 3893": {
+            "Name": "Selected Microeconomic Topics",
+            "Credits": 3,
+            "Axle": "NONE",
+            "Pre-reqs": "ECON 3010 OR 3012",
+            "Co-reqs": 0
+        },
+        "ECON 3894": {
+            "Name": "Selected Macroeconomic Topics",
+            "Credits": 3,
+            "Axle": "NONE",
+            "Pre-reqs": "ECON 3020 OR 3022",
+            "Co-reqs": 0
+        },
+        "ECON 4050": {
+            "Name": "Topics in Econometrics",
+            "Credits": 3,
+            "Axle": "SBS",
+            "Pre-reqs": "ECON 3032, 3035, OR 3050",
+            "Co-reqs": 0
+        },
+        "ECON 4110": {
+            "Name": "Macroeconomic Models for Policy Analysis",
+            "Credits": 3,
+            "Axle": "SBS",
+            "Pre-reqs": "ECON 3020 OR 3022",
+            "Co-reqs": 0
+        },
+        "ECON 4120": {
+            "Name": "Law and Economics ",
+            "Credits": 3,
+            "Axle": "SBS",
+            "Pre-reqs": "ECON 3010 OR 3012, AND EITHER 1500, 1510, 3032, 3035, OR 3050",
+            "Co-reqs": 0
+        },
+        "ECON 4220": {
+            "Name": "Social Choice Theory",
+            "Credits": 3,
+            "Axle": "SBS",
+            "Pre-reqs": "ECON 3010 OR 3012 OR PHIL 3003 OR ANY MATH COURSE NUMBERED>2500",
+            "Co-reqs": 0
+        },
+        "ECON 4260": {
+            "Name": "Game Theory with Economic Applications",
+            "Credits": 3,
+            "Axle": "SBS",
+            "Pre-reqs": "ECON 3010 OR 3012",
+            "Co-reqs": 0
+        },
+        "ECON 4510W": {
+            "Name": "Seminar in Macroeconomic Policy",
+            "Credits": 3,
+            "Axle": "SBS WRITING",
+            "Pre-reqs": "ECON 3010 OR 3012; AND 3020 OR 3022",
+            "Co-reqs": 0
+        },
+        "ECON 4520W": {
+            "Name": "Seminar on Globalization",
+            "Credits": 3,
+            "Axle": "SBS WRITING",
+            "Pre-reqs": "ECON 3010 OR 3012; AND EITHER 1500, 1510, 3032, 3035, OR 3050",
+            "Co-reqs": 0
+        },
+        "ECON 4530W": {
+            "Name": "Seminar in Microeconomic Policy",
+            "Credits": 3,
+            "Axle": "SBS WRITING",
+            "Pre-reqs": "ECON 3010 OR 3102",
+            "Co-reqs": 0
+        },
+        "ECON 4540W": {
+            "Name": "Economics of Conflict",
+            "Credits": 3,
+            "Axle": "SBS WRITING",
+            "Pre-reqs": "ECON 3010 OR 3012",
+            "Co-reqs": 0
+        },
+        "ECON 4550": {
+            "Name": "Seminar in Sports Economics ",
+            "Credits": 3,
+            "Axle": "SBS",
+            "Pre-reqs": "ECON 2180 AND 3010 OR 3012",
+            "Co-reqs": 0
+        }
+    },
+    "ENGLISH": {
+        "ENGL 1001": {
+            "Name": "English Commons Seminar",
+            "Credits": 1,
+            "Axle": "NONE",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "ENGL 1100": {
+            "Name": "Composition",
+            "Credits": 3,
+            "Axle": "NONE",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "ENGL 1111": {
+            "Name": "English FYS ",
+            "Credits": 3,
+            "Axle": "WRITING",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "ENGL 1210W": {
+            "Name": "PRose Fiction: Forms and Techniques",
+            "Credits": 3,
+            "Axle": "HCA, WRITING",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "ENGL 1220W": {
+            "Name": "Drama: Forms and Techniques",
+            "Credits": 3,
+            "Axle": "HCA, WRITING",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "ENGL 1230W": {
+            "Name": "Literature and Analytical Thinking",
+            "Credits": 3,
+            "Axle": "HCA, WRITING",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "ENGL 1240": {
+            "Name": "Beginning Nonfiction Workshop",
+            "Credits": 3,
+            "Axle": "HCA",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "ENGL 1250W": {
+            "Name": "Introduction to Poetry",
+            "Credits": 3,
+            "Axle": "HCA, WRITING",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "ENGL 1260W": {
+            "Name": "Intrdouction to LIterary and Cultural Analysis",
+            "Credits": 3,
+            "Axle": "HCA, WRITING",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "ENGL 1270 W": {
+            "Name": "Introduction to Literary Criticism",
+            "Credits": 3,
+            "Axle": "HCA, WRITING",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "ENGL 1280": {
+            "Name": "Beginning Fiction WOrkshop",
+            "Credits": 3,
+            "Axle": "HCA",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "ENGL 1290": {
+            "Name": "Beginning Poetry Workshop",
+            "Credits": 3,
+            "Axle": "HCA",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "ENGL 1300W": {
+            "Name": "Intermediate Composition",
+            "Credits": 3,
+            "Axle": "HCA, WRITING",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "ENGL 2200": {
+            "Name": "Foundations of Literary Study",
+            "Credits": 3,
+            "Axle": "HCA",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "ENGL 2310": {
+            "Name": "Represnetative British Writers",
+            "Credits": 3,
+            "Axle": "HCA",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "ENGL 2311": {
+            "Name": "Representative British Writers II ",
+            "Credits": 3,
+            "Axle": "HCA",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "ENGL 2316W": {
+            "Name": "Representative American Writers",
+            "Credits": 3,
+            "Axle": "HCA, WRITING",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "ENGL 2318W": {
+            "Name": "World Literature, Classical",
+            "Credits": 3,
+            "Axle": "HCA, WRITING",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "ENGL 2319W": {
+            "Name": "World Literature, Modern",
+            "Credits": 3,
+            "Axle": "HCA, WRITING",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "ENGL 2320": {
+            "Name": "Southern LIterature",
+            "Credits": 3,
+            "Axle": "HCA",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "ENGL 3210": {
+            "Name": "Intermediate Nonfiction Writing",
+            "Credits": 3,
+            "Axle": "HCA",
+            "Pre-reqs": "CONSENT REQUIRED",
+            "Co-reqs": 0
+        },
+        "ENGL 3215": {
+            "Name": "The Art of Blogging ",
+            "Credits": 3,
+            "Axle": "HCA",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "ENGL 3220": {
+            "Name": "Advanced Nonfiction Wirting",
+            "Credits": 3,
+            "Axle": "HCA",
+            "Pre-reqs": "CONSENT REQUIRED",
+            "Co-reqs": 0
+        },
+        "ENGL 3230": {
+            "Name": "Intermediate Fiction Workshop",
+            "Credits": 3,
+            "Axle": "HCA",
+            "Pre-reqs": "CONSENT REQUIRED",
+            "Co-reqs": 0
+        },
+        "ENGL 3240": {
+            "Name": "Advanced Fiction Workshop",
+            "Credits": 3,
+            "Axle": "HCA",
+            "Pre-reqs": "CONSENT REQUIRED",
+            "Co-reqs": 0
+        },
+        "ENGL 3250": {
+            "Name": "Intermediate Poetry Workshop",
+            "Credits": 3,
+            "Axle": "HCA",
+            "Pre-reqs": "CONSENT REQUIRED",
+            "Co-reqs": 0
+        },
+        "ENGL 3260": {
+            "Name": "Advanced Poetry Workshop",
+            "Credits": 3,
+            "Axle": "HCA",
+            "Pre-reqs": "CONSENT REQUIRED",
+            "Co-reqs": 0
+        },
+        "ENGL 3280": {
+            "Name": "Literature and the Craft of Writing",
+            "Credits": 3,
+            "Axle": "HCA",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "ENGL 3310": {
+            "Name": "Anglo-Saxon Language and Literature",
+            "Credits": 3,
+            "Axle": "HCA",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "ENGL 3314": {
+            "Name": "Chaucer",
+            "Credits": 3,
+            "Axle": "HCA",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "ENGL 3316": {
+            "Name": "Medieval Literature",
+            "Credits": 3,
+            "Axle": "HCA",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "ENGL 3318": {
+            "Name": "The History of the English Language",
+            "Credits": 3,
+            "Axle": "HCA",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "ENGL 3330": {
+            "Name": "Sixteenth Century",
+            "Credits": 3,
+            "Axle": "HCA",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "ENGL 3332": {
+            "Name": "English Renaissance: the Drama",
+            "Credits": 3,
+            "Axle": "HCA",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "ENGL 3335W": {
+            "Name": "English Renaissance Poetry",
+            "Credits": 3,
+            "Axle": "HCA, WRITING",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "ENGL 3336": {
+            "Name": "Shakespeare",
+            "Credits": 3,
+            "Axle": "HCA",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "ENGL 3337": {
+            "Name": "Shakespeare II ",
+            "Credits": 3,
+            "Axle": "HCA",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "ENGL 3340W": {
+            "Name": "Shakespeare: Representative Selections",
+            "Credits": 3,
+            "Axle": "HCA, WRITING",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "ENGL 3346": {
+            "Name": "Seventeenth-Century LIterature",
+            "Credits": 3,
+            "Axle": "HCA",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "ENGL 3348": {
+            "Name": "Milton",
+            "Credits": 3,
+            "Axle": "HCA",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "ENGL 3360": {
+            "Name": "Restoartaion and the Eighteenth Century",
+            "Credits": 3,
+            "Axle": "HCA",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "ENGL 3364": {
+            "Name": "The Eighteenth-Century English Novel",
+            "Credits": 3,
+            "Axle": "HCA",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "ENGL 3370": {
+            "Name": "The Bible in Literature",
+            "Credits": 3,
+            "Axle": "HCA",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "ENGL 3610": {
+            "Name": "The Romantic Period",
+            "Credits": 3,
+            "Axle": "HCA",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "ENGL 3611": {
+            "Name": "The Romantic Period II ",
+            "Credits": 3,
+            "Axle": "HCA",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "ENGL 3614": {
+            "Name": "The Victorian Period",
+            "Credits": 3,
+            "Axle": "HCA",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "ENGL 3618": {
+            "Name": "THe Nineteenth-Century English NOvel",
+            "Credits": 3,
+            "Axle": "HCA",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "ENGL 3620": {
+            "Name": "Ninteenth-Century American Literature",
+            "Credits": 3,
+            "Axle": "HCA",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "ENGL 3622": {
+            "Name": "Ninteenth-Century American Women WRiters",
+            "Credits": 3,
+            "Axle": "HCA",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "ENGL 3624W": {
+            "Name": "Literature of the American Civil War",
+            "Credits": 3,
+            "Axle": "HCA, WRITING",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "ENGL 3630": {
+            "Name": "The MOdern British Novel",
+            "Credits": 3,
+            "Axle": "HCA",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "ENGL 3634": {
+            "Name": "Modern Irish Literature",
+            "Credits": 3,
+            "Axle": "HCA",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "ENGL 3640": {
+            "Name": "Modern British and American Poetry: Yeats to Auden",
+            "Credits": 3,
+            "Axle": "HCA",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "ENGL 3642": {
+            "Name": "Film and Modernims",
+            "Credits": 3,
+            "Axle": "HCA",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "ENGL 3644": {
+            "Name": "Twentieth-Century American Novel",
+            "Credits": 3,
+            "Axle": "HCA",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "ENGL 3646": {
+            "Name": "Poetry Since World War II ",
+            "Credits": 3,
+            "Axle": "HCA",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "ENGL 3650W": {
+            "Name": "Ethnic American Literature",
+            "Credits": 3,
+            "Axle": "P, WRITING",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "ENGL 3654W": {
+            "Name": "African AMerican LIterature",
+            "Credits": 3,
+            "Axle": "US, WRITING",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "ENGL 3658": {
+            "Name": "Latino-American LIterature",
+            "Credits": 3,
+            "Axle": "P",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "ENGL 3662W": {
+            "Name": "Asian American Literature",
+            "Credits": 3,
+            "Axle": "P, WRITING",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "ENGL 3664": {
+            "Name": "Jewish AMerican Literature",
+            "Credits": 3,
+            "Axle": "HCA",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "ENGL 3670W": {
+            "Name": "Colonial and Post-Colonial Literature",
+            "Credits": 3,
+            "Axle": "HCA, WRITING",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "ENGL 3674": {
+            "Name": "Caribbean Literature",
+            "Credits": 3,
+            "Axle": "INT",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "ENGL 3678": {
+            "Name": "Anglophone African Literature",
+            "Credits": 3,
+            "Axle": "INT",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "ENGL 3680": {
+            "Name": "Twentieth-Century Drama",
+            "Credits": 3,
+            "Axle": "US",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "ENGL 3683": {
+            "Name": "Contemporary British Literature",
+            "Credits": 3,
+            "Axle": "HCA",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "ENGL 3692": {
+            "Name": "Desire in America: Literature, Cinema, and HIstory",
+            "Credits": 3,
+            "Axle": "US",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "ENGL 3694": {
+            "Name": "America on Film: Art and Ideology",
+            "Credits": 3,
+            "Axle": "US",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "ENGL 3695": {
+            "Name": "AMerica on Film: Perforamance and Culture",
+            "Credits": 3,
+            "Axle": "US",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "ENGL 3710": {
+            "Name": "Literature and Intellectual History",
+            "Credits": 3,
+            "Axle": "HCA",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "ENGL 3720W": {
+            "Name": "LIterature, Science, and Technology",
+            "Credits": 3,
+            "Axle": "HCA, WRITING",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "ENGL 3726": {
+            "Name": "New Media",
+            "Credits": 3,
+            "Axle": "HCA",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "ENGL 3728W": {
+            "Name": "Science Fiction",
+            "Credits": 3,
+            "Axle": "P, WRITING",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "ENGL 3730": {
+            "Name": "Literature and the Environment",
+            "Credits": 3,
+            "Axle": "HCA",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "ENGL 3734W": {
+            "Name": "Literature and Law",
+            "Credits": 3,
+            "Axle": "HCA, WRITING",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "ENGL 3736": {
+            "Name": "Words and Music",
+            "Credits": 3,
+            "Axle": "HCA",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "ENGL 3740": {
+            "Name": "Crtitical Theory ",
+            "Credits": 3,
+            "Axle": "HCA",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "ENGL 3742": {
+            "Name": "Feminist Thoery",
+            "Credits": 3,
+            "Axle": "P",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "ENGL 3744": {
+            "Name": "Advanced Poetry Workshop",
+            "Credits": 3,
+            "Axle": "HCA",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "ENGL 3746": {
+            "Name": "Workshop in English and History",
+            "Credits": 3,
+            "Axle": "NONE",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "ENGL 3748": {
+            "Name": "Introduction to English Linguistics",
+            "Credits": 3,
+            "Axle": "HCA",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "ENGL 3890W": {
+            "Name": "Movements in LIterature ",
+            "Credits": 3,
+            "Axle": "HCA, WRITING",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "ENGL 3891": {
+            "Name": "Special Topics in Creative WRiting",
+            "Credits": 3,
+            "Axle": "HCA",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "ENGL 3892W": {
+            "Name": "Problems in LIterature",
+            "Credits": 3,
+            "Axle": "HCA, WRITING",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "ENGL 3894": {
+            "Name": "Major Figures in Literature",
+            "Credits": 3,
+            "Axle": "HCA",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "ENGL 3896": {
+            "Name": "Special Topics in Investigative Writing in America",
+            "Credits": 3,
+            "Axle": "NONE",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "ENGL 3897": {
+            "Name": "Special Topics in Critical Thoery",
+            "Credits": 3,
+            "Axle": "HCA",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "ENGL 3898W ": {
+            "Name": "Special Topics in English and American Literature",
+            "Credits": 3,
+            "Axle": "HCA, WRITING",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "ENGL 3899": {
+            "Name": "SPecial Topics in Film",
+            "Credits": 3,
+            "Axle": "HCA",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        }
+    },
+    "Environmental and Sustainability Studies": {
+        "ENVS 1001": {
+            "Name": "Environmental and Sustainability Studies Commons Seminar",
+            "Credits": 1,
+            "Axle": "NONE",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "ENVS 4101W": {
+            "Name": "Society and the Environment Capstone",
+            "Credits": 3,
+            "Axle": "SBS, WRITING",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "ENVS 4961": {
+            "Name": "Special Topics in Environmental and Sustainability Studies",
+            "Credits": 3,
+            "Axle": "NONE",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        }
+    },
+    "European Studies": {
+        "EUS 1001": {
+            "Name": "European Studies Commons SEminar",
+            "Credits": 1,
+            "Axle": "NONE",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "EUS 2201": {
+            "Name": "European Soceity and Culture",
+            "Credits": 3,
+            "Axle": "INT",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "EUS 2203": {
+            "Name": "The Idea of Europe ",
+            "Credits": 3,
+            "Axle": "INT",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "EUS 2208": {
+            "Name": "Conspiracy Theories and Rumors in Euoprean and U.S. History",
+            "Credits": 3,
+            "Axle": "INT",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "EUS 2210": {
+            "Name": "European Avant-Garde Movements",
+            "Credits": 3,
+            "Axle": "INT",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "EUS 2220": {
+            "Name": "Religion and Politics in Modern Euorpe, 1648-Present",
+            "Credits": 3,
+            "Axle": "INT",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "EUS 2240": {
+            "Name": "Topics in Euoprean Studies",
+            "Credits": 3,
+            "Axle": "NONE",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "EUS 2260": {
+            "Name": "European Cities",
+            "Credits": 3,
+            "Axle": "INT",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "EUS 2800": {
+            "Name": "Pursuing Utopia: Social Justice & Romanticism in the Alps",
+            "Credits": 3,
+            "Axle": "INT",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        }
+    },
+    "FINANCIAL ECONOMICS": {
+        "FNEC 1600": {
+            "Name": "Financial Accounting",
+            "Credits": 3,
+            "Axle": "NONE ",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "FNEC 2600": {
+            "Name": "Managerial Accounting",
+            "Credits": 3,
+            "Axle": "SBS",
+            "Pre-reqs": "FNEC 1600 OR BUS 2100",
+            "Co-reqs": 0
+        },
+        "FNEC 2605": {
+            "Name": "Advacnced Financial Accounting",
+            "Credits": 3,
+            "Axle": "SBS",
+            "Pre-reqs": "BUS 2100",
+            "Co-reqs": 0
+        },
+        "FNEC 2700": {
+            "Name": "Corporate Finance ",
+            "Credits": 3,
+            "Axle": "SBS",
+            "Pre-reqs": "FNEC 1600, AND EITHER ECON 1500, 1501, MATH 2820, PSY 2100, OR PSY-PC 2101",
+            "Co-reqs": 0
+        },
+        "FNEC 2705": {
+            "Name": "Advanced Corporate Finance",
+            "Credits": 3,
+            "Axle": "SBS",
+            "Pre-reqs": "BUS 2300",
+            "Co-reqs": 0
+        },
+        "FNEC 3700": {
+            "Name": "Investment Analysis",
+            "Credits": 3,
+            "Axle": "SBS",
+            "Pre-reqs": "FNEC 2700 OR BUS 2300",
+            "Co-reqs": 0
+        },
+        "FNEC 3705": {
+            "Name": "Financial Management",
+            "Credits": 3,
+            "Axle": "SBS",
+            "Pre-reqs": "FNEC 2700 OR BUS 2300",
+            "Co-reqs": 0
+        },
+        "FNEC 3710": {
+            "Name": "Corporate Valuation",
+            "Credits": 3,
+            "Axle": "SBS",
+            "Pre-reqs": "FNEC 2700 OR BUS 2300",
+            "Co-reqs": 0
+        }
+    },
+    "FRENCH": {
+        "FREN 1001": {
+            "Name": "French Commons Seminar",
+            "Credits": 1,
+            "Axle": "NONE",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "FREN 1101": {
+            "Name": "Introduction to French in the World",
+            "Credits": 3,
+            "Axle": "NONE",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "FREN 1102": {
+            "Name": "Introduction to French in the World II",
+            "Credits": 3,
+            "Axle": "INT",
+            "Pre-reqs": "FREN 1101",
+            "Co-reqs": 0
+        },
+        "FREN 1103": {
+            "Name": "Accelerated Introduction to French in the World",
+            "Credits": 3,
+            "Axle": "INT",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "FREN 1111": {
+            "Name": "French FYS ",
+            "Credits": 3,
+            "Axle": "WRITING",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "FREN 2203": {
+            "Name": "Intermediate French Language and Culture",
+            "Credits": 3,
+            "Axle": "INT",
+            "Pre-reqs": "FREN 1102 OR 1103",
+            "Co-reqs": 0
+        },
+        "FREN 2501W": {
+            "Name": "French Composition and Grammar",
+            "Credits": 3,
+            "Axle": "INT",
+            "Pre-reqs": "FREN 2203",
+            "Co-reqs": 0
+        },
+        "FREN 2550W": {
+            "Name": "French WRiting Workshop",
+            "Credits": 3,
+            "Axle": "INT",
+            "Pre-reqs": "FREN 2501W",
+            "Co-reqs": 0
+        },
+        "FREN 2611": {
+            "Name": "Phonetics",
+            "Credits": 3,
+            "Axle": "INT",
+            "Pre-reqs": "FREN 2501W",
+            "Co-reqs": 0
+        },
+        "FREN 2614": {
+            "Name": "Advanced Conversational French",
+            "Credits": 3,
+            "Axle": "P",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "FREN 2891": {
+            "Name": "Cross Cultural Communication",
+            "Credits": 3,
+            "Axle": "INT",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "FREN 3101": {
+            "Name": "Texts and Contexts: Middle Ages to the Enlightenment",
+            "Credits": 3,
+            "Axle": "HCA",
+            "Pre-reqs": "FREN 2501W",
+            "Co-reqs": 0
+        },
+        "FREN 3102": {
+            "Name": "Texts and Contexts: Revolutions to the PResent",
+            "Credits": 3,
+            "Axle": "HCA",
+            "Pre-reqs": "FREN 2501W",
+            "Co-reqs": 0
+        },
+        "FREN 3111": {
+            "Name": "French for Business",
+            "Credits": 3,
+            "Axle": "INT",
+            "Pre-reqs": "FREN 2501W",
+            "Co-reqs": 0
+        },
+        "FREN 3112": {
+            "Name": "Medical French in Intercultural Contexts",
+            "Credits": 3,
+            "Axle": "HCA",
+            "Pre-reqs": "FREN 2501W",
+            "Co-reqs": 0
+        },
+        "FREN 3113": {
+            "Name": "Advanced French Grammar",
+            "Credits": 3,
+            "Axle": "INT",
+            "Pre-reqs": "FREN 2501W",
+            "Co-reqs": 0
+        },
+        "FREN 3180": {
+            "Name": "La Porvence",
+            "Credits": 3,
+            "Axle": "INT",
+            "Pre-reqs": "FREN 2501W",
+            "Co-reqs": 0
+        },
+        "FREN 3181": {
+            "Name": "Contemporary French",
+            "Credits": 3,
+            "Axle": "INT",
+            "Pre-reqs": "FREN 2501W",
+            "Co-reqs": 0
+        },
+        "FREN 3185W": {
+            "Name": "The Refugee Expereience in France and Italy",
+            "Credits": 3,
+            "Axle": "P",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "FREN 3188": {
+            "Name": "The Contemporary PRess and Media",
+            "Credits": 3,
+            "Axle": "P",
+            "Pre-reqs": "FREN 2501W",
+            "Co-reqs": 0
+        },
+        "FREN 3222": {
+            "Name": "The Early Modern Novel",
+            "Credits": 3,
+            "Axle": "HCA",
+            "Pre-reqs": "FREN 2501W",
+            "Co-reqs": 0
+        },
+        "FREN 3223": {
+            "Name": "The Querelles des femmes",
+            "Credits": 3,
+            "Axle": "P",
+            "Pre-reqs": "FREN 2501W",
+            "Co-reqs": 0
+        },
+        "FREN 3224": {
+            "Name": "Medieval French Literature",
+            "Credits": 3,
+            "Axle": "HCA",
+            "Pre-reqs": "FREN 2501W",
+            "Co-reqs": 0
+        },
+        "FREN 3230": {
+            "Name": "French and Francophone Cinema",
+            "Credits": 3,
+            "Axle": "INT",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "FREN 3232": {
+            "Name": "Introduction to Francophone Literature",
+            "Credits": 3,
+            "Axle": "P",
+            "Pre-reqs": "FREN 2501W",
+            "Co-reqs": 0
+        },
+        "FREN 3233": {
+            "Name": "Francophone Caribbean Literature",
+            "Credits": 3,
+            "Axle": "INT",
+            "Pre-reqs": "FREN 2501W",
+            "Co-reqs": 0
+        },
+        "FREN 3234": {
+            "Name": "Contemporary Francophone Press",
+            "Credits": 3,
+            "Axle": "HCA",
+            "Pre-reqs": "FREN 2501W",
+            "Co-reqs": 0
+        },
+        "FREN 3281": {
+            "Name": "Provence and the French NOvel",
+            "Credits": 3,
+            "Axle": "HCA",
+            "Pre-reqs": "FREN 2501W",
+            "Co-reqs": 0
+        },
+        "FREN 3286": {
+            "Name": "Cultural Study Tour",
+            "Credits": 1,
+            "Axle": "NONE",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "FREN 3620": {
+            "Name": "Age of Louis XIV ",
+            "Credits": 3,
+            "Axle": "HCA",
+            "Pre-reqs": "FREN 2501W",
+            "Co-reqs": 0
+        },
+        "FREN 3621": {
+            "Name": "Enlightenment and Revolution ",
+            "Credits": 3,
+            "Axle": "HCA",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "FREN 3622": {
+            "Name": "From Romanticism to Symbolism",
+            "Credits": 3,
+            "Axle": "HCA",
+            "Pre-reqs": "FREN 2501W",
+            "Co-reqs": 0
+        },
+        "FREN 3623": {
+            "Name": "The Twentieth-Century Novel",
+            "Credits": 3,
+            "Axle": "HCA",
+            "Pre-reqs": "FREN 2501W",
+            "Co-reqs": 0
+        },
+        "FREN 3634": {
+            "Name": "Parisian Geographies: Paris in 19th and 20th Century Art and Literature",
+            "Credits": 3,
+            "Axle": "HCA",
+            "Pre-reqs": "FREN 2501W",
+            "Co-reqs": 0
+        },
+        "FREN 3730": {
+            "Name": "The Beat Generation's French Connection",
+            "Credits": 3,
+            "Axle": "INT",
+            "Pre-reqs": "FREN 2501W",
+            "Co-reqs": 0
+        },
+        "FREN 3788": {
+            "Name": "Understanding the Maghreb",
+            "Credits": 3,
+            "Axle": "INT",
+            "Pre-reqs": "FREN 2501W",
+            "Co-reqs": 0
+        },
+        "FREN 3789": {
+            "Name": "Francophone Literature and Film of the Maghreb",
+            "Credits": 3,
+            "Axle": "SBS",
+            "Pre-reqs": "FREN 2501W",
+            "Co-reqs": 0
+        },
+        "FREN 3891": {
+            "Name": "SPecial Topics in Traditions",
+            "Credits": 3,
+            "Axle": "NONE",
+            "Pre-reqs": "FREN 2501W",
+            "Co-reqs": 0
+        },
+        "FREN 3892": {
+            "Name": "Special Topics in Communications and Intersections",
+            "Credits": 3,
+            "Axle": "NONE",
+            "Pre-reqs": "FREN 2501W",
+            "Co-reqs": 0
+        },
+        "FREN 4023": {
+            "Name": "The African Novel",
+            "Credits": 3,
+            "Axle": "INT",
+            "Pre-reqs": "FREN 2501W",
+            "Co-reqs": 0
+        },
+        "FREN 4025": {
+            "Name": "From Carnival to the \"Carnivalesque\" ",
+            "Credits": 3,
+            "Axle": "P",
+            "Pre-reqs": "FREN 2501W",
+            "Co-reqs": 0
+        },
+        "FREN 4027": {
+            "Name": "Emile Zola: From Naturalist NOvels to Social Activism",
+            "Credits": 3,
+            "Axle": "HCA",
+            "Pre-reqs": "FREN 2501W",
+            "Co-reqs": 0
+        },
+        "FREN 4029": {
+            "Name": "Twentieth Century French LIterature",
+            "Credits": 3,
+            "Axle": "HCA",
+            "Pre-reqs": "FREN 2501W",
+            "Co-reqs": 0
+        },
+        "FREN 4030": {
+            "Name": "French and Italian Avant-garde",
+            "Credits": 3,
+            "Axle": "HCA",
+            "Pre-reqs": "FREN 2501W",
+            "Co-reqs": 0
+        },
+        "FREN 4221": {
+            "Name": "Literature of the Fantastic",
+            "Credits": 3,
+            "Axle": "HCA",
+            "Pre-reqs": "FREN 2501W",
+            "Co-reqs": 0
+        },
+        "FREN 4232": {
+            "Name": "Literature and Law",
+            "Credits": 3,
+            "Axle": "P",
+            "Pre-reqs": "FREN 2501W",
+            "Co-reqs": 0
+        },
+        "FREN 4234": {
+            "Name": "Dangerous Bodies: Women in 19th Century Art and Literature",
+            "Credits": 3,
+            "Axle": "HCA",
+            "Pre-reqs": "FREN 2501W",
+            "Co-reqs": 0
+        },
+        "FREN 4284": {
+            "Name": "Art and LIteratuer of the Nineteenth Century",
+            "Credits": 3,
+            "Axle": "HCA",
+            "Pre-reqs": "FREN 2501W",
+            "Co-reqs": 0
+        },
+        "FREN 4285": {
+            "Name": "Art and Literatuer of the Twentieth Century",
+            "Credits": 3,
+            "Axle": "HCA",
+            "Pre-reqs": "FREN 2501W",
+            "Co-reqs": 0
+        },
+        "FREN 4320": {
+            "Name": "French Feminst Thought: Literary and Critical",
+            "Credits": 3,
+            "Axle": "P",
+            "Pre-reqs": "FREN 2501W",
+            "Co-reqs": 0
+        },
+        "FREN 4322": {
+            "Name": "Adultery and Transgressions in Literature",
+            "Credits": 3,
+            "Axle": "P",
+            "Pre-reqs": "FREN 2501W",
+            "Co-reqs": 0
+        },
+        "FREN 4430": {
+            "Name": "Jews & Arab-Muslims in France",
+            "Credits": 3,
+            "Axle": "P",
+            "Pre-reqs": "FREN 2501W",
+            "Co-reqs": 0
+        },
+        "FREN 4432": {
+            "Name": "French Intellectual History ",
+            "Credits": 3,
+            "Axle": "HCA",
+            "Pre-reqs": "FREN 2501W",
+            "Co-reqs": 0
+        }
+    },
+    "German": {
+        "GER 1001": {
+            "Name": "German Commons Seminar",
+            "Credits": 1,
+            "Axle": "NONE",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "GER 1101": {
+            "Name": "Elementary German I ",
+            "Credits": 3,
+            "Axle": "NONE",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "GER 1102": {
+            "Name": "Elementary German II ",
+            "Credits": 3,
+            "Axle": "INT",
+            "Pre-reqs": "GER 1101",
+            "Co-reqs": 0
+        },
+        "GER 1111": {
+            "Name": "German FYS ",
+            "Credits": 3,
+            "Axle": "WRITING",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "GER 1482": {
+            "Name": "Borders and Crossings: German LIterature and Culture from Romanticism to the Present ",
+            "Credits": 3,
+            "Axle": "HCA",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "GER 2201": {
+            "Name": "Intermediate German I ",
+            "Credits": 3,
+            "Axle": "INT",
+            "Pre-reqs": "GER 1102",
+            "Co-reqs": 0
+        },
+        "GER 2202": {
+            "Name": "Intermediate German II ",
+            "Credits": 3,
+            "Axle": "INT",
+            "Pre-reqs": "GER 2201",
+            "Co-reqs": 0
+        },
+        "GER 2281": {
+            "Name": "Intensive German in Regensburg",
+            "Credits": 3,
+            "Axle": "NONE",
+            "Pre-reqs": "GER 2201",
+            "Co-reqs": "GER 2282"
+        },
+        "GER 2282": {
+            "Name": "Intensive German in Regensburg II ",
+            "Credits": 3,
+            "Axle": "NONE",
+            "Pre-reqs": "GER 2201",
+            "Co-reqs": "GER 2281"
+        },
+        "GER 2310W": {
+            "Name": "Introduction to German Studies",
+            "Credits": 3,
+            "Axle": "INT, WRITING",
+            "Pre-reqs": "GER 2202",
+            "Co-reqs": 0
+        },
+        "GER 2320": {
+            "Name": "Conversation and Composition: Current Events",
+            "Credits": 3,
+            "Axle": "INT",
+            "Pre-reqs": "GER 2202",
+            "Co-reqs": 0
+        },
+        "GER 2321": {
+            "Name": "Conversation and Composition: Contemporary Culture",
+            "Credits": 3,
+            "Axle": "INT",
+            "Pre-reqs": "GER 2202",
+            "Co-reqs": 0
+        },
+        "GER 2341": {
+            "Name": "German Culture and Literature",
+            "Credits": 3,
+            "Axle": "INT",
+            "Pre-reqs": "GER 2202, GER 2241",
+            "Co-reqs": 0
+        },
+        "GER 2342": {
+            "Name": "German Culture and Literature II ",
+            "Credits": 3,
+            "Axle": "INT",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "GER 2440": {
+            "Name": "History of German Thought",
+            "Credits": 3,
+            "Axle": "HCA",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "GER 2441": {
+            "Name": "Great German Works in English",
+            "Credits": 3,
+            "Axle": "INT",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "GER 2442": {
+            "Name": "War on SCreen",
+            "Credits": 3,
+            "Axle": "HCA",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "GER 2443": {
+            "Name": "German Cinema: Vampires, Victims, and Vamps",
+            "Credits": 3,
+            "Axle": "INT",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "GER 2444": {
+            "Name": "German Fairy Tales: From Brothers Grimm to Walt Disney",
+            "Credits": 3,
+            "Axle": "INT",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "GER 2445": {
+            "Name": "Nazi Cinema: The Manipulation of Mass Culture",
+            "Credits": 3,
+            "Axle": "P",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "GER 2551": {
+            "Name": "Topics: Pre-18th Century Culture and Literature (ENGL)",
+            "Credits": 3,
+            "Axle": "INT",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "GER 2552": {
+            "Name": "Topics: 18th and 19th Century Topics and LIterature (ENGL)",
+            "Credits": 3,
+            "Axle": "INT",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "GER 2553": {
+            "Name": "Topics: 20th and 21st Century Culture and Literature  (ENGL)",
+            "Credits": 3,
+            "Axle": "INT",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "GER 2554": {
+            "Name": "Topics in Visual Culture and Media (ENGL)",
+            "Credits": 3,
+            "Axle": "HCA",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "GER 2555": {
+            "Name": "Topics in German Studies (ENGL)",
+            "Credits": 3,
+            "Axle": "INT",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "GER 2556": {
+            "Name": "Topics in Intellectual History (ENGL)",
+            "Credits": 3,
+            "Axle": "HCA",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "GER 2557": {
+            "Name": "Topics in Genre (ENGL)",
+            "Credits": 3,
+            "Axle": "HCA",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "GER 2563": {
+            "Name": "Twentieth-Century German",
+            "Credits": 3,
+            "Axle": "INT",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "GER 2570": {
+            "Name": "The Holocaust",
+            "Credits": 3,
+            "Axle": "INT",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "GER 2581": {
+            "Name": "Nineteenth-Century Philosophy",
+            "Credits": 3,
+            "Axle": "INT",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "GER 2585": {
+            "Name": "Critical THeory",
+            "Credits": 3,
+            "Axle": "HCA",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "GER 3201": {
+            "Name": "Advanced German: Germany Today",
+            "Credits": 3,
+            "Axle": "INT",
+            "Pre-reqs": "GER 2202",
+            "Co-reqs": 0
+        },
+        "GER 3202W": {
+            "Name": "Advanced German: Reading, Writing, Analysis ",
+            "Credits": 3,
+            "Axle": "INT",
+            "Pre-reqs": "GER 2202",
+            "Co-reqs": 0
+        },
+        "GER 3323": {
+            "Name": "From Language to Literature",
+            "Credits": 3,
+            "Axle": "HCA",
+            "Pre-reqs": "GER 2320",
+            "Co-reqs": 0
+        },
+        "GER 3343": {
+            "Name": "The Aesthetics of Violence: Terror, Crime, and Dread in German Literature",
+            "Credits": 3,
+            "Axle": "P",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "GER 3344": {
+            "Name": "Women at the Margins: German-Jewish Women Writers",
+            "Credits": 3,
+            "Axle": "HCA",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "GER 3345": {
+            "Name": "Love and Friendship",
+            "Credits": 3,
+            "Axle": "NONE",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "GER 3375": {
+            "Name": "Art and Rebellion; Literary Experiment in the 1960s and 1970s",
+            "Credits": 3,
+            "Axle": "HCA",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "GER 3378": {
+            "Name": "Dreams in Literature",
+            "Credits": 3,
+            "Axle": "HCA",
+            "Pre-reqs": "GER 2202",
+            "Co-reqs": 0
+        },
+        "GER 4535": {
+            "Name": "German Romnaticism",
+            "Credits": 3,
+            "Axle": "INT",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "GER 4537": {
+            "Name": "Women and Modernity",
+            "Credits": 3,
+            "Axle": "INT",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "GER 4548": {
+            "Name": "German Lyric Poetry-Form and Function",
+            "Credits": 3,
+            "Axle": "INT",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "GER 4550": {
+            "Name": "Studies in Genre",
+            "Credits": 3,
+            "Axle": "HCA",
+            "Pre-reqs": "GER 2202",
+            "Co-reqs": 0
+        },
+        "GER 4551": {
+            "Name": "Topics: Pre 18th Century Culture and Literature (GER)",
+            "Credits": 3,
+            "Axle": "INT",
+            "Pre-reqs": "GER 3301 AND 3202W",
+            "Co-reqs": 0
+        },
+        "GER 4552": {
+            "Name": "Topics: 18th and 19th Century Culture and Literature  (GER)",
+            "Credits": 3,
+            "Axle": "INT",
+            "Pre-reqs": "GER 3301 AND 3202W",
+            "Co-reqs": 0
+        },
+        "GER 4553": {
+            "Name": "Topics: 20th and 21st Century Culture and Literature  (GER)",
+            "Credits": 3,
+            "Axle": "INT",
+            "Pre-reqs": "GER 3301 AND 3202W",
+            "Co-reqs": 0
+        },
+        "GER 4554": {
+            "Name": "TOpics in Visual Culture and Media (GER)",
+            "Credits": 3,
+            "Axle": "HCA",
+            "Pre-reqs": "GER 3301 AND 3202W",
+            "Co-reqs": 0
+        },
+        "GER 4555": {
+            "Name": "Topics in German Studies  (GER)",
+            "Credits": 3,
+            "Axle": "INT",
+            "Pre-reqs": "GER 3301 AND 3202W",
+            "Co-reqs": 0
+        },
+        "GER 4556": {
+            "Name": "Topics in Intellectual History  (GER)",
+            "Credits": 3,
+            "Axle": "HCA",
+            "Pre-reqs": "GER 3301 AND 3202W",
+            "Co-reqs": 0
+        },
+        "GER 4557": {
+            "Name": "Topics in Genre  (GER)",
+            "Credits": 3,
+            "Axle": "HCA",
+            "Pre-reqs": "GER 3301 AND 3202W",
+            "Co-reqs": 0
+        },
+        "GER 4558": {
+            "Name": "Business German",
+            "Credits": 3,
+            "Axle": "INT",
+            "Pre-reqs": "GER 3201",
+            "Co-reqs": 0
+        },
+        "GER 4563": {
+            "Name": "The Age of Goethe-Weimar 1775 to 1805",
+            "Credits": 3,
+            "Axle": "INT",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "GER 4564": {
+            "Name": "Pleasures and Perils in Nineteenth-Century Theatre",
+            "Credits": 3,
+            "Axle": "INT",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "GER 4565": {
+            "Name": "Revolutionizing Twentieth-Century Theatre",
+            "Credits": 3,
+            "Axle": "INT",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "GER 4566": {
+            "Name": "Nineteenth-Century Prose",
+            "Credits": 3,
+            "Axle": "INT",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "GER 4567": {
+            "Name": "The German Novel from Kafka to Grass",
+            "Credits": 3,
+            "Axle": "INT",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "GER 4569": {
+            "Name": "Writing under Censorship",
+            "Credits": 3,
+            "Axle": "HCA",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "GER 4574": {
+            "Name": "Who Am I? German Autobiographies",
+            "Credits": 3,
+            "Axle": "HCA",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "GER 4576": {
+            "Name": "Tales of Travel in Modern German Culture",
+            "Credits": 3,
+            "Axle": "INT",
+            "Pre-reqs": "GER 2310W",
+            "Co-reqs": 0
+        }
+    },
+    "GREEK": {
+        "GRK 1101": {
+            "Name": "Beginning Greek I",
+            "Credits": 3,
+            "Axle": "NONE",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "GRK 1102": {
+            "Name": "Beginning Greek II ",
+            "Credits": 3,
+            "Axle": "INT",
+            "Pre-reqs": "GRK 1101",
+            "Co-reqs": 0
+        },
+        "GRK 2201": {
+            "Name": "Intermediate Greek I: Classical and Koine Greek",
+            "Credits": 3,
+            "Axle": "INT",
+            "Pre-reqs": "GRK 1102",
+            "Co-reqs": 0
+        },
+        "GRK 2202": {
+            "Name": "Intermediate Greek II: Homer's Iliad",
+            "Credits": 3,
+            "Axle": "INT",
+            "Pre-reqs": "GRK 2201",
+            "Co-reqs": 0
+        },
+        "GRK 3010": {
+            "Name": "The Greek Orators",
+            "Credits": 3,
+            "Axle": "HCA",
+            "Pre-reqs": "GRK 2202",
+            "Co-reqs": 0
+        },
+        "GRK 3020": {
+            "Name": "The Greek Historians",
+            "Credits": 3,
+            "Axle": "HCA",
+            "Pre-reqs": "GRK 2202",
+            "Co-reqs": 0
+        },
+        "GRK 3040": {
+            "Name": "Readings in Plato and Aristotle",
+            "Credits": 3,
+            "Axle": "HCA",
+            "Pre-reqs": "GRK 2202",
+            "Co-reqs": 0
+        },
+        "GRK 3100": {
+            "Name": "The Greek Tragedians",
+            "Credits": 3,
+            "Axle": "HCA",
+            "Pre-reqs": "GRK 2202",
+            "Co-reqs": 0
+        },
+        "GRK 3110": {
+            "Name": "Greek Lyric Poetry",
+            "Credits": 3,
+            "Axle": "HCA",
+            "Pre-reqs": "GRK 2202",
+            "Co-reqs": 0
+        },
+        "GRK 3200": {
+            "Name": "Early Christian Writers",
+            "Credits": 3,
+            "Axle": "HCA",
+            "Pre-reqs": "GRK 2201",
+            "Co-reqs": 0
+        },
+        "GRK 3890": {
+            "Name": "Special Topics in Greek Literature",
+            "Credits": 3,
+            "Axle": "HCA",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        }
+    },
+    "Hebrew": {
+        "HEBR 1101": {
+            "Name": "Elementary Hebrew",
+            "Credits": 3,
+            "Axle": "NONE",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "HEBR 1102": {
+            "Name": "Elementary Hebrew II",
+            "Credits": 3,
+            "Axle": "INT",
+            "Pre-reqs": "HEBR 1101",
+            "Co-reqs": 0
+        },
+        "HEBR 2201": {
+            "Name": "Intermediate Hebrew",
+            "Credits": 3,
+            "Axle": "INT",
+            "Pre-reqs": "HEBR 1102",
+            "Co-reqs": 0
+        },
+        "HEBR 2202": {
+            "Name": "Intermediate Hebrew II ",
+            "Credits": 3,
+            "Axle": "INT",
+            "Pre-reqs": "HEBR 2201",
+            "Co-reqs": 0
+        },
+        "HEBR 2301": {
+            "Name": "Advanced Hebrew Grammar",
+            "Credits": 3,
+            "Axle": "INT",
+            "Pre-reqs": "HEBR 2202",
+            "Co-reqs": 0
+        },
+        "HEBR 2302": {
+            "Name": "Advanced Hebrew Composition",
+            "Credits": 3,
+            "Axle": "INT",
+            "Pre-reqs": "HEBR 2301",
+            "Co-reqs": 0
+        }
+    },
+    "Hindi-Urdu": {
+        "HNUR 1101": {
+            "Name": "Elementary Hind-Urdu I ",
+            "Credits": 5,
+            "Axle": "NONE",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "HNUR 1102": {
+            "Name": "Elementary Hindi-Urdu II",
+            "Credits": 5,
+            "Axle": "INT",
+            "Pre-reqs": "HNUR 1101",
+            "Co-reqs": 0
+        },
+        "HNUR 2201": {
+            "Name": "Intermediate Hindi-Urdu I",
+            "Credits": 5,
+            "Axle": "INT",
+            "Pre-reqs": "HNUR 1102",
+            "Co-reqs": 0
+        },
+        "HNUR 2202": {
+            "Name": "Intermediate Hindi-Urdu II",
+            "Credits": 5,
+            "Axle": "INT",
+            "Pre-reqs": "HNUR 2201",
+            "Co-reqs": 0
+        },
+        "HNUR 3301": {
+            "Name": "Advanced Hindi-Urdu I",
+            "Credits": 3,
+            "Axle": "INT",
+            "Pre-reqs": "HNUR 2202",
+            "Co-reqs": 0
+        },
+        "HNUR 3302": {
+            "Name": "Advanced Hindi-Urdu II",
+            "Credits": 3,
+            "Axle": "INT",
+            "Pre-reqs": "HNUR 3301",
+            "Co-reqs": 0
+        }
+    },
+    "History": {
+        "HIST 1001": {
+            "Name": "History Commons Seminar",
+            "Credits": 1,
+            "Axle": "NONE",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "HIST 1038": {
+            "Name": "Language(s) in the World",
+            "Credits": 3,
+            "Axle": "INT",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "HIST 1039": {
+            "Name": "Global History 1453 to Present",
+            "Credits": 3,
+            "Axle": "INT",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "HIST 1040W": {
+            "Name": "Revolutions in the Modern World",
+            "Credits": 3,
+            "Axle": "INT, WRITING",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "HIST 1050": {
+            "Name": "East Asia since 1800",
+            "Credits": 3,
+            "Axle": "INT",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "HIST 1060": {
+            "Name": "Premodern China",
+            "Credits": 3,
+            "Axle": "INT",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "HIST 1070": {
+            "Name": "CHina from Empire to the People's Republic",
+            "Credits": 3,
+            "Axle": "INT",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "HIST 1080": {
+            "Name": "Premodern Japan",
+            "Credits": 3,
+            "Axle": "INT",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "HIST 1090": {
+            "Name": "Modern Japan",
+            "Credits": 3,
+            "Axle": "INT",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "HIST 1111": {
+            "Name": "History FYS ",
+            "Credits": 3,
+            "Axle": "WRITING",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "HIST 1160": {
+            "Name": "Modern South Asia",
+            "Credits": 3,
+            "Axle": "INT",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "HIST 1161": {
+            "Name": "India Before Europe: 3000 B.C.E.-1750 C.E.",
+            "Credits": 3,
+            "Axle": "INT",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "HIST 1190": {
+            "Name": "A History of Islam",
+            "Credits": 3,
+            "Axle": "INT",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "HIST 1200": {
+            "Name": "The Arab Spring",
+            "Credits": 3,
+            "Axle": "INT",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "HIST 1269": {
+            "Name": "Intrdouction to African Studies",
+            "Credits": 3,
+            "Axle": "INT",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "HIST 1270W": {
+            "Name": "Sub-Saharan Africa: 1400-1800",
+            "Credits": 3,
+            "Axle": "INT, WRITING",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "HIST 1280": {
+            "Name": "Africa Since 1800: The Revolutionary Years",
+            "Credits": 3,
+            "Axle": "INT",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "HIST 1281W": {
+            "Name": "The Making of African Cities: Histories of Globalization and Migration",
+            "Credits": 3,
+            "Axle": "INT, WRITING",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "HIST 1345": {
+            "Name": "The World of Rome",
+            "Credits": 3,
+            "Axle": "INT",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "HIST 1350": {
+            "Name": "Western Civilization to 1700",
+            "Credits": 3,
+            "Axle": "INT",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "HIST 1335W": {
+            "Name": "Innovation and Renovation in Renaissance Europe",
+            "Credits": 3,
+            "Axle": "HCA, WRITING",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "HIST 1360": {
+            "Name": "Western Civilization since 1700",
+            "Credits": 3,
+            "Axle": "INT",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "HIST 1368": {
+            "Name": "Rio de Janeiro: Culture and Citizenship in the Marvelous City",
+            "Credits": 3,
+            "Axle": "INT",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "HIST 1370": {
+            "Name": "Colonial Latin America",
+            "Credits": 3,
+            "Axle": "INT",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "HIST 1378": {
+            "Name": "Social Movements in Latin America, 1780-1912",
+            "Credits": 3,
+            "Axle": "P",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "HIST 1379W": {
+            "Name": "The Inquistition in the New World: Law, Deviance, and Heresy in Colonial Mexico",
+            "Credits": 3,
+            "Axle": "P, WRITING",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "HIST 1380": {
+            "Name": "Modern Latin AMerica",
+            "Credits": 3,
+            "Axle": "INT",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "HIST 1383": {
+            "Name": "Slave Resistance in the Americas",
+            "Credits": 3,
+            "Axle": "INT",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "HIST 1385W": {
+            "Name": "Disease and Disorder in the Atlatnic World",
+            "Credits": 3,
+            "Axle": "INT, WRITING",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "HIST 1390": {
+            "Name": "America to 1776: Discovery to Revolution",
+            "Credits": 3,
+            "Axle": "US",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "HIST 1395": {
+            "Name": "The Underground Railroad",
+            "Credits": 3,
+            "Axle": "US",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "HIST 1400": {
+            "Name": "U.S. 1776-1877: Revolution to Civil War and Reconstruction",
+            "Credits": 3,
+            "Axle": "US",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "HIST 1410": {
+            "Name": "U.S. 1877-1945: Reconstruction through World War II ",
+            "Credits": 3,
+            "Axle": "US",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "HIST 1420": {
+            "Name": "U.S. Post-1945: Cold War to the Present",
+            "Credits": 3,
+            "Axle": "US",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "HIST 1422W": {
+            "Name": "FDR, the New Deal, & War",
+            "Credits": 3,
+            "Axle": "US, WRITING",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "HIST 1425W": {
+            "Name": "Body, Mind, and Soul: Elvis, Dylan SPringsteen, and Postwar America",
+            "Credits": 3,
+            "Axle": "US, WRITING",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "HIST 1427W": {
+            "Name": "The united States in the Seventies",
+            "Credits": 3,
+            "Axle": "US, WRITING",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "HIST 1430W": {
+            "Name": "North American Indians and the Environment",
+            "Credits": 3,
+            "Axle": "US, WRITING",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "HIST 1438": {
+            "Name": "African American History to 1865",
+            "Credits": 3,
+            "Axle": "US",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "HIST 1440": {
+            "Name": "AFrican American HIstory since 1877",
+            "Credits": 3,
+            "Axle": "US",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "HIST 1469": {
+            "Name": "Introduction to Sports History",
+            "Credits": 3,
+            "Axle": "US",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "HIST 1470": {
+            "Name": "History of Exploration",
+            "Credits": 3,
+            "Axle": "UINT",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "HIST 1480": {
+            "Name": "The Darwinian Revolution",
+            "Credits": 3,
+            "Axle": "P",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "HIST 1500": {
+            "Name": "History of Modern Sciences and Society",
+            "Credits": 3,
+            "Axle": "P",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "HIST 1510": {
+            "Name": "The Scientific Revolution",
+            "Credits": 3,
+            "Axle": "P",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "HIST 1510L": {
+            "Name": "Scientific Revolution Digital History Lab",
+            "Credits": 1,
+            "Axle": "NONE",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "HIST 1515": {
+            "Name": "Virtual Reality and the Humanities",
+            "Credits": 3,
+            "Axle": "HCA",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "HIST 1520": {
+            "Name": "Science and the SEa",
+            "Credits": 3,
+            "Axle": "P",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "HIST 1580": {
+            "Name": "Crime and Punishment in Early Modern Europe 1400-1800 CE ",
+            "Credits": 3,
+            "Axle": "HCA",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "HIST 1582W": {
+            "Name": "Witchcraft, Supernatural Phenomena, and Print Culture in England, 1558-1650",
+            "Credits": 3,
+            "Axle": "INT, WRITING",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "HIST 1584W": {
+            "Name": "Foreigners and Citizens: Law and Rights in Modern Europe ",
+            "Credits": 3,
+            "Axle": "INT, WRITING",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "HIST 1586W": {
+            "Name": "Nazi Germany, the Holocaust, and Digital Humanities",
+            "Credits": 3,
+            "Axle": "INT, WRITING",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "HIST 1600": {
+            "Name": "European Economic History, 1000-1700",
+            "Credits": 3,
+            "Axle": "SBS",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "HIST 1640": {
+            "Name": "History of American Capitalism",
+            "Credits": 3,
+            "Axle": "US",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "HIST 1660": {
+            "Name": "American Enterprise",
+            "Credits": 3,
+            "Axle": "US",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "HIST 1665": {
+            "Name": "Capital, Labor, and Democracy in the United States",
+            "Credits": 3,
+            "Axle": "US",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "HIST 1667": {
+            "Name": "Famous AMerican Trials",
+            "Credits": 3,
+            "Axle": "US",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "HIST 1690": {
+            "Name": "Sea Power in History",
+            "Credits": 3,
+            "Axle": "US",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "HIST 1691": {
+            "Name": "Evolution of Warfare",
+            "Credits": 3,
+            "Axle": "NONE",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "HIST 1693": {
+            "Name": "Fundamentals of Manuever Warfare",
+            "Credits": 3,
+            "Axle": "NONE",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "HIST 1699": {
+            "Name": "Militarization in 20th Century American Society",
+            "Credits": 3,
+            "Axle": "US",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "HIST 1700": {
+            "Name": "Western Military History to 1815",
+            "Credits": 3,
+            "Axle": "INT",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "HIST 1710W": {
+            "Name": "Writing for Social Change",
+            "Credits": 3,
+            "Axle": "HCA, WRITING",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "HIST 1725W": {
+            "Name": "United States and the Middle East",
+            "Credits": 3,
+            "Axle": "US, WRITING",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "HIST 1730": {
+            "Name": "The U.S. and the COld War",
+            "Credits": 3,
+            "Axle": "US",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "HIST 1740": {
+            "Name": "The U.S. and the Vietnam War",
+            "Credits": 3,
+            "Axle": "US",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "HIST 1760": {
+            "Name": "History of Christian Traditions",
+            "Credits": 3,
+            "Axle": "HCA",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "HIST 1770": {
+            "Name": "United States' Religious History",
+            "Credits": 3,
+            "Axle": "US",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "HIST 1780W": {
+            "Name": "Self and Soceity in the United States",
+            "Credits": 3,
+            "Axle": "HCA, WRITING",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "HIST 1882W": {
+            "Name": "Japan Through Historical Fiction",
+            "Credits": 3,
+            "Axle": "INT, WRITING",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "HIST 2100": {
+            "Name": "Politics and Catastrophe in Modern China",
+            "Credits": 3,
+            "Axle": "INT",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "HIST 2102": {
+            "Name": "Introduction to Brazil",
+            "Credits": 3,
+            "Axle": "INT",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "HIST 2105": {
+            "Name": "Chinese Thought",
+            "Credits": 3,
+            "Axle": "INT",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "HIST 2106": {
+            "Name": "A Global History of Tea",
+            "Credits": 3,
+            "Axle": "INT",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "HIST 2110": {
+            "Name": "Crisis Simulation in East Asia",
+            "Credits": 3,
+            "Axle": "INT",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "HIST 2115": {
+            "Name": "Play and Pleasure in Early Modern Japan",
+            "Credits": 3,
+            "Axle": "INT",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "HIST 2120": {
+            "Name": "Japan's War and Postwar, 1931-1989",
+            "Credits": 3,
+            "Axle": "INT",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "HIST 2130": {
+            "Name": "Russia: Old Regime to Revolution",
+            "Credits": 3,
+            "Axle": "INT",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "HIST 2135": {
+            "Name": "Russia: The U.S.S.R. and Afterward",
+            "Credits": 3,
+            "Axle": "INT",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "HIST 2137": {
+            "Name": "The Mandelas: Biography, Struggles, and Legacies",
+            "Credits": 3,
+            "Axle": "INT",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "HIST 2138": {
+            "Name": "Blood Diamonds, Blood Oil, Commodities, and Conflicts in Africa",
+            "Credits": 3,
+            "Axle": "INT",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "HIST 2139": {
+            "Name": "Technology, Nature and Power in AFrica",
+            "Credits": 3,
+            "Axle": "P",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "HIST 2140": {
+            "Name": "The Mughal World",
+            "Credits": 3,
+            "Axle": "INT",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "HIST 2150": {
+            "Name": "India and the Indian Ocean",
+            "Credits": 3,
+            "Axle": "INT",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "HIST 2154": {
+            "Name": "Arabia Through the Ages",
+            "Credits": 3,
+            "Axle": "INT",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "HIST 2155": {
+            "Name": "Muhammad and Early Islam",
+            "Credits": 3,
+            "Axle": "INT",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "HIST 2160": {
+            "Name": "Medicine in Islam",
+            "Credits": 3,
+            "Axle": "INT",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "HIST 2170": {
+            "Name": "Islam and the Crusades",
+            "Credits": 3,
+            "Axle": "P",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "HIST 2180": {
+            "Name": "Islamic Narratives: Narratives of Islam",
+            "Credits": 3,
+            "Axle": "HCA",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "HIST 2190": {
+            "Name": "Last Empire of Islam",
+            "Credits": 3,
+            "Axle": "INT",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "HIST 2220": {
+            "Name": "MEdieval and Renaissance Italy, 1000-1700",
+            "Credits": 3,
+            "Axle": "HCA",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "HIST 2230": {
+            "Name": "Medieval Europe, 1000-1350",
+            "Credits": 3,
+            "Axle": "INT",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "HIST 2237": {
+            "Name": "Democracy & Dictatorship: Ancient Politics",
+            "Credits": 3,
+            "Axle": "SBS",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "HIST 2238": {
+            "Name": "Crime and Criminal Law in Western Antiquity",
+            "Credits": 3,
+            "Axle": "SBS",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "HIST 2239": {
+            "Name": "Sex and the Citizen: Women and the Law in United States",
+            "Credits": 3,
+            "Axle": "US",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "HIST 2240": {
+            "Name": "Sex Law",
+            "Credits": 3,
+            "Axle": "INT",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "HIST 2250": {
+            "Name": "Reformation Europe",
+            "Credits": 3,
+            "Axle": "INT",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "HIST 2260": {
+            "Name": "Revolutionary Europe, 1789-1815",
+            "Credits": 3,
+            "Axle": "INT",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "HIST 2270": {
+            "Name": "Nineteenth-Century Europe",
+            "Credits": 3,
+            "Axle": "INT",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "HIST 2280": {
+            "Name": "Europe, 1900-1945",
+            "Credits": 3,
+            "Axle": "INT",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "HIST 2290": {
+            "Name": "Europe since 1945",
+            "Credits": 3,
+            "Axle": "INT",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "HIST 2293": {
+            "Name": "Muslims in Modern Europe",
+            "Credits": 3,
+            "Axle": "HCA",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "HIST 2295": {
+            "Name": "The Migrant Crisis in the Netherlands",
+            "Credits": 3,
+            "Axle": "INT",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "HIST 2300": {
+            "Name": "Twentieth-Century Germany",
+            "Credits": 3,
+            "Axle": "INT",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "HIST 2310": {
+            "Name": "France: Renaissance to REvolution",
+            "Credits": 3,
+            "Axle": "INT",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "HIST 2340": {
+            "Name": "Modern France",
+            "Credits": 3,
+            "Axle": "INT",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "HIST 2380": {
+            "Name": "Shakespeare's Histories and History",
+            "Credits": 3,
+            "Axle": "HCA",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "HIST 2382": {
+            "Name": "The Rise of the Tudors",
+            "Credits": 3,
+            "Axle": "HCA",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "HIST 2383": {
+            "Name": "A Monarchy Dissolved? From Good Queen Bess to the English Civil War",
+            "Credits": 3,
+            "Axle": "HCA",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "HIST 2385": {
+            "Name": "The Real Tudors",
+            "Credits": 3,
+            "Axle": "HCA",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "HIST 2410": {
+            "Name": "Victorian England",
+            "Credits": 3,
+            "Axle": "INT",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "HIST 2413W": {
+            "Name": "Global History of Waste",
+            "Credits": 3,
+            "Axle": "P, WRITING",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "HIST 2450": {
+            "Name": "Reform, Crisis, and Independence in Latin America, 1700-1820",
+            "Credits": 3,
+            "Axle": "INT",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "HIST 2457": {
+            "Name": "Drug Trafficking and Society in Latin America",
+            "Credits": 3,
+            "Axle": "INT",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "HIST 2470": {
+            "Name": "Revolutionary Mexico",
+            "Credits": 3,
+            "Axle": "INT",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "HIST 2480": {
+            "Name": "Central America",
+            "Credits": 3,
+            "Axle": "INT",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "HIST 2490": {
+            "Name": "Brazilian Civilization",
+            "Credits": 3,
+            "Axle": "INT",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "HIST 2510": {
+            "Name": "Reform and Revolution in Latin America",
+            "Credits": 3,
+            "Axle": "INT",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "HIST 2530": {
+            "Name": "African Religions in Americas",
+            "Credits": 3,
+            "Axle": "INT",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "HIST 2535": {
+            "Name": "Latin America and the United States",
+            "Credits": 3,
+            "Axle": "INT",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "HIST 2540": {
+            "Name": "Race and Nation in Latin AMerica",
+            "Credits": 3,
+            "Axle": "INT",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "HIST 2542": {
+            "Name": "Cuba and the United States",
+            "Credits": 3,
+            "Axle": "INT",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "HIST 2544": {
+            "Name": "Panama: Global Crossraods",
+            "Credits": 3,
+            "Axle": "INT",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "HIST 2570": {
+            "Name": "Caribbean History, 1492-1983",
+            "Credits": 3,
+            "Axle": "INT",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "HIST 2580": {
+            "Name": "American Indian HIstory Before 1850",
+            "Credits": 3,
+            "Axle": "US",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "HIST 2590": {
+            "Name": "American Indian History Since 1850",
+            "Credits": 3,
+            "Axle": "US",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "HIST 2595W": {
+            "Name": "Pirates, Plantations, and Poewr The English Atlantic WOrld, 1500-1688",
+            "Credits": 3,
+            "Axle": "US, WRITING",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "HIST 2610": {
+            "Name": "The Founding Generation",
+            "Credits": 3,
+            "Axle": "US",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "HIST 2620": {
+            "Name": "The Old South",
+            "Credits": 3,
+            "Axle": "US",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "HIST 2630": {
+            "Name": "The NEw South",
+            "Credits": 3,
+            "Axle": "US",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "HIST 2640": {
+            "Name": "Appalachia",
+            "Credits": 3,
+            "Axle": "US",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "HIST 2650": {
+            "Name": "The U.S. in the Era of the Civil War",
+            "Credits": 3,
+            "Axle": "US",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "HIST 2655": {
+            "Name": "Historic Black Nashville",
+            "Credits": 3,
+            "Axle": "US",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "HIST 2658": {
+            "Name": "Law and Society of the SEas, 1400-1900",
+            "Credits": 3,
+            "Axle": "INT",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "HIST 2660": {
+            "Name": "The Birth of Modern Capitalism and Human Trafficking ",
+            "Credits": 3,
+            "Axle": "INT",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "HIST 2662": {
+            "Name": "Slavery in the United States",
+            "Credits": 3,
+            "Axle": "P",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "HIST 2684": {
+            "Name": "The History of Black Power",
+            "Credits": 3,
+            "Axle": "US",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "HIST 2685": {
+            "Name": "Race and U.S. Visual Culture",
+            "Credits": 3,
+            "Axle": "US",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "HIST 2686": {
+            "Name": "Race, Rights, and the American Dream",
+            "Credits": 3,
+            "Axle": "US",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "HIST 2690": {
+            "Name": "The Civil Rights Movement",
+            "Credits": 3,
+            "Axle": "US",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "HIST 2691": {
+            "Name": "Barack Obama: Man and President",
+            "Credits": 3,
+            "Axle": "US",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "HIST 2692W": {
+            "Name": "Biographies of STruggle",
+            "Credits": 3,
+            "Axle": "US, WRITING",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "HIST 2700": {
+            "Name": "The U.S. and the World",
+            "Credits": 3,
+            "Axle": "US",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "HIST 2710": {
+            "Name": "The U.S. as a World power",
+            "Credits": 3,
+            "Axle": "US",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "HIST 2720": {
+            "Name": "World War II ",
+            "Credits": 3,
+            "Axle": "INT",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "HIST 2721": {
+            "Name": "Globalizing AMerican History, 1870-1940",
+            "Credits": 3,
+            "Axle": "US",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "HIST 2722": {
+            "Name": "Globalizing American History 1940-2010",
+            "Credits": 3,
+            "Axle": "US",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "HIST 2725": {
+            "Name": "Race, Power, and Modernity",
+            "Credits": 3,
+            "Axle": "US",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "HIST 2730": {
+            "Name": "American Masculinities",
+            "Credits": 3,
+            "Axle": "US",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "HIST 2735": {
+            "Name": "Debating America in the World, 1890-2010",
+            "Credits": 3,
+            "Axle": "US",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "HIST 2740": {
+            "Name": "Immigration, the United States, and the World",
+            "Credits": 3,
+            "Axle": "US",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "HIST 2749": {
+            "Name": "American Thought to 1865",
+            "Credits": 3,
+            "Axle": "US",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "HIST 2750": {
+            "Name": "American Intellectual History since 1865",
+            "Credits": 3,
+            "Axle": "HCA",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "HIST 2752": {
+            "Name": "African American Intellectual History Since 1776",
+            "Credits": 3,
+            "Axle": "US",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "HIST 2760": {
+            "Name": "The Historian and the Law",
+            "Credits": 3,
+            "Axle": "SBS",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "HIST 2780": {
+            "Name": "Superhuman Civilization",
+            "Credits": 3,
+            "Axle": "P",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "HIST 2800": {
+            "Name": "Modern Medicine",
+            "Credits": 3,
+            "Axle": "P",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "HIST 2810": {
+            "Name": "Women, Health, and Sexuality",
+            "Credits": 3,
+            "Axle": "US",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "HIST 2835": {
+            "Name": "Sexuality and Gender in the Western Tradition to 1700",
+            "Credits": 3,
+            "Axle": "P",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "HIST 2840": {
+            "Name": "Sexuality and Gender in the Western Tradition since 1700",
+            "Credits": 3,
+            "Axle": "P",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "HIST 2845": {
+            "Name": "Race, Gender, and Slave Emancipation",
+            "Credits": 3,
+            "Axle": "INT",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "HIST 2855": {
+            "Name": "Women and Gender in the U.S. to 1865",
+            "Credits": 3,
+            "Axle": "US",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "HIST 2860": {
+            "Name": "Women and Gender in the U.S. since 1865",
+            "Credits": 3,
+            "Axle": "US",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "HIST 3000W": {
+            "Name": "The History Workshop",
+            "Credits": 3,
+            "Axle": "SBS",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "HIST 3010": {
+            "Name": "Pornography and Prostitution in History",
+            "Credits": 3,
+            "Axle": "P",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "HIST 3040": {
+            "Name": "Health and the African American Experience",
+            "Credits": 3,
+            "Axle": "US",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "HIST 3045W": {
+            "Name": "Eugenics in the U.S., 1865-present",
+            "Credits": 3,
+            "Axle": "US",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "HIST 3050": {
+            "Name": "Innovation and Renovation in Renaissance Europe",
+            "Credits": 3,
+            "Axle": "P",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "HIST 3070W": {
+            "Name": "Science, Technology, and Modernity",
+            "Credits": 3,
+            "Axle": "P, WRITING",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "HIST 3090": {
+            "Name": "Tokyo: History and Image",
+            "Credits": 3,
+            "Axle": "INT",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "HIST 3100": {
+            "Name": "Pirates of the Carribean",
+            "Credits": 3,
+            "Axle": "INT",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "HIST 3112W": {
+            "Name": "China and the World",
+            "Credits": 3,
+            "Axle": "INT, WRITING",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "HIST 3120": {
+            "Name": "Weimar Germany: Modernism and Modernity, 1918-1933",
+            "Credits": 3,
+            "Axle": "HCA",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "HIST 3140": {
+            "Name": "History of New Orleans",
+            "Credits": 3,
+            "Axle": "US",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "HIST 3150": {
+            "Name": "Cities of Europe and the Middle East",
+            "Credits": 3,
+            "Axle": "INT",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "HIST 3170": {
+            "Name": "The Federalist Papers",
+            "Credits": 3,
+            "Axle": "US",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "HIST 3180": {
+            "Name": "Making of Modern Paris",
+            "Credits": 3,
+            "Axle": "INT",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "HIST 3190": {
+            "Name": "Religion, Culture, and Commerce: The World Economy in Historical PerspectivE",
+            "Credits": 3,
+            "Axle": "HCA",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "HIST 3200": {
+            "Name": "Poverty, Economy, and Society in Sub-Saharan Africa",
+            "Credits": 3,
+            "Axle": "INT",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "HIST 3209": {
+            "Name": "Sex, Marriage, and the Body in Islamic Law",
+            "Credits": 3,
+            "Axle": "P",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "HIST 3210": {
+            "Name": "Muslims, Christians, and Jews in Medieval Spain",
+            "Credits": 3,
+            "Axle": "INT",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "HIST 3220W": {
+            "Name": "Images of India",
+            "Credits": 3,
+            "Axle": "INT, WRITING",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "HIST 3230": {
+            "Name": "The Art of Empire",
+            "Credits": 3,
+            "Axle": "HCA",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "HIST 3240W": {
+            "Name": "Culture of the Sixties in Europe and the U.S.",
+            "Credits": 3,
+            "Axle": "INT, WRITING",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "HIST 3260": {
+            "Name": "Revolutionary England, 1603-1710",
+            "Credits": 3,
+            "Axle": "HCA",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "HIST 3270": {
+            "Name": "Religion and the Occult in Early Modern Europe",
+            "Credits": 3,
+            "Axle": "HCA",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "HIST 3275": {
+            "Name": "Religion and Popular Culture in Nineteenth-Century Europe",
+            "Credits": 3,
+            "Axle": "SBS",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "HIST 3280": {
+            "Name": "Popular Cultures in Modern Latin America",
+            "Credits": 3,
+            "Axle": "INT",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        "HIST 3746": {
+            "Name": "Workshop in English and History",
+            "Credits": 3,
+            "Axle": "NONE",
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        }
+    }
+}
