@@ -8,7 +8,7 @@ const Searchbar = (props) => (
     maxWidth='sm'
     style={{paddingBottom: '3vh'}}>
 
-    <form onSubmit={props.onSubmit}>
+    <form onSubmit={e => props.onSubmit(e)}>
       <TextField
         label='Search...'
         type='search'

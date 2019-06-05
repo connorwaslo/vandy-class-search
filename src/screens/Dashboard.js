@@ -29,8 +29,6 @@ class Dashboard extends Component {
     }
   };
 
-  // allCourses = courses;
-
   render() {
     return (
       <div style={{width: '100vw', height: '100vh'}}>
@@ -68,30 +66,40 @@ class Dashboard extends Component {
 
     return cards.map(course => {
       return course;
-    })
-    /*return validCourses.map((major, i) => {
-      console.log('Major', major);
-        major.map((course, j) => {
-          console.log('Course:', course);
-          return (
-            <ClassCard
-              key={i}
-              major='Major'
-              code={course['Code']}
-              name={course['Name']}
-              credits={course['Credits']}
-              axle={course['Axle']}
-              prereqs={course['Pre-reqs']}
-              coreqs={course['Co-reqs']}/>
-          )
-        });
-      }
-    )*/
+    });
   };
 
-  _submitSearch = () => {
-    const {search} = this.state;
+  _submitSearch = event => {
+    event.preventDefault();
 
+    const {search, validCourses} = this.state;
+    const allCourses = courses;
+
+    // Loop through all majors
+    // Loop through all classes and check if search in either/both CODE & NAME
+    // If so, add major name as key to valid states, append class to key obj
+
+    let results = {};
+
+    let majors = Object.keys(allCourses);
+    majors.forEach(major => {
+      let classes = allCourses[major];
+      classes.forEach(course => {
+        // Check if search term included in course code or name
+        if (course['Code'].includes(search) || course['Name'].includes(search)) {
+          // If this major is already included in valid courses
+          if (Object.keys(results).includes(major)) {
+            results[major].push(course);
+          } else {
+            results[major] = [course];
+          }
+        }
+      });
+    });
+
+    this.setState({
+      validCourses: results
+    });
   };
 
   _handleChange = event => {
