@@ -14,12 +14,13 @@ firebase.initializeApp(config);
 function App() {
   return (
     <Router>
-      <Container>
+      {/*<Container>
         <Route exact path='/' component={Signup} />
         <Route path='/login' component={Login} />
         <Route path='/profile-setup' component={ProfileQuestions} />
-      </Container>
+      </Container>*/}
 
+      <Route exact path='/' component={Signup} />
       <Route path='/dashboard' component={Dashboard} />
     </Router>
   );

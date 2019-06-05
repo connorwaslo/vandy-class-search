@@ -12,6 +12,10 @@ class Signup extends Component {
     confPass: ''
   };
 
+  componentDidMount() {
+    this.props.history.push('/dashboard');
+  }
+
   render() {
     return (
       <Container component='main'>

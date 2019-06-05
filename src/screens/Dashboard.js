@@ -48,18 +48,21 @@ class Dashboard extends Component {
 
     let cards = [];
 
+    let keyIndex = 0
     keys.forEach(key => {
       const courses = validCourses[key];
-      courses.forEach((course, i) => {
+      courses.forEach(course => {
           cards.push(<ClassCard
-            key={i}
+            key={keyIndex}
             major={key}
             code={course['Code']}
             name={course['Name']}
             credits={course['Credits']}
             axle={course['Axle']}
             prereqs={course['Pre-reqs']}
-            coreqs={course['Co-reqs']}/>)
+            coreqs={course['Co-reqs']}/>);
+
+          keyIndex++;
         }
       )
     });
@@ -72,7 +75,7 @@ class Dashboard extends Component {
   _submitSearch = event => {
     event.preventDefault();
 
-    const {search, validCourses} = this.state;
+    const {search} = this.state;
     const allCourses = courses;
 
     // Loop through all majors
@@ -86,7 +89,8 @@ class Dashboard extends Component {
       let classes = allCourses[major];
       classes.forEach(course => {
         // Check if search term included in course code or name
-        if (course['Code'].includes(search) || course['Name'].includes(search)) {
+        // Normalize to lower case
+        if (course['Code'].toLowerCase().includes(search.toLowerCase()) || course['Name'].toLowerCase().includes(search.toLowerCase())) {
           // If this major is already included in valid courses
           if (Object.keys(results).includes(major)) {
             results[major].push(course);
