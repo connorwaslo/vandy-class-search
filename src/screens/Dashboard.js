@@ -8,22 +8,25 @@ import {Container} from "@material-ui/core";
 class Dashboard extends Component {
   state = {
     search: '',
-    validCourses: [{
-      "Code": "AADS 1010",
-      "Name": "Introdution to African American and Diaspora Studies ",
-      "Credits": 3,
-      "Axle": "P",
-      "Pre-reqs": 0,
-      "Co-reqs": 0
-    },
-      {
-        "Code": "AADS 1016",
-        "Name": "Race Matters",
-        "Credits": 3,
-        "Axle": "US",
-        "Pre-reqs": 0,
-        "Co-reqs": 0
-      }]
+    validCourses: {
+      "AFRICAN AMERICAN AND DIASPORA STUDIES": [
+        {
+          "Code": "AADS 1010",
+          "Name": "Introdution to African American and Diaspora Studies ",
+          "Credits": 3,
+          "Axle": "P",
+          "Pre-reqs": 0,
+          "Co-reqs": 0
+        },
+        {
+          "Code": "AADS 1016",
+          "Name": "Race Matters",
+          "Credits": 3,
+          "Axle": "US",
+          "Pre-reqs": 0,
+          "Co-reqs": 0
+        }]
+    }
   };
 
   // allCourses = courses;
@@ -42,23 +45,52 @@ class Dashboard extends Component {
   }
 
   _renderCards = () => {
-    return this.state.validCourses.map((course, i) => {
-      console.log('Course:', course);
-        return (
-          <ClassCard
+    const {validCourses} = this.state;
+    const keys = Object.keys(validCourses);
+
+    let cards = [];
+
+    keys.forEach(key => {
+      const courses = validCourses[key];
+      courses.forEach((course, i) => {
+          cards.push(<ClassCard
             key={i}
+            major={key}
             code={course['Code']}
             name={course['Name']}
             credits={course['Credits']}
             axle={course['Axle']}
             prereqs={course['Pre-reqs']}
-            coreqs={course['Co-reqs']}/>
-        )
+            coreqs={course['Co-reqs']}/>)
+        }
+      )
+    });
+
+    return cards.map(course => {
+      return course;
+    })
+    /*return validCourses.map((major, i) => {
+      console.log('Major', major);
+        major.map((course, j) => {
+          console.log('Course:', course);
+          return (
+            <ClassCard
+              key={i}
+              major='Major'
+              code={course['Code']}
+              name={course['Name']}
+              credits={course['Credits']}
+              axle={course['Axle']}
+              prereqs={course['Pre-reqs']}
+              coreqs={course['Co-reqs']}/>
+          )
+        });
       }
-    )
-  }
+    )*/
+  };
 
   _submitSearch = () => {
+    const {search} = this.state;
 
   };
 

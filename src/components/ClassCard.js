@@ -8,6 +8,9 @@ const ClassCard = (props) => (
     style={{marginTop: '2vh'}}>
     <CardContent>
       <Typography>
+        {props.major}
+      </Typography>
+      <Typography>
         {props.code} - {props.name}
       </Typography>
       <Typography>
