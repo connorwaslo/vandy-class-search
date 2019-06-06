@@ -8,6 +8,7 @@ import {Container} from "@material-ui/core";
 class Dashboard extends Component {
   state = {
     search: '',
+    searchType: 'generalSearch',
     validCourses: {
       "AFRICAN AMERICAN AND DIASPORA STUDIES": [
         {
@@ -34,7 +35,12 @@ class Dashboard extends Component {
       <div style={{width: '100vw', height: '100vh'}}>
         <Navbar/>
 
-        <Searchbar search={this.state.search} onSubmit={this._submitSearch} handleChange={this._handleChange}/>
+        <Searchbar
+          search={this.state.search}
+          searchType={this.state.searchType}
+          onSubmit={this._submitSearch}
+          handleChange={this._handleChange}
+          handleTypeChange={this._handleTypeChange} />
         <Container maxWidth='md'>
           {this._renderCards()}
         </Container>
@@ -110,7 +116,15 @@ class Dashboard extends Component {
     this.setState({
       search: event.target.value
     });
-  }
+  };
+
+  _handleTypeChange = event => {
+    console.log('Value:', event.target.value);
+    this.setState({
+      searchType: event.target.value
+    });
+    // console.log(this.state.searchTypes);
+  };
 }
 
 export default Dashboard;

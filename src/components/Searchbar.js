@@ -1,6 +1,7 @@
 import React from 'react';
 import {Button, Container} from '@material-ui/core';
 import TextField from "@material-ui/core/TextField";
+import SearchType from "./SearchType";
 
 // Todo: How the fuck can I vertically center this without making it too skinny??
 const Searchbar = (props) => (
@@ -19,6 +20,7 @@ const Searchbar = (props) => (
         style={{marginTop: '18vh'}}
         />
 
+      <SearchType values={props.searchType} handleChange={props.handleTypeChange} />
       <Button
         type='submit'
         variant='contained'
