@@ -123,6 +123,17 @@ class Dashboard extends Component {
             }
           }
         }
+        else if (searchType === 'axle') {
+          // AXLE Search = see what AXLE requirements it fulfills
+          if (axle.includes(searchTerm)) {
+            // If this major is already included in valid courses
+            if (Object.keys(results).includes(major)) {
+              results[major].push(course);
+            } else {
+              results[major] = [course];
+            }
+          }
+        }
       });
     });
 
