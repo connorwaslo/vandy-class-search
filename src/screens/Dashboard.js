@@ -81,7 +81,7 @@ class Dashboard extends Component {
   _submitSearch = event => {
     event.preventDefault();
 
-    const {search} = this.state;
+    const {search, searchType} = this.state;
     const allCourses = courses;
 
     // Loop through all majors
@@ -94,14 +94,33 @@ class Dashboard extends Component {
     majors.forEach(major => {
       let classes = allCourses[major];
       classes.forEach(course => {
-        // Check if search term included in course code or name
         // Normalize to lower case
-        if (course['Code'].toLowerCase().includes(search.toLowerCase()) || course['Name'].toLowerCase().includes(search.toLowerCase())) {
-          // If this major is already included in valid courses
-          if (Object.keys(results).includes(major)) {
-            results[major].push(course);
-          } else {
-            results[major] = [course];
+        let searchTerm = search.toLowerCase();
+        let code = course['Code'].toLowerCase();
+        let name = course['Name'].toLowerCase();
+        let axle = course['Axle'].toLowerCase();
+
+        // Check what type of search this is
+        if (searchType === 'generalSearch') {
+          // General search = find in class code or name
+          if (code.includes(searchTerm) || name.includes(searchTerm) || axle.includes(searchTerm)) {
+            // If this major is already included in valid courses
+            if (Object.keys(results).includes(major)) {
+              results[major].push(course);
+            } else {
+              results[major] = [course];
+            }
+          }
+        }
+        else if (searchType === 'classCode') {
+          // Code Search = find only in class code
+          if (code.includes(searchTerm)) {
+            // If this major is already included in valid courses
+            if (Object.keys(results).includes(major)) {
+              results[major].push(course);
+            } else {
+              results[major] = [course];
+            }
           }
         }
       });

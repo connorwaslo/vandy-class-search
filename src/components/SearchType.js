@@ -29,9 +29,6 @@ const SearchType = (props) => (
       <MenuItem value='classCode'>
         <em>Class Code</em>
       </MenuItem>
-      <MenuItem value='credits'>
-        <em>Credits</em>
-      </MenuItem>
     </Select>
     <FormHelperText>Search Type</FormHelperText>
   </FormControl>
