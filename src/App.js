@@ -3,10 +3,10 @@ import {BrowserRouter as Router, Route} from "react-router-dom";
 import config from './apis/firebase-config';
 import firebase from 'firebase/app';
 import './App.css';
-import {Container} from "@material-ui/core";
+// import {Container} from "@material-ui/core";
 import Signup from "./screens/Signup";
-import Login from "./screens/Login";
-import ProfileQuestions from "./screens/ProfileQuestions";
+// import Login from "./screens/Login";
+// import ProfileQuestions from "./screens/ProfileQuestions";
 import Dashboard from "./screens/Dashboard";
 
 firebase.initializeApp(config);

@@ -9,25 +9,7 @@ class Dashboard extends Component {
   state = {
     search: '',
     searchType: 'generalSearch',
-    validCourses: {
-      "AFRICAN AMERICAN AND DIASPORA STUDIES": [
-        {
-          "Code": "AADS 1010",
-          "Name": "Introdution to African American and Diaspora Studies ",
-          "Credits": 3,
-          "Axle": "P",
-          "Pre-reqs": 0,
-          "Co-reqs": 0
-        },
-        {
-          "Code": "AADS 1016",
-          "Name": "Race Matters",
-          "Credits": 3,
-          "Axle": "US",
-          "Pre-reqs": 0,
-          "Co-reqs": 0
-        }]
-    }
+    validCourses: {}
   };
 
   render() {
@@ -94,41 +76,52 @@ class Dashboard extends Component {
     majors.forEach(major => {
       let classes = allCourses[major];
       classes.forEach(course => {
-        // Normalize to lower case
-        let searchTerm = search.toLowerCase();
+        console.log(course);
+        // Normalize to lower case and split terms at every space
+        let wholeSearch = search.toLowerCase();
+        let searchTerms = wholeSearch.split(' ');
         let code = course['Code'].toLowerCase();
         let name = course['Name'].toLowerCase();
         let axle = course['Axle'].toLowerCase();
 
         // Check what type of search this is
         if (searchType === 'generalSearch') {
+          // Does course include all search terms in any order?
+          let codeHasEvery = searchTerms.every(term => code.includes(term));
+          let nameHasEvery = searchTerms.every(term => name.includes(term));
+          let axleHasEvery = searchTerms.every(term => axle.includes(term));
+
           // General search = find in class code or name
-          if (code.includes(searchTerm) || name.includes(searchTerm) || axle.includes(searchTerm)) {
+          if (codeHasEvery || nameHasEvery || axleHasEvery) {
             // If this major is already included in valid courses
             if (Object.keys(results).includes(major)) {
-              results[major].push(course);
+              if (!results[major].includes(course)) {
+                results[major].push(course);
+              }
             } else {
               results[major] = [course];
             }
           }
-        }
-        else if (searchType === 'classCode') {
+        } else if (searchType === 'classCode') {
           // Code Search = find only in class code
-          if (code.includes(searchTerm)) {
+          if (searchTerms.every(term => code.includes(term))) {
             // If this major is already included in valid courses
             if (Object.keys(results).includes(major)) {
-              results[major].push(course);
+              if (!results[major].includes(course)) {
+                results[major].push(course);
+              }
             } else {
               results[major] = [course];
             }
           }
-        }
-        else if (searchType === 'axle') {
+        } else if (searchType === 'axle') {
           // AXLE Search = see what AXLE requirements it fulfills
-          if (axle.includes(searchTerm)) {
+          if (searchTerms.every(term => axle.includes(term))) {
             // If this major is already included in valid courses
             if (Object.keys(results).includes(major)) {
-              results[major].push(course);
+              if (!results[major].includes(course)) {
+                results[major].push(course);
+              }
             } else {
               results[major] = [course];
             }
@@ -149,12 +142,14 @@ class Dashboard extends Component {
   };
 
   _handleTypeChange = event => {
-    console.log('Value:', event.target.value);
     this.setState({
       searchType: event.target.value
     });
-    // console.log(this.state.searchTypes);
   };
+
+  getSearchTerms = (terms, numTerms) => {
+    return terms.slice(0, numTerms);
+  }
 }
 
 export default Dashboard;
