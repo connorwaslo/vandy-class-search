@@ -67,7 +67,11 @@ class Dashboard extends Component {
       )
     });
 
-    return cards.map(course => {
+    let start = (page - 1) * this.PAGE_SIZE;
+    let end = start + this.PAGE_SIZE;
+    let curPage = cards.slice(start, end);
+
+    return curPage.map(course => {
       return course;
     });
   };
