@@ -7,7 +7,7 @@ import {Container} from "@material-ui/core";
 import ChangePage from "../components/ChangePage";
 
 class Dashboard extends Component {
-  PAGE_SIZE = 5;
+  PAGE_SIZE = 25;
   totalPages = 1;
   state = {
     search: '',
@@ -21,7 +21,7 @@ class Dashboard extends Component {
     console.log('Total Pages:', this.totalPages);
 
     return (
-      <div style={{width: '100vw', height: '100vh'}}>
+      <div style={{overflowX: 'hidden'}}>
         <Navbar/>
 
         <Searchbar
