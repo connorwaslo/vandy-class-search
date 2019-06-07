@@ -4,15 +4,22 @@ import Searchbar from "../components/Searchbar";
 import courses from '../courses';
 import ClassCard from "../components/ClassCard";
 import {Container} from "@material-ui/core";
+import ChangePage from "../components/ChangePage";
 
 class Dashboard extends Component {
+  PAGE_SIZE = 5;
+  totalPages = 1;
   state = {
     search: '',
     searchType: 'generalSearch',
-    validCourses: {}
+    validCourses: {},
+    page: 1
   };
 
   render() {
+    const {page} = this.state;
+    console.log('Total Pages:', this.totalPages);
+
     return (
       <div style={{width: '100vw', height: '100vh'}}>
         <Navbar/>
@@ -26,17 +33,22 @@ class Dashboard extends Component {
         <Container maxWidth='md'>
           {this._renderCards()}
         </Container>
+        <ChangePage
+          page={page}
+          numPages={this.totalPages}
+          handleBack={this._pageBack}
+          handleNext={this._pageNext}/>
       </div>
     )
   }
 
   _renderCards = () => {
-    const {validCourses} = this.state;
+    const {page, validCourses} = this.state;
     const keys = Object.keys(validCourses);
 
     let cards = [];
 
-    let keyIndex = 0
+    let keyIndex = 0;
     keys.forEach(key => {
       const courses = validCourses[key];
       courses.forEach(course => {
@@ -71,12 +83,12 @@ class Dashboard extends Component {
     // If so, add major name as key to valid states, append class to key obj
 
     let results = {};
+    let numResults = 0;
 
     let majors = Object.keys(allCourses);
     majors.forEach(major => {
       let classes = allCourses[major];
       classes.forEach(course => {
-        console.log(course);
         // Normalize to lower case and split terms at every space
         let wholeSearch = search.toLowerCase();
         let searchTerms = wholeSearch.split(' ');
@@ -93,6 +105,8 @@ class Dashboard extends Component {
 
           // General search = find in class code or name
           if (codeHasEvery || nameHasEvery || axleHasEvery) {
+            numResults++;
+
             // If this major is already included in valid courses
             if (Object.keys(results).includes(major)) {
               if (!results[major].includes(course)) {
@@ -103,6 +117,8 @@ class Dashboard extends Component {
             }
           }
         } else if (searchType === 'classCode') {
+          numResults++;
+
           // Code Search = find only in class code
           if (searchTerms.every(term => code.includes(term))) {
             // If this major is already included in valid courses
@@ -115,6 +131,8 @@ class Dashboard extends Component {
             }
           }
         } else if (searchType === 'axle') {
+          numResults++;
+
           // AXLE Search = see what AXLE requirements it fulfills
           if (searchTerms.every(term => axle.includes(term))) {
             // If this major is already included in valid courses
@@ -129,6 +147,8 @@ class Dashboard extends Component {
         }
       });
     });
+
+    this.totalPages = Math.trunc((numResults + this.PAGE_SIZE - 1) / this.PAGE_SIZE);
 
     this.setState({
       validCourses: results
@@ -147,8 +167,20 @@ class Dashboard extends Component {
     });
   };
 
-  getSearchTerms = (terms, numTerms) => {
-    return terms.slice(0, numTerms);
+  _pageBack = event => {
+    event.preventDefault();
+    let backPage = this.state.page - 1;
+    this.setState({
+      page: backPage
+    });
+  };
+
+  _pageNext = event => {
+    event.preventDefault()
+    let nextPage = this.state.page + 1;
+    this.setState({
+      page: nextPage
+    });
   }
 }
 
