@@ -1,10 +1,11 @@
 import React, {Component} from 'react';
 import Navbar from "../components/nav/Navbar";
-import Searchbar from "../components/Searchbar";
+import Searchbar from "../components/search/Searchbar";
 import courses from '../courses';
-import ClassCard from "../components/ClassCard";
+import ClassCard from "../components/search/ClassCard";
 import {Container} from "@material-ui/core";
-import ChangePage from "../components/ChangePage";
+import ChangePage from "../components/search/ChangePage";
+import SearchResults from "../components/search/SearchResults";
 
 class Dashboard extends Component {
   PAGE_SIZE = 25;
@@ -17,8 +18,7 @@ class Dashboard extends Component {
   };
 
   render() {
-    const {page} = this.state;
-    console.log('Total Pages:', this.totalPages);
+    const {page, validCourses} = this.state;
 
     return (
       <div style={{overflowX: 'hidden'}}>
@@ -31,7 +31,7 @@ class Dashboard extends Component {
           handleChange={this._handleChange}
           handleTypeChange={this._handleTypeChange} />
         <Container maxWidth='md'>
-          {this._renderCards()}
+          <SearchResults validCourses={validCourses} page={page} pageSize={this.PAGE_SIZE} />
         </Container>
         <ChangePage
           page={page}
@@ -41,40 +41,6 @@ class Dashboard extends Component {
       </div>
     )
   }
-
-  _renderCards = () => {
-    const {page, validCourses} = this.state;
-    const keys = Object.keys(validCourses);
-
-    let cards = [];
-
-    let keyIndex = 0;
-    keys.forEach(key => {
-      const courses = validCourses[key];
-      courses.forEach(course => {
-          cards.push(<ClassCard
-            key={keyIndex}
-            major={key}
-            code={course['Code']}
-            name={course['Name']}
-            credits={course['Credits']}
-            axle={course['Axle']}
-            prereqs={course['Pre-reqs']}
-            coreqs={course['Co-reqs']}/>);
-
-          keyIndex++;
-        }
-      )
-    });
-
-    let start = (page - 1) * this.PAGE_SIZE;
-    let end = start + this.PAGE_SIZE;
-    let curPage = cards.slice(start, end);
-
-    return curPage.map(course => {
-      return course;
-    });
-  };
 
   _submitSearch = event => {
     event.preventDefault();
