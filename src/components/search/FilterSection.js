@@ -51,10 +51,13 @@ class FilterSection extends Component {
 
   _handleTypeChange = (event, i) => {
     let newTypes = this.state.types;
+    console.log(i, 'Changing type from', newTypes[i], 'to', event.target.value);
     newTypes[i] = event.target.value;
     this.setState({
       types: newTypes
     });
+
+    console.log('types:', this.state.types);
   };
 }
 

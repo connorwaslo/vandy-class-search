@@ -14,7 +14,7 @@ class Searchbar extends React.Component {
 
         <div style={{marginTop: '18vh', alignContent: 'center', textAlign: 'center'}}>
           <div style={{display: 'flex', flexDirection: 'row'}}>
-            <SearchType values={this.props.searchType} handleChange={this.props.handleTypeChange}/>
+            <SearchType values={this.props.searchType} handleChange={(e) => this.props.handleTypeChange(e, this.props.index)}/>
 
             <TextField
               label='Search...'
