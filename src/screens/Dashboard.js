@@ -37,7 +37,8 @@ class Dashboard extends Component {
     )
   }
 
-  _submitSearch = (searches, types) => {
+  _submitSearch = (event, searches, types) => {
+    event.preventDefault();
     // Todo: Create a loop for searches and types rather than using the first value
     let search = searches[0];
     let searchType = types[0];

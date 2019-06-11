@@ -15,14 +15,16 @@ class FilterSection extends Component {
       <Container
         maxWidth='sm'
         style={{paddingBottom: '3vh', textAlign: 'center'}}>
-        {this._renderSearches()}
+        <form onSubmit={(e) => this.props.onSubmit(e, searches, types)}>
+          {this._renderSearches()}
 
-        <Button
-          onClick={() => this.props.onSubmit(searches, types)}
-          variant='contained'
-          color='primary'>
-          Submit
-        </Button>
+          <Button
+            type='submit'
+            variant='contained'
+            color='primary'>
+            Submit
+          </Button>
+        </form>
       </Container>
     )
   };
