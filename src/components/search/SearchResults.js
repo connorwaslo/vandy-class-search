@@ -4,7 +4,7 @@ import ClassCard from "./ClassCard";
 class SearchResults extends Component {
   shouldComponentUpdate(nextProps, nextState, nextContext) {
     // Valid courses must be different to update
-    return this.props.validCourses !== nextProps.validCourses;
+    return this.props.validCourses !== nextProps.validCourses || this.props.page !== nextProps.page;
   }
 
   render() {

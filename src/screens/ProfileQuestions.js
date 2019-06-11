@@ -23,9 +23,6 @@ class ProfileQuestions extends Component {
   render() {
     const {yearSel, questions} = this.state;
 
-    // Todo: This gives a hooks error for some reason when in Button props...
-    // className={formStyles().submit}
-
     return (
       <Container maxWidth='sm'>
         <ProfQues question={questions[0]} handleChange={this._handleChange} value={yearSel}/>

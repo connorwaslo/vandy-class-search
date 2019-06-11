@@ -6,30 +6,25 @@ import ClassCard from "../components/search/ClassCard";
 import {Container} from "@material-ui/core";
 import ChangePage from "../components/search/ChangePage";
 import SearchResults from "../components/search/SearchResults";
+import FilterSection from "../components/search/FilterSection";
 
 class Dashboard extends Component {
   PAGE_SIZE = 25;
   totalPages = 1;
   state = {
-    search: '',
-    searchType: 'generalSearch',
     validCourses: {},
     page: 1
   };
 
   render() {
     const {page, validCourses} = this.state;
+    console.log('Courses:', validCourses);
 
     return (
       <div style={{overflowX: 'hidden'}}>
         <Navbar/>
 
-        <Searchbar
-          search={this.state.search}
-          searchType={this.state.searchType}
-          onSubmit={this._submitSearch}
-          handleChange={this._handleChange}
-          handleTypeChange={this._handleTypeChange} />
+        <FilterSection onSubmit={this._submitSearch}/>
         <Container maxWidth='md'>
           <SearchResults validCourses={validCourses} page={page} pageSize={this.PAGE_SIZE} />
         </Container>
@@ -42,10 +37,10 @@ class Dashboard extends Component {
     )
   }
 
-  _submitSearch = event => {
-    event.preventDefault();
-
-    const {search, searchType} = this.state;
+  _submitSearch = (searches, types) => {
+    // Todo: Create a loop for searches and types rather than using the first value
+    let search = searches[0];
+    let searchType = types[0];
     const allCourses = courses;
 
     // Loop through all majors
@@ -120,20 +115,9 @@ class Dashboard extends Component {
 
     this.totalPages = Math.trunc((numResults + this.PAGE_SIZE - 1) / this.PAGE_SIZE);
 
+    console.log('Results', results);
     this.setState({
       validCourses: results
-    });
-  };
-
-  _handleChange = event => {
-    this.setState({
-      search: event.target.value
-    });
-  };
-
-  _handleTypeChange = event => {
-    this.setState({
-      searchType: event.target.value
     });
   };
 
