@@ -1,8 +1,6 @@
 import React, {Component} from 'react';
 import Navbar from "../components/nav/Navbar";
-import Searchbar from "../components/search/Searchbar";
 import courses from '../courses';
-import ClassCard from "../components/search/ClassCard";
 import {Container} from "@material-ui/core";
 import ChangePage from "../components/search/ChangePage";
 import SearchResults from "../components/search/SearchResults";
@@ -21,7 +19,7 @@ class Dashboard extends Component {
     console.log('Courses:', validCourses);
 
     return (
-      <div style={{overflowX: 'hidden'}}>
+      <div>
         <Navbar/>
 
         <FilterSection onSubmit={this._submitSearch}/>

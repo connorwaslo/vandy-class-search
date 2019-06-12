@@ -13,8 +13,8 @@ class FilterSection extends Component {
 
     return (
       <Container
-        maxWidth='sm'
-        style={{paddingBottom: '3vh', textAlign: 'center'}}>
+        maxWidth='md'
+        style={{paddingTop: '18vh', paddingBottom: '3vh', justifyContent: 'center', textAlign: 'center'}}>
         <form onSubmit={(e) => this.props.onSubmit(e, searches, types)}>
           {this._renderSearches()}
 
@@ -31,6 +31,7 @@ class FilterSection extends Component {
 
   _renderSearches = () => {
     const {searches, types} = this.state;
+    const lastSearch = searches.length - 1;
 
     return searches.map((search, i) => (
       <Searchbar key={i}
@@ -38,9 +39,39 @@ class FilterSection extends Component {
                  index={i}
                  search={search}
                  searchType={types[i]}
+                 showAdd={true/*i === lastSearch*/}
+                 showRemove={i !== 0 || searches.length > 1}
+                 addSearch={this._addSearch}
+                 removeSearch={this._removeSearch}
                  handleChange={this._handleChange}
                  handleTypeChange={this._handleTypeChange}/>
     ));
+  };
+
+  _addSearch = i => {
+    let newSearches = this.state.searches;
+    let newTypes = this.state.types;
+
+    newSearches.splice(i, 0, '');
+    newTypes.splice(i, 0, 'generalSearch');
+
+    this.setState({
+      searches: newSearches,
+      types: newTypes
+    });
+  };
+
+  _removeSearch = i => {
+    let newSearches = this.state.searches;
+    let newTypes = this.state.types;
+
+    newSearches.splice(i, 1);
+    newTypes.splice(i, 1);
+
+    this.setState({
+      searches: newSearches,
+      types: newTypes
+    });
   };
 
   _handleChange = (event, i) => {
