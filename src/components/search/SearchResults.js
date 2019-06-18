@@ -8,8 +8,6 @@ class SearchResults extends Component {
   }
 
   render() {
-    console.log('Render search results');
-
     const {page, validCourses, pageSize} = this.props;
     const keys = Object.keys(validCourses);
 

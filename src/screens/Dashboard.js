@@ -75,68 +75,74 @@ class Dashboard extends Component {
       let searchType = types[i];
       let majors = Object.keys(finalResults);
 
-      majors.forEach(major => {
-        let classes = finalResults[major];
-        console.log('Searching', s, 'Classes:', classes);
-        classes.forEach(course => {
-          // Normalize to lower case and split terms at every space
-          let wholeSearch = search.toLowerCase();
-          let searchTerms = wholeSearch.split(' ');
-          let code = course['Code'].toLowerCase();
-          let name = course['Name'].toLowerCase();
-          let axle = course['Axle'].toLowerCase();
+      if (searchType === 'major') {
 
-          // Check what type of search this is
-          if (searchType === 'generalSearch') {
-            // Does course include all search terms in any order?
-            let codeHasEvery = searchTerms.every(term => code.includes(term));
-            let nameHasEvery = searchTerms.every(term => name.includes(term));
-            let axleHasEvery = searchTerms.every(term => axle.includes(term));
+      } else if (searchType === 'minor') {
 
-            // General search = find in class code or name
-            if (codeHasEvery || nameHasEvery || axleHasEvery) {
-              numResults++;
+      } else {
+        majors.forEach(major => {
+          let classes = finalResults[major];
+          console.log('Searching', s, 'Classes:', classes);
+          classes.forEach(course => {
+            // Normalize to lower case and split terms at every space
+            let wholeSearch = search.toLowerCase();
+            let searchTerms = wholeSearch.split(' ');
+            let code = course['Code'].toLowerCase();
+            let name = course['Name'].toLowerCase();
+            let axle = course['Axle'].toLowerCase();
 
-              // If this major is already included in valid courses
-              if (Object.keys(results).includes(major)) {
-                if (!results[major].includes(course)) {
-                  results[major].push(course);
+            // Check what type of search this is
+            if (searchType === 'generalSearch') {
+              // Does course include all search terms in any order?
+              let codeHasEvery = searchTerms.every(term => code.includes(term));
+              let nameHasEvery = searchTerms.every(term => name.includes(term));
+              let axleHasEvery = searchTerms.every(term => axle.includes(term));
+
+              // General search = find in class code or name
+              if (codeHasEvery || nameHasEvery || axleHasEvery) {
+                numResults++;
+
+                // If this major is already included in valid courses
+                if (Object.keys(results).includes(major)) {
+                  if (!results[major].includes(course)) {
+                    results[major].push(course);
+                  }
+                } else {
+                  results[major] = [course];
                 }
-              } else {
-                results[major] = [course];
+              }
+            } else if (searchType === 'classCode') {
+              // Code Search = find only in class code
+              if (searchTerms.every(term => code.includes(term))) {
+                numResults++;
+
+                // If this major is already included in valid courses
+                if (Object.keys(results).includes(major)) {
+                  if (!results[major].includes(course)) {
+                    results[major].push(course);
+                  }
+                } else {
+                  results[major] = [course];
+                }
+              }
+            } else if (searchType === 'axle') {
+              // AXLE Search = see what AXLE requirements it fulfills
+              if (searchTerms.every(term => axle.includes(term))) {
+                numResults++;
+
+                // If this major is already included in valid courses
+                if (Object.keys(results).includes(major)) {
+                  if (!results[major].includes(course)) {
+                    results[major].push(course);
+                  }
+                } else {
+                  results[major] = [course];
+                }
               }
             }
-          } else if (searchType === 'classCode') {
-            // Code Search = find only in class code
-            if (searchTerms.every(term => code.includes(term))) {
-              numResults++;
-
-              // If this major is already included in valid courses
-              if (Object.keys(results).includes(major)) {
-                if (!results[major].includes(course)) {
-                  results[major].push(course);
-                }
-              } else {
-                results[major] = [course];
-              }
-            }
-          } else if (searchType === 'axle') {
-            // AXLE Search = see what AXLE requirements it fulfills
-            if (searchTerms.every(term => axle.includes(term))) {
-              numResults++;
-
-              // If this major is already included in valid courses
-              if (Object.keys(results).includes(major)) {
-                if (!results[major].includes(course)) {
-                  results[major].push(course);
-                }
-              } else {
-                results[major] = [course];
-              }
-            }
-          }
+          });
         });
-      });
+      }
 
       // Update the final results to be only as big as the most recently narrowed down pool
       finalResults = results;

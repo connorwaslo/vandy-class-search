@@ -26,6 +26,12 @@ const SearchType = (props) => (
       <MenuItem value='generalSearch'>
         <em>General Search</em>
       </MenuItem>
+      <MenuItem value='major'>
+        <em>Major</em>
+      </MenuItem>
+      <MenuItem value='minor'>
+        <em>Minor</em>
+      </MenuItem>
       <MenuItem value='classCode'>
         <em>Class Code</em>
       </MenuItem>
