@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import Navbar from "../components/nav/Navbar";
-import courses from '../axle_pb_courses';
-import {Container, Typography} from "@material-ui/core";
+import courses from '../axle_pb_bus_courses';
+import {Container} from "@material-ui/core";
 import ChangePage from "../components/search/ChangePage";
 import SearchResults from "../components/search/SearchResults";
 import FilterSection from "../components/search/FilterSection";
@@ -83,6 +83,7 @@ class Dashboard extends Component {
         majors.forEach(major => {
           let classes = finalResults[major];
           classes.forEach(course => {
+            console.log(course['Axle']);
             // Normalize to lower case and split terms at every space
             let wholeSearch = search.toLowerCase();
             let searchTerms = wholeSearch.split(' ');
@@ -126,8 +127,6 @@ class Dashboard extends Component {
               // Code Search = find only in class code
               // Trim the classcode and search though so that it doesn't matter between...
               // anth2160 and anth 2160
-              let search = searchTerms.join('').replace(/\s+/g, '');
-              console.log(search, code);
               let includesCode = code.includes(searchTerms.join('').replace(/\s+/g, ''));
               if (includesCode) {
                 numResults++;
@@ -167,6 +166,7 @@ class Dashboard extends Component {
             } else if (searchType === 'prereq') {
 
             }
+
           });
         });
       }
