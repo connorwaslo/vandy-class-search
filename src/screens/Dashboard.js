@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import Navbar from "../components/nav/Navbar";
-import courses from '../courses';
+import courses from '../axle_pb_courses';
 import {Container, Typography} from "@material-ui/core";
 import ChangePage from "../components/search/ChangePage";
 import SearchResults from "../components/search/SearchResults";
@@ -82,21 +82,32 @@ class Dashboard extends Component {
       } else {
         majors.forEach(major => {
           let classes = finalResults[major];
-          console.log('Searching', s, 'Classes:', classes);
           classes.forEach(course => {
             // Normalize to lower case and split terms at every space
             let wholeSearch = search.toLowerCase();
             let searchTerms = wholeSearch.split(' ');
             let code = course['Code'].toLowerCase();
             let name = course['Name'].toLowerCase();
-            let axle = course['Axle'].toLowerCase();
+            let rawAxle = course['Axle'];
+            let axles = rawAxle.map((ax) => {
+              return ax.toLowerCase();
+            });
 
             // Check what type of search this is
             if (searchType === 'generalSearch') {
               // Does course include all search terms in any order?
               let codeHasEvery = searchTerms.every(term => code.includes(term));
               let nameHasEvery = searchTerms.every(term => name.includes(term));
-              let axleHasEvery = searchTerms.every(term => axle.includes(term));
+              let axleHasEvery = searchTerms.every(term => {
+                let includesOne = false;
+                axles.forEach(ax => {
+                  if (ax.includes(term)) {
+                    includesOne = true;
+                  }
+                });
+                // axle.includes(term)
+                return includesOne;
+              });
 
               // General search = find in class code or name
               if (codeHasEvery || nameHasEvery || axleHasEvery) {
@@ -127,7 +138,16 @@ class Dashboard extends Component {
               }
             } else if (searchType === 'axle') {
               // AXLE Search = see what AXLE requirements it fulfills
-              if (searchTerms.every(term => axle.includes(term))) {
+              if (searchTerms.every(term => {
+                let includesOne = false;
+                axles.forEach(ax => {
+                  if (ax.includes(term)) {
+                    includesOne = true;
+                  }
+                });
+                // axle.includes(term)
+                return includesOne;
+              })) {
                 numResults++;
 
                 // If this major is already included in valid courses
@@ -139,6 +159,8 @@ class Dashboard extends Component {
                   results[major] = [course];
                 }
               }
+            } else if (searchType === 'prereq') {
+
             }
           });
         });

@@ -7,7 +7,6 @@ import FormHelperText from "@material-ui/core/FormHelperText";
 const useStyles = makeStyles(theme => ({
   formControl: {
     margin: theme.spacing(1),
-    minWidth: '15vw'
   },
   selectEmpty: {
     marginTop: theme.spacing(2)
@@ -37,6 +36,9 @@ const SearchType = (props) => (
       </MenuItem>
       <MenuItem value='axle'>
         <em>AXLE Fulfillment</em>
+      </MenuItem>
+      <MenuItem value='prereq'>
+        <em>Pre-Requisite</em>
       </MenuItem>
     </Select>
     <FormHelperText>Search Type</FormHelperText>

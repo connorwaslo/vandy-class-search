@@ -14,7 +14,6 @@ class Searchbar extends React.Component {
 
     return (
       <Container
-        minWidth='md'
         maxWidth='lg'
         className={styles.container}>
 
