@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7da9225a-4dd8-4d8a-a231-c29f14e71298" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/components/search/ClassCard.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/search/ClassCard.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/search/SearchType.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/search/SearchType.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/search/Searchbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/search/Searchbar.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/screens/Dashboard.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/Dashboard.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -30,25 +27,13 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/screens/Dashboard.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="960">
-              <caret line="142" column="37" lean-forward="true" selection-start-line="142" selection-start-column="37" selection-end-line="142" selection-end-column="37" />
+            <state relative-caret-position="252">
+              <caret line="98" column="65" selection-start-line="98" selection-start-column="65" selection-end-line="98" selection-end-column="65" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/components/search/ClassCard.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="19" column="58" selection-start-line="19" selection-start-column="58" selection-end-line="19" selection-end-column="58" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -166,14 +151,14 @@
         <option value="$PROJECT_DIR$/src/components/search/SearchResults.js" />
         <option value="$PROJECT_DIR$/src/components/search/Searchbar.js" />
         <option value="$PROJECT_DIR$/src/components/search/SearchType.js" />
-        <option value="$PROJECT_DIR$/src/screens/Dashboard.js" />
         <option value="$PROJECT_DIR$/src/components/search/ClassCard.js" />
+        <option value="$PROJECT_DIR$/src/screens/Dashboard.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="1585" />
-    <option name="width" value="1630" />
+    <option name="width" value="1628" />
     <option name="height" value="1815" />
   </component>
   <component name="ProjectView">
@@ -275,12 +260,12 @@
       <workItem from="1560305944891" duration="8293000" />
       <workItem from="1560726056611" duration="557000" />
       <workItem from="1560823283498" duration="36000" />
-      <workItem from="1560823354997" duration="14287000" />
+      <workItem from="1560823354997" duration="17139000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="86201000" />
+    <option name="totallyTimeSpent" value="89053000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -297,7 +282,7 @@
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info id="npm" order="1" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.24403815" />
+      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.16295707" />
       <window_info id="Structure" order="3" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="0" weight="0.26516464" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
@@ -552,16 +537,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/screens/Dashboard.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="960">
-          <caret line="142" column="37" lean-forward="true" selection-start-line="142" selection-start-column="37" selection-end-line="142" selection-end-column="37" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/search/SearchResults.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="348">
@@ -574,10 +549,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/search/ClassCard.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="19" column="58" selection-start-line="19" selection-start-column="58" selection-end-line="19" selection-end-column="58" />
+        <state relative-caret-position="360">
+          <caret line="15" column="18" lean-forward="true" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/screens/Dashboard.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="98" column="65" selection-start-line="98" selection-start-column="65" selection-end-line="98" selection-end-column="65" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
           </folding>
         </state>
       </provider>

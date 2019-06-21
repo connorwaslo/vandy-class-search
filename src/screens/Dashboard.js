@@ -86,7 +86,7 @@ class Dashboard extends Component {
             // Normalize to lower case and split terms at every space
             let wholeSearch = search.toLowerCase();
             let searchTerms = wholeSearch.split(' ');
-            let code = course['Code'].toLowerCase();
+            let code = course['Code'].toLowerCase().replace(/\s+/g, '');
             let name = course['Name'].toLowerCase();
             let rawAxle = course['Axle'];
             let axles = rawAxle.map((ax) => {
@@ -96,7 +96,7 @@ class Dashboard extends Component {
             // Check what type of search this is
             if (searchType === 'generalSearch') {
               // Does course include all search terms in any order?
-              let codeHasEvery = searchTerms.every(term => code.includes(term));
+              let includesCode = code.includes(searchTerms.join('').replace(/\s+/g, ''));
               let nameHasEvery = searchTerms.every(term => name.includes(term));
               let axleHasEvery = searchTerms.every(term => {
                 let includesOne = false;
@@ -110,7 +110,7 @@ class Dashboard extends Component {
               });
 
               // General search = find in class code or name
-              if (codeHasEvery || nameHasEvery || axleHasEvery) {
+              if (includesCode || nameHasEvery || axleHasEvery) {
                 numResults++;
 
                 // If this major is already included in valid courses
@@ -124,7 +124,12 @@ class Dashboard extends Component {
               }
             } else if (searchType === 'classCode') {
               // Code Search = find only in class code
-              if (searchTerms.every(term => code.includes(term))) {
+              // Trim the classcode and search though so that it doesn't matter between...
+              // anth2160 and anth 2160
+              let search = searchTerms.join('').replace(/\s+/g, '');
+              console.log(search, code);
+              let includesCode = code.includes(searchTerms.join('').replace(/\s+/g, ''));
+              if (includesCode) {
                 numResults++;
 
                 // If this major is already included in valid courses
