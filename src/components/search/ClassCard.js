@@ -18,7 +18,7 @@ const ClassCard = (props) => (
       </Typography>
       <Typography>
         {props.axle.join(',') !== '' ?
-        'Axle Requirements fulfilled: ' + props.axle.join() : null}
+        'AXLE Requirements fulfilled: ' + props.axle.join() : null}
       </Typography>
       <Typography>
         Pre-reqs: {props.prereqs}

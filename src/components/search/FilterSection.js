@@ -31,7 +31,6 @@ class FilterSection extends Component {
 
   _renderSearches = () => {
     const {searches, types} = this.state;
-    const lastSearch = searches.length - 1;
 
     return searches.map((search, i) => (
       <Searchbar key={i}

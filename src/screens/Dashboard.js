@@ -166,7 +166,6 @@ class Dashboard extends Component {
             } else if (searchType === 'prereq') {
 
             }
-
           });
         });
       }
