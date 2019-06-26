@@ -16,21 +16,34 @@ firebase.initializeApp(config);
 
 const store = createStore(login);
 
-function App() {
-  return (
-    <Provider store={store}>
-      <Router basename='/course-search/'>
-        <Container>
-          <Route exact path='/' component={Signup} />
-          <Route path='/login' component={Login} />
-          <Route path='/profile-setup' component={ProfileQuestions} />
-        </Container>
+class App extends React.Component {
+  componentDidMount() {
+    // Check to see if user is still signed in
+    firebase.auth().onAuthStateChanged((user) => {
+      if (user) {
+        console.log('User still signed in', user.email);
+      } else {
+        console.log('Logged out');
+      }
+    })
+  }
 
-        <Route exact path='/' component={Signup} />
-        <Route path='/dashboard' component={Dashboard} />
-      </Router>
-    </Provider>
-  );
+  render() {
+    return (
+      <Provider store={store}>
+        <Router basename='/course-search/'>
+          <Container>
+            <Route exact path='/' component={Signup}/>
+            <Route path='/login' component={Login}/>
+            <Route path='/profile-setup' component={ProfileQuestions}/>
+          </Container>
+
+          {/*<Route exact path='/' component={Signup} />*/}
+          <Route path='/dashboard' component={Dashboard}/>
+        </Router>
+      </Provider>
+    );
+  }
 }
 
 export default App;
