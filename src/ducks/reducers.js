@@ -1,16 +1,32 @@
-import {LOGIN_EMAIL} from "./actionTypes";
+import {
+  SET_EMAIL,
+  CHANGE_AUTH_STATUS, LOG_OUT
+} from "./actionTypes";
 
 const initialState = {
-  email: ''
+  email: '',
+  loggedIn: false // Is user logged in?
 };
 
-// For now just return the state
+// Auth action reducers
 let login = (state = initialState, action) => {
   switch (action.type) {
-    case LOGIN_EMAIL:
-      return Object.assign({}, state, {
+    case SET_EMAIL:
+      return {
+        ...state,
         email: action.email
-      });
+      };
+    case CHANGE_AUTH_STATUS:
+      return {
+        ...state,
+        loggedIn: action.loginStatus
+      };
+    case LOG_OUT:  // Just wipe all the auth state
+      return {
+        ...state,
+        email: '',
+        loggedIn: false
+      };
     default:
       return state;
   }

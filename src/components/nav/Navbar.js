@@ -1,4 +1,6 @@
 import React, {Component} from 'react';
+import {connect} from "react-redux";
+import {logOut} from "../../ducks/actions";
 import {Link, withRouter} from 'react-router-dom';
 import ProfileButton from './ProfileButton';
 import firebase from 'firebase/app';
@@ -44,6 +46,8 @@ class Navbar extends Component {
   _logout = () => {
     firebase.auth().signOut()
       .then(() => {
+        this.props.logOut(); // Clear auth state in store
+
         // Navigate back to login screen
         this.props.history.push('/login');
       })
@@ -52,5 +56,15 @@ class Navbar extends Component {
       })
   }
 }
+
+const mapDispatchToProps = dispatch => {
+  return {
+    logOut: () => {
+      dispatch(logOut());
+    }
+  }
+};
+
+Navbar = connect(null, mapDispatchToProps)(Navbar);
 
 export default withRouter(Navbar);

@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import {connect} from "react-redux";
-import {loginEmail} from "../ducks/actions";
+import {changeAuthStatus, loginEmail} from "../ducks/actions";
 import {Route, Link} from 'react-router-dom';
 import LoginForm from "../components/forms/LoginForm";
 import firebase from 'firebase/app';
@@ -42,13 +42,12 @@ class Login extends Component {
   _onSubmit = (event, history) => {
     event.preventDefault();
     const {email, pass} = this.state;
-    console.log('Submitting', email);
 
     // Login
     return firebase.auth().signInWithEmailAndPassword(email, pass)
       .then(() => {
         // Dispatch action to redux store
-        this.props.login(email);
+        this.props.login(email, true);
 
         history.push('/dashboard');
       })
@@ -63,8 +62,9 @@ class Login extends Component {
 
 const mapDispatchToProps = (dispatch) => {
   return {
-    login: (email) => {
-      dispatch(loginEmail(email))
+    login: (email, status) => {
+      dispatch(loginEmail(email));
+      dispatch(changeAuthStatus(status));
     }
   }
 };
