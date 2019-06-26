@@ -1,11 +1,12 @@
 import React from "react";
 import {Button, Menu, MenuItem} from "@material-ui/core";
+import {connect} from "react-redux";
 
-const ProfileButton = (props) => (
+let ProfileButton = (props) => (
   <div
     style={{position: 'absolute', right: '5vw'}}>
     <Button aria-controls='simple-menu' aria-haspopup='true' onClick={props.handleClick}>
-      connor.r.waslo@vanderbilt.edu
+      {props.email}
     </Button>
     <Menu
       id='simple-menu'
@@ -19,5 +20,14 @@ const ProfileButton = (props) => (
     </Menu>
   </div>
 );
+
+const mapStateToProps = state => {
+  console.log('State to props', state.email);
+  return {
+    email: state.email
+  }
+};
+
+ProfileButton = connect(mapStateToProps, null)(ProfileButton);
 
 export default ProfileButton;
