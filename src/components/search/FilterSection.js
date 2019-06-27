@@ -5,7 +5,7 @@ import Searchbar from './Searchbar';
 class FilterSection extends Component {
   state = {
     searches: [''],
-    types: ['generalSearch']
+    types: ['general']
   };
   
   render() {
@@ -52,7 +52,7 @@ class FilterSection extends Component {
     let newTypes = this.state.types;
 
     newSearches.splice(i, 0, '');
-    newTypes.splice(i, 0, 'generalSearch');
+    newTypes.splice(i, 0, 'general');
 
     this.setState({
       searches: newSearches,

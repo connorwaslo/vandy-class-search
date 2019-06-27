@@ -22,7 +22,7 @@ const SearchType = (props) => (
       name='searchType'
       className={useStyles().selectEmpty}>
 
-      <MenuItem value='generalSearch'>
+      <MenuItem value='general'>
         <em>General Search</em>
       </MenuItem>
       <MenuItem value='major'>

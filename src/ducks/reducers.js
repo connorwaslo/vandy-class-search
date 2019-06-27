@@ -1,15 +1,20 @@
 import {
-  LOGIN_EMAIL,
-  CHANGE_AUTH_STATUS, LOG_OUT
+  LOGIN_EMAIL, CHANGE_AUTH_STATUS, LOG_OUT,
+  CHANGE_SEARCH_TYPE, CHANGE_SEARCH_TEXT
 } from "./actionTypes";
 
 const initialState = {
   email: '',
-  loggedIn: false // Is user logged in?
+  loggedIn: false, // Is user logged in?
+  searches: [{
+    type: 'general',
+    search: ''
+  }],
+  test: 'what'
 };
 
 // Auth action reducers
-let login = (state = initialState, action) => {
+export let login = (state = initialState, action) => {
   switch (action.type) {
     case LOGIN_EMAIL:
       return {
@@ -33,4 +38,34 @@ let login = (state = initialState, action) => {
   }
 };
 
-export default login;
+// Adding search filters
+export let searchReducer = (state = initialState, action) => {
+  switch (action.type) {
+    case CHANGE_SEARCH_TYPE:
+      return Object.assign({}, state, {
+        searches: state.searches.map((search, index) => {
+          if (index === action.index) {
+            return Object.assign({}, search, {
+              type: search.type
+            });
+          }
+
+          return search;
+        })
+      });
+    case CHANGE_SEARCH_TEXT:
+      return Object.assign({}, state, {
+        searches: state.searches.map((search, index) => {
+          if (index === action.index) {
+            return Object.assign({}, search, {
+              search: search.search
+            });
+          }
+
+          return search;
+        })
+      });
+    default:
+      return state;
+  }
+};

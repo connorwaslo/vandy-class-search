@@ -95,7 +95,7 @@ class Dashboard extends Component {
             });
 
             // Check what type of search this is
-            if (searchType === 'generalSearch') {
+            if (searchType === 'general') {
               // Does course include all search terms in any order?
               let includesCode = code.includes(searchTerms.join('').replace(/\s+/g, ''));
               let nameHasEvery = searchTerms.every(term => name.includes(term));
