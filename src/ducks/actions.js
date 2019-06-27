@@ -3,7 +3,7 @@ import {
   CHANGE_AUTH_STATUS, LOG_OUT
 } from "./actionTypes";
 
-export let loginEmail = email => {
+export let setEmail = email => {
   return {
     type: SET_EMAIL,
     email

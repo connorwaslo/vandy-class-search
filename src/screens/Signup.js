@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import {connect} from "react-redux";
-import {loginEmail} from "../ducks/actions";
+import {changeAuthStatus, setEmail} from "../ducks/actions";
 import {Route, Link} from 'react-router-dom';
 import {Container, Grid} from "@material-ui/core";
 import SignupForm from "../components/forms/SignupForm";
@@ -13,10 +13,6 @@ class Signup extends Component {
     pass: '',
     confPass: ''
   };
-
-  componentDidMount() {
-    // this.props.history.push('/dashboard');
-  }
 
   render() {
     return (
@@ -64,7 +60,7 @@ class Signup extends Component {
       .then(() => {
         console.log('Created account', email);
         // Set email in store
-        this.props.login(email);
+        this.props.login(email, true);
 
         // Navigate away
         history.push('/profile-setup');
@@ -77,8 +73,9 @@ class Signup extends Component {
 
 const mapDispatchToProps = dispatch => {
   return {
-    login: (email) => {
-      dispatch(loginEmail(email))
+    login: (email, status) => {
+      dispatch(setEmail(email));
+      dispatch(changeAuthStatus(status));
     }
   }
 };
