@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import {connect} from "react-redux";
-import {changeAuthStatus, setEmail} from "../ducks/actions";
+import {loginEmail} from "../ducks/actions";
 import {Route, Link} from 'react-router-dom';
 import LoginForm from "../components/forms/LoginForm";
 import firebase from 'firebase/app';
@@ -62,9 +62,8 @@ class Login extends Component {
 
 const mapDispatchToProps = (dispatch) => {
   return {
-    login: (email, status) => {
-      dispatch(setEmail(email));
-      dispatch(changeAuthStatus(status));
+    login: (email) => {
+      dispatch(loginEmail(email));
     }
   }
 };

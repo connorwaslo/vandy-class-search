@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import {connect} from "react-redux";
-import {changeAuthStatus, setEmail} from "../ducks/actions";
+import {loginEmail} from "../ducks/actions";
 import {Route, Link} from 'react-router-dom';
 import {Container, Grid} from "@material-ui/core";
 import SignupForm from "../components/forms/SignupForm";
@@ -73,9 +73,8 @@ class Signup extends Component {
 
 const mapDispatchToProps = dispatch => {
   return {
-    login: (email, status) => {
-      dispatch(setEmail(email));
-      dispatch(changeAuthStatus(status));
+    login: (email) => {
+      dispatch(loginEmail(email));
     }
   }
 };

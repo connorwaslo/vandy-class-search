@@ -1,5 +1,5 @@
 import {
-  SET_EMAIL,
+  LOGIN_EMAIL,
   CHANGE_AUTH_STATUS, LOG_OUT
 } from "./actionTypes";
 
@@ -11,10 +11,11 @@ const initialState = {
 // Auth action reducers
 let login = (state = initialState, action) => {
   switch (action.type) {
-    case SET_EMAIL:
+    case LOGIN_EMAIL:
       return {
         ...state,
-        email: action.email
+        email: action.email,
+        loggedIn: true
       };
     case CHANGE_AUTH_STATUS:
       return {

@@ -1,11 +1,11 @@
 import {
-  SET_EMAIL,
+  LOGIN_EMAIL,
   CHANGE_AUTH_STATUS, LOG_OUT
 } from "./actionTypes";
 
-export let setEmail = email => {
+export let loginEmail = email => {
   return {
-    type: SET_EMAIL,
+    type: LOGIN_EMAIL,
     email
   };
 };
