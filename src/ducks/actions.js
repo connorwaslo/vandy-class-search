@@ -24,10 +24,11 @@ export let logOut = () => {
   }
 };
 
-export let changeSearchType = newType => {
+export let changeSearchType = (newType, index) => {
   return {
     type: CHANGE_SEARCH_TYPE,
-    newType
+    newType,
+    index
   };
 };
 

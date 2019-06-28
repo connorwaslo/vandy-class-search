@@ -45,17 +45,15 @@ const initialSearchState = [
 export let searches = (state = initialSearchState, action) => {
   switch (action.type) {
     case CHANGE_SEARCH_TYPE:
-      return Object.assign({}, state, {
-        searches: state.searches.map((search, index) => {
-          if (index === action.index) {
-            return {
-              ...search,
-              type: search.type
-            }
+      return state.map((search, index) => {
+        if (index === action.index) {
+          return {
+            ...search,
+            type: action.newType
           }
+        }
 
-          return search;
-        })
+        return search;
       });
     case CHANGE_SEARCH_TEXT:
       return state.map((search, index) => {

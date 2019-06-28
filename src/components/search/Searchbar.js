@@ -3,7 +3,7 @@ import {connect} from "react-redux";
 import {Button, Container, makeStyles} from '@material-ui/core';
 import TextField from "@material-ui/core/TextField";
 import SearchType from "./SearchType";
-import {changeSearchText} from "../../ducks/actions";
+import {changeSearchText, changeSearchType} from "../../ducks/actions";
 
 class Searchbar extends React.Component {
   render() {
@@ -21,7 +21,7 @@ class Searchbar extends React.Component {
 
         <div style={{alignContent: 'center', textAlign: 'center'}}>
           <div style={{display: 'flex', flexDirection: 'row'}}>
-            <SearchType values={this.props.searchType} handleChange={(e) => this.props.handleTypeChange(e, this.props.index)}/>
+            <SearchType values={this.props.searchType} handleChange={this._handleTypeChange}/>
 
             <TextField
               label='Search...'
@@ -29,7 +29,7 @@ class Searchbar extends React.Component {
               margin='normal'
               fullWidth
               value={this.props.search}
-              onChange={this._handleChange}
+              onChange={this._handleTextChange}
               style={{width: '50vw'}}
             />
             {showAdd ? <Button color='primary' onClick={() => this.props.addSearch(index + 1)}>Add</Button> : null}
@@ -40,7 +40,14 @@ class Searchbar extends React.Component {
     );
   };
 
-  _handleChange = event => {
+  _handleTypeChange = event => {
+    const {editType, index} = this.props;
+    event.preventDefault();
+
+    editType(event.target.value, index);
+  };
+
+  _handleTextChange = event => {
     console.log('Typing', event.target.value);
     const {editText, index} = this.props;
     event.preventDefault();
@@ -53,6 +60,9 @@ const mapDispatchToProps = dispatch => {
   return {
     editText: (text, index) => {
       dispatch(changeSearchText(text, index));
+    },
+    editType: (newType, index) => {
+      dispatch(changeSearchType(newType, index));
     }
   }
 };

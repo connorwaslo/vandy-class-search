@@ -68,22 +68,22 @@ class FilterSection extends Component {
   };
 
   _handleChange = (event, i) => {
-    let newSearches = this.state.searches;
+    /*let newSearches = this.state.searches;
     newSearches[i] = event.target.value;
     this.setState({
       searches: newSearches
-    });
+    });*/
   };
 
   _handleTypeChange = (event, i) => {
-    let newTypes = this.state.types;
+    /*let newTypes = this.state.types;
     console.log(i, 'Changing type from', newTypes[i], 'to', event.target.value);
     newTypes[i] = event.target.value;
     this.setState({
       types: newTypes
     });
 
-    console.log('types:', this.state.types);
+    console.log('types:', this.state.types);*/
   };
 }
 
