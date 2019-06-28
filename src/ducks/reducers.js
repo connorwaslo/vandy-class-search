@@ -1,6 +1,6 @@
 import {
   LOGIN_EMAIL, CHANGE_AUTH_STATUS, LOG_OUT,
-  CHANGE_SEARCH_TYPE, CHANGE_SEARCH_TEXT, ADD_SEARCH
+  CHANGE_SEARCH_TYPE, CHANGE_SEARCH_TEXT, ADD_SEARCH, REMOVE_SEARCH
 } from "./actionTypes";
 import {combineReducers} from "redux";
 
@@ -75,6 +75,12 @@ export let searches = (state = initialSearchState, action) => {
           },
           ...state.slice(action.index)
         ];
+    case REMOVE_SEARCH:
+      // I don't really know why this actually updates state while splice does not but oh well
+      return [
+        ...state.slice(0, action.index),
+        ...state.slice(action.index + 1)
+      ];
     default:
       return state;
   }

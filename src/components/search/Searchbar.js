@@ -3,7 +3,7 @@ import {connect} from "react-redux";
 import {Button, Container, makeStyles} from '@material-ui/core';
 import TextField from "@material-ui/core/TextField";
 import SearchType from "./SearchType";
-import {changeSearchText, changeSearchType, addSearch} from "../../ducks/actions";
+import {changeSearchText, changeSearchType, addSearch, removeSearch} from "../../ducks/actions";
 
 class Searchbar extends React.Component {
   render() {
@@ -65,6 +65,9 @@ const mapDispatchToProps = dispatch => {
     },
     addSearch: index => {
       dispatch(addSearch(index))
+    },
+    removeSearch: index => {
+      dispatch(removeSearch(index));
     }
   }
 };
