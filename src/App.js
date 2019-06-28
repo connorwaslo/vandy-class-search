@@ -5,7 +5,7 @@ import storage from "redux-persist/es/storage";
 import {PersistGate} from 'redux-persist/lib/integration/react';
 import autoMergeLevel2 from 'redux-persist/lib/stateReconciler/autoMergeLevel2';
 import {persistReducer, persistStore} from "redux-persist";
-import {login} from "./ducks/reducers";
+import {login, rootReducer} from "./ducks/reducers";
 import {createStore} from "redux";
 import {Provider} from "react-redux";
 import AppContainer from "./AppContainer";
@@ -20,9 +20,10 @@ const persistConfig = {
   blacklist: ['loggedIn']
 };
 
-const pReducer = persistReducer(persistConfig, login);
+const pReducer = persistReducer(persistConfig, rootReducer);
 const store = createStore(pReducer);
 const persistor = persistStore(store);
+persistor.purge();
 
 class App extends React.Component {
   render() {

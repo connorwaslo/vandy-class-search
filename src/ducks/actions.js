@@ -31,9 +31,11 @@ export let changeSearchType = newType => {
   };
 };
 
-export let changeSearchText = text => {
+export let changeSearchText = (text, index) => {
+  console.log('Action: changeSearchText');
   return {
     type: CHANGE_SEARCH_TEXT,
-    text
+    text,
+    index
   }
 };

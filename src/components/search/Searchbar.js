@@ -1,7 +1,9 @@
 import React from 'react';
+import {connect} from "react-redux";
 import {Button, Container, makeStyles} from '@material-ui/core';
 import TextField from "@material-ui/core/TextField";
 import SearchType from "./SearchType";
+import {changeSearchText} from "../../ducks/actions";
 
 class Searchbar extends React.Component {
   render() {
@@ -27,7 +29,7 @@ class Searchbar extends React.Component {
               margin='normal'
               fullWidth
               value={this.props.search}
-              onChange={(e) => this.props.handleChange(e, index)}
+              onChange={this._handleChange}
               style={{width: '50vw'}}
             />
             {showAdd ? <Button color='primary' onClick={() => this.props.addSearch(index + 1)}>Add</Button> : null}
@@ -37,7 +39,24 @@ class Searchbar extends React.Component {
       </Container>
     );
   };
+
+  _handleChange = event => {
+    console.log('Typing', event.target.value);
+    const {editText, index} = this.props;
+    event.preventDefault();
+
+    editText(event.target.value, index);
+  }
 }
 
+const mapDispatchToProps = dispatch => {
+  return {
+    editText: (text, index) => {
+      dispatch(changeSearchText(text, index));
+    }
+  }
+};
+
+Searchbar = connect(null, mapDispatchToProps)(Searchbar);
 
 export default Searchbar;

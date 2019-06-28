@@ -2,19 +2,15 @@ import {
   LOGIN_EMAIL, CHANGE_AUTH_STATUS, LOG_OUT,
   CHANGE_SEARCH_TYPE, CHANGE_SEARCH_TEXT
 } from "./actionTypes";
+import {combineReducers} from "redux";
 
-const initialState = {
+const initialAuthState = {
   email: '',
-  loggedIn: false, // Is user logged in?
-  searches: [{
-    type: 'general',
-    search: ''
-  }],
-  test: 'what'
+  loggedIn: false // Is user logged in?
 };
 
 // Auth action reducers
-export let login = (state = initialState, action) => {
+export let auth = (state = initialAuthState, action) => {
   switch (action.type) {
     case LOGIN_EMAIL:
       return {
@@ -38,34 +34,43 @@ export let login = (state = initialState, action) => {
   }
 };
 
+const initialSearchState = [
+  {
+    type: 'general',
+    search: ''
+  }
+];
+
 // Adding search filters
-export let searchReducer = (state = initialState, action) => {
+export let searches = (state = initialSearchState, action) => {
   switch (action.type) {
     case CHANGE_SEARCH_TYPE:
       return Object.assign({}, state, {
         searches: state.searches.map((search, index) => {
           if (index === action.index) {
-            return Object.assign({}, search, {
+            return {
+              ...search,
               type: search.type
-            });
+            }
           }
 
           return search;
         })
       });
     case CHANGE_SEARCH_TEXT:
-      return Object.assign({}, state, {
-        searches: state.searches.map((search, index) => {
+      return state.map((search, index) => {
           if (index === action.index) {
-            return Object.assign({}, search, {
-              search: search.search
-            });
+            return {
+              ...search,
+              search: action.text
+            }
           }
 
           return search;
-        })
-      });
+        });
     default:
       return state;
   }
 };
+
+export let rootReducer = combineReducers({auth, searches});
