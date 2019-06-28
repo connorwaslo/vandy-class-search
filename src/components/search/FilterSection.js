@@ -5,6 +5,8 @@ import Searchbar from './Searchbar';
 
 class FilterSection extends Component {
   render() {
+    console.log('All searches:', this.props.searches);
+
     return (
       <Container
         maxWidth='md'
@@ -25,6 +27,7 @@ class FilterSection extends Component {
 
   _renderSearches = () => {
     const {searches} = this.props;
+    console.log('Searches prop:', searches);
 
     return searches.map((search, i) => (
       <Searchbar key={i}
@@ -34,9 +37,9 @@ class FilterSection extends Component {
                  searchType={search.type}
                  showAdd={true/*i === lastSearch*/}
                  showRemove={i !== 0 || searches.length > 1}
-                 addSearch={this._addSearch}
+                 // addSearch={this._addSearch}
                  removeSearch={this._removeSearch}
-                 handleChange={this._handleChange}
+                 // handleChange={this._handleChange}
                  handleTypeChange={this._handleTypeChange}/>
     ));
   };

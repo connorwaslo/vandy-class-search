@@ -176,7 +176,6 @@ class Dashboard extends Component {
 
     this.totalPages = Math.trunc((numResults + this.PAGE_SIZE - 1) / this.PAGE_SIZE);
 
-    console.log('Results', numResults);
     this.setState({
       validCourses: finalResults
     });

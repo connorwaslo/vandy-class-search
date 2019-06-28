@@ -1,6 +1,6 @@
 import {
   LOGIN_EMAIL, CHANGE_AUTH_STATUS, LOG_OUT,
-  CHANGE_SEARCH_TYPE, CHANGE_SEARCH_TEXT
+  CHANGE_SEARCH_TYPE, CHANGE_SEARCH_TEXT, ADD_SEARCH
 } from "./actionTypes";
 import {combineReducers} from "redux";
 
@@ -66,6 +66,15 @@ export let searches = (state = initialSearchState, action) => {
 
           return search;
         });
+    case ADD_SEARCH:
+      return [
+          ...state.slice(0, action.index),
+          {
+            type: 'general',
+            search: ''
+          },
+          ...state.slice(action.index)
+        ];
     default:
       return state;
   }
