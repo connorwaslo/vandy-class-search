@@ -14,8 +14,6 @@ class Dashboard extends Component {
 
   render() {
     const {page, validCourses} = this.props;
-    console.log('Page:', page);
-    console.log('VC:', validCourses);
 
     return (
       <div>
@@ -25,25 +23,21 @@ class Dashboard extends Component {
         <Container maxWidth='md'>
           <SearchResults validCourses={validCourses} page={page} pageSize={this.PAGE_SIZE} />
         </Container>
-        {this._renderChangePage()}
+        {this._renderChangePage(page)}
       </div>
     )
   }
 
-  _renderChangePage = () => {
-    const {page} = this.props;
-
+  _renderChangePage = page => {
     if (this.totalPages === -1) {
       return null;
-    }
-    else if (this.totalPages === 0) {
+    } else if (this.totalPages === 0) {
       return (
         <Container maxWidth='xs'>
           <p style={{textAlign: 'center'}}>No results :(</p>
         </Container>
       );
-    }
-    else {
+    } else {
       return (
         <ChangePage
           page={page}
@@ -74,6 +68,7 @@ class Dashboard extends Component {
       let searchType = searchObj.type;
       let majors = Object.keys(finalResults);
 
+      // Todo: Waiting on the data for this
       if (searchType === 'major') {
 
       } else if (searchType === 'minor') {
@@ -189,7 +184,6 @@ class Dashboard extends Component {
 }
 
 const mapStateToProps = state => {
-  console.log('MSTP:', state);
   return {
     validCourses: state.results.validCourses,
     page: state.results.page

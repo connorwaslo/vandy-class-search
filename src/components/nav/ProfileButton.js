@@ -22,7 +22,6 @@ let ProfileButton = (props) => (
 );
 
 const mapStateToProps = state => {
-  console.log('Profile Button state:', state);
   return {
     email: state.auth.email
   }

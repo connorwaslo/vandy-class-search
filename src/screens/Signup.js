@@ -58,7 +58,6 @@ class Signup extends Component {
     // Should look into using a google account for this
     firebase.auth().createUserWithEmailAndPassword(email, pass)
       .then(() => {
-        console.log('Created account', email);
         // Set email in store
         this.props.login(email, true);
 

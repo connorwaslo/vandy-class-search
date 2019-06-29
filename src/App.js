@@ -5,7 +5,7 @@ import storage from "redux-persist/es/storage";
 import {PersistGate} from 'redux-persist/lib/integration/react';
 import autoMergeLevel2 from 'redux-persist/lib/stateReconciler/autoMergeLevel2';
 import {persistReducer, persistStore} from "redux-persist";
-import {login, rootReducer} from "./ducks/reducers";
+import {rootReducer} from "./ducks/reducers";
 import {createStore} from "redux";
 import {Provider} from "react-redux";
 import AppContainer from "./AppContainer";
@@ -23,7 +23,7 @@ const persistConfig = {
 const pReducer = persistReducer(persistConfig, rootReducer);
 const store = createStore(pReducer);
 const persistor = persistStore(store);
-persistor.purge();  // Note: when this is not commented out, email will not appear
+// persistor.purge();  // Note: when this is not commented out, email will not appear
 
 class App extends React.Component {
   render() {
