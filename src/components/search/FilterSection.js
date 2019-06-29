@@ -5,11 +5,13 @@ import Searchbar from './Searchbar';
 
 class FilterSection extends Component {
   render() {
+    const {searches} = this.props;
+
     return (
       <Container
         maxWidth='md'
         style={{paddingTop: '18vh', paddingBottom: '3vh', justifyContent: 'center', textAlign: 'center'}}>
-        <form onSubmit={(e) => this.props.onSubmit(e, [], [])}>
+        <form onSubmit={(e) => this.props.onSubmit(e, searches)}>
           {this._renderSearches()}
 
           <Button
@@ -28,7 +30,6 @@ class FilterSection extends Component {
 
     return searches.map((search, i) => (
       <Searchbar key={i}
-                 onSubmit={this._onSubmit}
                  index={i}
                  search={search.search}
                  searchType={search.type}
@@ -40,7 +41,6 @@ class FilterSection extends Component {
 }
 
 const mapStateToProps = state => {
-  console.log('State:', state);
   return {
     searches: state.searches
   }

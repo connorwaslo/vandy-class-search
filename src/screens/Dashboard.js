@@ -54,8 +54,10 @@ class Dashboard extends Component {
     }
   };
 
-  _submitSearch = (event, searches, types) => {
+  _submitSearch = (event, searches) => {
     event.preventDefault();
+    console.log('Submitting search');
+    console.log(searches);
 
     // Automatically go back to the first page
     this.setState({
@@ -68,11 +70,11 @@ class Dashboard extends Component {
     let finalResults = courses;
     let numResults = 0;
 
-    searches.forEach((s, i) => {
+    searches.forEach((searchObj) => {
       numResults = 0;  // Reset this on every search iteration
       let results = {};
-      let search = s;
-      let searchType = types[i];
+      let search = searchObj.search;
+      let searchType = searchObj.type;
       let majors = Object.keys(finalResults);
 
       if (searchType === 'major') {
@@ -83,7 +85,6 @@ class Dashboard extends Component {
         majors.forEach(major => {
           let classes = finalResults[major];
           classes.forEach(course => {
-            console.log(course['Axle']);
             // Normalize to lower case and split terms at every space
             let wholeSearch = search.toLowerCase();
             let searchTerms = wholeSearch.split(' ');

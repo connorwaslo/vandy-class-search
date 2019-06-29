@@ -12,7 +12,7 @@ import {changeAuthStatus} from "./ducks/actions";
 
 class AppContainer extends React.Component {
   componentDidMount() {
-    const {loggedIn, searches} = this.props;
+    const {loggedIn} = this.props;
     // Check to see if user is still signed in
     firebase.auth().onAuthStateChanged((user) => {
       if (user) {

@@ -23,7 +23,7 @@ const persistConfig = {
 const pReducer = persistReducer(persistConfig, rootReducer);
 const store = createStore(pReducer);
 const persistor = persistStore(store);
-persistor.purge();
+persistor.purge();  // Note: when this is not commented out, email will not appear
 
 class App extends React.Component {
   render() {
