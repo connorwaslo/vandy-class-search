@@ -1,4 +1,6 @@
 import React, {Component} from 'react';
+import {connect} from "react-redux";
+import {loginEmail} from "../ducks/actions";
 import {Route, Link} from 'react-router-dom';
 import {Container, Grid} from "@material-ui/core";
 import SignupForm from "../components/forms/SignupForm";
@@ -11,10 +13,6 @@ class Signup extends Component {
     pass: '',
     confPass: ''
   };
-
-  componentDidMount() {
-    this.props.history.push('/dashboard');
-  }
 
   render() {
     return (
@@ -60,6 +58,10 @@ class Signup extends Component {
     // Should look into using a google account for this
     firebase.auth().createUserWithEmailAndPassword(email, pass)
       .then(() => {
+        console.log('Created account', email);
+        // Set email in store
+        this.props.login(email, true);
+
         // Navigate away
         history.push('/profile-setup');
       })
@@ -68,5 +70,15 @@ class Signup extends Component {
       })
   }
 }
+
+const mapDispatchToProps = dispatch => {
+  return {
+    login: (email) => {
+      dispatch(loginEmail(email));
+    }
+  }
+};
+
+Signup = connect(null, mapDispatchToProps)(Signup);
 
 export default Signup;

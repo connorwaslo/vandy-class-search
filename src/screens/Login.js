@@ -1,4 +1,6 @@
 import React, {Component} from 'react';
+import {connect} from "react-redux";
+import {loginEmail} from "../ducks/actions";
 import {Route, Link} from 'react-router-dom';
 import LoginForm from "../components/forms/LoginForm";
 import firebase from 'firebase/app';
@@ -42,8 +44,11 @@ class Login extends Component {
     const {email, pass} = this.state;
 
     // Login
-    firebase.auth().signInWithEmailAndPassword(email, pass)
+    return firebase.auth().signInWithEmailAndPassword(email, pass)
       .then(() => {
+        // Dispatch action to redux store
+        this.props.login(email, true);
+
         history.push('/dashboard');
       })
       .catch((error) => {
@@ -54,5 +59,15 @@ class Login extends Component {
       })
   }
 }
+
+const mapDispatchToProps = (dispatch) => {
+  return {
+    login: (email) => {
+      dispatch(loginEmail(email));
+    }
+  }
+};
+
+Login = connect(null, mapDispatchToProps)(Login);
 
 export default Login;

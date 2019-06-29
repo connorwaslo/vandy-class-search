@@ -1,29 +1,40 @@
 import React from 'react';
-import {BrowserRouter as Router, Route} from "react-router-dom";
-import config from './apis/firebase-config';
 import firebase from 'firebase/app';
-import './App.css';
-// import {Container} from "@material-ui/core";
-import Signup from "./screens/Signup";
-// import Login from "./screens/Login";
-// import ProfileQuestions from "./screens/ProfileQuestions";
-import Dashboard from "./screens/Dashboard";
+import config from "./apis/firebase-config";
+import storage from "redux-persist/es/storage";
+import {PersistGate} from 'redux-persist/lib/integration/react';
+import autoMergeLevel2 from 'redux-persist/lib/stateReconciler/autoMergeLevel2';
+import {persistReducer, persistStore} from "redux-persist";
+import {login, rootReducer} from "./ducks/reducers";
+import {createStore} from "redux";
+import {Provider} from "react-redux";
+import AppContainer from "./AppContainer";
 
 firebase.initializeApp(config);
 
-function App() {
-  return (
-    <Router basename='/course-search/'>
-      {/*<Container>
-        <Route exact path='/' component={Signup} />
-        <Route path='/login' component={Login} />
-        <Route path='/profile-setup' component={ProfileQuestions} />
-      </Container>*/}
+// Persist data
+const persistConfig = {
+  key: 'root',
+  storage: storage,
+  stateReconciler: autoMergeLevel2,
+  blacklist: ['loggedIn']
+};
 
-      <Route exact path='/' component={Signup} />
-      <Route path='/dashboard' component={Dashboard} />
-    </Router>
-  );
+const pReducer = persistReducer(persistConfig, rootReducer);
+const store = createStore(pReducer);
+const persistor = persistStore(store);
+persistor.purge();  // Note: when this is not commented out, email will not appear
+
+class App extends React.Component {
+  render() {
+    return (
+      <Provider store={store}>
+        <PersistGate loading={<h1>Loading...</h1>} persistor={persistor}>
+          <AppContainer/>
+        </PersistGate>
+      </Provider>
+    )
+  }
 }
 
 export default App;

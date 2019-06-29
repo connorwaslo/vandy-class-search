@@ -1,4 +1,6 @@
 import React, {Component} from 'react';
+import {connect} from 'react-redux';
+import {setSearchResults, changePage} from "../ducks/actions";
 import Navbar from "../components/nav/Navbar";
 import courses from '../axle_pb_bus_courses';
 import {Container} from "@material-ui/core";
@@ -9,13 +11,11 @@ import FilterSection from "../components/search/FilterSection";
 class Dashboard extends Component {
   PAGE_SIZE = 25;
   totalPages = -1;
-  state = {
-    validCourses: {},
-    page: 1
-  };
 
   render() {
-    const {page, validCourses} = this.state;
+    const {page, validCourses} = this.props;
+    console.log('Page:', page);
+    console.log('VC:', validCourses);
 
     return (
       <div>
@@ -31,7 +31,7 @@ class Dashboard extends Component {
   }
 
   _renderChangePage = () => {
-    const {page} = this.state;
+    const {page} = this.props;
 
     if (this.totalPages === -1) {
       return null;
@@ -54,13 +54,12 @@ class Dashboard extends Component {
     }
   };
 
-  _submitSearch = (event, searches, types) => {
+  _submitSearch = (event, searches) => {
     event.preventDefault();
+    console.log(searches);
 
     // Automatically go back to the first page
-    this.setState({
-      page: 1
-    });
+    this.props.changePage(1);
 
     // Loop through all majors
     // Loop through all classes and check if search in either/both CODE & NAME
@@ -68,11 +67,11 @@ class Dashboard extends Component {
     let finalResults = courses;
     let numResults = 0;
 
-    searches.forEach((s, i) => {
+    searches.forEach((searchObj) => {
       numResults = 0;  // Reset this on every search iteration
       let results = {};
-      let search = s;
-      let searchType = types[i];
+      let search = searchObj.search;
+      let searchType = searchObj.type;
       let majors = Object.keys(finalResults);
 
       if (searchType === 'major') {
@@ -83,7 +82,6 @@ class Dashboard extends Component {
         majors.forEach(major => {
           let classes = finalResults[major];
           classes.forEach(course => {
-            console.log(course['Axle']);
             // Normalize to lower case and split terms at every space
             let wholeSearch = search.toLowerCase();
             let searchTerms = wholeSearch.split(' ');
@@ -95,7 +93,7 @@ class Dashboard extends Component {
             });
 
             // Check what type of search this is
-            if (searchType === 'generalSearch') {
+            if (searchType === 'general') {
               // Does course include all search terms in any order?
               let includesCode = code.includes(searchTerms.join('').replace(/\s+/g, ''));
               let nameHasEvery = searchTerms.every(term => name.includes(term));
@@ -176,27 +174,39 @@ class Dashboard extends Component {
 
     this.totalPages = Math.trunc((numResults + this.PAGE_SIZE - 1) / this.PAGE_SIZE);
 
-    console.log('Results', numResults);
-    this.setState({
-      validCourses: finalResults
-    });
+    this.props.setSearchResults(finalResults);
   };
 
   _pageBack = event => {
     event.preventDefault();
-    let backPage = this.state.page - 1;
-    this.setState({
-      page: backPage
-    });
+    this.props.changePage(this.props.page - 1);
   };
 
   _pageNext = event => {
-    event.preventDefault()
-    let nextPage = this.state.page + 1;
-    this.setState({
-      page: nextPage
-    });
+    event.preventDefault();
+    this.props.changePage(this.props.page + 1);
   }
 }
+
+const mapStateToProps = state => {
+  console.log('MSTP:', state);
+  return {
+    validCourses: state.results.validCourses,
+    page: state.results.page
+  }
+};
+
+const mapDispatchToProps = dispatch => {
+  return {
+    setSearchResults: (results) => {
+      dispatch(setSearchResults(results));
+    },
+    changePage: (page) => {
+      dispatch(changePage(page));
+    }
+  }
+};
+
+Dashboard = connect(mapStateToProps, mapDispatchToProps)(Dashboard);
 
 export default Dashboard;
