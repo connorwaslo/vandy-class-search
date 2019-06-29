@@ -9,6 +9,7 @@ class SearchResults extends Component {
 
   render() {
     const {page, validCourses, pageSize} = this.props;
+    console.log(validCourses);
     const keys = Object.keys(validCourses);
 
     let cards = [];

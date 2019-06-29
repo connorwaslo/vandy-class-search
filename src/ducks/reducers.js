@@ -1,6 +1,7 @@
 import {
   LOGIN_EMAIL, CHANGE_AUTH_STATUS, LOG_OUT,
-  CHANGE_SEARCH_TYPE, CHANGE_SEARCH_TEXT, ADD_SEARCH, REMOVE_SEARCH
+  CHANGE_SEARCH_TYPE, CHANGE_SEARCH_TEXT, ADD_SEARCH, REMOVE_SEARCH,
+  SEARCH_RESULTS, CHANGE_PAGE
 } from "./actionTypes";
 import {combineReducers} from "redux";
 
@@ -10,7 +11,7 @@ const initialAuthState = {
 };
 
 // Auth action reducers
-export let auth = (state = initialAuthState, action) => {
+let auth = (state = initialAuthState, action) => {
   switch (action.type) {
     case LOGIN_EMAIL:
       return {
@@ -42,7 +43,7 @@ const initialSearchState = [
 ];
 
 // Adding search filters
-export let searches = (state = initialSearchState, action) => {
+let searches = (state = initialSearchState, action) => {
   switch (action.type) {
     case CHANGE_SEARCH_TYPE:
       return state.map((search, index) => {
@@ -86,4 +87,27 @@ export let searches = (state = initialSearchState, action) => {
   }
 };
 
-export let rootReducer = combineReducers({auth, searches});
+// Initial search results state
+const initialResultsState = {
+  validCourses: {},
+  page: 1
+};
+
+let results = (state = initialResultsState, action) => {
+  switch (action.type) {
+    case SEARCH_RESULTS:
+      return {
+        ...state,
+        validCourses: action.results
+      };
+    case CHANGE_PAGE:
+      return {
+        ...state,
+        page: action.page
+      };
+    default:
+      return state;
+  }
+};
+
+export let rootReducer = combineReducers({auth, searches, results});

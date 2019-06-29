@@ -1,6 +1,7 @@
 import {
   LOGIN_EMAIL, CHANGE_AUTH_STATUS, LOG_OUT,
-  CHANGE_SEARCH_TYPE, CHANGE_SEARCH_TEXT, ADD_SEARCH, REMOVE_SEARCH
+  CHANGE_SEARCH_TYPE, CHANGE_SEARCH_TEXT, ADD_SEARCH, REMOVE_SEARCH,
+  SEARCH_RESULTS, CHANGE_PAGE
 } from "./actionTypes";
 
 // Auth actions
@@ -52,5 +53,20 @@ export let removeSearch = index => {
   return {
     type: REMOVE_SEARCH,
     index
+  }
+};
+
+// Search results
+export let setSearchResults = results => {
+  return {
+    type: SEARCH_RESULTS,
+    results
+  }
+};
+
+export let changePage = page => {
+  return {
+    type: CHANGE_PAGE,
+    page
   }
 };
