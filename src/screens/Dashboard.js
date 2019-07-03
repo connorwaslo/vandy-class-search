@@ -52,6 +52,13 @@ class Dashboard extends Component {
     event.preventDefault();
     console.log(searches);
 
+    // Reset search if there's only one and it's blank
+    if (searches.length === 1 && searches[0].search.trim() === '') {
+      this.props.setSearchResults({});
+      this.totalPages = -1;
+      return;
+    }
+
     // Automatically go back to the first page
     this.props.changePage(1);
 
@@ -62,6 +69,11 @@ class Dashboard extends Component {
     let numResults = 0;
 
     searches.forEach((searchObj) => {
+      // Just do nothing if th search term is blank
+      if (searchObj.search.trim() === '') {
+        return;
+      }
+
       numResults = 0;  // Reset this on every search iteration
       let results = {};
       let search = searchObj.search;
@@ -74,6 +86,7 @@ class Dashboard extends Component {
       } else if (searchType === 'minor') {
 
       } else {
+        // Todo: Consider flipping order and having if statements outside majors loop
         majors.forEach(major => {
           let classes = finalResults[major];
           classes.forEach(course => {
