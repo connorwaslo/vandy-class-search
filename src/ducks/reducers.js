@@ -1,7 +1,7 @@
 import {
   LOGIN_EMAIL, CHANGE_AUTH_STATUS, LOG_OUT,
   CHANGE_SEARCH_TYPE, CHANGE_SEARCH_TEXT, ADD_SEARCH, REMOVE_SEARCH,
-  SEARCH_RESULTS, CHANGE_PAGE
+  SEARCH_RESULTS, CHANGE_PAGE, ADD_CLASS_TAKEN, REMOVE_CLASS_TAKEN
 } from "./actionTypes";
 import {combineReducers} from "redux";
 
@@ -110,4 +110,30 @@ let results = (state = initialResultsState, action) => {
   }
 };
 
-export let rootReducer = combineReducers({auth, searches, results});
+// State tracking classes
+const initialCourseState = {
+  takenCourses: []
+};
+
+let courses = (state = initialCourseState, action) => {
+  switch (action.type) {
+    case ADD_CLASS_TAKEN:
+      return {
+        ...state,
+        takenCourses: [...state.takenCourses, action.taken]
+      };
+    case REMOVE_CLASS_TAKEN:
+      let index = state.takenCourses.indexOf(action.code);
+      return {
+        ...state,
+        takenCourses: [
+          ...state.takenCourses.slice(0, index),
+          ...state.takenCourses.slice(index + 1)
+        ]
+      };
+    default:
+      return state;
+  }
+};
+
+export let rootReducer = combineReducers({auth, searches, results, courses});

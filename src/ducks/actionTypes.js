@@ -9,3 +9,6 @@ export const REMOVE_SEARCH = 'REMOVE_SEARCH';
 
 export const SEARCH_RESULTS = 'SEARCH_RESULTS';
 export const CHANGE_PAGE = 'CHANGE_PAGE';
+
+export const ADD_CLASS_TAKEN = 'CLASS_TAKEN';
+export const REMOVE_CLASS_TAKEN = 'REMOVE_CLASS_TAKEN';

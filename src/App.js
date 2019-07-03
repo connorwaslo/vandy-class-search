@@ -22,6 +22,7 @@ const persistConfig = {
 
 const pReducer = persistReducer(persistConfig, rootReducer);
 const store = createStore(pReducer);
+console.log(store.getState());
 const persistor = persistStore(store);
 // persistor.purge();  // Note: when this is not commented out, email will not appear
 
