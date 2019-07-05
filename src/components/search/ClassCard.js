@@ -4,50 +4,79 @@ import {setClassTaken, removeClassTaken} from "../../ducks/actions";
 import {Card, Grid, FormControlLabel, Checkbox} from "@material-ui/core";
 import CardContent from "@material-ui/core/CardContent";
 import Typography from "@material-ui/core/Typography";
+import firebase from 'firebase/app';
+import 'firebase/database';
+import 'firebase/auth';
 
-let ClassCard = (props) => (
-  <Card
-    style={{marginTop: '2vh'}}>
-    <CardContent>
-      <Grid container>
-        <Grid item xs={6}>
-        <Typography>
-          <b>{props.code} - {props.name}</b>
-        </Typography>
-        <Typography>
-          {props.major}
-        </Typography>
-        <Typography>
-          Credits: {props.credits}
-        </Typography>
-        <Typography>
-          {props.axle.join(',') !== '' ?
-          'AXLE Requirements fulfilled: ' + props.axle.join() : null}
-        </Typography>
-        <Typography>
-          Pre-reqs: {props.prereqs}
-        </Typography>
-        <Typography>
-          Co-reqs: {props.coreqs}
-        </Typography>
-        </Grid>
-        <Grid item xs={6} style={{textAlign: 'right'}}>
-          <FormControlLabel control={
-            <Checkbox
-              checked={props.takenCourses.includes(props.code)}
-              onChange={() => {if (props.takenCourses.includes(props.code)) {
-                props.removeClassTaken(props.code)
-              } else {
-                props.setClassTaken(props.code)
-              }
-              }}
-              color='primary'/>
-          } label='Already Taken'/>
-        </Grid>
-      </Grid>
-    </CardContent>
-  </Card>
-);
+class ClassCard extends React.Component {
+  render() {
+    let {code, name, major, credits, axle, prereqs, coreqs, takenCourses} = this.props;
+    return (
+      <Card
+        style={{marginTop: '2vh'}}>
+        <CardContent>
+          <Grid container>
+            <Grid item xs={6}>
+              <Typography>
+                <b>{code} - {name}</b>
+              </Typography>
+              <Typography>
+                {major}
+              </Typography>
+              <Typography>
+                Credits: {credits}
+              </Typography>
+              <Typography>
+                {axle.join(',') !== '' ?
+                  'AXLE Requirements fulfilled: ' + axle.join() : null}
+              </Typography>
+              <Typography>
+                Pre-reqs: {prereqs}
+              </Typography>
+              <Typography>
+                Co-reqs: {coreqs}
+              </Typography>
+            </Grid>
+            <Grid item xs={6} style={{textAlign: 'right'}}>
+              <FormControlLabel control={
+                <Checkbox
+                  checked={takenCourses.includes(code)}
+                  onChange={this._handleChange}
+                  color='primary'/>
+              } label='Already Taken'/>
+            </Grid>
+          </Grid>
+        </CardContent>
+      </Card>
+    )
+  }
+
+  _handleChange = () => {
+    const {takenCourses, code} = this.props;
+
+    if (takenCourses.includes(code)) {
+      this.props.removeClassTaken(code);
+      this._dbUpdateClassTaken(code, false);
+    } else {
+      this.props.setClassTaken(code);
+      this._dbUpdateClassTaken(code, true);
+    }
+  };
+
+  _dbUpdateClassTaken = (code, add) => {
+    const uid = firebase.auth().currentUser.uid;
+
+    // Add Class
+    if (add) {
+      firebase.database().ref('coursesTaken/' + uid).update({
+        [code]: true
+      });
+    } else {  // Remove class
+      console.log('Trying to delete', code);
+      firebase.database().ref('coursesTaken/' + uid + '/' + code).remove();
+    }
+  }
+}
 
 const mapStateToProps = state => {
   return {
