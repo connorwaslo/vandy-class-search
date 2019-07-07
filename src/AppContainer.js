@@ -9,30 +9,8 @@ import Login from "./screens/Login";
 import ProfileQuestions from "./screens/ProfileQuestions";
 import Dashboard from "./screens/Dashboard";
 import {changeAuthStatus} from "./ducks/actions";
-import {initTakenCourses} from "./data/loadInit";
 
 class AppContainer extends React.Component {
-  componentDidMount() {
-    const {loggedIn} = this.props;
-    // Check to see if user is still signed in
-    firebase.auth().onAuthStateChanged((user) => {
-      // If the user is signed in
-      if (user) {
-        // Initialize profile-specific data from firebase in the store
-        initTakenCourses(this.props.store);
-
-        // Only update store if it conflicts with reality
-        if (!loggedIn) {
-          this.props.authStatus(true);
-        }
-        console.log('User still signed in', user.email);
-      } else {
-        this.props.authStatus(false);
-        console.log('Logged out');
-      }
-    });
-  }
-
   render() {
     return (
       <Router basename='/course-search/'>

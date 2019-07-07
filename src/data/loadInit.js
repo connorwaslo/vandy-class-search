@@ -1,15 +1,33 @@
-import {setClassTaken} from "../ducks/actions";
+import {changeAuthStatus, setClassTaken} from "../ducks/actions";
 import firebase from 'firebase/app';
 import 'firebase/database';
 import 'firebase/auth';
 
 export let initProfileData = store => {
   initAuthData(store);
-  initTakenCourses(store);
+  // initTakenCourses(store);
 };
 
 let initAuthData = store => {
+  const loggedIn = store.getState().auth.loggedIn;  // Loading directly from store is probably not a best practice...
 
+  // Check to see if user is still signed in
+  firebase.auth().onAuthStateChanged((user) => {
+    // If the user is signed in
+    if (user) {
+      // Initialize profile-specific data from firebase in the store
+      initTakenCourses(this.props.store);
+
+      // Only update store if it conflicts with reality
+      if (!loggedIn) {
+        store.dispatch(changeAuthStatus(true));
+      }
+      console.log('User still signed in', user.email);
+    } else {
+      store.dispatch(changeAuthStatus(false));
+      console.log('Logged out');
+    }
+  });
 };
 
 let initTakenCourses = store => {
