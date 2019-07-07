@@ -1,6 +1,7 @@
 import React from 'react';
 import firebase from 'firebase/app';
 import config from "./apis/firebase-config";
+import {initTakenCourses} from "./data/loadInit";
 import storage from "redux-persist/es/storage";
 import {PersistGate} from 'redux-persist/lib/integration/react';
 import autoMergeLevel2 from 'redux-persist/lib/stateReconciler/autoMergeLevel2';
@@ -22,16 +23,23 @@ const persistConfig = {
 
 const pReducer = persistReducer(persistConfig, rootReducer);
 const store = createStore(pReducer);
+
 console.log(store.getState());
 const persistor = persistStore(store);
-persistor.purge();  // Note: when this is not commented out, email will not appear
+// persistor.purge();  // Note: when this is not commented out, email will not appear
 
 class App extends React.Component {
+  componentDidMount() {
+    // Print which classes are already taken
+    console.log('Store on App Mount:');
+    console.log(store.getState());
+  }
+
   render() {
     return (
       <Provider store={store}>
         <PersistGate loading={<h1>Loading...</h1>} persistor={persistor}>
-          <AppContainer/>
+          <AppContainer store={store}/>
         </PersistGate>
       </Provider>
     )
