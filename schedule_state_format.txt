@@ -1,0 +1,13 @@
+store:
+{
+	...,
+	schedules: {
+		"title": {
+			courses: [
+				"code1": true,
+				"code2": true,
+				...
+			]
+		}
+	}
+}
