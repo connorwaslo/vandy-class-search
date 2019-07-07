@@ -10,7 +10,9 @@ import 'firebase/auth';
 
 class ClassCard extends React.Component {
   render() {
-    let {code, name, major, credits, axle, prereqs, coreqs, takenCourses} = this.props;
+    const {code, name, major, axle, prereqs, coreqs, takenCourses} = this.props;
+    const credits = this._getCredits();
+
     return (
       <Card
         style={{marginTop: '2vh'}}>
@@ -75,7 +77,30 @@ class ClassCard extends React.Component {
       console.log('Trying to delete', code);
       firebase.database().ref('coursesTaken/' + uid + '/' + code).remove();
     }
-  }
+  };
+
+  _getCredits = () => {
+    const credits = this.props.credits;
+
+    // Placeholder for
+    if (typeof(credits) === typeof('')) {
+      return credits;
+    }
+
+    // Format to be: 1, 2, 3, or 4
+    let credStr = '';
+    for (let i = 0; i < credits.length; i++) {
+      if (i === credits.length - 2) {
+        credStr += credits[i] + ' or ';
+      } else if (i === credits.length - 1) {
+        credStr += credits[i];
+      } else {
+        credStr += credits[i] + ', ';
+      }
+    }
+
+    return credStr;
+  };
 }
 
 const mapStateToProps = state => {
