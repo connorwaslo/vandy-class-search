@@ -1,44 +1,51 @@
-import {changeAuthStatus, setClassTaken} from "../ducks/actions";
+import {changeAuthStatus, loginEmail, setClassTaken} from "../ducks/actions";
 import firebase from 'firebase/app';
 import 'firebase/database';
 import 'firebase/auth';
 
-export let initProfileData = store => {
+export let initProfileData = async (store) => {
   initAuthData(store);
-  // initTakenCourses(store);
 };
 
-let initAuthData = store => {
+let initAuthData = async (store) => {
+  console.log('initAuthData');
   const loggedIn = store.getState().auth.loggedIn;  // Loading directly from store is probably not a best practice...
 
   // Check to see if user is still signed in
-  firebase.auth().onAuthStateChanged((user) => {
+  await firebase.auth().onAuthStateChanged((user) => {
+    console.log('checkAuthState');
     // If the user is signed in
     if (user) {
-      // Initialize profile-specific data from firebase in the store
-      initTakenCourses(this.props.store);
-
+      console.log('User logged in', user.email);
       // Only update store if it conflicts with reality
       if (!loggedIn) {
+        console.log('Updating login state');
         store.dispatch(changeAuthStatus(true));
+        store.dispatch(loginEmail(user.email));
       }
-      console.log('User still signed in', user.email);
+
+      // Initialize profile-specific data from firebase in the store
+      initTakenCourses(store);
     } else {
-      store.dispatch(changeAuthStatus(false));
-      console.log('Logged out');
+      if (loggedIn) {
+        store.dispatch(changeAuthStatus(false));
+      }
+
+      console.log('Not logged in, past dispatch loading false');
     }
   });
 };
 
-let initTakenCourses = store => {
+let initTakenCourses = async (store) => {
+  console.log('initTakenCourses');
   const uid = firebase.auth().currentUser.uid;
-  console.log('UID:', uid);
 
   // Load set of courses taken and convert them into an array
-  firebase.database().ref('coursesTaken/' + uid).once('value').then((snap) => {
-    console.log('Snap:', snap.val());
+  await firebase.database().ref('coursesTaken/' + uid).once('value').then((snap) => {
+    console.log('Firebase get coursesTaken');
     // If no saved data for the user, just do nothing
     if (!snap.val()) {
+      console.log('No vals, loading false');
       return;
     }
 
@@ -47,6 +54,6 @@ let initTakenCourses = store => {
     // Update the store to include each course code in the store
     courses.forEach((course) => {
       store.dispatch(setClassTaken(course));
-    })
+    });
   });
 };

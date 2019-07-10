@@ -73,8 +73,10 @@ class ClassCard extends React.Component {
       firebase.database().ref('coursesTaken/' + uid).update({
         [code]: true
       });
+      this.props.setClassTaken(code);
     } else {  // Remove class
       console.log('Trying to delete', code);
+      this.props.removeClassTaken(code);
       firebase.database().ref('coursesTaken/' + uid + '/' + code).remove();
     }
   };

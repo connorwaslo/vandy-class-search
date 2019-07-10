@@ -17,7 +17,6 @@ class SearchResults extends Component {
     keys.forEach(key => {
       const courses = validCourses[key];
       courses.forEach(course => {
-          console.log(course['Code'], course['Credits']);
           cards.push(<ClassCard
             key={keyIndex}
             major={key}
