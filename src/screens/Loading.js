@@ -20,14 +20,19 @@ class Loading extends Component {
         loginEmail(user.email);
 
         // Get courses the user has taken too
-        firebase.database().ref('courses/Taken' + uid).once('value')
+        firebase.database().ref('coursesTaken/' + uid).once('value')
           .then(snap => {
+            console.log('Check database', snap.val());
             if (snap.val()) {
+              console.log('Has value');
               let courses = Object.keys(snap.val());
               courses.forEach(course => {
+                console.log('Save', course);
                 // Add class to state as class taken
                 setClassTaken(course);
               });
+            } else {
+              console.log('No val');
             }
 
             // Finally, set loading to done

@@ -17,6 +17,7 @@ class AppContainer extends React.Component {
       return <Loading finish={this.props.finish}/>
     }
 
+    console.log(this.props.store.getState());
     return (
       <Router basename='/course-search/'>
         <Container>
