@@ -22,20 +22,30 @@ const persistConfig = {
 
 const pReducer = persistReducer(persistConfig, rootReducer);
 const store = createStore(pReducer);
-console.log(store.getState());
+
 const persistor = persistStore(store);
-persistor.purge();  // Note: when this is not commented out, email will not appear
+// persistor.purge();  // Note: when this is not commented out, email will not appear
 
 class App extends React.Component {
+  state = {
+    loading: true
+  };
+
   render() {
     return (
       <Provider store={store}>
-        <PersistGate loading={<h1>Loading...</h1>} persistor={persistor}>
-          <AppContainer/>
+        <PersistGate persistor={persistor}>
+          <AppContainer loading={this.state.loading}
+                        finish={this._finishLoading}
+                        store={store}/>
         </PersistGate>
       </Provider>
     )
-  }
+  };
+
+  _finishLoading = () => {
+    this.setState({ loading: false });
+  };
 }
 
 export default App;

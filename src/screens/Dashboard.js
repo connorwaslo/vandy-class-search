@@ -50,7 +50,6 @@ class Dashboard extends Component {
 
   _submitSearch = (event, searches) => {
     event.preventDefault();
-    console.log(searches);
 
     // Reset search if there's only one and it's blank
     if (searches.length === 1 && searches[0].search.trim() === '') {
