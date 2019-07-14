@@ -7,8 +7,8 @@ import Signup from "./screens/Signup";
 import Login from "./screens/Login";
 import ProfileQuestions from "./screens/ProfileQuestions";
 import Dashboard from "./screens/Dashboard";
-import {changeAuthStatus} from "./ducks/actions";
 import Loading from "./screens/Loading";
+import PrivateRoute from "./components/PrivateRoute";
 
 class AppContainer extends React.Component {
   render() {
@@ -23,11 +23,11 @@ class AppContainer extends React.Component {
         <Container>
           <Route exact path='/' component={Signup}/>
           <Route path='/login' component={Login}/>
-          <Route path='/profile-setup' component={ProfileQuestions}/>
+          <PrivateRoute path='/profile-setup' component={ProfileQuestions}/>
         </Container>
 
         {/*<Route exact path='/' component={Signup} />*/}
-        <Route path='/dashboard' component={Dashboard}/>
+        <PrivateRoute path='/dashboard' component={Dashboard}/>
       </Router>
     );
   }
