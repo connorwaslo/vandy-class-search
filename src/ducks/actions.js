@@ -1,7 +1,7 @@
 import {
   LOGIN_EMAIL, CHANGE_AUTH_STATUS, LOG_OUT,
   CHANGE_SEARCH_TYPE, CHANGE_SEARCH_TEXT, ADD_SEARCH, REMOVE_SEARCH,
-  SEARCH_RESULTS, CHANGE_PAGE, ADD_CLASS_TAKEN, REMOVE_CLASS_TAKEN
+  SEARCH_RESULTS, CHANGE_PAGE, ADD_CLASS_TAKEN, REMOVE_CLASS_TAKEN, SET_TOTAL_PAGES
 } from "./actionTypes";
 
 // Auth actions
@@ -69,6 +69,14 @@ export let changePage = page => {
   return {
     type: CHANGE_PAGE,
     page
+  }
+};
+
+export let setTotalPages = totalPages => {
+  console.log('setTotalPages:', totalPages);
+  return {
+    type: SET_TOTAL_PAGES,
+    totalPages
   }
 };
 

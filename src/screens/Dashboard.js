@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import {connect} from 'react-redux';
-import {setSearchResults, changePage} from "../ducks/actions";
+import {setSearchResults, changePage, setTotalPages} from "../ducks/actions";
 import Navbar from "../components/nav/Navbar";
 import courses from '../axle_pb_bus_courses';
 import {Container} from "@material-ui/core";
@@ -8,10 +8,9 @@ import ChangePage from "../components/search/ChangePage";
 import SearchResults from "../components/search/SearchResults";
 import FilterSection from "../components/search/FilterSection";
 
-class Dashboard extends Component {
-  PAGE_SIZE = 25;
-  totalPages = -1;
+export const PAGE_SIZE  = 25;
 
+class Dashboard extends Component {
   render() {
     const {page, validCourses} = this.props;
 
@@ -21,7 +20,7 @@ class Dashboard extends Component {
 
         <FilterSection onSubmit={this._submitSearch}/>
         <Container maxWidth='md'>
-          <SearchResults validCourses={validCourses} page={page} pageSize={this.PAGE_SIZE} />
+          <SearchResults validCourses={validCourses} page={page} pageSize={PAGE_SIZE} />
         </Container>
         {this._renderChangePage(page)}
       </div>
@@ -29,9 +28,11 @@ class Dashboard extends Component {
   }
 
   _renderChangePage = page => {
-    if (this.totalPages === -1) {
+    const {totalPages} = this.props;
+    console.log('total Pages:', totalPages);
+    if (totalPages === -1) {
       return null;
-    } else if (this.totalPages === 0) {
+    } else if (totalPages === 0) {
       return (
         <Container maxWidth='xs'>
           <p style={{textAlign: 'center'}}>No results :(</p>
@@ -41,7 +42,7 @@ class Dashboard extends Component {
       return (
         <ChangePage
           page={page}
-          numPages={this.totalPages}
+          numPages={totalPages}
           handleBack={this._pageBack}
           handleNext={this._pageNext}/>
       );
@@ -53,8 +54,9 @@ class Dashboard extends Component {
 
     // Reset search if there's only one and it's blank
     if (searches.length === 1 && searches[0].search.trim() === '') {
+      // Clear all results
       this.props.setSearchResults({});
-      this.totalPages = -1;
+      this.props.setTotalPages(-1);
       return;
     }
 
@@ -179,7 +181,8 @@ class Dashboard extends Component {
       finalResults = results;
     });
 
-    this.totalPages = Math.trunc((numResults + this.PAGE_SIZE - 1) / this.PAGE_SIZE);
+    // this.totalPages = Math.trunc((numResults + PAGE_SIZE - 1) / PAGE_SIZE);
+    this.props.setTotalPages(Math.trunc((numResults + PAGE_SIZE - 1) / PAGE_SIZE));
 
     this.props.setSearchResults(finalResults);
   };
@@ -198,7 +201,8 @@ class Dashboard extends Component {
 const mapStateToProps = state => {
   return {
     validCourses: state.results.validCourses,
-    page: state.results.page
+    page: state.results.page,
+    totalPages: state.results.totalPages
   }
 };
 
@@ -209,6 +213,9 @@ const mapDispatchToProps = dispatch => {
     },
     changePage: (page) => {
       dispatch(changePage(page));
+    },
+    setTotalPages: (totalPages) => {
+      dispatch(setTotalPages(totalPages));
     }
   }
 };

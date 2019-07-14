@@ -1,7 +1,7 @@
 import {
   LOGIN_EMAIL, CHANGE_AUTH_STATUS, LOG_OUT,
   CHANGE_SEARCH_TYPE, CHANGE_SEARCH_TEXT, ADD_SEARCH, REMOVE_SEARCH,
-  SEARCH_RESULTS, CHANGE_PAGE, ADD_CLASS_TAKEN, REMOVE_CLASS_TAKEN
+  SEARCH_RESULTS, CHANGE_PAGE, ADD_CLASS_TAKEN, REMOVE_CLASS_TAKEN, SET_TOTAL_PAGES
 } from "./actionTypes";
 import {combineReducers} from "redux";
 
@@ -90,7 +90,8 @@ let searches = (state = initialSearchState, action) => {
 // Initial search results state
 const initialResultsState = {
   validCourses: {},
-  page: 1
+  page: 1,
+  totalPages: -1
 };
 
 let results = (state = initialResultsState, action) => {
@@ -104,6 +105,12 @@ let results = (state = initialResultsState, action) => {
       return {
         ...state,
         page: action.page
+      };
+    case SET_TOTAL_PAGES:
+      console.log('Setting total pages to...', action.totalPages);
+      return {
+        ...state,
+        totalPages: action.totalPages
       };
     default:
       return state;
