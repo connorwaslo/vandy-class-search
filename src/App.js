@@ -1,15 +1,13 @@
 import React from 'react';
 import firebase from 'firebase/app';
 import config from "./apis/firebase-config";
-import {initProfileData} from "./data/loadInit";
 import storage from "redux-persist/es/storage";
 import {PersistGate} from 'redux-persist/lib/integration/react';
 import autoMergeLevel2 from 'redux-persist/lib/stateReconciler/autoMergeLevel2';
 import {persistReducer, persistStore} from "redux-persist";
 import {rootReducer} from "./ducks/reducers";
-import {createStore, applyMiddleware} from "redux";
+import {createStore} from "redux";
 import {Provider} from "react-redux";
-import * as asyncInitialState from 'redux-async-initial-state';
 import AppContainer from "./AppContainer";
 
 firebase.initializeApp(config);
@@ -25,24 +23,29 @@ const persistConfig = {
 const pReducer = persistReducer(persistConfig, rootReducer);
 const store = createStore(pReducer);
 
-// Load data from firebase and use it to set the initial program state
-initProfileData(store);
-
 const persistor = persistStore(store);
 // persistor.purge();  // Note: when this is not commented out, email will not appear
 
-console.log('Updated State', store.getState());
 class App extends React.Component {
+  state = {
+    loading: true
+  };
+
   render() {
-    // console.log('Loading:', loading.loading);
     return (
       <Provider store={store}>
-        <PersistGate loading={<h1>Loading...</h1>} persistor={persistor}>
-          <AppContainer store={store}/>
+        <PersistGate persistor={persistor}>
+          <AppContainer loading={this.state.loading}
+                        finish={this._finishLoading}
+                        store={store}/>
         </PersistGate>
       </Provider>
     )
-  }
+  };
+
+  _finishLoading = () => {
+    this.setState({ loading: false });
+  };
 }
 
 export default App;

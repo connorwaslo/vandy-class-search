@@ -8,9 +8,15 @@ import Login from "./screens/Login";
 import ProfileQuestions from "./screens/ProfileQuestions";
 import Dashboard from "./screens/Dashboard";
 import {changeAuthStatus} from "./ducks/actions";
+import Loading from "./screens/Loading";
 
 class AppContainer extends React.Component {
   render() {
+    console.log('Loading?', this.props.loading);
+    if (this.props.loading) {
+      return <Loading finish={this.props.finish}/>
+    }
+
     return (
       <Router basename='/course-search/'>
         <Container>
@@ -34,15 +40,6 @@ const mapStateToProps = state => {
   }
 };
 
-const mapDispatchToProps = dispatch => {
-  return {
-    authStatus: (loggedIn) => {
-      // Dispatch the following action...
-      dispatch(changeAuthStatus(loggedIn));
-    }
-  }
-};
-
-AppContainer = connect(mapStateToProps, mapDispatchToProps)(AppContainer);
+AppContainer = connect(mapStateToProps, null)(AppContainer);
 
 export default AppContainer;
