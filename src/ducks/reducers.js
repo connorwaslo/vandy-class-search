@@ -4,7 +4,6 @@ import {
   SEARCH_RESULTS, CHANGE_PAGE, ADD_CLASS_TAKEN, REMOVE_CLASS_TAKEN
 } from "./actionTypes";
 import {combineReducers} from "redux";
-import * as asyncInitialState from 'redux-async-initial-state';
 
 const initialAuthState = {
   email: '',
