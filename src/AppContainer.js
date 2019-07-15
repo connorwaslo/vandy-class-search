@@ -9,6 +9,7 @@ import ProfileQuestions from "./screens/ProfileQuestions";
 import Dashboard from "./screens/Dashboard";
 import Loading from "./screens/Loading";
 import PrivateRoute from "./components/PrivateRoute";
+import Schedule from "./screens/Schedule";
 
 class AppContainer extends React.Component {
   render() {
@@ -23,6 +24,7 @@ class AppContainer extends React.Component {
         <Container>
           <Route exact path='/' component={Signup}/>
           <Route path='/login' component={Login}/>
+          <Route path='/schedule' component={Schedule}/>
           <PrivateRoute path='/profile-setup' component={ProfileQuestions}/>
         </Container>
 
