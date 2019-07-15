@@ -1,24 +1,12 @@
 import React, {Component} from 'react';
+import {connect} from "react-redux";
 import {ReactAgenda, ReactAgendaCtrl, guid, Modal} from 'react-agenda';
 import 'react-agenda/build/styles.css';
 import 'react-datetime/css/react-datetime.css';
 
-let now = new Date();
-
 class Schedule extends Component {
-  state = {
-    items: [  // Some mock classes
-      {
-        _id: guid(),
-        name: 'SPAN 4455 Development of Drama',
-        startDateTime: new Date(now.getFullYear(), now.getMonth(), now.getDate(), 10, 0),
-        endDateTime: new Date(now.getFullYear(), now.getMonth(), now.getDate(), 11, 5)
-      }
-    ]
-  };
-
   render() {
-    const {items} = this.state;
+    const items = this.props.schedules['Schedule1'].courses;
 
     return (
       <div style={this.props.style}>
@@ -29,5 +17,13 @@ class Schedule extends Component {
     )
   }
 }
+
+const mapStateToProps = state => {
+  return {
+    schedules: state.schedules
+  }
+};
+
+Schedule = connect(mapStateToProps, null)(Schedule);
 
 export default Schedule;
