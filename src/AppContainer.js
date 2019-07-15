@@ -26,7 +26,6 @@ class AppContainer extends React.Component {
           <PrivateRoute path='/profile-setup' component={ProfileQuestions}/>
         </Container>
 
-        {/*<Route exact path='/' component={Signup} />*/}
         <PrivateRoute path='/dashboard' component={Dashboard}/>
       </Router>
     );
