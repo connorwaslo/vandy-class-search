@@ -7,6 +7,7 @@ import {Container} from "@material-ui/core";
 import ChangePage from "../components/search/ChangePage";
 import SearchResults from "../components/search/SearchResults";
 import FilterSection from "../components/search/FilterSection";
+import Schedule from "./Schedule";
 
 export const PAGE_SIZE  = 25;
 
@@ -18,11 +19,14 @@ class Dashboard extends Component {
       <div>
         <Navbar/>
 
-        <FilterSection onSubmit={this._submitSearch}/>
-        <Container maxWidth='md'>
-          <SearchResults validCourses={validCourses} page={page} pageSize={PAGE_SIZE} />
-        </Container>
-        {this._renderChangePage(page)}
+        <div style={{position: 'absolute', left: 0, width: '50vw'}}>
+          <FilterSection onSubmit={this._submitSearch}/>
+          <Container maxWidth='md'>
+            <SearchResults validCourses={validCourses} page={page} pageSize={PAGE_SIZE} />
+          </Container>
+          {this._renderChangePage(page)}
+        </div>
+        <Schedule style={{position: 'fixed', right: 0, width: '50vw', marginTop: '15vh'}}/>
       </div>
     )
   }

@@ -8,7 +8,7 @@ class Schedule extends Component {
 
   render() {
     return (
-      <div>
+      <div style={this.props.style}>
         <ReactAgenda
           numberOfDays={5}/>
       </div>
