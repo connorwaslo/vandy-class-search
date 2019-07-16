@@ -1,6 +1,6 @@
 import React from 'react';
 import {connect} from "react-redux";
-import {BrowserRouter as Router, Route} from "react-router-dom";
+import {BrowserRouter as Router, Route, withRouter} from "react-router-dom";
 import './App.css';
 import {Container} from "@material-ui/core";
 import Signup from "./screens/Signup";
@@ -12,8 +12,15 @@ import PrivateRoute from "./components/PrivateRoute";
 import Schedule from "./screens/Schedule";
 
 class AppContainer extends React.Component {
+  componentDidMount() {
+    const {loggedIn, history} = this.props;
+
+    if (loggedIn) {
+      history.push('/dashboard');
+    }
+  }
+
   render() {
-    console.log('Loading?', this.props.loading);
     if (this.props.loading) {
       return <Loading finish={this.props.finish}/>
     }
@@ -36,8 +43,8 @@ class AppContainer extends React.Component {
 
 const mapStateToProps = state => {
   return {
-    email: state.email,
-    loggedIn: state.loggedIn,
+    email: state.auth.email,
+    loggedIn: state.auth.loggedIn,
     searches: state.searches
   }
 };

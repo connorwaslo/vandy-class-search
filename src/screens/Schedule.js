@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import {connect} from "react-redux";
-import {ReactAgenda, ReactAgendaCtrl, guid, Modal} from 'react-agenda';
+import {ReactAgenda} from 'react-agenda';
 import 'react-agenda/build/styles.css';
 import 'react-datetime/css/react-datetime.css';
 

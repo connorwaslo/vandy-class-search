@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import {connect} from "react-redux";
 import {loginEmail} from "../ducks/actions";
-import {Route, Link} from 'react-router-dom';
+import {Route, Link, withRouter} from 'react-router-dom';
 import LoginForm from "../components/forms/LoginForm";
 import firebase from 'firebase/app';
 import 'firebase/auth';
@@ -13,6 +13,12 @@ class Login extends Component {
     pass: '',
     errorMsg: null
   };
+
+  componentDidMount() {
+    if (this.props.loggedIn) {
+      this.props.history.push('/dashboard');
+    }
+  }
 
   render() {
     return (
@@ -60,6 +66,12 @@ class Login extends Component {
   }
 }
 
+const mapStateToProps = (state) => {
+  return {
+    loggedIn: state.auth.loggedIn
+  };
+};
+
 const mapDispatchToProps = (dispatch) => {
   return {
     login: (email) => {
@@ -68,6 +80,6 @@ const mapDispatchToProps = (dispatch) => {
   }
 };
 
-Login = connect(null, mapDispatchToProps)(Login);
+Login = connect(mapStateToProps, mapDispatchToProps)(Login);
 
-export default Login;
+export default withRouter(Login);
