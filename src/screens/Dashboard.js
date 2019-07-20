@@ -8,6 +8,7 @@ import ChangePage from "../components/search/ChangePage";
 import SearchResults from "../components/search/SearchResults";
 import FilterSection from "../components/search/FilterSection";
 import Schedule from "./Schedule";
+import onlyMajors from '../course_data/majors';
 
 export const PAGE_SIZE  = 25;
 
@@ -33,7 +34,6 @@ class Dashboard extends Component {
 
   _renderChangePage = page => {
     const {totalPages} = this.props;
-    console.log('total Pages:', totalPages);
     if (totalPages === -1) {
       return null;
     } else if (totalPages === 0) {
@@ -87,7 +87,38 @@ class Dashboard extends Component {
 
       // Todo: Waiting on the data for this
       if (searchType === 'major') {
+        let classes = [];
+        let editedSearch = search.toLowerCase();
+        let allMajors = Object.keys(onlyMajors);
+        let applicableMajors = [];
 
+        // Find the majors that apply here
+        allMajors.forEach(major => {
+          console.log('Looking @ major:', major);
+          if (major.toLowerCase().includes(editedSearch)) {
+            applicableMajors.push(major);
+            console.log('Applicable:', major);
+          }
+        });
+
+        // Get all applicable classes for the majors that the user searched
+        applicableMajors.forEach(major => {
+
+          let sections = Object.keys(onlyMajors[major]);
+          sections.forEach(section => {
+            // Don't include notes in class results
+            if (section !== 'Notes') {
+              console.log('Classes:', onlyMajors[major][section]);
+              classes.push(...onlyMajors[major][section]);
+            }
+          })
+        });
+
+        console.log('Classes pre set:', classes);
+
+        // Remove duplicates from classes
+        classes = [...new Set(classes)];
+        console.log('Major search', classes);
       } else if (searchType === 'minor') {
 
       } else {
