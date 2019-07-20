@@ -114,11 +114,29 @@ class Dashboard extends Component {
           })
         });
 
-        console.log('Classes pre set:', classes);
-
         // Remove duplicates from classes
         classes = [...new Set(classes)];
-        console.log('Major search', classes);
+        classes = classes.map(course => {
+          return course.toLowerCase().replace(/\s/g, '');
+        });
+
+        console.log('Classes:', classes);
+
+        // Search through undergrad catalog to get actual class info now
+        majors.forEach(major => {
+          courses[major].forEach(course => {
+            let code = course['Code'].toLowerCase().replace(/\s+/g, '');
+
+            // Check if this class code is in the major
+            if (classes.includes(code.toLowerCase().trim())) {
+              if (Object.keys(results).includes(major)) {
+                results[major].push(course);
+              } else {
+                results[major] = [course];
+              }
+            }
+          });
+        })
       } else if (searchType === 'minor') {
 
       } else {
