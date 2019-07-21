@@ -32,7 +32,12 @@ class Loading extends Component {
             // Change total page count
             let pages = Math.trunc((getObjectSize(validCourses) + PAGE_SIZE - 1) / PAGE_SIZE);
             console.log('Page Math:', pages);
-            setTotalPages(pages);
+
+            // If there's no results, then just set it to -1
+            if (pages === 0)
+              setTotalPages(-1);
+            else
+              setTotalPages(pages);
 
             // Make sure the total page count is correct
             this._totalPages(validCourses);

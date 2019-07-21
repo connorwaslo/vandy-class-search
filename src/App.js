@@ -24,7 +24,7 @@ const pReducer = persistReducer(persistConfig, rootReducer);
 const store = createStore(pReducer);
 
 const persistor = persistStore(store);
-// persistor.purge();  // When not purging data.... everything breaks
+// persistor.purge();
 
 class App extends React.Component {
   state = {
