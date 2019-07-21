@@ -138,7 +138,56 @@ class Dashboard extends Component {
           });
         })
       } else if (searchType === 'minor') {
+        let classes = [];
+        let editedSearch = search.toLowerCase();
+        let allMinors = Object.keys(onlyMajors);
+        let applicableMinors = [];
 
+        // Find the majors that apply here
+        allMinors.forEach(minor => {
+          console.log('Looking @ minor:', minor);
+          if (minor.toLowerCase().includes(editedSearch)) {
+            applicableMinors.push(minor);
+            console.log('Applicable:', minor);
+          }
+        });
+
+        // Get all applicable classes for the majors that the user searched
+        applicableMinors.forEach(minor => {
+
+          let sections = Object.keys(onlyMajors[minor]);
+          sections.forEach(section => {
+            // Don't include notes in class results
+            if (section !== 'Notes') {
+              console.log('Classes:', onlyMajors[minor][section]);
+              classes.push(...onlyMajors[minor][section]);
+            }
+          })
+        });
+
+        // Remove duplicates from classes
+        classes = [...new Set(classes)];
+        classes = classes.map(course => {
+          return course.toLowerCase().replace(/\s/g, '');
+        });
+
+        console.log('Classes:', classes);
+
+        // Search through undergrad catalog to get actual class info now
+        majors.forEach(major => {
+          courses[major].forEach(course => {
+            let code = course['Code'].toLowerCase().replace(/\s+/g, '');
+
+            // Check if this class code is in the major
+            if (classes.includes(code.toLowerCase().trim())) {
+              if (Object.keys(results).includes(major)) {
+                results[major].push(course);
+              } else {
+                results[major] = [course];
+              }
+            }
+          });
+        })
       } else {
         // Todo: Consider flipping order and having if statements outside majors loop
         majors.forEach(major => {
@@ -236,7 +285,6 @@ class Dashboard extends Component {
 
     // this.totalPages = Math.trunc((numResults + PAGE_SIZE - 1) / PAGE_SIZE);
     this.props.setTotalPages(Math.trunc((numResults + PAGE_SIZE - 1) / PAGE_SIZE));
-
     this.props.setSearchResults(finalResults);
   };
 

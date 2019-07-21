@@ -12,19 +12,12 @@ import PrivateRoute from "./components/PrivateRoute";
 import Schedule from "./screens/Schedule";
 
 class AppContainer extends React.Component {
-  componentDidMount() {
-    const {loggedIn, history} = this.props;
-
-    if (loggedIn) {
-      history.push('/dashboard');
-    }
-  }
-
   render() {
     if (this.props.loading) {
       return <Loading finish={this.props.finish}/>
     }
 
+    console.log('Taken Courses:', this.props.takenCourses);
     return (
       <Router basename='/course-search/'>
         <Container>
@@ -44,7 +37,8 @@ const mapStateToProps = state => {
   return {
     email: state.auth.email,
     loggedIn: state.auth.loggedIn,
-    searches: state.searches
+    searches: state.searches,
+    takenCourses: state.courses.takenCourses
   }
 };
 

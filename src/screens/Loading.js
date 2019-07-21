@@ -10,12 +10,9 @@ import {getObjectSize} from "../utils/Utils";
 class Loading extends Component {
   componentDidMount() {
     let {setClassTaken, setTotalPages, changeAuthStatus, loginEmail, validCourses} = this.props;
-    console.log('Mounted');
 
     firebase.auth().onAuthStateChanged(user => {
-      console.log('Check auth status');
       if (user) {
-        console.log('Loggedin:', user.email);
         const uid = firebase.auth().currentUser.uid;
 
         changeAuthStatus(true);
@@ -24,17 +21,12 @@ class Loading extends Component {
         // Get courses the user has taken too
         firebase.database().ref('coursesTaken/' + uid).once('value')
           .then(snap => {
-            console.log('Check database', snap.val());
             if (snap.val()) {
-              console.log('Has value');
               let courses = Object.keys(snap.val());
               courses.forEach(course => {
-                console.log('Save', course);
                 // Add class to state as class taken
                 setClassTaken(course);
               });
-            } else {
-              console.log('No val');
             }
 
             // Change total page count
@@ -51,8 +43,10 @@ class Loading extends Component {
       } else {
         console.log('No user');
 
-        // Make sure the total page count is correct
-        this._totalPages(validCourses);
+        // Reset the number of pages to -1 because no data available
+        this.props.setTotalPages(-1);
+        // this._totalPages(validCourses);
+
 
         // Do nothing
         this.props.finish();

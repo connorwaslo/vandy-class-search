@@ -57,10 +57,8 @@ class ClassCard extends React.Component {
     const {takenCourses, code} = this.props;
 
     if (takenCourses.includes(code)) {
-      this.props.removeClassTaken(code);
       this._dbUpdateClassTaken(code, false);
     } else {
-      this.props.setClassTaken(code);
       this._dbUpdateClassTaken(code, true);
     }
   };

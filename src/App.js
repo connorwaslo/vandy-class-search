@@ -17,14 +17,14 @@ const persistConfig = {
   key: 'root',
   storage: storage,
   stateReconciler: autoMergeLevel2,
-  blacklist: ['loggedIn']
+  blacklist: ['loggedIn', 'schedules', 'courses']  // Anything pulled from firebase is too complicated to cross-ref, so just don't persist it
 };
 
 const pReducer = persistReducer(persistConfig, rootReducer);
 const store = createStore(pReducer);
 
 const persistor = persistStore(store);
-persistor.purge();  // Note: when this is not commented out, email will not appear
+// persistor.purge();  // When not purging data.... everything breaks
 
 class App extends React.Component {
   state = {
