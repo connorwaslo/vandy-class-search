@@ -129,6 +129,7 @@ class Dashboard extends Component {
 
             // Check if this class code is in the major
             if (classes.includes(code.toLowerCase().trim())) {
+              numResults++;
               if (Object.keys(results).includes(major)) {
                 results[major].push(course);
               } else {
@@ -180,6 +181,7 @@ class Dashboard extends Component {
 
             // Check if this class code is in the major
             if (classes.includes(code.toLowerCase().trim())) {
+              numResults++;
               if (Object.keys(results).includes(major)) {
                 results[major].push(course);
               } else {
