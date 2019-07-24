@@ -1,7 +1,7 @@
 import React from 'react';
 import {connect} from "react-redux";
-import {setClassTaken, removeClassTaken} from "../../ducks/actions";
-import {Card, Grid, FormControlLabel, Checkbox} from "@material-ui/core";
+import {setClassTaken, removeClassTaken, addScheduleCourse} from "../../ducks/actions";
+import {Card, Grid, FormControlLabel, Checkbox, Button, makeStyles} from "@material-ui/core";
 import CardContent from "@material-ui/core/CardContent";
 import Typography from "@material-ui/core/Typography";
 import firebase from 'firebase/app';
@@ -12,6 +12,7 @@ class ClassCard extends React.Component {
   render() {
     const {code, name, major, axle, prereqs, coreqs, takenCourses} = this.props;
     const credits = this._getCredits();
+    const classes = useStyles;
 
     return (
       <Card
@@ -46,6 +47,10 @@ class ClassCard extends React.Component {
                   onChange={this._handleChange}
                   color='primary'/>
               } label='Already Taken'/>
+              <Button variant='outlined' color='primary' className={classes.button}
+                      onClick={this._addClassToSchedule}>
+                Add to Schedule
+              </Button>
             </Grid>
           </Grid>
         </CardContent>
@@ -101,6 +106,13 @@ class ClassCard extends React.Component {
 
     return credStr;
   };
+
+  _addClassToSchedule = () => {
+    const sched = 'Schedule1'; // Todo: Generalize this
+    console.log('Code:', this.props.code, 'Name:', this.props.name);
+    const course = this.props.code + ' ' + this.props.name;
+    this.props.addClassToSchedule(sched, course);
+  };
 }
 
 const mapStateToProps = state => {
@@ -116,10 +128,19 @@ const mapDispatchToProps = dispatch => {
     },
     removeClassTaken: (code) => {
       dispatch(removeClassTaken(code));
+    },
+    addClassToSchedule: (schedule, course) => {
+      dispatch(addScheduleCourse(schedule, course));
     }
   };
 };
 
 ClassCard = connect(mapStateToProps, mapDispatchToProps)(ClassCard);
+
+const useStyles = makeStyles(theme => ({
+  button: {
+    margin: theme.spacing(1)
+  }
+}));
 
 export default ClassCard;

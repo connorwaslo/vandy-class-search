@@ -5,6 +5,7 @@ import {
 } from "./actionTypes";
 import {combineReducers} from "redux";
 import {guid} from "react-agenda";
+import {getRandomInt} from "../utils/Utils";
 
 const initialAuthState = {
   email: '',
@@ -180,11 +181,28 @@ let schedules = (state = initialScheduleState, action) => {
       delete state[action.title];
       return state;
     case ADD_CLASS_TO_SCHEDULE:
-      // console.log('Add Class To Schedule:', state);
-      let addClass = Object.assign({}, state[action.title], {
-        courses: state[action.title].courses.push(action.course)
+      console.log('Add Class To Schedule:', action.title, '//', action.course);
+
+      // ToDo: Check and see if class already exists
+      let exists = false;
+      state[action.title].courses.forEach(course => {
+        if (course.name === action.course) exists = true;
       });
-      // state[action.title].courses.append(action.course);
+      if (exists) {
+        console.log('Class already exists');
+        return state;
+      }
+
+      let randStartHour = getRandomInt(8, 17);
+      let addClass = Object.assign({}, state[action.title], {
+        courses: [...state[action.title].courses, {
+          _id: guid(),
+          name: action.course,
+          startDateTime: new Date(now.getFullYear(), now.getMonth(), now.getDate(), randStartHour, 10),
+          endDateTime: new Date(now.getFullYear(), now.getMonth(), now.getDate(), randStartHour + 1, 0)
+        }]
+      });
+
       return {
         ...state,
         [action.title]: addClass

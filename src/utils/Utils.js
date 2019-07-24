@@ -9,3 +9,8 @@ export const getObjectSize = obj => {
 
   return count;
 };
+
+// Gets random integer from 0 to (inclusively) max
+export const getRandomInt = (min, max) => {
+  return Math.random() * (max - min) + min;
+};
