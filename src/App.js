@@ -17,14 +17,17 @@ const persistConfig = {
   key: 'root',
   storage: storage,
   stateReconciler: autoMergeLevel2,
-  blacklist: ['loggedIn', 'schedules', 'courses']  // Anything pulled from firebase is too complicated to cross-ref, so just don't persist it
+  blacklist: ['loggedIn', 'courses']  // Anything pulled from firebase is too complicated to cross-ref, so just don't persist it
 };
 
 const pReducer = persistReducer(persistConfig, rootReducer);
 const store = createStore(pReducer);
 
 const persistor = persistStore(store);
-// persistor.purge();
+persistor.purge();
+
+console.log('Very initial store:');
+console.log(store.getState());
 
 class App extends React.Component {
   state = {

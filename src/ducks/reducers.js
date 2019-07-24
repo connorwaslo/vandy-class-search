@@ -147,7 +147,6 @@ let courses = (state = initialCourseState, action) => {
 // Handle schedules
 let now = new Date();
 const initialScheduleState = {
-  // Todo: determine whether it's better to initialize a blank schedule or not
   'Schedule1': {
     courses: [
       {
@@ -155,34 +154,55 @@ const initialScheduleState = {
         name: 'SPAN 4455 Development of Drama',
         startDateTime: new Date(now.getFullYear(), now.getMonth(), now.getDate(), 10, 0),
         endDateTime: new Date(now.getFullYear(), now.getMonth(), now.getDate(), 11, 5)
+      },
+      {
+        _id: guid(),
+        name: 'AADS 1001 Intro Class',
+        startDateTime: new Date(now.getFullYear(), now.getMonth(), now.getDate(), 14, 10),
+        endDateTime: new Date(now.getFullYear(), now.getMonth(), now.getDate(), 15, 0)
       }
     ]
   }
 };
 
 let schedules = (state = initialScheduleState, action) => {
-  let newSched = state.schedules;
+  // console.log('preswitch:', state);
   switch (action.type) {
     case ADD_SCHEDULE:
-      newSched[action.title] = {
+      state[action.title] = {
         courses: []
       };
 
       return {
-        schedules: newSched
+        schedules: state
       };
     case REMOVE_SCHEDULE:
-      delete newSched[action.title];
-      return newSched;
+      delete state[action.title];
+      return state;
     case ADD_CLASS_TO_SCHEDULE:
-      newSched[action.title].courses.append(action.course);
-      return newSched;
+      // console.log('Add Class To Schedule:', state);
+      let addClass = Object.assign({}, state[action.title], {
+        courses: state[action.title].courses.push(action.course)
+      });
+      // state[action.title].courses.append(action.course);
+      return {
+        ...state,
+        [action.title]: addClass
+      };
     case REMOVE_CLASS_FROM_SCHEDULE:
-      newSched[action.title].courses = newSched[action.title].courses.filter((obj) => {
-        return !obj.name.includes(action.course);
+      console.log('Removing class', action.title, action.course);
+
+      // Because of object immutability, we have to pull some fanciness
+      let removeClass = Object.assign({}, state[action.title], {
+        courses: state[action.title].courses
+          .filter(course => course.name !== action.course)
       });
 
-      return newSched;
+      // Just update the courses for this schedule
+      return {
+        ...state,
+        [action.title]: removeClass
+      };
     default:
       return state;
   }

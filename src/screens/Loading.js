@@ -50,8 +50,6 @@ class Loading extends Component {
 
         // Reset the number of pages to -1 because no data available
         this.props.setTotalPages(-1);
-        // this._totalPages(validCourses);
-
 
         // Do nothing
         this.props.finish();
