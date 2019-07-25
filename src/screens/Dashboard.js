@@ -85,7 +85,6 @@ class Dashboard extends Component {
       let searchType = searchObj.type;
       let majors = Object.keys(finalResults);
 
-      // Todo: Waiting on the data for this
       if (searchType === 'major') {
         let classes = [];
         let editedSearch = search.toLowerCase();

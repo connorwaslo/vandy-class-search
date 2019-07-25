@@ -72,11 +72,14 @@ class ProfileQuestions extends Component {
     const uid = firebase.auth().currentUser.uid;
     firebase.database().ref('profiles/' + uid).set({
       year: yearConv
+    }).then(() => {
+      // Success, so continue to dashboard
+      history.push('/dashboard');
     }).catch((error) => {
-      console.log('Error:', error.message);
+      // Something went wrong, but continue to dashboard anyway
+      console.log('Error saving profile info:', error.message);
+      history.push('/dashboard');
     });
-
-    history.push('/dashboard');
   }
 }
 
