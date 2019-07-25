@@ -48,10 +48,30 @@ class ProfileQuestions extends Component {
   _submitAnswer = (event, history) => {
     event.preventDefault();
 
+    // Convert year sel to int to save data
+    let yearConv = 0;
+    switch (this.state.yearSel) {
+      case 'First Year':
+        yearConv = 1;
+        break;
+      case 'Sophomore':
+        yearConv = 2;
+        break;
+      case 'Junior':
+        yearConv = 3;
+        break;
+      case 'Senior':
+        yearConv = 4;
+        break;
+      default:
+        yearConv = 0;
+        break;
+    }
+
     // Save this answer to Firebase Realtime database
     const uid = firebase.auth().currentUser.uid;
     firebase.database().ref('profiles/' + uid).set({
-      year: this.state.yearSel
+      year: yearConv
     }).catch((error) => {
       console.log('Error:', error.message);
     });
