@@ -9,7 +9,8 @@ import {getRandomInt} from "../utils/Utils";
 
 const initialAuthState = {
   email: '',
-  loggedIn: false // Is user logged in?
+  loggedIn: false, // Is user logged in?
+  selectSchedule: 'Schedule1'
 };
 
 // Auth action reducers
@@ -155,12 +156,6 @@ const initialScheduleState = {
         name: 'SPAN 4455 Development of Drama',
         startDateTime: new Date(now.getFullYear(), now.getMonth(), now.getDate(), 10, 0),
         endDateTime: new Date(now.getFullYear(), now.getMonth(), now.getDate(), 11, 5)
-      },
-      {
-        _id: guid(),
-        name: 'AADS 1001 Intro Class',
-        startDateTime: new Date(now.getFullYear(), now.getMonth(), now.getDate(), 14, 10),
-        endDateTime: new Date(now.getFullYear(), now.getMonth(), now.getDate(), 15, 0)
       }
     ]
   }
