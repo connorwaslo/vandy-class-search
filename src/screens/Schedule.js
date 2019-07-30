@@ -20,7 +20,7 @@ class Schedule extends Component {
 
     return (
       <div style={this.props.style}>
-        <ScheduleSidebar style={this.props.style}/>
+        {/*<ScheduleSidebar style={this.props.style}/>*/}
         <ReactAgenda
           items={items}
           title={title}

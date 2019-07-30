@@ -6,6 +6,8 @@ import ProfileButton from './ProfileButton';
 import firebase from 'firebase/app';
 import 'firebase/auth';
 
+export const NAVBAR_HEIGHT = '10vh';
+
 class Navbar extends Component {
   state = {
     anchorEl: null
@@ -13,7 +15,7 @@ class Navbar extends Component {
   
   render() {
     return (
-      <div style={{position: 'absolute', top: 0, backgroundColor: 'lightgrey', height: '10vh', width: '100vw',
+      <div style={{position: 'absolute', top: 0, backgroundColor: 'lightgrey', height: NAVBAR_HEIGHT, width: '100vw',
                   paddingTop: '5vh'}}>
         <Link to='/dashboard'
               style={{position: 'absolute', left: '5vw'}}>BETTER YES</Link>

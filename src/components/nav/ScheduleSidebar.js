@@ -1,12 +1,12 @@
 import React from 'react';
-import clsx from 'clsx';
 import {
   Drawer, Button, List, ListItemText,
   makeStyles, useTheme, CssBaseline, AppBar, Toolbar
 } from "@material-ui/core";
 import Typography from "@material-ui/core/Typography";
+import Schedule from "../../screens/Schedule";
 
-const drawerWidth = 240;
+// const drawerWidth = '50';
 
 const useStyles = makeStyles(theme => ({
   root: {
@@ -19,8 +19,8 @@ const useStyles = makeStyles(theme => ({
     }),
   },
   appBarShift: {
-    width: `calc(100% - ${drawerWidth}px)`,
-    marginLeft: drawerWidth,
+    width: '50vw',  //`calc(100% - ${drawerWidth}vw)`,
+    marginLeft: '50vw',
     transition: theme.transitions.create(['margin', 'width'], {
       easing: theme.transitions.easing.easeOut,
       duration: theme.transitions.duration.enteringScreen,
@@ -33,11 +33,11 @@ const useStyles = makeStyles(theme => ({
     display: 'none',
   },
   drawer: {
-    width: drawerWidth,
+    width: '50vw',
     flexShrink: 0,
   },
   drawerPaper: {
-    width: drawerWidth,
+    width: '50vw',
   },
   drawerHeader: {
     display: 'flex',
@@ -53,7 +53,7 @@ const useStyles = makeStyles(theme => ({
       easing: theme.transitions.easing.sharp,
       duration: theme.transitions.duration.leavingScreen,
     }),
-    marginLeft: -drawerWidth,
+    marginLeft: -'50vw',
   },
   contentShift: {
     transition: theme.transitions.create('margin', {
@@ -74,32 +74,24 @@ export const ScheduleSidebar = ({title, style}) => {
 
   return (
     <div className={classes.root} style={style}>
-      <CssBaseline/>
-      <AppBar position='fixed'
-              className={clsx(classes.appBar, {
-                [classes.appBarShift]: open
-              })}
-      >
-        <Toolbar>
-          <Button onClick={_handleDrawerOpen}>
-            Menu
-          </Button>
-          <Typography variant='h6' noWrap>
-            {title}
-          </Typography>
-        </Toolbar>
-      </AppBar>
+      <Button onClick={_handleDrawerOpen} style={{ position: 'fixed', top: '16vh', right: '2vw'}}>
+        Menu
+      </Button>
+      <Typography variant='h6' noWrap>
+        Title
+      </Typography>
       <Drawer
         className={classes.drawer}
         variant='persistent'
-        anchor='left'
+        anchor='right'
         open={open}
         classes={{paper: classes.drawerPaper}}
       >
         <div className={classes.drawerHeader}>
-          <Button onClick={_handleDrawClose}>
-            Clooooooooooooose
+          <Button onClick={_handleDrawClose} style={{position: 'absolute', left: '2vw', top: '2vh'}}>
+            Close
           </Button>
+          <Schedule style={{width: '50vw', marginTop: '15vh'}}/>
         </div>
       </Drawer>
     </div>

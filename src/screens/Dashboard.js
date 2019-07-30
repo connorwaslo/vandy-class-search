@@ -9,6 +9,7 @@ import SearchResults from "../components/search/SearchResults";
 import FilterSection from "../components/search/FilterSection";
 import Schedule from "./Schedule";
 import onlyMajors from '../course_data/majors';
+import {ScheduleSidebar} from "../components/nav/ScheduleSidebar";
 
 export const PAGE_SIZE  = 25;
 
@@ -30,7 +31,7 @@ class Dashboard extends Component {
           </Container>
           {this._renderChangePage(page)}
         </div>
-        <Schedule style={{position: 'fixed', right: 0, width: '50vw', marginTop: '15vh'}}/>
+        <ScheduleSidebar/>
       </div>
     )
   }
