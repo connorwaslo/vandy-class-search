@@ -4,6 +4,7 @@ import {ReactAgenda, ReactAgendaCtrl, Modal} from 'vandy-agenda';
 import 'react-agenda/build/styles.css';
 import 'react-datetime/css/react-datetime.css';
 import {removeScheduleCourse} from "../ducks/actions";
+import {ScheduleSidebar} from "../components/nav/ScheduleSidebar";
 
 class Schedule extends Component {
   state = {
@@ -19,6 +20,7 @@ class Schedule extends Component {
 
     return (
       <div style={this.props.style}>
+        <ScheduleSidebar style={this.props.style}/>
         <ReactAgenda
           items={items}
           title={title}

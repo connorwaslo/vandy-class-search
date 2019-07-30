@@ -16,6 +16,9 @@ class Dashboard extends Component {
   render() {
     const {page, validCourses} = this.props;
 
+    // Todo: Persistent drawer should show/hide the schedule - not the schedule menu
+    // Todo: Have button to open customized menu on Schedule component
+    // Todo: Install MaterialUIIcons to use
     return (
       <div>
         <Navbar/>
