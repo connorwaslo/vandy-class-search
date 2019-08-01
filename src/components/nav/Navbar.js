@@ -1,51 +1,48 @@
 import React, {Component} from 'react';
+import clsx from 'clsx';
+import {Button, CssBaseline, makeStyles, Typography} from "@material-ui/core";
 import {connect} from "react-redux";
 import {logOut} from "../../ducks/actions";
 import {Link, withRouter} from 'react-router-dom';
 import ProfileButton from './ProfileButton';
+import {drawerWidth} from "../../containers/DashboardContainer";
 import firebase from 'firebase/app';
 import 'firebase/auth';
 
-export const NAVBAR_HEIGHT = '10vh';
-
-class Navbar extends Component {
-  state = {
-    anchorEl: null
-  };
-  
-  render() {
-    return (
-      <div style={{position: 'absolute', top: 0, backgroundColor: 'lightgrey', height: NAVBAR_HEIGHT, width: '100vw',
-                  paddingTop: '5vh'}}>
-        <Link to='/dashboard'
-              style={{position: 'absolute', left: '5vw'}}>BETTER YES</Link>
-        <ProfileButton
-          anchorEl={this.state.anchorEl}
-          nav={this._nav}
-          handleClick={this._handleClick}
-          handleClose={this._handleClose}
-          logout={this._logout}/>
-      </div>
-    )
+const useStyles = makeStyles(theme => ({
+  root: {
+    display: 'flex'
+  },
+  appBar: {
+    zIndex: theme.zIndex.drawer + 1,
+    position: 'fixed',
+    top: 0,
+    width: '100%',
+    height: '10vh',
+    background: 'lightgrey'
+  },
+  button: {
+    margin: theme.spacing(2)
   }
+}));
 
-  _nav = dir => {
+function Navbar({close}) {
+  const classes = useStyles();
+  const [anchorEl, setAnchor] = React.useState(null);
+
+  let _nav = dir => {
     this.props.history.push(dir);
   };
 
-  _handleClick = event => {
-    this.setState({
-      anchorEl: event.currentTarget
-    });
+  let _handleClick = event => {
+    setAnchor(event.currentTarget);
   };
 
-  _handleClose = () => {
-    this.setState({
-      anchorEl: null
-    });
+  let _handleClose = () => {
+    setAnchor(null);
   };
 
-  _logout = () => {
+  let _logout = () => {
     firebase.auth().signOut()
       .then(() => {
         this.props.logOut(); // Clear auth state in store
@@ -56,7 +53,28 @@ class Navbar extends Component {
       .catch((error) => {
         console.log('Error logging out:', error.message);
       })
-  }
+  };
+
+  return (
+    <div className={classes.root}>
+      <CssBaseline/>
+      <div
+        color='primary'
+        className={classes.appBar}
+      >
+        <Link to='/dashboard'
+              className={classes.button}
+              style={{position: 'absolute', left: '5vw', top: '1vh'}}>BETTER YES</Link>
+        <ProfileButton
+          className={classes.button}
+          anchorEl={anchorEl}
+          nav={_nav}
+          handleClick={_handleClick}
+          handleClose={_handleClose}
+          logout={_logout}/>
+      </div>
+    </div>
+  );
 }
 
 const mapDispatchToProps = dispatch => {

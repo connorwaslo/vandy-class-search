@@ -4,35 +4,34 @@ import {setSearchResults, changePage, setTotalPages} from "../ducks/actions";
 import Navbar from "../components/nav/Navbar";
 import courses from '../axle_pb_bus_courses';
 import {Container} from "@material-ui/core";
+import {makeStyles} from "@material-ui/core/styles";
 import ChangePage from "../components/search/ChangePage";
 import SearchResults from "../components/search/SearchResults";
 import FilterSection from "../components/search/FilterSection";
 import Schedule from "./Schedule";
 import onlyMajors from '../course_data/majors';
 import {ScheduleSidebar} from "../components/nav/ScheduleSidebar";
+import DashboardContainer from "../containers/DashboardContainer";
 
 export const PAGE_SIZE  = 25;
 
 class Dashboard extends Component {
+  state = {
+    openSchedule: false
+  };
+
   render() {
-    const {page, validCourses} = this.props;
+    const {validCourses, page} = this.props;
 
     // Todo: Persistent drawer should show/hide the schedule - not the schedule menu
     // Todo: Have button to open customized menu on Schedule component
     // Todo: Install MaterialUIIcons to use
     return (
-      <div>
-        <Navbar/>
-
-        <div style={{position: 'absolute', left: 0, width: '50vw'}}>
-          <FilterSection onSubmit={this._submitSearch}/>
-          <Container maxWidth='md'>
-            <SearchResults validCourses={validCourses} page={page} pageSize={PAGE_SIZE} />
-          </Container>
-          {this._renderChangePage(page)}
-        </div>
-        <ScheduleSidebar/>
-      </div>
+      <DashboardContainer
+        validCourses={validCourses}
+        page={page}
+        submitSearch={this._submitSearch}
+        renderChangePage={this._renderChangePage}/>
     )
   }
 

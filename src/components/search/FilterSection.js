@@ -5,11 +5,12 @@ import Searchbar from './Searchbar';
 
 class FilterSection extends Component {
   render() {
-    const {searches} = this.props;
+    const {searches, open} = this.props;
+    console.log('Open?', open);
 
     return (
       <Container
-        maxWidth='md'
+        maxWidth={open ? 'sm' : 'md'}
         style={{paddingTop: '18vh', paddingBottom: '3vh', justifyContent: 'center', textAlign: 'center'}}>
         <form onSubmit={(e) => this.props.onSubmit(e, searches)}>
           {this._renderSearches()}

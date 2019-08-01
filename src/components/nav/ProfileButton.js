@@ -4,8 +4,13 @@ import {connect} from "react-redux";
 
 let ProfileButton = (props) => (
   <div
+    className={props.className}
     style={{position: 'absolute', right: '5vw'}}>
-    <Button aria-controls='simple-menu' aria-haspopup='true' onClick={props.handleClick}>
+    <Button
+      aria-controls='simple-menu'
+      aria-haspopup='true'
+      onClick={props.handleClick}
+    >
       {props.email}
     </Button>
     <Menu
