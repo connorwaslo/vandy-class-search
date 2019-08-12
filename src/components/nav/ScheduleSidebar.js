@@ -34,7 +34,7 @@ const useStyles = makeStyles(theme => ({
   }
 }));
 
-export const ScheduleSidebar = ({isOpen, open, close, style}) => {
+export const ScheduleSidebar = ({isOpen, open, close}) => {
   const classes = useStyles();
 
   return (

@@ -6,7 +6,6 @@ import FilterSection from "../components/search/FilterSection";
 import SearchResults from "../components/search/SearchResults";
 import {ScheduleSidebar} from "../components/nav/ScheduleSidebar";
 import {PAGE_SIZE} from "../screens/Dashboard";
-import AppBar from "@material-ui/core/AppBar";
 
 export const drawerWidth = Math.max(document.documentElement.clientWidth, window.innerWidth || 0) / 2;
 

@@ -26,12 +26,12 @@ const useStyles = makeStyles(theme => ({
   }
 }));
 
-function Navbar({close}) {
+function Navbar(props) {
   const classes = useStyles();
   const [anchorEl, setAnchor] = React.useState(null);
 
   let _nav = dir => {
-    this.props.history.push(dir);
+    props.history.push(dir);
   };
 
   let _handleClick = event => {
@@ -45,10 +45,10 @@ function Navbar({close}) {
   let _logout = () => {
     firebase.auth().signOut()
       .then(() => {
-        this.props.logOut(); // Clear auth state in store
+        props.logOut(); // Clear auth state in store
 
         // Navigate back to login screen
-        this.props.history.push('/login');
+        props.history.push('/login');
       })
       .catch((error) => {
         console.log('Error logging out:', error.message);
