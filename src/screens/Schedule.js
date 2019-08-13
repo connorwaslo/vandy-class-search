@@ -25,10 +25,7 @@ class Schedule extends Component {
     console.log('Selection:', selection);
 
     let name = schedules[selection].name;
-    // Todo: Fix this so that if it's strictly true it doesn't have any courses
     let items;
-    console.log('Title:', name);
-    console.log('Props.schedules[title]:', schedules);
     if (schedules[selection].courses === true) {
       items = [];
     } else {
@@ -63,13 +60,17 @@ class Schedule extends Component {
 
   _createSchedule = () => {
     const uid = firebase.auth().currentUser.uid;
-    firebase.database().ref('schedules/' + uid).push({
+
+    // Get number of schedules and use length as the new key
+    const index = this.props.schedules.length;
+
+    firebase.database().ref('schedules/' + uid + '/' + index).update({
       name: 'New Schedule',
       courses: [true]
     }).then(() => {
       console.log('Added new schedule');
       this.props.addSchedule('New Schedule');
-      this.props.changeSchedule('New Schedule');
+      this.props.changeSchedule(this.props.schedules.length - 1); // Has to be -1 because length +1
     })
   };
 
@@ -82,7 +83,7 @@ class Schedule extends Component {
     // e.preventDefault();
     const uid = firebase.auth().currentUser.uid;
 
-    // console.log('New name:', e.target.value);
+    // Get number of
 
     this.props.changeScheduleName(this.props.selection, newName);
     // Change the name in firebase

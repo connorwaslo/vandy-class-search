@@ -50,19 +50,14 @@ class Loading extends Component {
                 if (snap.val()) {
                   let scheds = snap.val();
 
-                  console.log('Scheds:', scheds);
-
                   scheds.forEach(schedule => {
-                    console.log('Name:', schedule.name);
                     this.props.addSchedule(schedule.name);
 
-                    console.log('Courses:', schedule.courses);
                     schedule.courses.forEach(course => {
                       if (course === true) {
                         return;
                       }
 
-                      console.log('Course:', course);
                       this.props.addClassToSchedule(schedule, course);
                     });
                   });

@@ -169,17 +169,6 @@ let courses = (state = initialCourseState, action) => {
 // Handle schedules
 let now = new Date();
 const initialScheduleState = [
-  {
-  name: 'Schedule1',
-  courses: [
-      {
-        _id: guid(),
-        name: 'SPAN 4455 Development of Drama',
-        startDateTime: new Date(now.getFullYear(), now.getMonth(), now.getDate(), 10, 0),
-        endDateTime: new Date(now.getFullYear(), now.getMonth(), now.getDate(), 11, 5)
-      }
-    ]
-  }
 ];
 
 let schedules = (state = initialScheduleState, action) => {
