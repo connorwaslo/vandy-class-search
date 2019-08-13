@@ -5,6 +5,7 @@ import 'react-agenda/build/styles.css';
 import 'react-datetime/css/react-datetime.css';
 import {removeScheduleCourse, addSchedule, removeSchedule, changeScheduleSelection, changeScheduleName} from "../ducks/actions";
 import {ScheduleSidebar} from "../components/nav/ScheduleSidebar";
+import {renameSchedule} from "../utils/FirebaseUtils";
 import firebase from 'firebase/app';
 import 'firebase/auth';
 import 'firebase/database';
@@ -80,18 +81,12 @@ class Schedule extends Component {
 
   _editName = (newName) => {
     console.log('Edit Name', newName, '@ index:', this.props.selection);
-    // e.preventDefault();
     const uid = firebase.auth().currentUser.uid;
 
-    // Get number of
-
     this.props.changeScheduleName(this.props.selection, newName);
+
     // Change the name in firebase
-
-    // Todo: Reorganize firebase to store array of schedules rather than schedules by key
-    // Todo: Go through things by index and store title: '', courses: [...]
-
-    // Then change the selection
+    renameSchedule(uid, this.props.selection, newName);
   };
 
   _handleCellSelection = item => {

@@ -4,7 +4,7 @@ import {loginEmail} from "../ducks/actions";
 import {Route, Link, withRouter} from 'react-router-dom';
 import {Container, Grid} from "@material-ui/core";
 import SignupForm from "../components/forms/SignupForm";
-import {initSchedules} from "../utils/DatabaseSetup";
+import {initSchedules} from "../utils/FirebaseUtils";
 import firebase from 'firebase/app';
 import 'firebase/auth';
 
