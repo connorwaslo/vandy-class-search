@@ -1,7 +1,21 @@
 import {
-  LOGIN_EMAIL, CHANGE_AUTH_STATUS, LOG_OUT,
-  CHANGE_SEARCH_TYPE, CHANGE_SEARCH_TEXT, ADD_SEARCH, REMOVE_SEARCH,
-  SEARCH_RESULTS, CHANGE_PAGE, ADD_CLASS_TAKEN, REMOVE_CLASS_TAKEN, SET_TOTAL_PAGES, ADD_SCHEDULE, REMOVE_SCHEDULE, ADD_CLASS_TO_SCHEDULE, REMOVE_CLASS_FROM_SCHEDULE
+  LOGIN_EMAIL,
+  CHANGE_AUTH_STATUS,
+  LOG_OUT,
+  CHANGE_SEARCH_TYPE,
+  CHANGE_SEARCH_TEXT,
+  ADD_SEARCH,
+  REMOVE_SEARCH,
+  SEARCH_RESULTS,
+  CHANGE_PAGE,
+  ADD_CLASS_TAKEN,
+  REMOVE_CLASS_TAKEN,
+  SET_TOTAL_PAGES,
+  ADD_SCHEDULE,
+  REMOVE_SCHEDULE,
+  ADD_CLASS_TO_SCHEDULE,
+  REMOVE_CLASS_FROM_SCHEDULE,
+  CHANGE_SCHEDULE_SELECTION
 } from "./actionTypes";
 import {combineReducers} from "redux";
 import {guid} from "react-agenda";
@@ -26,6 +40,11 @@ let auth = (state = initialAuthState, action) => {
       return {
         ...state,
         loggedIn: action.loginStatus
+      };
+    case CHANGE_SCHEDULE_SELECTION:
+      return {
+        ...state,
+        selectSchedule: action.title
       };
     case LOG_OUT:  // Just wipe all the auth state
       return {
@@ -165,12 +184,11 @@ let schedules = (state = initialScheduleState, action) => {
   // console.log('preswitch:', state);
   switch (action.type) {
     case ADD_SCHEDULE:
-      state[action.title] = {
-        courses: []
-      };
-
       return {
-        schedules: state
+        ...state,
+        [action.title]: {
+          courses: []
+        }
       };
     case REMOVE_SCHEDULE:
       delete state[action.title];

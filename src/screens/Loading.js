@@ -3,7 +3,9 @@ import {connect} from "react-redux";
 import firebase from 'firebase/app';
 import 'firebase/database';
 import 'firebase/auth';
-import {changeAuthStatus, loginEmail, setClassTaken, setTotalPages} from "../ducks/actions";
+import {
+  changeAuthStatus, loginEmail, setClassTaken, setTotalPages,
+  addSchedule, addScheduleCourse} from "../ducks/actions";
 import {PAGE_SIZE} from "./Dashboard";
 import {getObjectSize} from "../utils/Utils";
 
@@ -42,8 +44,32 @@ class Loading extends Component {
             // Make sure the total page count is correct
             this._totalPages(validCourses);
 
-            // Finally, set loading to done
-            this.props.finish();
+            // Grab schedules too
+            firebase.database().ref('schedules/' + uid).once('value')
+              .then(snap => {
+                if (snap.val()) {
+                  console.log('Snap Val', snap.val());
+
+                  let scheds = Object.keys(snap.val());
+                  scheds.forEach(schedule => {
+                    console.log('Adding Schedule:', schedule);
+                    this.props.addSchedule(schedule);
+                    snap.val()[schedule].courses.forEach(course => {
+                      if (course === true) {
+                        return;
+                      }
+
+                      console.log('Course:', course);
+                      this.props.addClassToSchedule(schedule, course);
+                    });
+                  });
+
+                  // Finally, set loading to done
+                  this.props.finish();
+                } else {
+                  this.props.finish();
+                }
+              });
           })
       } else {
         console.log('No user');
@@ -92,6 +118,12 @@ const mapDispatchToProps = dispatch => {
     },
     setTotalPages: (totalPages) => {
       dispatch(setTotalPages(totalPages));
+    },
+    addSchedule: (title) => {
+      dispatch(addSchedule(title));
+    },
+    addClassToSchedule: (title, course) => {
+      dispatch(addScheduleCourse(title, course));
     }
   }
 };

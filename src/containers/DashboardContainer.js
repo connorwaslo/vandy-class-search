@@ -47,7 +47,7 @@ function DashboardContainer({validCourses, page, submitSearch, renderChangePage}
       <div className={clsx(classes.content, {
         [classes.contentShift]: open
       })}>
-        <Container maxWidth='50vw'>
+        <Container>
           <FilterSection onSubmit={submitSearch} open={open}/>
           <Container maxWidth='md'>
             <SearchResults validCourses={validCourses} page={page} pageSize={PAGE_SIZE} />

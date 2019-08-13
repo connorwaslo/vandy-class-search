@@ -32,7 +32,7 @@ class Login extends Component {
         )} />
         {this.state.errorMsg ? <p style={{color: 'red', textAlign: 'center'}}>{this.state.errorMsg}</p> : null}
 
-        <Link style={{textAlign: 'center'}} to='/'>Back to Sign Up</Link>
+        <Link style={{textAlign: 'center', marginTop: '5vh'}} to='/'>Sign Up</Link>
       </Grid>
     )
   }

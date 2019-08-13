@@ -25,7 +25,7 @@ const pReducer = persistReducer(persistConfig, rootReducer);
 const store = createStore(pReducer);
 
 const persistor = persistStore(store);
-// persistor.purge();
+persistor.purge();
 
 console.log('Very initial store:');
 console.log(store.getState());

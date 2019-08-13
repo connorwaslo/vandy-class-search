@@ -1,7 +1,21 @@
 import {
-  LOGIN_EMAIL, CHANGE_AUTH_STATUS, LOG_OUT,
-  CHANGE_SEARCH_TYPE, CHANGE_SEARCH_TEXT, ADD_SEARCH, REMOVE_SEARCH,
-  SEARCH_RESULTS, CHANGE_PAGE, ADD_CLASS_TAKEN, REMOVE_CLASS_TAKEN, SET_TOTAL_PAGES, ADD_SCHEDULE, REMOVE_SCHEDULE, ADD_CLASS_TO_SCHEDULE, REMOVE_CLASS_FROM_SCHEDULE
+  LOGIN_EMAIL,
+  CHANGE_AUTH_STATUS,
+  LOG_OUT,
+  CHANGE_SEARCH_TYPE,
+  CHANGE_SEARCH_TEXT,
+  ADD_SEARCH,
+  REMOVE_SEARCH,
+  SEARCH_RESULTS,
+  CHANGE_PAGE,
+  ADD_CLASS_TAKEN,
+  REMOVE_CLASS_TAKEN,
+  SET_TOTAL_PAGES,
+  ADD_SCHEDULE,
+  REMOVE_SCHEDULE,
+  ADD_CLASS_TO_SCHEDULE,
+  REMOVE_CLASS_FROM_SCHEDULE,
+  CHANGE_SCHEDULE_SELECTION
 } from "./actionTypes";
 
 // Auth actions
@@ -96,6 +110,14 @@ export let removeClassTaken = code => {
 };
 
 // Add/remove schedules
+// Change schedule selection
+export let changeScheduleSelection = title => {
+  return {
+    type: CHANGE_SCHEDULE_SELECTION,
+    title
+  }
+};
+
 // Add/remove classes from individual schedules
 export let addSchedule = title => {
   return {
