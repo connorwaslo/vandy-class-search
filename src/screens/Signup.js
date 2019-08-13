@@ -4,6 +4,7 @@ import {loginEmail} from "../ducks/actions";
 import {Route, Link, withRouter} from 'react-router-dom';
 import {Container, Grid} from "@material-ui/core";
 import SignupForm from "../components/forms/SignupForm";
+import {initSchedules} from "../utils/DatabaseSetup";
 import firebase from 'firebase/app';
 import 'firebase/auth';
 
@@ -67,8 +68,12 @@ class Signup extends Component {
         // Set email in store
         this.props.login(email, true);
 
+        const uid = firebase.auth().currentUser.uid;
+        console.log('New uid:', uid);
+        initSchedules(uid);
+
         // Navigate away
-        history.push('/profile-setup');
+        history.push('/dashboard');
       })
       .catch((error) => {
         console.log('Error creating account:', error);
