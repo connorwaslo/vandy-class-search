@@ -5,9 +5,9 @@ import {
 } from "@material-ui/core";
 import Typography from "@material-ui/core/Typography";
 import Schedule from "../../screens/Schedule";
-import {drawerWidth} from "../../containers/DashboardContainer";
+// import {drawerWidth} from "../../containers/DashboardContainer";
 
-// const drawerWidth = Math.max(document.documentElement.clientWidth, window.innerWidth || 0) / 2;
+let drawerWidth = Math.max(document.documentElement.clientWidth, window.innerWidth || 0) / 2;
 
 const useStyles = makeStyles(theme => ({
   root: {
@@ -36,6 +36,12 @@ const useStyles = makeStyles(theme => ({
 
 export const ScheduleSidebar = ({isOpen, open, close}) => {
   const classes = useStyles();
+
+  React.useEffect(() => {
+    window.addEventListener('resize', () => {
+      drawerWidth = Math.max(document.documentElement.clientWidth, window.innerWidth || 0) / 2;
+    })
+  }, []);
 
   return (
     <div className={classes.root} style={{marginTop: '10vh'}}>

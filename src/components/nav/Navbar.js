@@ -5,7 +5,6 @@ import {connect} from "react-redux";
 import {logOut} from "../../ducks/actions";
 import {Link, withRouter} from 'react-router-dom';
 import ProfileButton from './ProfileButton';
-import {drawerWidth} from "../../containers/DashboardContainer";
 import firebase from 'firebase/app';
 import 'firebase/auth';
 

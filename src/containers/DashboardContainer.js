@@ -7,7 +7,7 @@ import SearchResults from "../components/search/SearchResults";
 import {ScheduleSidebar} from "../components/nav/ScheduleSidebar";
 import {PAGE_SIZE} from "../screens/Dashboard";
 
-export const drawerWidth = Math.max(document.documentElement.clientWidth, window.innerWidth || 0) / 2;
+let drawerWidth = Math.max(document.documentElement.clientWidth, window.innerWidth || 0) / 2;
 
 const useStyles = makeStyles(theme => ({
   root: {
@@ -35,6 +35,12 @@ const useStyles = makeStyles(theme => ({
 function DashboardContainer({validCourses, page, submitSearch, renderChangePage}) {
   const classes = useStyles();
   const [open, setOpen] = React.useState(false);
+
+  React.useEffect(() => {
+    window.addEventListener('resize', () => {
+      drawerWidth = Math.max(document.documentElement.clientWidth, window.innerWidth || 0) / 2;
+    })
+  }, []);
 
   let _handleScheduleOpen = () => {setOpen(true)};
 
