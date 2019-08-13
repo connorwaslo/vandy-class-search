@@ -48,13 +48,16 @@ class Loading extends Component {
             firebase.database().ref('schedules/' + uid).once('value')
               .then(snap => {
                 if (snap.val()) {
-                  console.log('Snap Val', snap.val());
+                  let scheds = snap.val();
 
-                  let scheds = Object.keys(snap.val());
+                  console.log('Scheds:', scheds);
+
                   scheds.forEach(schedule => {
-                    console.log('Adding Schedule:', schedule);
-                    this.props.addSchedule(schedule);
-                    snap.val()[schedule].courses.forEach(course => {
+                    console.log('Name:', schedule.name);
+                    this.props.addSchedule(schedule.name);
+
+                    console.log('Courses:', schedule.courses);
+                    schedule.courses.forEach(course => {
                       if (course === true) {
                         return;
                       }

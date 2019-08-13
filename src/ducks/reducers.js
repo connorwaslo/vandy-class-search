@@ -15,7 +15,8 @@ import {
   REMOVE_SCHEDULE,
   ADD_CLASS_TO_SCHEDULE,
   REMOVE_CLASS_FROM_SCHEDULE,
-  CHANGE_SCHEDULE_SELECTION
+  CHANGE_SCHEDULE_SELECTION,
+  CHANGE_SCHEDULE_NAME
 } from "./actionTypes";
 import {combineReducers} from "redux";
 import {guid} from "react-agenda";
@@ -24,7 +25,7 @@ import {getRandomInt} from "../utils/Utils";
 const initialAuthState = {
   email: '',
   loggedIn: false, // Is user logged in?
-  selectSchedule: 'Schedule1'
+  selectSchedule: 0
 };
 
 // Auth action reducers
@@ -44,7 +45,7 @@ let auth = (state = initialAuthState, action) => {
     case CHANGE_SCHEDULE_SELECTION:
       return {
         ...state,
-        selectSchedule: action.title
+        selectSchedule: action.index
       };
     case LOG_OUT:  // Just wipe all the auth state
       return {
@@ -167,9 +168,10 @@ let courses = (state = initialCourseState, action) => {
 
 // Handle schedules
 let now = new Date();
-const initialScheduleState = {
-  'Schedule1': {
-    courses: [
+const initialScheduleState = [
+  {
+  name: 'Schedule1',
+  courses: [
       {
         _id: guid(),
         name: 'SPAN 4455 Development of Drama',
@@ -178,27 +180,32 @@ const initialScheduleState = {
       }
     ]
   }
-};
+];
 
 let schedules = (state = initialScheduleState, action) => {
   // console.log('preswitch:', state);
   switch (action.type) {
     case ADD_SCHEDULE:
-      return {
-        ...state,
-        [action.title]: {
-          courses: []
+      return [
+          ...state,
+        {
+          name: action.name,
+          courses: [true]
         }
-      };
+      ];
+    case CHANGE_SCHEDULE_NAME:
+      state[action.index].name = action.newName;
+
+      return state;
     case REMOVE_SCHEDULE:
-      delete state[action.title];
+      delete state[action.name];
       return state;
     case ADD_CLASS_TO_SCHEDULE:
-      console.log('Add Class To Schedule:', action.title, '//', action.course);
+      console.log('Add Class To Schedule:', action.name, '//', action.course);
 
-      // ToDo: Check and see if class already exists
+      // Check and see if class already exists
       let exists = false;
-      state[action.title].courses.forEach(course => {
+      state[action.name].courses.forEach(course => {
         if (course.name === action.course) exists = true;
       });
       if (exists) {
@@ -207,8 +214,8 @@ let schedules = (state = initialScheduleState, action) => {
       }
 
       let randStartHour = getRandomInt(8, 17);
-      let addClass = Object.assign({}, state[action.title], {
-        courses: [...state[action.title].courses, {
+      let addClass = Object.assign({}, state[action.name], {
+        courses: [...state[action.name].courses, {
           _id: guid(),
           name: action.course,
           startDateTime: new Date(now.getFullYear(), now.getMonth(), now.getDate(), randStartHour, 10),
@@ -218,21 +225,21 @@ let schedules = (state = initialScheduleState, action) => {
 
       return {
         ...state,
-        [action.title]: addClass
+        [action.name]: addClass
       };
     case REMOVE_CLASS_FROM_SCHEDULE:
-      console.log('Removing class', action.title, action.course);
+      console.log('Removing class', action.name, action.course);
 
       // Because of object immutability, we have to pull some fanciness
-      let removeClass = Object.assign({}, state[action.title], {
-        courses: state[action.title].courses
+      let removeClass = Object.assign({}, state[action.name], {
+        courses: state[action.name].courses
           .filter(course => course.name !== action.course)
       });
 
       // Just update the courses for this schedule
       return {
         ...state,
-        [action.title]: removeClass
+        [action.name]: removeClass
       };
     default:
       return state;

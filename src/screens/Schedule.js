@@ -3,7 +3,7 @@ import {connect} from "react-redux";
 import {ReactAgenda, ReactAgendaCtrl, Modal} from 'vandy-agenda';
 import 'react-agenda/build/styles.css';
 import 'react-datetime/css/react-datetime.css';
-import {removeScheduleCourse, addSchedule, removeSchedule, changeScheduleSelection} from "../ducks/actions";
+import {removeScheduleCourse, addSchedule, removeSchedule, changeScheduleSelection, changeScheduleName} from "../ducks/actions";
 import {ScheduleSidebar} from "../components/nav/ScheduleSidebar";
 import firebase from 'firebase/app';
 import 'firebase/auth';
@@ -20,15 +20,19 @@ class Schedule extends Component {
   }
 
   render() {
-    let title = this.props.selection;
+    const {schedules, selection} = this.props;
+
+    console.log('Selection:', selection);
+
+    let name = schedules[selection].name;
     // Todo: Fix this so that if it's strictly true it doesn't have any courses
     let items;
-    console.log('Title:', this.props.selection);
-    console.log('Props.schedules[title]:', this.props.schedules);
-    if (this.props.schedules[title].courses === true) {
+    console.log('Title:', name);
+    console.log('Props.schedules[title]:', schedules);
+    if (schedules[selection].courses === true) {
       items = [];
     } else {
-      items = this.props.schedules[title].courses;
+      items = schedules[selection].courses;
     }
 
     return (
@@ -36,10 +40,12 @@ class Schedule extends Component {
         {/*<ScheduleSidebar style={this.props.style}/>*/}
         <ReactAgenda
           items={items}
-          title={title}
+          name={name}
           numberOfDays={5}
           allSchedules={this.props.schedules}
           createSchedule={this._createSchedule}
+          selectSchedule={this._selectSchedule}
+          editName={this._editName}
           onItemRemove={(items, item) => this.props.removeClass(item.name)}
           onCellSelect={this._handleCellSelection}
           onRangeSelection={() => this.setState({showModal:true})}/>
@@ -57,13 +63,34 @@ class Schedule extends Component {
 
   _createSchedule = () => {
     const uid = firebase.auth().currentUser.uid;
-    firebase.database().ref('schedules/' + uid + '/tempnew').update({
+    firebase.database().ref('schedules/' + uid).push({
+      name: 'New Schedule',
       courses: [true]
     }).then(() => {
       console.log('Added new schedule');
-      this.props.addSchedule('tempnew');
-      this.props.changeSchedule('tempnew');
+      this.props.addSchedule('New Schedule');
+      this.props.changeSchedule('New Schedule');
     })
+  };
+
+  _selectSchedule = (index) => {
+    this.props.changeSchedule(index);
+  };
+
+  _editName = (newName) => {
+    console.log('Edit Name', newName, '@ index:', this.props.selection);
+    // e.preventDefault();
+    const uid = firebase.auth().currentUser.uid;
+
+    // console.log('New name:', e.target.value);
+
+    this.props.changeScheduleName(this.props.selection, newName);
+    // Change the name in firebase
+
+    // Todo: Reorganize firebase to store array of schedules rather than schedules by key
+    // Todo: Go through things by index and store title: '', courses: [...]
+
+    // Then change the selection
   };
 
   _handleCellSelection = item => {
@@ -80,11 +107,14 @@ const mapStateToProps = state => {
 
 const mapDispatchToProps = dispatch => {
   return {
+    changeScheduleName: (index, newName) => {
+      return dispatch(changeScheduleName(index, newName));
+    },
     addSchedule: (title) => {
       return dispatch(addSchedule(title));
     },
-    changeSchedule: (title) => {
-      return dispatch(changeScheduleSelection(title));
+    changeSchedule: (index) => {
+      return dispatch(changeScheduleSelection(index));
     },
     removeClass: (name) => {
       return dispatch(removeScheduleCourse('Schedule1', name));  // Todo: Make this schedule agnostic

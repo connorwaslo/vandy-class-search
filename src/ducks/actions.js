@@ -15,7 +15,7 @@ import {
   REMOVE_SCHEDULE,
   ADD_CLASS_TO_SCHEDULE,
   REMOVE_CLASS_FROM_SCHEDULE,
-  CHANGE_SCHEDULE_SELECTION
+  CHANGE_SCHEDULE_SELECTION, CHANGE_SCHEDULE_NAME
 } from "./actionTypes";
 
 // Auth actions
@@ -111,25 +111,33 @@ export let removeClassTaken = code => {
 
 // Add/remove schedules
 // Change schedule selection
-export let changeScheduleSelection = title => {
+export let changeScheduleSelection = index => {
   return {
     type: CHANGE_SCHEDULE_SELECTION,
-    title
+    index
+  }
+};
+
+export let changeScheduleName = (index, newName) => {
+  return {
+    type: CHANGE_SCHEDULE_NAME,
+    index,
+    newName
   }
 };
 
 // Add/remove classes from individual schedules
-export let addSchedule = title => {
+export let addSchedule = name => {
   return {
     type: ADD_SCHEDULE,
-    title
+    name
   }
 };
 
-export let removeSchedule = title => {
+export let removeSchedule = name => {
   return {
     type: REMOVE_SCHEDULE,
-    title
+    name
   }
 };
 
