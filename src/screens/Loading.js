@@ -53,12 +53,14 @@ class Loading extends Component {
                   scheds.forEach(schedule => {
                     this.props.addSchedule(schedule.name);
 
-                    schedule.courses.forEach(course => {
-                      if (course === true) {
+                    console.log('Firebase schedule.courses:', schedule.courses);
+                    console.log('Course keys:', Object.keys(schedule.courses));
+                    Object.keys(schedule.courses).forEach(key => {
+                      if (schedule.courses[key] === true) {
                         return;
                       }
 
-                      this.props.addClassToSchedule(schedule, course);
+                      this.props.addClassToSchedule(schedule, schedule.courses[key]);
                     });
                   });
 

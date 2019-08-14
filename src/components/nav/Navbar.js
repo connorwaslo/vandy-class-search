@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import clsx from 'clsx';
 import {Button, CssBaseline, makeStyles, Typography} from "@material-ui/core";
 import {connect} from "react-redux";
+import {persistor} from "../../App";
 import {logOut} from "../../ducks/actions";
 import {Link, withRouter} from 'react-router-dom';
 import ProfileButton from './ProfileButton';
@@ -44,10 +45,14 @@ function Navbar(props) {
   let _logout = () => {
     firebase.auth().signOut()
       .then(() => {
-        props.logOut(); // Clear auth state in store
+        persistor.purge().then(() => {
+          props.logOut(); // Clear auth state in store
 
-        // Navigate back to login screen
-        props.history.push('/login');
+          // Navigate back to login screen
+          props.history.push('/login');
+        }).catch((err) => {
+          console.log('Couldn\'t purge data on logout because', err);
+        });
       })
       .catch((error) => {
         console.log('Error logging out:', error.message);

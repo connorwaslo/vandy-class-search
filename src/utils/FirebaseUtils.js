@@ -6,7 +6,9 @@ export let initSchedules = uid => {
   firebase.database().ref('schedules/' + uid).set([
     {
       name: 'Schedule1',
-      courses: [true]
+      courses: {
+        0: true
+      }
     }
   ]).then(() => {
     console.log('Successfully init schedule');

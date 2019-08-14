@@ -141,12 +141,12 @@ export let removeSchedule = name => {
   }
 };
 
-// title: Title of course
+// index: index of schedule. NOT the index of the course. This is the selected schedule.
 // course: Course code
-export let addScheduleCourse = (title, course) => {
+export let addScheduleCourse = (index, course) => {
   return {
     type: ADD_CLASS_TO_SCHEDULE,
-    title,
+    index,
     course
   }
 };

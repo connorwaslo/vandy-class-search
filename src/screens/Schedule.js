@@ -24,14 +24,21 @@ class Schedule extends Component {
     const {schedules, selection} = this.props;
 
     console.log('Selection:', selection);
+    console.log('Schedules:', schedules);
 
     let name = schedules[selection].name;
     let items;
     if (schedules[selection].courses === true) {
       items = [];
     } else {
-      items = schedules[selection].courses;
+      // Because this is an object, have to run through keys and then build list retrieving from hashmap
+      items = Object.keys(schedules[selection].courses).map(key => {
+        return schedules[selection].courses[key];
+      });
     }
+
+    console.log('Schedule items:', items);
+    console.log('allSchedules:', this.props.schedules);
 
     return (
       <div style={this.props.style}>

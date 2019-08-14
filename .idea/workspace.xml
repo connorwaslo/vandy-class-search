@@ -2,10 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7da9225a-4dd8-4d8a-a231-c29f14e71298" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/nav/Navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/nav/Navbar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/nav/ScheduleSidebar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/nav/ScheduleSidebar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/DashboardContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/DashboardContainer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/screens/Dashboard.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/Dashboard.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/search/ClassCard.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/search/ClassCard.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ducks/actions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/ducks/actions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ducks/reducers.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/ducks/reducers.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/screens/Loading.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/Loading.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/screens/Schedule.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/Schedule.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/FirebaseUtils.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/FirebaseUtils.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -24,8 +28,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="334">
-              <caret line="30" column="30" selection-start-line="30" selection-start-column="30" selection-end-line="30" selection-end-column="30" />
+            <state relative-caret-position="238">
+              <caret line="26" column="7" selection-start-line="26" selection-start-column="7" selection-end-line="26" selection-end-column="7" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -36,8 +40,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/screens/Schedule.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1968">
-              <caret line="88" column="55" selection-start-line="88" selection-start-column="55" selection-end-line="88" selection-end-column="55" />
+            <state relative-caret-position="120">
+              <caret line="40" column="55" selection-start-line="40" selection-start-column="55" selection-end-line="40" selection-end-column="55" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -46,22 +50,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/screens/Dashboard.js">
+        <entry file="file://$PROJECT_DIR$/src/components/search/ClassCard.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-48">
-              <caret line="27" column="43" lean-forward="true" selection-start-line="27" selection-start-column="43" selection-end-line="27" selection-end-column="43" />
-              <folding>
-                <element signature="e#0#39#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/containers/DashboardContainer.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="41" selection-start-line="41" selection-end-line="41" />
+            <state relative-caret-position="340">
+              <caret line="113" column="4" lean-forward="true" selection-start-line="113" selection-start-column="4" selection-end-line="113" selection-end-column="4" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -72,8 +64,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/screens/Loading.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-372">
-              <caret line="50" column="42" selection-start-line="50" selection-start-column="42" selection-end-line="50" selection-end-column="42" />
+            <state relative-caret-position="458">
+              <caret line="61" lean-forward="true" selection-start-line="61" selection-end-line="61" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -93,7 +85,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/nav/ScheduleSidebar.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="288">
@@ -105,28 +97,49 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/utils/FirebaseUtils.js">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ducks/reducers.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="468">
-              <caret line="25" column="2" selection-start-line="25" selection-start-column="2" selection-end-line="25" selection-end-column="2" />
+            <state relative-caret-position="280">
+              <caret line="212" column="65" selection-start-line="212" selection-start-column="65" selection-end-line="212" selection-end-column="65" />
               <folding>
-                <element signature="e#0#36#0" expanded="true" />
+                <element signature="e#0#311#0" expanded="true" />
+                <element signature="e#1205#2200#0" />
+                <element signature="e#2372#2804#0" />
+                <element signature="e#2939#3394#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ducks/reducers.js">
+        <entry file="file://$PROJECT_DIR$/src/components/nav/Navbar.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="196">
-              <caret line="27" column="19" lean-forward="true" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
+            <state relative-caret-position="336">
+              <caret line="53" column="69" selection-start-line="53" selection-start-column="69" selection-end-line="53" selection-end-column="69" />
               <folding>
-                <element signature="e#0#311#0" expanded="true" />
-                <element signature="e#1205#2200#0" />
-                <element signature="e#2372#2804#0" />
-                <element signature="e#2939#3394#0" />
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ducks/actions.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="48">
+              <caret line="143" column="88" selection-start-line="143" selection-start-column="88" selection-end-line="143" selection-end-column="88" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/nav/ProfileButton.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="48">
+              <caret line="2" column="36" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -144,7 +157,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>results</find>
       <find>major</find>
       <find>total pages</find>
       <find>now</find>
@@ -174,6 +186,7 @@
       <find>sched obj</find>
       <find>.push</find>
       <find>drawerWidth</find>
+      <find>add</find>
     </findStrings>
     <replaceStrings>
       <replace>this.props</replace>
@@ -200,7 +213,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/screens/Home.js" />
         <option value="$PROJECT_DIR$/src/components/SubmitButton.js" />
         <option value="$PROJECT_DIR$/src/styles/FormStyles.js" />
         <option value="$PROJECT_DIR$/src/styles/FormStyles.css" />
@@ -232,29 +244,30 @@
         <option value="$PROJECT_DIR$/src/components/search/SearchResults.js" />
         <option value="$PROJECT_DIR$/schedule_state_format.txt" />
         <option value="$PROJECT_DIR$/src/AppContainer.js" />
-        <option value="$PROJECT_DIR$/src/components/search/ClassCard.js" />
         <option value="$PROJECT_DIR$/src/utils/Utils.js" />
         <option value="$PROJECT_DIR$/src/screens/ProfileQuestions.js" />
         <option value="$PROJECT_DIR$/src/components/search/FilterSection.js" />
-        <option value="$PROJECT_DIR$/src/components/nav/ProfileButton.js" />
         <option value="$PROJECT_DIR$/src/screens/Signup.js" />
         <option value="$PROJECT_DIR$/src/utils/AuthUtils.js" />
         <option value="$PROJECT_DIR$/src/screens/Login.js" />
         <option value="$PROJECT_DIR$/src/ducks/actionTypes.js" />
-        <option value="$PROJECT_DIR$/src/ducks/actions.js" />
-        <option value="$PROJECT_DIR$/src/screens/Loading.js" />
-        <option value="$PROJECT_DIR$/src/App.js" />
-        <option value="$PROJECT_DIR$/src/ducks/reducers.js" />
         <option value="$PROJECT_DIR$/src/utils/DatabaseSetup.js" />
-        <option value="$PROJECT_DIR$/src/screens/Schedule.js" />
-        <option value="$PROJECT_DIR$/src/components/nav/Navbar.js" />
         <option value="$PROJECT_DIR$/src/screens/Dashboard.js" />
         <option value="$PROJECT_DIR$/src/containers/DashboardContainer.js" />
         <option value="$PROJECT_DIR$/src/components/nav/ScheduleSidebar.js" />
+        <option value="$PROJECT_DIR$/src/utils/FirebaseUtils.js" />
+        <option value="$PROJECT_DIR$/src/screens/Loading.js" />
+        <option value="$PROJECT_DIR$/src/ducks/actions.js" />
+        <option value="$PROJECT_DIR$/src/components/search/ClassCard.js" />
+        <option value="$PROJECT_DIR$/src/App.js" />
+        <option value="$PROJECT_DIR$/src/components/nav/ProfileButton.js" />
+        <option value="$PROJECT_DIR$/src/components/nav/Navbar.js" />
+        <option value="$PROJECT_DIR$/src/screens/Schedule.js" />
+        <option value="$PROJECT_DIR$/src/ducks/reducers.js" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="x" value="1585" />
     <option name="y" value="-15" />
     <option name="width" value="1633" />
@@ -391,12 +404,12 @@
       <workItem from="1564081830221" duration="27140000" />
       <workItem from="1564623692330" duration="6075000" />
       <workItem from="1565124098813" duration="558000" />
-      <workItem from="1565620777233" duration="32021000" />
+      <workItem from="1565620777233" duration="39610000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="274181000" />
+    <option name="totallyTimeSpent" value="281770000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -408,7 +421,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-6" y="-6" width="1293" height="733" extended-state="6" />
+    <frame x="634" y="-6" width="653" height="733" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" sideWeight="0.50086653" side_tool="true" weight="0.2647059" />
@@ -650,16 +663,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/search/ClassCard.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="75" column="6" selection-start-line="75" selection-start-column="6" selection-end-line="75" selection-end-column="6" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/utils/AuthUtils.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
@@ -674,16 +677,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="179">
           <caret column="11694" selection-start-column="11694" selection-end-column="11694" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/nav/ProfileButton.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="552">
-          <caret line="23" column="34" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -731,13 +724,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ducks/actions.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="123" column="9" selection-start-line="123" selection-start-column="9" selection-end-line="123" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/build/static/js/main.a41d1c24.chunk.js.map">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -745,59 +731,6 @@
         </state>
       </provider>
       <provider editor-type-id="sourcemapFileViewerProvider" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/screens/Loading.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-372">
-          <caret line="50" column="42" selection-start-line="50" selection-start-column="42" selection-end-line="50" selection-end-column="42" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ducks/reducers.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="27" column="19" lean-forward="true" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
-          <folding>
-            <element signature="e#0#311#0" expanded="true" />
-            <element signature="e#1205#2200#0" />
-            <element signature="e#2372#2804#0" />
-            <element signature="e#2939#3394#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/utils/FirebaseUtils.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="25" column="2" selection-start-line="25" selection-start-column="2" selection-end-line="25" selection-end-column="2" />
-          <folding>
-            <element signature="e#0#36#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/screens/Schedule.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1968">
-          <caret line="88" column="55" selection-start-line="88" selection-start-column="55" selection-end-line="88" selection-end-column="55" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
-          <caret line="30" column="30" selection-start-line="30" selection-start-column="30" selection-end-line="30" selection-end-column="30" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/AppContainer.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -809,22 +742,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/nav/Navbar.js">
+    <entry file="file://$PROJECT_DIR$/src/components/nav/ScheduleSidebar.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
-          <caret line="19" column="19" lean-forward="true" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
+          <caret line="42" selection-start-line="42" selection-end-line="42" />
           <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/screens/Dashboard.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-48">
-          <caret line="27" column="43" lean-forward="true" selection-start-line="27" selection-start-column="43" selection-end-line="27" selection-end-column="43" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
+            <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -839,12 +762,102 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/nav/ScheduleSidebar.js">
+    <entry file="file://$PROJECT_DIR$/src/screens/Dashboard.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="42" selection-start-line="42" selection-end-line="42" />
+        <state relative-caret-position="-48">
+          <caret line="27" column="43" lean-forward="true" selection-start-line="27" selection-start-column="43" selection-end-line="27" selection-end-column="43" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/utils/FirebaseUtils.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="9" column="15" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
+          <folding>
+            <element signature="e#0#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ducks/actions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="143" column="88" selection-start-line="143" selection-start-column="88" selection-end-line="143" selection-end-column="88" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/search/ClassCard.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="113" column="4" lean-forward="true" selection-start-line="113" selection-start-column="4" selection-end-line="113" selection-end-column="4" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="26" column="7" selection-start-line="26" selection-start-column="7" selection-end-line="26" selection-end-column="7" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/nav/ProfileButton.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="36" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/nav/Navbar.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="53" column="69" selection-start-line="53" selection-start-column="69" selection-end-line="53" selection-end-column="69" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/screens/Schedule.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="40" column="55" selection-start-line="40" selection-start-column="55" selection-end-line="40" selection-end-column="55" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/screens/Loading.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="458">
+          <caret line="61" lean-forward="true" selection-start-line="61" selection-end-line="61" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ducks/reducers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="212" column="65" selection-start-line="212" selection-start-column="65" selection-end-line="212" selection-end-column="65" />
+          <folding>
+            <element signature="e#0#311#0" expanded="true" />
+            <element signature="e#1205#2200#0" />
+            <element signature="e#2372#2804#0" />
+            <element signature="e#2939#3394#0" />
           </folding>
         </state>
       </provider>

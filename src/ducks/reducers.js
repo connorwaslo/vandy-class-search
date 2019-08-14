@@ -179,7 +179,9 @@ let schedules = (state = initialScheduleState, action) => {
           ...state,
         {
           name: action.name,
-          courses: [true]
+          courses: {
+            0: true
+          }
         }
       ];
     case CHANGE_SCHEDULE_NAME:
@@ -190,32 +192,50 @@ let schedules = (state = initialScheduleState, action) => {
       delete state[action.name];
       return state;
     case ADD_CLASS_TO_SCHEDULE:
-      console.log('Add Class To Schedule:', action.name, '//', action.course);
+      console.log('Add Class To Schedule:', action.index, '//', action.course);
+
+      let scheduleCourses = state[action.index].courses;
 
       // Check and see if class already exists
       let exists = false;
-      state[action.name].courses.forEach(course => {
-        if (course.name === action.course) exists = true;
+      Object.keys(scheduleCourses).forEach(key => {
+        if (scheduleCourses[key].name === action.course) exists = true;
       });
       if (exists) {
         console.log('Class already exists');
         return state;
       }
 
+      let courseIndex = 0;
+      // If not a blank schedule, then the next index is the last key + 1
+      if (scheduleCourses[0] !== true) {
+        let courseKeys = Object.keys(scheduleCourses);
+        courseIndex = parseInt(courseKeys[courseKeys.length - 1]) + 1; // The index is now the last key + 1
+      }
+
       let randStartHour = getRandomInt(8, 17);
-      let addClass = Object.assign({}, state[action.name], {
-        courses: [...state[action.name].courses, {
-          _id: guid(),
-          name: action.course,
-          startDateTime: new Date(now.getFullYear(), now.getMonth(), now.getDate(), randStartHour, 10),
-          endDateTime: new Date(now.getFullYear(), now.getMonth(), now.getDate(), randStartHour + 1, 0)
-        }]
+      console.log('About to addClass to:', state[action.index]);
+      let addClass = Object.assign({}, state[action.index].courses, {
+          [courseIndex]: {
+            _id: guid(),
+            name: action.course,
+            startDateTime: new Date(now.getFullYear(), now.getMonth(), now.getDate(), randStartHour, 10),
+            endDateTime: new Date(now.getFullYear(), now.getMonth(), now.getDate(), randStartHour + 1, 0)
+          }
       });
 
-      return {
-        ...state,
-        [action.name]: addClass
-      };
+      console.log('addClass:', addClass);
+
+      return state.map((item, index) => {
+        if (index === action.index) {
+          return {
+            name: state[action.index].name,
+            courses: addClass
+          }
+        }
+
+        return item;
+      })
     case REMOVE_CLASS_FROM_SCHEDULE:
       console.log('Removing class', action.name, action.course);
 
