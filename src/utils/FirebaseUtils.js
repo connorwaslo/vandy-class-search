@@ -2,7 +2,6 @@ import firebase from 'firebase/app';
 import 'firebase/database';
 
 export let initSchedules = uid => {
-  console.log('Try to init schedule');
   firebase.database().ref('schedules/' + uid).set([
     {
       name: 'Schedule1',

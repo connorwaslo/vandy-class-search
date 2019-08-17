@@ -3,8 +3,7 @@ import {connect} from "react-redux";
 import {ReactAgenda, ReactAgendaCtrl, Modal} from 'vandy-agenda';
 import 'react-agenda/build/styles.css';
 import 'react-datetime/css/react-datetime.css';
-import {removeScheduleCourse, addSchedule, removeSchedule, changeScheduleSelection, changeScheduleName} from "../ducks/actions";
-import {ScheduleSidebar} from "../components/nav/ScheduleSidebar";
+import {removeScheduleCourse, addSchedule, changeScheduleSelection, changeScheduleName} from "../ducks/actions";
 import {renameSchedule} from "../utils/FirebaseUtils";
 import firebase from 'firebase/app';
 import 'firebase/auth';
@@ -23,9 +22,6 @@ class Schedule extends Component {
   render() {
     const {schedules, selection} = this.props;
 
-    console.log('Selection:', selection);
-    console.log('Schedules:', schedules);
-
     let name = schedules[selection].name;
     let items;
     if (schedules[selection].courses === true) {
@@ -36,9 +32,6 @@ class Schedule extends Component {
         return schedules[selection].courses[key];
       });
     }
-
-    console.log('Schedule items:', items);
-    console.log('allSchedules:', this.props.schedules);
 
     return (
       <div style={this.props.style}>
@@ -76,7 +69,6 @@ class Schedule extends Component {
       name: 'New Schedule',
       courses: [true]
     }).then(() => {
-      console.log('Added new schedule');
       this.props.addSchedule('New Schedule');
       this.props.changeSchedule(this.props.schedules.length - 1); // Has to be -1 because length +1
     })
@@ -87,7 +79,6 @@ class Schedule extends Component {
   };
 
   _editName = (newName) => {
-    console.log('Edit Name', newName, '@ index:', this.props.selection);
     const uid = firebase.auth().currentUser.uid;
 
     this.props.changeScheduleName(this.props.selection, newName);

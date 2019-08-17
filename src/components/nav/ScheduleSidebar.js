@@ -1,9 +1,7 @@
 import React from 'react';
 import {
-  Drawer, Button, Grid, ListItemText,
-  makeStyles, useTheme, CssBaseline, AppBar, Toolbar
+  Drawer, Button, makeStyles
 } from "@material-ui/core";
-import Typography from "@material-ui/core/Typography";
 import Schedule from "../../screens/Schedule";
 // import {drawerWidth} from "../../containers/DashboardContainer";
 

@@ -1,6 +1,6 @@
 import React from 'react';
 import {connect} from "react-redux";
-import {BrowserRouter as Router, Route, withRouter} from "react-router-dom";
+import {BrowserRouter as Router, Route} from "react-router-dom";
 import './App.css';
 import {Container} from "@material-ui/core";
 import Signup from "./screens/Signup";

@@ -9,7 +9,6 @@ import {rootReducer} from "./ducks/reducers";
 import {createStore} from "redux";
 import {Provider} from "react-redux";
 import AppContainer from "./AppContainer";
-import {ReactAgenda, ReactAgendaCtrl, Modal} from 'vandy-agenda';
 
 firebase.initializeApp(config);
 

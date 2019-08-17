@@ -6,7 +6,6 @@ import Searchbar from './Searchbar';
 class FilterSection extends Component {
   render() {
     const {searches, open} = this.props;
-    console.log('Open?', open);
 
     return (
       <Container

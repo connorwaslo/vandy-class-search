@@ -78,7 +78,6 @@ class ClassCard extends React.Component {
       });
       this.props.setClassTaken(code);
     } else {  // Remove class
-      console.log('Trying to delete', code);
       this.props.removeClassTaken(code);
       firebase.database().ref('coursesTaken/' + uid + '/' + code).remove();
     }
@@ -108,7 +107,6 @@ class ClassCard extends React.Component {
   };
 
   _addClassToSchedule = () => {
-    console.log('Code:', this.props.code, 'Name:', this.props.name);
     const course = this.props.code + ' ' + this.props.name;
     this.props.addClassToSchedule(this.props.schedSelection, course);
   };

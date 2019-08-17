@@ -1,16 +1,10 @@
 import React, {Component} from 'react';
 import {connect} from 'react-redux';
 import {setSearchResults, changePage, setTotalPages} from "../ducks/actions";
-import Navbar from "../components/nav/Navbar";
 import courses from '../axle_pb_bus_courses';
 import {Container} from "@material-ui/core";
-import {makeStyles} from "@material-ui/core/styles";
 import ChangePage from "../components/search/ChangePage";
-import SearchResults from "../components/search/SearchResults";
-import FilterSection from "../components/search/FilterSection";
-import Schedule from "./Schedule";
 import onlyMajors from '../course_data/majors';
-import {ScheduleSidebar} from "../components/nav/ScheduleSidebar";
 import DashboardContainer from "../containers/DashboardContainer";
 
 export const PAGE_SIZE  = 25;
@@ -96,10 +90,8 @@ class Dashboard extends Component {
 
         // Find the majors that apply here
         allMajors.forEach(major => {
-          console.log('Looking @ major:', major);
           if (major.toLowerCase().includes(editedSearch)) {
             applicableMajors.push(major);
-            console.log('Applicable:', major);
           }
         });
 
@@ -110,7 +102,6 @@ class Dashboard extends Component {
           sections.forEach(section => {
             // Don't include notes in class results
             if (section !== 'Notes') {
-              console.log('Classes:', onlyMajors[major][section]);
               classes.push(...onlyMajors[major][section]);
             }
           })
@@ -121,8 +112,6 @@ class Dashboard extends Component {
         classes = classes.map(course => {
           return course.toLowerCase().replace(/\s/g, '');
         });
-
-        console.log('Classes:', classes);
 
         // Search through undergrad catalog to get actual class info now
         majors.forEach(major => {
@@ -148,10 +137,8 @@ class Dashboard extends Component {
 
         // Find the majors that apply here
         allMinors.forEach(minor => {
-          console.log('Looking @ minor:', minor);
           if (minor.toLowerCase().includes(editedSearch)) {
             applicableMinors.push(minor);
-            console.log('Applicable:', minor);
           }
         });
 
@@ -162,7 +149,6 @@ class Dashboard extends Component {
           sections.forEach(section => {
             // Don't include notes in class results
             if (section !== 'Notes') {
-              console.log('Classes:', onlyMajors[minor][section]);
               classes.push(...onlyMajors[minor][section]);
             }
           })
@@ -173,8 +159,6 @@ class Dashboard extends Component {
         classes = classes.map(course => {
           return course.toLowerCase().replace(/\s/g, '');
         });
-
-        console.log('Classes:', classes);
 
         // Search through undergrad catalog to get actual class info now
         majors.forEach(major => {

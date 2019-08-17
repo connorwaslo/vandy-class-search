@@ -1,6 +1,5 @@
-import React, {Component} from 'react';
-import clsx from 'clsx';
-import {Button, CssBaseline, makeStyles, Typography} from "@material-ui/core";
+import React from 'react';
+import {CssBaseline, makeStyles} from "@material-ui/core";
 import {connect} from "react-redux";
 import {persistor} from "../../App";
 import {logOut} from "../../ducks/actions";
@@ -89,6 +88,4 @@ const mapDispatchToProps = dispatch => {
   }
 };
 
-Navbar = connect(null, mapDispatchToProps)(Navbar);
-
-export default withRouter(Navbar);
+export default withRouter(connect(null, mapDispatchToProps)(Navbar));

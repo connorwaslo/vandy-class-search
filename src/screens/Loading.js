@@ -33,7 +33,6 @@ class Loading extends Component {
 
             // Change total page count
             let pages = Math.trunc((getObjectSize(validCourses) + PAGE_SIZE - 1) / PAGE_SIZE);
-            console.log('Page Math:', pages);
 
             // If there's no results, then just set it to -1
             if (pages === 0)
@@ -53,8 +52,6 @@ class Loading extends Component {
                   scheds.forEach(schedule => {
                     this.props.addSchedule(schedule.name);
 
-                    console.log('Firebase schedule.courses:', schedule.courses);
-                    console.log('Course keys:', Object.keys(schedule.courses));
                     Object.keys(schedule.courses).forEach(key => {
                       if (schedule.courses[key] === true) {
                         return;
@@ -94,7 +91,6 @@ class Loading extends Component {
   _totalPages = (validCourses) => {
     // Change total page count
     let pages = Math.trunc((getObjectSize(validCourses) + PAGE_SIZE - 1) / PAGE_SIZE);
-    console.log('Valid Courses:', getObjectSize(validCourses), 'Page Math:', pages);
     setTotalPages(pages);
   };
 }

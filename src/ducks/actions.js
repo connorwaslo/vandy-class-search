@@ -27,7 +27,6 @@ export let loginEmail = email => {
 };
 
 export let changeAuthStatus = loginStatus => {
-  console.log('changeAuthStatus');
   return {
     type: CHANGE_AUTH_STATUS,
     loginStatus
@@ -87,7 +86,6 @@ export let changePage = page => {
 };
 
 export let setTotalPages = totalPages => {
-  console.log('setTotalPages:', totalPages);
   return {
     type: SET_TOTAL_PAGES,
     totalPages

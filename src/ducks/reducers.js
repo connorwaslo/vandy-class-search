@@ -130,7 +130,6 @@ let results = (state = initialResultsState, action) => {
         page: action.page
       };
     case SET_TOTAL_PAGES:
-      console.log('Setting total pages to...', action.totalPages);
       return {
         ...state,
         totalPages: action.totalPages
@@ -192,8 +191,6 @@ let schedules = (state = initialScheduleState, action) => {
       delete state[action.name];
       return state;
     case ADD_CLASS_TO_SCHEDULE:
-      console.log('Add Class To Schedule:', action.index, '//', action.course);
-
       let scheduleCourses = state[action.index].courses;
 
       // Check and see if class already exists
@@ -202,7 +199,6 @@ let schedules = (state = initialScheduleState, action) => {
         if (scheduleCourses[key].name === action.course) exists = true;
       });
       if (exists) {
-        console.log('Class already exists');
         return state;
       }
 
@@ -214,7 +210,6 @@ let schedules = (state = initialScheduleState, action) => {
       }
 
       let randStartHour = getRandomInt(8, 17);
-      console.log('About to addClass to:', state[action.index]);
       let addClass = Object.assign({}, state[action.index].courses, {
           [courseIndex]: {
             _id: guid(),
@@ -223,8 +218,6 @@ let schedules = (state = initialScheduleState, action) => {
             endDateTime: new Date(now.getFullYear(), now.getMonth(), now.getDate(), randStartHour + 1, 0)
           }
       });
-
-      console.log('addClass:', addClass);
 
       return state.map((item, index) => {
         if (index === action.index) {
@@ -237,8 +230,6 @@ let schedules = (state = initialScheduleState, action) => {
         return item;
       })
     case REMOVE_CLASS_FROM_SCHEDULE:
-      console.log('Removing class', action.name, action.course);
-
       // Because of object immutability, we have to pull some fanciness
       let removeClass = Object.assign({}, state[action.name], {
         courses: state[action.name].courses
