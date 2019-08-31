@@ -167,8 +167,7 @@ let courses = (state = initialCourseState, action) => {
 
 // Handle schedules
 let now = new Date();
-const initialScheduleState = [
-];
+const initialScheduleState = [];
 
 let schedules = (state = initialScheduleState, action) => {
   // console.log('preswitch:', state);
@@ -228,19 +227,45 @@ let schedules = (state = initialScheduleState, action) => {
         }
 
         return item;
-      })
+      });
     case REMOVE_CLASS_FROM_SCHEDULE:
-      // Because of object immutability, we have to pull some fanciness
-      let removeClass = Object.assign({}, state[action.name], {
-        courses: state[action.name].courses
-          .filter(course => course.name !== action.course)
+      // console.log('Index:', action.index);
+      // console.log('Schedule:', state[action.index]);
+      // console.log('courses type:', typeof(state[action.index].courses));
+
+      let removedClass = {};
+      Object.keys(state[action.index].courses).forEach(key => {
+        if (state[action.index].courses[key].name !== action.course) {
+          removedClass[key] = state[action.index].courses[key]
+        }
       });
 
+      console.log('removedClass:', removedClass);
+
+      // Final check
+      if (Object.keys(removedClass).length === 0) {
+        removedClass = {0: true};
+        console.log('removedClass2:', removedClass);
+      }
+
+      console.log('Final courses:', removedClass);
+      // Because of object immutability, we have to pull some fanciness
+      /*let removeClass = Object.assign({}, state[action.index], {
+        courses: state[action.index].courses
+          .filter(course => course.name !== action.course)
+      });*/
+
       // Just update the courses for this schedule
-      return {
-        ...state,
-        [action.name]: removeClass
-      };
+      return state.map((item, index) => {
+        if (index !== action.index) {
+          return item;
+        }
+
+        return {
+          name: item.name,
+          courses: removedClass
+        }
+      });
     default:
       return state;
   }

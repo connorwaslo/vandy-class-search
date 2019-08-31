@@ -149,10 +149,10 @@ export let addScheduleCourse = (index, course) => {
   }
 };
 
-export let removeScheduleCourse = (title, course) => {
+export let removeScheduleCourse = (index, course) => {
   return {
     type: REMOVE_CLASS_FROM_SCHEDULE,
-    title,
+    index,
     course
   }
 };

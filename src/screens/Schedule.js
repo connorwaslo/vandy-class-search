@@ -33,6 +33,9 @@ class Schedule extends Component {
       });
     }
 
+    // Convert schedules to type digestable by agenda
+
+    console.log('schedules:', this.props.schedules);
     return (
       <div style={this.props.style}>
         {/*<ScheduleSidebar style={this.props.style}/>*/}
@@ -44,7 +47,7 @@ class Schedule extends Component {
           createSchedule={this._createSchedule}
           selectSchedule={this._selectSchedule}
           editName={this._editName}
-          onItemRemove={(items, item) => this.props.removeClass(item.name)}
+          onItemRemove={(items, item) => this.props.removeClass(this.props.selection, item.name)}  // Schedule Index, Class name
           onCellSelect={this._handleCellSelection}
           onRangeSelection={() => this.setState({showModal:true})}/>
         {
@@ -90,6 +93,20 @@ class Schedule extends Component {
   _handleCellSelection = item => {
     console.log('Selection:', item);
   };
+
+  _convertSchedulesType = () => {
+    let {schedules} = this.props;
+    let scheds = [];
+    if (schedules === Object(schedules)) {
+      Object.keys(schedules).forEach(key => {
+        scheds.push(schedules[key]);
+      })
+    } else {
+      scheds = schedules;
+    }
+
+    return scheds;
+  }
 }
 
 const mapStateToProps = state => {
@@ -110,8 +127,8 @@ const mapDispatchToProps = dispatch => {
     changeSchedule: (index) => {
       return dispatch(changeScheduleSelection(index));
     },
-    removeClass: (name) => {
-      return dispatch(removeScheduleCourse('Schedule1', name));  // Todo: Make this schedule agnostic
+    removeClass: (index, name) => {
+      return dispatch(removeScheduleCourse(index, name));
     }
   }
 };
