@@ -208,15 +208,50 @@ let schedules = (state = initialScheduleState, action) => {
         courseIndex = parseInt(courseKeys[courseKeys.length - 1]) + 1; // The index is now the last key + 1
       }
 
+      // TRUE = MWF, FALSE = TR
+      let randDays = getRandomInt(0, 1) === 1;
       let randStartHour = getRandomInt(8, 17);
-      let addClass = Object.assign({}, state[action.index].courses, {
+
+      // Add MWF courses
+      let addClass;
+      if (randDays) {
+        addClass = Object.assign({}, state[action.index].courses, {
           [courseIndex]: {
             _id: guid(),
             name: action.course,
             startDateTime: new Date(now.getFullYear(), now.getMonth(), now.getDate(), randStartHour, 10),
             endDateTime: new Date(now.getFullYear(), now.getMonth(), now.getDate(), randStartHour + 1, 0)
+          },
+          [courseIndex + 1]: {
+            _id: guid(),
+            name: action.course,
+            startDateTime: new Date(now.getFullYear(), now.getMonth(), now.getDate() + 2, randStartHour, 10),
+            endDateTime: new Date(now.getFullYear(), now.getMonth(), now.getDate() + 2, randStartHour + 1, 0)
+          },
+          [courseIndex + 2]: {
+            _id: guid(),
+            name: action.course,
+            startDateTime: new Date(now.getFullYear(), now.getMonth(), now.getDate() + 4, randStartHour, 10),
+            endDateTime: new Date(now.getFullYear(), now.getMonth(), now.getDate() + 4, randStartHour + 1, 0)
           }
-      });
+        });
+      } else {
+        // TR courses
+        addClass = Object.assign({}, state[action.index].courses, {
+          [courseIndex]: {
+            _id: guid(),
+            name: action.course,
+            startDateTime: new Date(now.getFullYear(), now.getMonth(), now.getDate() + 1, randStartHour, 10),
+            endDateTime: new Date(now.getFullYear(), now.getMonth(), now.getDate() + 1, randStartHour + 1, 0)
+          },
+          [courseIndex + 1]: {
+            _id: guid(),
+            name: action.course,
+            startDateTime: new Date(now.getFullYear(), now.getMonth(), now.getDate() + 3, randStartHour, 10),
+            endDateTime: new Date(now.getFullYear(), now.getMonth(), now.getDate() + 3, randStartHour + 1, 0)
+          }
+        });
+      }
 
       return state.map((item, index) => {
         if (index === action.index) {

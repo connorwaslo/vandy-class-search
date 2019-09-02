@@ -12,5 +12,7 @@ export const getObjectSize = obj => {
 
 // Gets random integer from 0 to (inclusively) max
 export const getRandomInt = (min, max) => {
-  return Math.random() * (max - min) + min;
+  let rand = Math.random() * (max - min) + min;
+  console.log('Random:', rand);
+  return Math.round(rand);
 };
