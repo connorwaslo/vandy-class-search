@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7da9225a-4dd8-4d8a-a231-c29f14e71298" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ducks/actions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/ducks/actions.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ducks/reducers.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/ducks/reducers.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/screens/Schedule.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/Schedule.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -36,8 +33,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ducks/reducers.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="247" column="34" selection-start-line="247" selection-start-column="34" selection-end-line="247" selection-end-column="34" />
+            <state relative-caret-position="136">
+              <caret line="230" column="36" selection-start-line="230" selection-start-column="36" selection-end-line="230" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -386,12 +383,12 @@
       <workItem from="1565124098813" duration="558000" />
       <workItem from="1565620777233" duration="39701000" />
       <workItem from="1566083718342" duration="1755000" />
-      <workItem from="1567199571717" duration="5381000" />
+      <workItem from="1567199571717" duration="5871000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="288997000" />
+    <option name="totallyTimeSpent" value="289487000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -404,11 +401,10 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1293" height="733" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" sideWeight="0.50086653" side_tool="true" weight="0.2647059" />
       <window_info id="npm" order="1" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="2" sideWeight="0.49913344" weight="0.17249602" />
+      <window_info active="true" content_ui="combo" id="Project" order="2" sideWeight="0.49913344" visible="true" weight="0.17249602" />
       <window_info id="Structure" order="3" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="0" weight="0.34876034" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
@@ -815,8 +811,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ducks/reducers.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="247" column="34" selection-start-line="247" selection-start-column="34" selection-end-line="247" selection-end-column="34" />
+        <state relative-caret-position="136">
+          <caret line="230" column="36" selection-start-line="230" selection-start-column="36" selection-end-line="230" selection-end-column="36" />
         </state>
       </provider>
     </entry>

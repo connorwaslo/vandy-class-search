@@ -229,10 +229,6 @@ let schedules = (state = initialScheduleState, action) => {
         return item;
       });
     case REMOVE_CLASS_FROM_SCHEDULE:
-      // console.log('Index:', action.index);
-      // console.log('Schedule:', state[action.index]);
-      // console.log('courses type:', typeof(state[action.index].courses));
-
       let removedClass = {};
       Object.keys(state[action.index].courses).forEach(key => {
         if (state[action.index].courses[key].name !== action.course) {
@@ -240,20 +236,10 @@ let schedules = (state = initialScheduleState, action) => {
         }
       });
 
-      console.log('removedClass:', removedClass);
-
       // Final check
       if (Object.keys(removedClass).length === 0) {
         removedClass = {0: true};
-        console.log('removedClass2:', removedClass);
       }
-
-      console.log('Final courses:', removedClass);
-      // Because of object immutability, we have to pull some fanciness
-      /*let removeClass = Object.assign({}, state[action.index], {
-        courses: state[action.index].courses
-          .filter(course => course.name !== action.course)
-      });*/
 
       // Just update the courses for this schedule
       return state.map((item, index) => {
