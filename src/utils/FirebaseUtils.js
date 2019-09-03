@@ -25,3 +25,7 @@ export let renameSchedule = (uid, index, name) => {
     console.log('Couldn\'t rename schedule...', err);
   })
 };
+
+export let saveSchedule = (uid, index, courses) => {
+  console.log('Courses to save:', courses);
+};

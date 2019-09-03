@@ -220,19 +220,22 @@ let schedules = (state = initialScheduleState, action) => {
             _id: guid(),
             name: action.course,
             startDateTime: new Date(now.getFullYear(), now.getMonth(), now.getDate(), randStartHour, 10),
-            endDateTime: new Date(now.getFullYear(), now.getMonth(), now.getDate(), randStartHour + 1, 0)
+            endDateTime: new Date(now.getFullYear(), now.getMonth(), now.getDate(), randStartHour + 1, 0),
+            freq: 'MWF'
           },
           [courseIndex + 1]: {
             _id: guid(),
             name: action.course,
             startDateTime: new Date(now.getFullYear(), now.getMonth(), now.getDate() + 2, randStartHour, 10),
-            endDateTime: new Date(now.getFullYear(), now.getMonth(), now.getDate() + 2, randStartHour + 1, 0)
+            endDateTime: new Date(now.getFullYear(), now.getMonth(), now.getDate() + 2, randStartHour + 1, 0),
+            freq: 'MWF'
           },
           [courseIndex + 2]: {
             _id: guid(),
             name: action.course,
             startDateTime: new Date(now.getFullYear(), now.getMonth(), now.getDate() + 4, randStartHour, 10),
-            endDateTime: new Date(now.getFullYear(), now.getMonth(), now.getDate() + 4, randStartHour + 1, 0)
+            endDateTime: new Date(now.getFullYear(), now.getMonth(), now.getDate() + 4, randStartHour + 1, 0),
+            freq: 'MWF'
           }
         });
       } else {
@@ -242,13 +245,15 @@ let schedules = (state = initialScheduleState, action) => {
             _id: guid(),
             name: action.course,
             startDateTime: new Date(now.getFullYear(), now.getMonth(), now.getDate() + 1, randStartHour, 10),
-            endDateTime: new Date(now.getFullYear(), now.getMonth(), now.getDate() + 1, randStartHour + 1, 0)
+            endDateTime: new Date(now.getFullYear(), now.getMonth(), now.getDate() + 1, randStartHour + 1, 0),
+            freq: 'TR'
           },
           [courseIndex + 1]: {
             _id: guid(),
             name: action.course,
             startDateTime: new Date(now.getFullYear(), now.getMonth(), now.getDate() + 3, randStartHour, 10),
-            endDateTime: new Date(now.getFullYear(), now.getMonth(), now.getDate() + 3, randStartHour + 1, 0)
+            endDateTime: new Date(now.getFullYear(), now.getMonth(), now.getDate() + 3, randStartHour + 1, 0),
+            freq: 'TR'
           }
         });
       }

@@ -57,7 +57,7 @@ export const ScheduleSidebar = ({isOpen, open, close}) => {
           <Button onClick={close}>
             Close
           </Button>
-          <Schedule style={{width: '50vw', marginTop: '15vh'}}/>
+          <Schedule style={{width: '50vw', marginTop: '10vh'}}/>
         </div>
       </Drawer>
     </div>

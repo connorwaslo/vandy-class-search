@@ -1,10 +1,11 @@
 import React, {Component} from 'react';
 import {connect} from "react-redux";
+import {Button} from "@material-ui/core";
 import {ReactAgenda, ReactAgendaCtrl, Modal} from 'vandy-agenda';
 import 'react-agenda/build/styles.css';
 import 'react-datetime/css/react-datetime.css';
 import {removeScheduleCourse, addSchedule, changeScheduleSelection, changeScheduleName} from "../ducks/actions";
-import {renameSchedule} from "../utils/FirebaseUtils";
+import {renameSchedule, saveSchedule} from "../utils/FirebaseUtils";
 import firebase from 'firebase/app';
 import 'firebase/auth';
 import 'firebase/database';
@@ -39,6 +40,9 @@ class Schedule extends Component {
     return (
       <div style={this.props.style}>
         {/*<ScheduleSidebar style={this.props.style}/>*/}
+        <Button color='primary' variant='contained' onClick={this._handleScheduleSave} style={{float: 'right'}}>
+          Save
+        </Button>
         <ReactAgenda
           items={items}
           name={name}
@@ -92,6 +96,37 @@ class Schedule extends Component {
 
   _handleCellSelection = item => {
     console.log('Selection:', item);
+  };
+
+  _handleScheduleSave = () => {
+    const uid = firebase.auth().currentUser.uid;
+    const selection = this.props.selection;
+    let courses = this.props.schedules[selection].courses;
+
+    // Track which courses are actually being
+    let names = [];
+
+    // Manipulate courses here so as to only save relevant info
+    const keys = Object.keys(courses);
+    keys.forEach(key => {
+      delete courses[key].duration;
+      delete courses[key]._id;
+
+      // Check if name already exists
+      if (!names.includes(courses[key].name)) {
+        names.push(courses[key].name);
+
+        let start = JSON.stringify(courses[key].startDateTime);
+        start = start.substr(1, start.length - 2);
+        let end = JSON.stringify(courses[key].endDateTime);
+        end = end.substr(1, end.length - 2);
+
+        courses[key].startDateTime = start;
+        courses[key].endDateTime = end;
+      }
+    });
+
+    saveSchedule(uid, selection, courses);
   };
 
   _convertSchedulesType = () => {
