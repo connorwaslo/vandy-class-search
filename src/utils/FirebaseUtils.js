@@ -27,5 +27,12 @@ export let renameSchedule = (uid, index, name) => {
 };
 
 export let saveSchedule = (uid, index, courses) => {
-  console.log('Courses to save:', courses);
+  firebase.database().ref('schedules/' + uid + '/' + index).update({
+    courses: courses
+  }).then(() => {
+    console.log('Saving courses:', courses);
+    console.log('Saved schedule', index, 'successfully');
+  }).catch((err) => {
+    console.log('Couldn\'t save schedule...', err);
+  });
 };

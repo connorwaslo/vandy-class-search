@@ -52,13 +52,13 @@ class Loading extends Component {
                   scheds.forEach(schedule => {
                     this.props.addSchedule(schedule.name);
 
-                    Object.keys(schedule.courses).forEach(key => {
+                    /*Object.keys(schedule.courses).forEach(key => {
                       if (schedule.courses[key] === true) {
                         return;
                       }
 
                       this.props.addClassToSchedule(schedule, schedule.courses[key]);
-                    });
+                    });*/
                   });
 
                   // Finally, set loading to done

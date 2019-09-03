@@ -34,6 +34,8 @@ class Schedule extends Component {
       });
     }
 
+    console.log('Items:', items);
+
     // Convert schedules to type digestable by agenda
 
     console.log('schedules:', this.props.schedules);
@@ -101,7 +103,14 @@ class Schedule extends Component {
   _handleScheduleSave = () => {
     const uid = firebase.auth().currentUser.uid;
     const selection = this.props.selection;
-    let courses = this.props.schedules[selection].courses;
+    let courses = JSON.parse(JSON.stringify(this.props.schedules[selection].courses));
+
+    console.log('Courses:', courses);
+    // Do nothing if schedule is blank
+    if (courses[0] === true) {
+      saveSchedule(uid, selection, courses);
+      return;
+    }
 
     // Track which courses are actually being
     let names = [];
@@ -115,6 +124,7 @@ class Schedule extends Component {
       // Check if name already exists
       if (!names.includes(courses[key].name)) {
         names.push(courses[key].name);
+        console.log('Names:', names);
 
         let start = JSON.stringify(courses[key].startDateTime);
         start = start.substr(1, start.length - 2);
@@ -123,9 +133,14 @@ class Schedule extends Component {
 
         courses[key].startDateTime = start;
         courses[key].endDateTime = end;
+      } else {
+        // Remove course if it's a duplicate
+        delete courses[key];
       }
     });
 
+    console.log('Changed courses:', courses);
+    console.log('Old courses:', this.props.schedules[selection].courses);
     saveSchedule(uid, selection, courses);
   };
 
