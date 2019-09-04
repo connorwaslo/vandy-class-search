@@ -15,7 +15,7 @@ import {
   REMOVE_SCHEDULE,
   ADD_CLASS_TO_SCHEDULE,
   REMOVE_CLASS_FROM_SCHEDULE,
-  CHANGE_SCHEDULE_SELECTION, CHANGE_SCHEDULE_NAME
+  CHANGE_SCHEDULE_SELECTION, CHANGE_SCHEDULE_NAME, LOAD_CLASS_TO_SCHEDULE_FROM_DATABASE
 } from "./actionTypes";
 
 // Auth actions
@@ -152,6 +152,14 @@ export let addScheduleCourse = (index, course) => {
 export let removeScheduleCourse = (index, course) => {
   return {
     type: REMOVE_CLASS_FROM_SCHEDULE,
+    index,
+    course
+  }
+};
+
+export let loadScheduleCourseFromDatabase = (index, course) => {
+  return {
+    type: LOAD_CLASS_TO_SCHEDULE_FROM_DATABASE,
     index,
     course
   }

@@ -16,7 +16,7 @@ import {
   ADD_CLASS_TO_SCHEDULE,
   REMOVE_CLASS_FROM_SCHEDULE,
   CHANGE_SCHEDULE_SELECTION,
-  CHANGE_SCHEDULE_NAME
+  CHANGE_SCHEDULE_NAME, LOAD_CLASS_TO_SCHEDULE_FROM_DATABASE
 } from "./actionTypes";
 import {combineReducers} from "redux";
 import {guid} from "react-agenda";
@@ -291,6 +291,26 @@ let schedules = (state = initialScheduleState, action) => {
           name: item.name,
           courses: removedClass
         }
+      });
+    case LOAD_CLASS_TO_SCHEDULE_FROM_DATABASE:
+      let keys = Object.keys(state[action.index].courses);
+      let index = state[action.index].courses[0] === true ? 0 : parseInt(keys[keys.length - 1]) + 1;
+      // Todo: Do some due diligence and make sure that the dates are Date objects
+
+      let addCourses = Object.assign({}, state[action.index].courses, {
+        [index]: action.course
+      });
+      console.log('addCourses:', addCourses);
+
+      return state.map((item, index) => {
+        if (index === action.index) {
+          return {
+            name: state[action.index].name,
+            courses: addCourses
+          }
+        }
+
+        return item;
       });
     default:
       return state;
