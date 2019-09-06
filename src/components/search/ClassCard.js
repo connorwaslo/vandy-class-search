@@ -107,7 +107,7 @@ class ClassCard extends React.Component {
   };
 
   _addClassToSchedule = () => {
-    const course = this.props.code + ' ' + this.props.name;
+    const course = this.props.code;
     this.props.addClassToSchedule(this.props.schedSelection, course);
   };
 }
