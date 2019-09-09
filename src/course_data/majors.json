@@ -7,7 +7,7 @@
         "Intro Class": [
             "AADS 1010"
         ],
-        "6 Hours from Area of Study I, Gender and Sexuality ": [
+        "6 Hours from Area of Study I, Gender and Sexuality": [
             "AADS 1204",
             "AADS 2104",
             "AADS 2204",
@@ -21,7 +21,7 @@
             "AADS 4104",
             "AADS 4265"
         ],
-        "6 Hours from Area of Study II, Literature, Theory, and Visual Culture ": [
+        "6 Hours from Area of Study II, Literature, Theory, and Visual Culture": [
             "AADS 1016",
             "AADS 1506",
             "AADS 1706",
@@ -49,7 +49,7 @@
             "AADS 4228W",
             "AADS 4270"
         ],
-        "9 Additional Hours from Areas I, II, and II ": [
+        "9 Additional Hours from Areas I, II, and II": [
             "AADS 1204",
             "AADS 2104",
             "AADS 2204",
@@ -90,7 +90,7 @@
         "3 Research Hours": [
             "AADS 4270"
         ],
-        "3 Hours Senior Thesis ": [
+        "3 Hours Senior Thesis": [
             "AADS 4978",
             "AADS 4979"
         ],
@@ -144,7 +144,7 @@
     },
     "American Studies": {
         "Notes": [],
-        "Core Courses 9 Hours ": [
+        "Core Courses 9 Hours": [
             "AMER 1002",
             "AMER 4000",
             "AMER 4960"
@@ -354,7 +354,7 @@
     },
     "Anthropology": {
         "Notes": [
-            "At least 18 hours must be at 2000 lvel or higher",
+            "At least 18 hours must be at 2000 level or higher",
             "Remaining hours can be selected from Groups I, II, and III",
             "Maximum of 3 credit hours can be taken in another department counted towards major"
         ],
@@ -442,7 +442,7 @@
     },
     "Art": {
         "Notes": [],
-        "Core Courses 6 Hours ": [
+        "Core Courses 6 Hours": [
             "ARTS 1101",
             "ARTS 1102"
         ],
@@ -485,7 +485,7 @@
             "ARTS 2701",
             "ARTS 2702"
         ],
-        "6 Additional Hours from above 3 areas ": [
+        "6 Additional Hours from above 3 areas": [
             "ARTS 1600",
             "ARTS 1601",
             "ARTS 1503",
@@ -527,7 +527,7 @@
         "Sources of Contemporary Art": [
             "ARTS 1800"
         ],
-        "Elective 3 Hours": [
+        "Elective (3 Hours)": [
             "HART 2110",
             "HART 2130",
             "HART 2150",
@@ -605,7 +605,7 @@
             "CMA 2300",
             "PHIL 3014"
         ],
-        "Directed Study 6 Hours": [
+        "Directed Study (6 Hours)": [
             "ARTS 3970",
             "ARTS 3971"
         ]
@@ -683,6 +683,90 @@
             "ANY 2000 OR HIGHER CHEM CLASS",
             "ANY EXCLUDING CHEM 3600",
             "ANY 3980-4980-4999"
+        ]
+    },
+    "Cinema and Media Arts": {
+        "Notes": [],
+        "Core Requirements (all classes required)": [
+            "CMA 1500",
+            "CMA 1600",
+            "CMA 2250",
+            "CMA 2260",
+            "CMA 2300",
+            "CMA 2400",
+            "CMA 3891",
+            "CMA 3892"
+        ],
+        "Senior Seminar (One of\u2026)": [
+            "CMA 4961",
+            "CMA 4962"
+        ],
+        "One Elective": [
+            "CMA 2600W",
+            "CMA 3891",
+            "CMA 3893"
+        ]
+    },
+    "Communications": {
+        "Notes": [],
+        "Foundational Courses 6 Hours": [
+            "CMST 1002",
+            "CMST 1500"
+        ],
+        "Argumentation (3 Hours)": [
+            "CMST 2100",
+            "CMST 2110",
+            "CMST 2120"
+        ],
+        "Public Discourse Required (one of B4)": [
+            "CMST 3000",
+            "CMST 3001",
+            "CMST 3002"
+        ],
+        "Public Discourse Additional (2 classes)": [
+            "CMST 3000",
+            "CMST 3001",
+            "CMST 3002",
+            "CMST 3110",
+            "CMST 3120",
+            "CMST 3140",
+            "CMST 3600",
+            "CMST 3700"
+        ],
+        "Culture Theory and Critique (3 classes)": [
+            "CMST 2800",
+            "CMST 2950",
+            "CMST 3100",
+            "CMST 3150",
+            "CMST 3620W",
+            "CMST 3710",
+            "CMST 3720",
+            "CMST 3730",
+            "CMST 3740",
+            "CMST 3750"
+        ],
+        "One Elective": [
+            "CMST 2100",
+            "CMST 2110",
+            "CMST 2120",
+            "CMST 3000",
+            "CMST 3001",
+            "CMST 3002",
+            "CMST 3110",
+            "CMST 3120",
+            "CMST 3140",
+            "CMST 3600",
+            "CMST 3700",
+            "CMST 2800",
+            "CMST 2950",
+            "CMST 3100",
+            "CMST 3150",
+            "CMST 3620W",
+            "CMST 3710",
+            "CMST 3720",
+            "CMST 3730",
+            "CMST 3740",
+            "CMST 3750"
         ]
     }
 }
