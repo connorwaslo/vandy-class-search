@@ -1,0 +1,2975 @@
+{
+    "HOD First-Year Seminar": [
+        {
+            "Code": "HOD 1250",
+            "Name": "Applied Human Development",
+            "Credits": [
+                "3"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        {
+            "Code": "HOD 1300",
+            "Name": "Small Group Behavior",
+            "Credits": [
+                "3"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        {
+            "Code": "HOD 2100",
+            "Name": "Understanding Organizations",
+            "Credits": [
+                "3"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        {
+            "Code": "HOD 2260",
+            "Name": "Economics of Human Resources",
+            "Credits": [
+                "3"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": "ONE OF PSY-PC 2110, PSY 2100, ECON 1500, MATH 2810, OR MATH 2820",
+            "Co-reqs": 0
+        },
+        {
+            "Code": "HOD 2400",
+            "Name": "Talent Management and Organizational Fit",
+            "Credits": [
+                "3"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        {
+            "Code": "HOD 2500",
+            "Name": "Systemic Inquiry",
+            "Credits": [
+                "3"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        {
+            "Code": "HOD 2700",
+            "Name": "Public Policy",
+            "Credits": [
+                "3"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        {
+            "Code": "HOD 3200",
+            "Name": "Introduction to Data Science",
+            "Credits": [
+                "3"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": "INTRODUCTORY STATISTICS",
+            "Co-reqs": 0
+        },
+        {
+            "Code": "HOD 3250",
+            "Name": "Causal Inference",
+            "Credits": [
+                "3"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": "HODE 3205, PSY-PC 2115, AND PSY-PC 3735",
+            "Co-reqs": 0
+        },
+        {
+            "Code": "HOD 3275",
+            "Name": "Practical Meta-analysis",
+            "Credits": [
+                "3"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": "PSY-PC 2110 AND PSY-PC 3735",
+            "Co-reqs": 0
+        },
+        {
+            "Code": "HOD 3864",
+            "Name": "Research Experience",
+            "Credits": [
+                "3"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": "HOD 2500 AND STATISTICS CLASS",
+            "Co-reqs": 0
+        },
+        {
+            "Code": "HOD 3870",
+            "Name": "Practicum in Human and Organizational Development",
+            "Credits": [
+                "1",
+                "3"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        {
+            "Code": "HOD 3890",
+            "Name": "Special Topics in Human and Organizational Development",
+            "Credits": [
+                "1",
+                "3"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        {
+            "Code": "HOD 4950",
+            "Name": "Human Development Internship",
+            "Credits": [
+                "3",
+                "6"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": 0,
+            "Co-reqs": "HOD 4951, 4952, AND 4953"
+        },
+        {
+            "Code": "HOD 4951",
+            "Name": "Advanced Seminar in Human and Organizational Development",
+            "Credits": [
+                "3"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": 0,
+            "Co-reqs": "HOD 4950, 4952, and 4953"
+        },
+        {
+            "Code": "HOD 4952",
+            "Name": "Theoretical Applications of Human and Organizational Development",
+            "Credits": [
+                "3"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": "HOD 1250, 1300, 2100, 2400, 2500, AND 2700",
+            "Co-reqs": "HOD  4950, 4951, AND 4953"
+        },
+        {
+            "Code": "HOD 4953",
+            "Name": "Senior Project",
+            "Credits": [
+                "3"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        }
+    ],
+    "Community Development and Leadership": [
+        {
+            "Code": "HODC 3202",
+            "Name": "Community Development Theory",
+            "Credits": [
+                "3"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        {
+            "Code": "HODC 3212",
+            "Name": "Community Development Orgnizations and Policies",
+            "Credits": [
+                "3"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        {
+            "Code": "HODC 3222",
+            "Name": "Action Research and Program Evaluation",
+            "Credits": [
+                "3"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        {
+            "Code": "HODC 3232",
+            "Name": "Ethics for Human Development Professionals",
+            "Credits": [
+                "3"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        {
+            "Code": "HODC 3262",
+            "Name": "Social Entrepreneuership: Prinicples and Applications",
+            "Credits": [
+                "3"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        {
+            "Code": "HODC 3312",
+            "Name": "Procedures in Transition to Adult Life",
+            "Credits": [
+                "3"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        {
+            "Code": "HODC 3313",
+            "Name": "Practicum: Transition to Adult Life",
+            "Credits": [
+                "1"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": "HODC 3312",
+            "Co-reqs": 0
+        },
+        {
+            "Code": "HODC 3322",
+            "Name": "Religious and Spiritual Organizations",
+            "Credits": [
+                "3"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        {
+            "Code": "HODC 3332",
+            "Name": "High Poverty Youth: Improving Outcomes",
+            "Credits": [
+                "3"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        {
+            "Code": "HODC 3342",
+            "Name": "Introduction to Community Psychology",
+            "Credits": [
+                "3"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        {
+            "Code": "HODC 3352",
+            "Name": "Philanthropy and Social Problem Solving",
+            "Credits": [
+                "3"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": "HOD 1300, HOD 2100, AND HOD 2500",
+            "Co-reqs": 0
+        },
+        {
+            "Code": "HODC 3650",
+            "Name": "Community Leadership and Development Seminar",
+            "Credits": [
+                "3"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        {
+            "Code": "HODC 3850",
+            "Name": "Independent Study in Community Leadership and Development",
+            "Credits": [
+                "0"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        {
+            "Code": "HODC 3870",
+            "Name": "Practicum in Community Leadership and Development",
+            "Credits": [
+                "0"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        {
+            "Code": "HODC 3890",
+            "Name": "Special Topics in Community Leadership and Development",
+            "Credits": [
+                "0"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        }
+    ],
+    "Education Policy": [
+        {
+            "Code": "HODE 3205",
+            "Name": "Education Policy Analysis Methods",
+            "Credits": [
+                "0"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": "HOD 2700 OR PSCI 1100",
+            "Co-reqs": 0
+        },
+        {
+            "Code": "HODE 3215",
+            "Name": "Education and Public Policy",
+            "Credits": [
+                "0"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": "HOD 2700 OR PSCI 1100",
+            "Co-reqs": 0
+        },
+        {
+            "Code": "HODE 3225",
+            "Name": "Introduction to Public Finance of Education",
+            "Credits": [
+                "0"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        {
+            "Code": "HODE 3315",
+            "Name": "State and Local Government",
+            "Credits": [
+                "0"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": "HOD 2700 OR PSCI 1100",
+            "Co-reqs": 0
+        },
+        {
+            "Code": "HODE 3650",
+            "Name": "Seminars in Education Policy",
+            "Credits": [
+                "0"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        {
+            "Code": "HODE 3870",
+            "Name": "Practicum in Education Policy",
+            "Credits": [
+                "0"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        {
+            "Code": "HODE 3890",
+            "Name": "Special Topics in Education Policy",
+            "Credits": [
+                "0"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        }
+    ],
+    "Health and Human Services": [
+        {
+            "Code": "HODH 3201",
+            "Name": "Introduction to Human Servies",
+            "Credits": [
+                "0"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        {
+            "Code": "HODH 3211",
+            "Name": "Introduction to Counseling",
+            "Credits": [
+                "0"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        {
+            "Code": "HODH 3221",
+            "Name": "Health Service Delivery to Diverse Populations ",
+            "Credits": [
+                "0"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        {
+            "Code": "HODH 3231",
+            "Name": "Introduction to Health Services",
+            "Credits": [
+                "0"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        {
+            "Code": "HODH 3241",
+            "Name": "Health Policy",
+            "Credits": [
+                "0"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        {
+            "Code": "HODH 3311",
+            "Name": "Introduction to Health Promotion",
+            "Credits": [
+                "0"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        {
+            "Code": "HODH 3321",
+            "Name": "Introduction to Sports Medicine",
+            "Credits": [
+                "0"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        {
+            "Code": "HODH 3331",
+            "Name": "Managing Health Care Organizations",
+            "Credits": [
+                "0"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": "HOD 3201 OR HODH 3231",
+            "Co-reqs": 0
+        },
+        {
+            "Code": "HODH 3650",
+            "Name": "Health and Human Services SEminar",
+            "Credits": [
+                "0"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        {
+            "Code": "HODH 3870",
+            "Name": "Practicum in Health and Human Services",
+            "Credits": [
+                "0"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        {
+            "Code": "HODH 3890",
+            "Name": "Special Topics in Health and Human Services",
+            "Credits": [
+                "0"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        }
+    ],
+    "International Leadership and Policy": [
+        {
+            "Code": "HODI 3200",
+            "Name": "Global Dimensions of Community Development",
+            "Credits": [
+                "3"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        {
+            "Code": "HODI 3210",
+            "Name": "Leadership and Change in International Organizations",
+            "Credits": [
+                "3"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        {
+            "Code": "HODI 3220",
+            "Name": "International Organizations and Economic Development",
+            "Credits": [
+                "3"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        {
+            "Code": "HODI 3230",
+            "Name": "Education and Economic Development",
+            "Credits": [
+                "3"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        {
+            "Code": "HODI 3240",
+            "Name": "Effectiveness in International For-Profit Organizations",
+            "Credits": [
+                "3"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        {
+            "Code": "HODI 3250",
+            "Name": "Building Knowledge Economics in Asia",
+            "Credits": [
+                "3"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        {
+            "Code": "HODI 3260",
+            "Name": "Education in the Asia-Pacific Region: Development, Reform, and Innovation",
+            "Credits": [
+                "3"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        {
+            "Code": "HODI 3270 ",
+            "Name": "Global Sustainable Development",
+            "Credits": [
+                "3"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        {
+            "Code": "HODI 3650",
+            "Name": "International Leadership and Development Seminar",
+            "Credits": [
+                "3"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        {
+            "Code": "HODI 3850",
+            "Name": "Independent STudy in International Leadership and Development",
+            "Credits": [
+                "3"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        {
+            "Code": "HODI 3870",
+            "Name": "Practicum in International Leadership and Development",
+            "Credits": [
+                "1",
+                "3"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        {
+            "Code": "HODI 3875",
+            "Name": "Field SChool in Intercultural Education",
+            "Credits": [
+                "3"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        {
+            "Code": "HODI 3890",
+            "Name": "Special Topics in International Leadership and Development",
+            "Credits": [
+                "1",
+                "3"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        }
+    ],
+    "Leadership and Organizational Effectiveness": [
+        {
+            "Code": "HODL 3204",
+            "Name": "Leadership Theory and Practice",
+            "Credits": [
+                "3"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": "HOD 2100",
+            "Co-reqs": 0
+        },
+        {
+            "Code": "HODL 3224",
+            "Name": "Analyzing Organiztational Effectiveness ",
+            "Credits": [
+                "3"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        {
+            "Code": "HODL 3234",
+            "Name": "Advanced Organizational Theory",
+            "Credits": [
+                "3"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": "HOD 2100",
+            "Co-reqs": 0
+        },
+        {
+            "Code": "HODL 3244",
+            "Name": "Introduction to Human Resource Development",
+            "Credits": [
+                "3"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        {
+            "Code": "HODL 3254",
+            "Name": "Human Resource Management",
+            "Credits": [
+                "3"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        {
+            "Code": "HODL 3264",
+            "Name": "Evidence-based Practice in Organizations",
+            "Credits": [
+                "3"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        {
+            "Code": "HODL 3274",
+            "Name": "Managing Organizational Change",
+            "Credits": [
+                "3"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": "HOD 3204 OR HODL 3234",
+            "Co-reqs": 0
+        },
+        {
+            "Code": "HODL 3314",
+            "Name": "Strategic Planning and Project Management",
+            "Credits": [
+                "3"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        {
+            "Code": "HODL 3324",
+            "Name": "Executive Leadership",
+            "Credits": [
+                "3"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        {
+            "Code": "HODL 3334",
+            "Name": "Challenges of Leadership",
+            "Credits": [
+                "3"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": "HOD 3204",
+            "Co-reqs": 0
+        },
+        {
+            "Code": "HODL 3650",
+            "Name": "Leadership and Organizational Effectiveness Seminar",
+            "Credits": [
+                "3"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        {
+            "Code": "HODL 3850",
+            "Name": "Independent Study in Leadership and Organizational Effectiveness",
+            "Credits": [
+                "1",
+                "3"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        {
+            "Code": "HODL 3870",
+            "Name": "Practicum in leadership and Organizational Effectiveness ",
+            "Credits": [
+                "1",
+                "3"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        {
+            "Code": "HODL 3890",
+            "Name": "Special Topics in Leadership and Organizational Effectiveness",
+            "Credits": [
+                "3"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        }
+    ],
+    "Military Science--Peabody": [
+        {
+            "Code": "MS-PC 1210",
+            "Name": "Leadership and Personal Development",
+            "Credits": [
+                "1"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        {
+            "Code": "MS-PC 1210L",
+            "Name": "Leadership and Personal Development Lab",
+            "Credits": [
+                "1"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        {
+            "Code": "MS-PC 1230",
+            "Name": "Leadership and Personal Development II",
+            "Credits": [
+                "1"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        {
+            "Code": "MS-PC 1230L",
+            "Name": "Leadership and Personal Development Lab II",
+            "Credits": [
+                "1"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        {
+            "Code": "MS-PC 2150",
+            "Name": "Foundations of Leadership",
+            "Credits": [
+                "2"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        {
+            "Code": "MS-PC 2150L",
+            "Name": "Foundations of Leadership Lab",
+            "Credits": [
+                "1"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        {
+            "Code": "MS-PC 2160",
+            "Name": "Foundations of Tactical Leadership ",
+            "Credits": [
+                "2"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        {
+            "Code": "MS-PC 2160L",
+            "Name": "Foundations of Tactical Leadership Lab",
+            "Credits": [
+                "1"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        {
+            "Code": "MS-PC 3110",
+            "Name": "Leadership and Problem Solving",
+            "Credits": [
+                "3"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": "MS-PC 1210, 1230, 2150, AND 2160",
+            "Co-reqs": 0
+        },
+        {
+            "Code": "MS-PC 3120",
+            "Name": "Applied Team Leadership",
+            "Credits": [
+                "3"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": "MS-PC 3110; CADETS ONLY",
+            "Co-reqs": 0
+        },
+        {
+            "Code": "MS-PC 4150",
+            "Name": "Leadership and Ethics",
+            "Credits": [
+                "3"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": "ROTC CADETS ONLY",
+            "Co-reqs": 0
+        },
+        {
+            "Code": "MS-PC 4160",
+            "Name": "Leadership in a Complex World",
+            "Credits": [
+                "3"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": "MS-PC 4150; ROTC CADETS ONLY",
+            "Co-reqs": 0
+        }
+    ],
+    "Naval Science--Peabody": [
+        {
+            "Code": "NS-PC 2410",
+            "Name": "Leadership and Management",
+            "Credits": [
+                "3"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        {
+            "Code": "NS-PC 4242",
+            "Name": "Leadership and Ethics",
+            "Credits": [
+                "3"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        }
+    ],
+    "Psychology and Human Development": [
+        {
+            "Code": "PSY-PC 1001",
+            "Name": "Psychology and Human Development Commons Seminar",
+            "Credits": [
+                "1"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        {
+            "Code": "PSY-PC 1115",
+            "Name": "Psychology and Human Development First Year Seminar ",
+            "Credits": [
+                "3"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        {
+            "Code": "PSY-PC 1117",
+            "Name": "Psychology and Human Development First Year Writing SEminar ",
+            "Credits": [
+                "3"
+            ],
+            "Axle": [
+                "WRITING"
+            ],
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        {
+            "Code": "PSY-PC 1205",
+            "Name": "Minds, Brains, Contexts, and Cultures",
+            "Credits": [
+                "3"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        {
+            "Code": "PSY-PC 1207",
+            "Name": "Minds, Brains, Contexts, and Cultures; writing",
+            "Credits": [
+                "3"
+            ],
+            "Axle": [
+                "WRITING"
+            ],
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        {
+            "Code": "PSY-PC 1250",
+            "Name": "Developmental Psychoology ",
+            "Credits": [
+                "3"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        {
+            "Code": "PSY-PC 2110",
+            "Name": "Introduction to Statistical Analysis",
+            "Credits": [
+                "3"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        {
+            "Code": "PSY-PC 2115",
+            "Name": "Advanced Introduction to Statistics",
+            "Credits": [
+                "3"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": "MATH 1300 AND 1301",
+            "Co-reqs": 0
+        },
+        {
+            "Code": "PSY-PC 2120",
+            "Name": "Statistical Analysis",
+            "Credits": [
+                "3"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": "PSY-PC 2110 OR PSY 2100",
+            "Co-reqs": 0
+        },
+        {
+            "Code": "PSY-PC 2170",
+            "Name": "Experimental Research Methods in Child Development",
+            "Credits": [
+                "3"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": "PSY-PC 1205/1207, OR 1250 OR PSY 2100 OR PSY-PC 2110",
+            "Co-reqs": 0
+        },
+        {
+            "Code": "PSY-PC 2200",
+            "Name": "Psychology of Thinking",
+            "Credits": [
+                "3"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": "PSY-PC 1205/1207, OR 1250 OR PSY 2100 OR PSY-PC 2110",
+            "Co-reqs": 0
+        },
+        {
+            "Code": "PSY-PC 2230",
+            "Name": "Introduction to Educational Neuroscience",
+            "Credits": [
+                "3"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        {
+            "Code": "PSY-PC 2250",
+            "Name": "Cognitive Aspects of Human Development",
+            "Credits": [
+                "3"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": "PSY-PC 1205/1207, OR 1250 OR PSY 2100 OR PSY-PC 2110",
+            "Co-reqs": 0
+        },
+        {
+            "Code": "PSY-PC 2300",
+            "Name": "Social and Emotional Context of Cognition",
+            "Credits": [
+                "3"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        {
+            "Code": "PSY-PC 2400",
+            "Name": "Social and Personality Development",
+            "Credits": [
+                "3"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": "PSY-PC 1205/1207, OR 1250 OR PSY 2100 OR PSY-PC 2110",
+            "Co-reqs": 0
+        },
+        {
+            "Code": "PSY-PC 2500",
+            "Name": "Infancy",
+            "Credits": [
+                "3"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": "PSY-PC 1250",
+            "Co-reqs": 0
+        },
+        {
+            "Code": "PSY-PC 2550",
+            "Name": "Adolescent Development",
+            "Credits": [
+                "3"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        {
+            "Code": "PSY-PC 2560",
+            "Name": "Theories of Developmental Psychology in Practice",
+            "Credits": [
+                "3"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        {
+            "Code": "PSY-PC 2600",
+            "Name": "Educational Psychology Introduction to Fomral Linguistics",
+            "Credits": [
+                "3"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": "PSY-PC 1205/1207, OR 1250 OR PSY 2100 OR PSY-PC 2110",
+            "Co-reqs": 0
+        },
+        {
+            "Code": "PSY-PC 3130",
+            "Name": "Psychology of Language",
+            "Credits": [
+                "3"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        {
+            "Code": "PSY-PC 3140",
+            "Name": "Language Development",
+            "Credits": [
+                "3"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        {
+            "Code": "PSY-PC 3160",
+            "Name": "Bilingualism and Second Language Learning",
+            "Credits": [
+                "3"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": "PSY-PC 3130 OR 3140",
+            "Co-reqs": 0
+        },
+        {
+            "Code": "PSY-PC 3170",
+            "Name": "Cognitive Science of Reading",
+            "Credits": [
+                "3"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": "PSY-PC 3130 OR 3140",
+            "Co-reqs": 0
+        },
+        {
+            "Code": "PSY-PC 3180",
+            "Name": "How We Talk",
+            "Credits": [
+                "3"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": "PSY-PC 3130 OR 3140",
+            "Co-reqs": 0
+        },
+        {
+            "Code": "PSY-PC 3190",
+            "Name": "Language and the Brain",
+            "Credits": [
+                "3"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": "PSY-PC 3130 OR 3140",
+            "Co-reqs": 0
+        },
+        {
+            "Code": "PSY-PC 3200",
+            "Name": "Introduction to Clinical Psychology",
+            "Credits": [
+                "3"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        {
+            "Code": "PSY-PC 3210",
+            "Name": "Hospitalized Child",
+            "Credits": [
+                "3"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        {
+            "Code": "PSY-PC 3650",
+            "Name": "Advanced Topical Seminar",
+            "Credits": [
+                "3"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": "PSY-PC 1205/1207, OR 1250 OR PSY 2100 OR PSY-PC 2110",
+            "Co-reqs": 0
+        },
+        {
+            "Code": "PSY-PC 3722",
+            "Name": "Psychometric Methods",
+            "Credits": [
+                "3"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": "PSY-PC 1205/1207, OR 1250 OR PSY 2100 OR PSY-PC 2110",
+            "Co-reqs": 0
+        },
+        {
+            "Code": "PSY-PC 3724",
+            "Name": "Pyschometrics",
+            "Credits": [
+                "3"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": "PSY-PC 2110 OR PSY 2100 AND PSY-PC 2120",
+            "Co-reqs": 0
+        },
+        {
+            "Code": "PSY-PC 3727",
+            "Name": "Modern Robust Statistical Methods",
+            "Credits": [
+                "3"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": "PSY-PC 2110 OR PSY 2100 AND PSY-PC 2120",
+            "Co-reqs": 0
+        },
+        {
+            "Code": "PSY-PC 3730",
+            "Name": "APplied Latent Class and Mixture Modeling",
+            "Credits": [
+                "3"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": "PSY-PC 2110 OR PSY 2100 AND PSY-PC 2120",
+            "Co-reqs": 0
+        },
+        {
+            "Code": "PSY-PC 3732",
+            "Name": "Latent Growth Curve Modeling",
+            "Credits": [
+                "3"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": "PSY-PC 2110 OR PSY 2100 AND PSY-PC 2120",
+            "Co-reqs": 0
+        },
+        {
+            "Code": "PSY-PC 3735",
+            "Name": "Correlation and Regression",
+            "Credits": [
+                "3"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": "PSY-PC 2110 OR PSY 2100 AND PSY-PC 2120",
+            "Co-reqs": 0
+        },
+        {
+            "Code": "PSY-PC 3737",
+            "Name": "STructural Equation Modeling",
+            "Credits": [
+                "3"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        {
+            "Code": "PSY-PC 3738",
+            "Name": "Introduction to Item Response Theory",
+            "Credits": [
+                "3"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": "PSY-PC 2110 OR PSY 2100 AND PSY-PC 2120",
+            "Co-reqs": 0
+        },
+        {
+            "Code": "PSY-PC 3743",
+            "Name": "Factor Analysis",
+            "Credits": [
+                "3"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": "PSY-PC 2110 OR PSY 2100 AND PSY-PC 2120",
+            "Co-reqs": 0
+        },
+        {
+            "Code": "PSY-PC 3746",
+            "Name": "Multivariate Statistics ",
+            "Credits": [
+                "3"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": "PSY-PC 2110 OR PSY 2100 AND PSY-PC 2120",
+            "Co-reqs": 0
+        },
+        {
+            "Code": "PSY-PC 3749",
+            "Name": "Applied Nonparametric Statistics",
+            "Credits": [
+                "0"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": "PSY-PC 2110 OR PSY 2100 AND PSY-PC 2120",
+            "Co-reqs": 0
+        },
+        {
+            "Code": "PSY-PC 3751",
+            "Name": "Exploratory Data Analysis",
+            "Credits": [
+                "0"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": "PSY-PC 2110 OR PSY-PC 2120 OR PSY-PC 3735",
+            "Co-reqs": 0
+        },
+        {
+            "Code": "PSY-PC 3870",
+            "Name": "Field Work in Psychology for Undergraduates",
+            "Credits": [
+                "0"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": "INSTRUCTOR CONSENT REQUIRED",
+            "Co-reqs": 0
+        }
+    ],
+    "Special Education": [
+        {
+            "Code": "SPED 1001",
+            "Name": "Special Education Commons Seminar",
+            "Credits": [
+                "1"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        {
+            "Code": "SPED 1210",
+            "Name": "Introduction to Exceptionality",
+            "Credits": [
+                "3"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        {
+            "Code": "SPED 2110",
+            "Name": "Introduction to Teaching Students with Disabilities",
+            "Credits": [
+                "3"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        {
+            "Code": "SPED 2160",
+            "Name": "Cultural Diversity in American Education",
+            "Credits": [
+                "3"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        {
+            "Code": "SPED 2310",
+            "Name": "Managing Academic and Social Behavior",
+            "Credits": [
+                "3"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": "SPED 1210",
+            "Co-reqs": "1 HOUR OF SPEDH 3871 OR SPEDS 3871"
+        },
+        {
+            "Code": "SPED 3240",
+            "Name": "Attention Deficit/Hyperactivity Disorder: Educational Implications",
+            "Credits": [
+                "3"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        {
+            "Code": "SPED 3332",
+            "Name": "High Poverty Youth: Improving Outcomes",
+            "Credits": [
+                "3"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        {
+            "Code": "SPED 3770",
+            "Name": "Accommodating Academic Diversity in the Classroom",
+            "Credits": [
+                "0"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        {
+            "Code": "SPED 3890",
+            "Name": "Special Topics in Special Education",
+            "Credits": [
+                "0"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        {
+            "Code": "SPED 4950",
+            "Name": "Student Teaching Seminar",
+            "Credits": [
+                "0"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": 0,
+            "Co-reqs": "SPED 4954 OR 4951"
+        },
+        {
+            "Code": "SPED 4951",
+            "Name": "Student Teaching in Special Education",
+            "Credits": [
+                "0"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": 0,
+            "Co-reqs": "SPED 4950"
+        },
+        {
+            "Code": "SPED 4954",
+            "Name": "Student Teaching in Special Education and Education",
+            "Credits": [
+                "0"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": 0,
+            "Co-reqs": "SPED 4950"
+        }
+    ],
+    "INTERVENTIONIST/HIGH INCIDENCE/MODIFIED": [
+        {
+            "Code": "SPEDH 3308",
+            "Name": "Understanding Students with Severe and Persistent Academic and Behavior Difficulties",
+            "Credits": [
+                "3"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": "SPED 1210",
+            "Co-reqs": 0
+        },
+        {
+            "Code": "SPEDH 3318",
+            "Name": "Assessment for Students with Severe and Persistent Academic and Behavior Difficulties",
+            "Credits": [
+                "3"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": "SPED 1210",
+            "Co-reqs": "SPED 1871"
+        },
+        {
+            "Code": "SPEDH 3328",
+            "Name": "Teaching Mathematics to Students with Severe and Persistent Academic and Behavior Difficulties: K-8",
+            "Credits": [
+                "3"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": "SPED 1210 AND 3308",
+            "Co-reqs": 0
+        },
+        {
+            "Code": "SPEDH 3338",
+            "Name": "Teaching Reading to Students with Severe and Persistent Academic and Behavior Difficulties",
+            "Credits": [
+                "3"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": "SPED 1210 AND 3308",
+            "Co-reqs": 0
+        },
+        {
+            "Code": "SPEDH 3348",
+            "Name": "Language and Learning ",
+            "Credits": [
+                "3"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        {
+            "Code": "SPEDH 3358",
+            "Name": "Advanced Reading Methods for Students with Severe and Persistent Academic and Behavior Difficulties",
+            "Credits": [
+                "3"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": "SPED 1210 AND 3338",
+            "Co-reqs": "1 HOUR SPED 3871"
+        },
+        {
+            "Code": "SPEDH 3368",
+            "Name": "Teaching Middle School Students with Severe and Persistent Academic and Behavior Difficulties",
+            "Credits": [
+                "3"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": "HIGH INCIDENCE SENIORS",
+            "Co-reqs": "1 HOUR SPED 3871"
+        },
+        {
+            "Code": "SPEDH 3378",
+            "Name": "Teaching High SChool Students with SEvere and Persistent Academic and Behavior Difficulties",
+            "Credits": [
+                "3"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        {
+            "Code": "SPEDH 3388",
+            "Name": "Teaching Mathematics to Students with Severe and Persistent Academic and Behavior Difficulties: 6-12",
+            "Credits": [
+                "3"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        {
+            "Code": "SPEDH 3771",
+            "Name": "Practicum: Accommodating Academic Diversity in the Classroom",
+            "Credits": [
+                "5"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": 0,
+            "Co-reqs": "SPED 3770 AND 3770"
+        },
+        {
+            "Code": "SPEDH 3777",
+            "Name": "School and Classroom Supports Teaching Students Academic Behavior Difficulties",
+            "Credits": [
+                "3"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        {
+            "Code": "SPEDH 3871",
+            "Name": "Field Work in Special Education for Mild/Moderate Disabilities",
+            "Credits": [
+                "3"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": "SPED 1210 AND 2110",
+            "Co-reqs": 0
+        }
+    ],
+    "SEVERE/COMPREHENSIVE": [
+        {
+            "Code": "SPEDS 2120",
+            "Name": "Family Intervention",
+            "Credits": [
+                "3"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": "MUST BE SOPHOMORE OR OLDER",
+            "Co-reqs": 0
+        },
+        {
+            "Code": "SPEDS 2430",
+            "Name": "Introduction to Language and Communication",
+            "Credits": [
+                "3"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        {
+            "Code": "SPEDS 2450",
+            "Name": "Augmentative and Alternative Communication",
+            "Credits": [
+                "3"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        {
+            "Code": "SPEDS 3300",
+            "Name": "Methods of Instruction for Students with Severe and Multiple Disabilities",
+            "Credits": [
+                "3"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": 0,
+            "Co-reqs": "SPEDS 3871"
+        },
+        {
+            "Code": "SPEDS 3312",
+            "Name": "Procedures in Transition to Adult Life",
+            "Credits": [
+                "3"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": "SPED 2310",
+            "Co-reqs": "SPEDS 3871"
+        },
+        {
+            "Code": "SPEDS 3330",
+            "Name": "Characteristics of Students with Severe and Multiple Disabilities",
+            "Credits": [
+                "3"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": 0,
+            "Co-reqs": "SPEDS 3871"
+        },
+        {
+            "Code": "SPEDS 3350",
+            "Name": "Access to General Education and Teaching Functional Academics",
+            "Credits": [
+                "3"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        {
+            "Code": "SPEDS 3600",
+            "Name": "Teaching Reading to Students with Severe Disabilities",
+            "Credits": [
+                "3"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": "SPED 1210, SPEDS 3300 AND SPEDS 3330",
+            "Co-reqs": 0
+        },
+        {
+            "Code": "SPEDS 3661",
+            "Name": "Fieldwork in Special Education: Severe Disabilities",
+            "Credits": [
+                "3"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": "SPED 3871 IN FALL AND SPRING",
+            "Co-reqs": "SPEDS 3667"
+        },
+        {
+            "Code": "SPEDS 3667",
+            "Name": "Seminar in Severe Disabilities Fieldwork",
+            "Credits": [
+                "3"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": "SPED 1210, 2120, 2450, AND SPEDS 3300, 3330, 3312, 3350",
+            "Co-reqs": "SPEDS 3661"
+        },
+        {
+            "Code": "SPEDS 3871",
+            "Name": "Field Work in Special Education: Autism, Intellectual, and Multiple Disabilities",
+            "Credits": [
+                "3"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": "SPED 1210, 2110, AND 2430",
+            "Co-reqs": 0
+        }
+    ],
+    "Education": [
+        {
+            "Code": "EDUC 1001",
+            "Name": "Education Commons Seminar",
+            "Credits": [
+                "1"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        {
+            "Code": "EDUC 1220",
+            "Name": "Society, The School, and The Teacher",
+            "Credits": [
+                "3"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        {
+            "Code": "EDUC 2160",
+            "Name": "Cultural Diversity in AMerican Education",
+            "Credits": [
+                "3"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        {
+            "Code": "EDUC 3114",
+            "Name": "Language and Literacy Learning in Young Children",
+            "Credits": [
+                "3"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        {
+            "Code": "EDUC 3115",
+            "Name": "Methods of Learning and Literacy in Early Childrood",
+            "Credits": [
+                "3"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": 0,
+            "Co-reqs": "EDUC 3116"
+        },
+        {
+            "Code": "EDUC 3116",
+            "Name": "Practicum in Teaching Early Childhood Reading and Language Arts",
+            "Credits": [
+                "1"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": 0,
+            "Co-reqs": "EDUC 3115"
+        },
+        {
+            "Code": "EDUC 3120",
+            "Name": "Children in Families and Schools",
+            "Credits": [
+                "3"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        {
+            "Code": "EDUC 3140",
+            "Name": "Learning and Development in Early Childhood Education",
+            "Credits": [
+                "3"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        {
+            "Code": "EDUC 3150",
+            "Name": "Science and Social Studies Instruction in Early Grades",
+            "Credits": [
+                "3"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": "SSED 2100",
+            "Co-reqs": "MTED 3150 AND EDUC 3151"
+        },
+        {
+            "Code": "EDUC 3151",
+            "Name": "Practicum in Mathematics, Science, and Social Studies Instruction in Early Grades",
+            "Credits": [
+                "1"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": 0,
+            "Co-reqs": "EDUC 3150 AND MTED 3150"
+        },
+        {
+            "Code": "EDUC 3180",
+            "Name": "Managing Instructional Settings for Young Children",
+            "Credits": [
+                "2"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        {
+            "Code": "EDUC 3212",
+            "Name": "Introduction to Reading Processes and Assessment",
+            "Credits": [
+                "3"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        {
+            "Code": "EDUC 3214",
+            "Name": "Theory and Methods of Reading Instruction in Elementary Schools",
+            "Credits": [
+                "3"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": "EDUC 3212",
+            "Co-reqs": "EDUC 3214 AND EDUC 3216"
+        },
+        {
+            "Code": "EDUC 3215",
+            "Name": "Language Arts in Elementary SChools",
+            "Credits": [
+                "3"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": "EDUC 3212",
+            "Co-reqs": "EDUC 3214 AND EDUC 3216"
+        },
+        {
+            "Code": "EDUC 3216",
+            "Name": "Practicum in Teaching Elementary Reading and Language Arts",
+            "Credits": [
+                "1"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": "EDUC 3212",
+            "Co-reqs": "EDUC 3214 AND EDUC 3215"
+        },
+        {
+            "Code": "EDUC 3240",
+            "Name": "Practicum in Elementary Science and Social STudies",
+            "Credits": [
+                "1"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": 0,
+            "Co-reqs": "SCED 3240 AND SSED 3240"
+        },
+        {
+            "Code": "EDUC 3270",
+            "Name": "Managing Instructional Settings for Young Children",
+            "Credits": [
+                "2"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        {
+            "Code": "EDUC 3310",
+            "Name": "Classroom Ecology",
+            "Credits": [
+                "3"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        {
+            "Code": "EDUC 3620",
+            "Name": "Social and Philosophical Aspects of Education",
+            "Credits": [
+                "3"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        {
+            "Code": "EDUC 3720",
+            "Name": "Principles for Teaching English Language Learner Students",
+            "Credits": [
+                "3"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        {
+            "Code": "EDUC 3730",
+            "Name": "English Language Learner Educational Foundations",
+            "Credits": [
+                "3"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": 0,
+            "Co-reqs": "EDUC 3731"
+        },
+        {
+            "Code": "EDUC 3731",
+            "Name": "Practicum for Teaching English Language Learners I",
+            "Credits": [
+                "1"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": 0,
+            "Co-reqs": "EDUC 3730"
+        },
+        {
+            "Code": "EDUC 3740",
+            "Name": "English Language Learner Methdos and Materials",
+            "Credits": [
+                "3"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": 0,
+            "Co-reqs": "EDUC 3742"
+        },
+        {
+            "Code": "EDUC 3742",
+            "Name": "Practicum for Teaching English Language Learners II ",
+            "Credits": [
+                "1"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": 0,
+            "Co-reqs": "EDUC 3742"
+        },
+        {
+            "Code": "EDUC 3750",
+            "Name": "Linguistics and Language Acquisition for English Language Learner Teachers",
+            "Credits": [
+                "3"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        {
+            "Code": "EDUC 3760",
+            "Name": "Assessment of English Language Learners",
+            "Credits": [
+                "3"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": 0,
+            "Co-reqs": "EDUC 3763"
+        },
+        {
+            "Code": "EDUC 3763",
+            "Name": "Practicum for Teaching English Langauge Learners III ",
+            "Credits": [
+                "13"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": 0,
+            "Co-reqs": "EDUC 3760"
+        },
+        {
+            "Code": "EDUC 3861",
+            "Name": "Initial Fieldwork in Educational Studies",
+            "Credits": [
+                "3"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        {
+            "Code": "EDUC 3862",
+            "Name": "Advanced Fieldwork in Educational Studies",
+            "Credits": [
+                "3"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        {
+            "Code": "EDUC 3871",
+            "Name": "Practicum in Secondary Education I",
+            "Credits": [
+                "1"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": 0,
+            "Co-reqs": "PSY-PC 2550"
+        },
+        {
+            "Code": "EDUC 3872",
+            "Name": "Practicum in Secondary Education II",
+            "Credits": [
+                "1"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        {
+            "Code": "EDUC 3890",
+            "Name": "Special Topics in Education",
+            "Credits": [
+                "1",
+                "3"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        {
+            "Code": "EDUC 4950",
+            "Name": "Capstone Fieldwork in Educational Studies",
+            "Credits": [
+                "6"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        {
+            "Code": "EDUC 4951",
+            "Name": "Student Teaching in Early Childhood",
+            "Credits": [
+                "9"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": "ADMISSION TO STUDENT TEACHING",
+            "Co-reqs": 0
+        },
+        {
+            "Code": "EDUC 4952",
+            "Name": "Student Teaching in the Elementary School",
+            "Credits": [
+                "9"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": "ADMISSION TO STUDENT TEACHING",
+            "Co-reqs": 0
+        },
+        {
+            "Code": "EDUC 4953 ",
+            "Name": "Student Teaching in the Secondary School",
+            "Credits": [
+                "9"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": "ADMISSION TO STUDENT TEACHING",
+            "Co-reqs": 0
+        },
+        {
+            "Code": "EDUC 4954",
+            "Name": "Student Teaching in Education and Special Education",
+            "Credits": [
+                "9"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": "ADMISSION TO STUDENT TEACHING",
+            "Co-reqs": 0
+        },
+        {
+            "Code": "EDUC 4961",
+            "Name": "Student Teaching Seminar: Early Childhood",
+            "Credits": [
+                "3"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": 0,
+            "Co-reqs": "EDUC 4951"
+        },
+        {
+            "Code": "EDUC 4962",
+            "Name": "Student Teaching Seminar: Elementary",
+            "Credits": [
+                "3"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": 0,
+            "Co-reqs": "EDUC 4952"
+        }
+    ],
+    "ENGLISH EDUCATION": [
+        {
+            "Code": "ENED 2100",
+            "Name": "Literature and Drama for Young Children ",
+            "Credits": [
+                "3"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        {
+            "Code": "ENED 2200",
+            "Name": "Exploring Literature for Children",
+            "Credits": [
+                "3"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        {
+            "Code": "ENED 2300",
+            "Name": "Pedagogy Seminar",
+            "Credits": [
+                "1"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        {
+            "Code": "ENED 2430",
+            "Name": "Fostering Language in Diverse Classrooms",
+            "Credits": [
+                "3"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        {
+            "Code": "ENED 3310",
+            "Name": "Language Study in the Secondary Classroom",
+            "Credits": [
+                "3"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        {
+            "Code": "ENED 3340",
+            "Name": "Reading and Learning with Print and New Media",
+            "Credits": [
+                "3"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        {
+            "Code": "ENED 3350 OR 3357",
+            "Name": "Literature, Popular Culture, and New Media",
+            "Credits": [
+                "3"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        {
+            "Code": "ENED 3370",
+            "Name": "Teaching Literature and New Media in the Secondary School",
+            "Credits": [
+                "3"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": "ENED 3310 OR CONSENT OF INSTRUCTOR",
+            "Co-reqs": "ENED 3371"
+        },
+        {
+            "Code": "ENED 3371",
+            "Name": "Practicum in Secondary Education III",
+            "Credits": [
+                "1"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": 0,
+            "Co-reqs": "ENED 3370"
+        },
+        {
+            "Code": "ENED 3380",
+            "Name": "Teaching Writing in Secondary SChools",
+            "Credits": [
+                "3"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        {
+            "Code": "ENED 3400",
+            "Name": "Harry Potter and Children's Literature",
+            "Credits": [
+                "3"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        {
+            "Code": "ENED 3410",
+            "Name": "Literature of Social Transformation",
+            "Credits": [
+                "3"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        {
+            "Code": "ENED 3890",
+            "Name": "Special Topics in English Education",
+            "Credits": [
+                "3"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        {
+            "Code": "ENED 4963",
+            "Name": "Student Teaching Seminar: Seondary",
+            "Credits": [
+                "3"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        }
+    ],
+    "Humanities Education": [
+        {
+            "Code": "HMED 2150",
+            "Name": "Arts Education for Young Children",
+            "Credits": [
+                "2"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        {
+            "Code": "HMED 2250",
+            "Name": "Introduction to Arts Education",
+            "Credits": [
+                "2"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        {
+            "Code": "HMED 3890",
+            "Name": "Special Topics in Humanites Education",
+            "Credits": [
+                "1",
+                "3"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        }
+    ],
+    "Math Education": [
+        {
+            "Code": "MTED 2100",
+            "Name": "Young Children's Mathematical Thinking and Learning",
+            "Credits": [
+                "3"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        {
+            "Code": "MTED 2200",
+            "Name": "Mathematics for Elementary Teachers",
+            "Credits": [
+                "3"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        {
+            "Code": "MTED 2300",
+            "Name": "Pedagogy Seminar",
+            "Credits": [
+                "3"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        {
+            "Code": "MTED 3150",
+            "Name": "Mathematics Instruction in the Early Grades",
+            "Credits": [
+                "2"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": "MTED 2100",
+            "Co-reqs": "EDUC 3150 AND EDUC 3151"
+        },
+        {
+            "Code": "MTED 3250",
+            "Name": "Teaching Mathematics in Elementary SChools",
+            "Credits": [
+                "2"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": "MTED 2200",
+            "Co-reqs": 0
+        },
+        {
+            "Code": "MTED 3251",
+            "Name": "Practicum in Elementary Mathematics",
+            "Credits": [
+                "1"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": 0,
+            "Co-reqs": "MTED 2200 OR MTED 3250"
+        },
+        {
+            "Code": "MTED 3320",
+            "Name": "Introduction to Literacies in Mathematics",
+            "Credits": [
+                "3"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        {
+            "Code": "MTED 3360",
+            "Name": "Computers, Teaching, and Mathematical Visualization",
+            "Credits": [
+                "3"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        {
+            "Code": "MTED 3370",
+            "Name": "Teaching Mathematics in Secondary Schools",
+            "Credits": [
+                "3"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": "MTED 3310 OR CONSENT OF INSTRUCTOR",
+            "Co-reqs": "MTED 3371"
+        },
+        {
+            "Code": "MTED 3371",
+            "Name": "Practicum in Secondary Education III",
+            "Credits": [
+                "1"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": 0,
+            "Co-reqs": "MTED 3370"
+        },
+        {
+            "Code": "MTED 3890",
+            "Name": "Special Topics in Mathematics Education",
+            "Credits": [
+                "1",
+                "3"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        {
+            "Code": "MTED 4963",
+            "Name": "Student Teaching Seminar: Secondary",
+            "Credits": [
+                "3"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        }
+    ],
+    "Science Education": [
+        {
+            "Code": "SCED 2200",
+            "Name": "Science for Elementary Teachers",
+            "Credits": [
+                "3"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        {
+            "Code": "SCED 2330",
+            "Name": "Pedagogy Seminar",
+            "Credits": [
+                "1"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        {
+            "Code": "SCED 3240",
+            "Name": "Teaching Science in Elementary SChools",
+            "Credits": [
+                "2"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": "SCED 2200",
+            "Co-reqs": "SSED 3240 AND EDUC 3240"
+        },
+        {
+            "Code": "SCED 3320",
+            "Name": "Introduction to Literacies in Science",
+            "Credits": [
+                "3"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        {
+            "Code": "SCED 3370",
+            "Name": "Teaching Science in Secondary Schools",
+            "Credits": [
+                "3"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": "EDUC 3310 OR CONSENT OF INSTRUCTOR",
+            "Co-reqs": "SCED 3371"
+        },
+        {
+            "Code": "SCED 3371",
+            "Name": "Practicum in Secondary Education III",
+            "Credits": [
+                "1"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": 0,
+            "Co-reqs": "SCED 3370"
+        },
+        {
+            "Code": "SCED 3400",
+            "Name": "Modeling in the Secondary Science Classroom",
+            "Credits": [
+                "3"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        {
+            "Code": "SCED 3890",
+            "Name": "Special Topics in Science Education",
+            "Credits": [
+                "1",
+                "3"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        },
+        {
+            "Code": "SCED 4963",
+            "Name": "Student Teaching Seminar: Secondary",
+            "Credits": [
+                "3"
+            ],
+            "Axle": [
+                "0"
+            ],
+            "Pre-reqs": 0,
+            "Co-reqs": 0
+        }
+    ]
+}

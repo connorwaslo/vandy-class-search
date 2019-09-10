@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7da9225a-4dd8-4d8a-a231-c29f14e71298" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/components/search/SearchType.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/search/SearchType.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/axle_pb_bus_courses.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/axle_pb_bus_courses.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/courses.json" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -18,15 +19,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ducks/reducers.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="6648">
-              <caret line="299" column="71" selection-start-line="299" selection-start-column="71" selection-end-line="299" selection-end-column="71" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/screens/Schedule.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -63,14 +55,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/search/SearchType.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="16" column="64" lean-forward="true" selection-start-line="16" selection-start-column="64" selection-end-line="16" selection-end-column="64" />
+            <state relative-caret-position="216">
+              <caret line="33" column="34" lean-forward="true" selection-start-line="33" selection-start-column="34" selection-end-line="33" selection-end-column="34" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/screens/Dashboard.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="96">
+              <caret line="4" column="44" lean-forward="true" selection-start-line="4" selection-start-column="44" selection-end-line="4" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -141,8 +142,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>Title</find>
-      <find>zIndex</find>
       <find>firebase.</find>
       <find>&lt;ProfileBu</find>
       <find>logOut=</find>
@@ -171,6 +170,8 @@
       <find>day2</find>
       <find>Add to</find>
       <find>majors</find>
+      <find>courses</find>
+      <find>'../</find>
     </findStrings>
     <replaceStrings>
       <replace>this.props</replace>
@@ -377,12 +378,12 @@
       <workItem from="1566083718342" duration="1755000" />
       <workItem from="1567199571717" duration="6513000" />
       <workItem from="1567733371749" duration="653000" />
-      <workItem from="1568038910049" duration="1338000" />
+      <workItem from="1568038910049" duration="2464000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="308221000" />
+    <option name="totallyTimeSpent" value="309347000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -693,16 +694,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/screens/Dashboard.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5520">
-          <caret line="52" column="39" lean-forward="true" selection-start-line="52" selection-start-column="39" selection-end-line="52" selection-end-column="39" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/utils/FirebaseUtils.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
@@ -806,11 +797,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/search/SearchType.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="16" column="64" lean-forward="true" selection-start-line="16" selection-start-column="64" selection-end-line="16" selection-end-column="64" />
+        <state relative-caret-position="216">
+          <caret line="33" column="34" lean-forward="true" selection-start-line="33" selection-start-column="34" selection-end-line="33" selection-end-column="34" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/screens/Dashboard.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="4" column="44" lean-forward="true" selection-start-line="4" selection-start-column="44" selection-end-line="4" selection-end-column="44" />
         </state>
       </provider>
     </entry>
