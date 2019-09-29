@@ -12,7 +12,8 @@ class Signup extends Component {
   state = {
     email: '',
     pass: '',
-    confPass: ''
+    confPass: '',
+    errors: []
   };
 
   componentDidMount() {
@@ -51,6 +52,11 @@ class Signup extends Component {
     event.preventDefault();
     const {pass, confPass} = this.state;
 
+    // Reset errors so that old errors don't persist
+    this.setState({
+      errors: []
+    });
+
     // Match the password and confirmed password
     if (pass === confPass) {
       // Create an account with firebase
@@ -77,6 +83,24 @@ class Signup extends Component {
       })
       .catch((error) => {
         console.log('Error creating account:', error);
+
+        let temp = this.state.errors;
+        switch (error.code) {
+          case 'auth/invalid-email':
+            temp.push('email');
+            this.setState({email: temp});
+            break;
+          case 'auth/weak-password':
+            temp.push('pass');
+            this.setState({errors: temp});
+            break;
+          case 'auth/email-already-in-use':
+            temp.push('reuse-email');
+            this.setState({errors: temp});
+            break;
+          default:
+            console.log('We didn\'t account for this...');
+        }
       })
   }
 }
