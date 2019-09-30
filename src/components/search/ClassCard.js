@@ -7,8 +7,14 @@ import Typography from "@material-ui/core/Typography";
 import firebase from 'firebase/app';
 import 'firebase/database';
 import 'firebase/auth';
+import CourseModal from "../../containers/CourseModalContainer";
+import ButtonLink from "../ui/ButtonLink";
 
 class ClassCard extends React.Component {
+  state = {
+    openModal: false
+  };
+
   render() {
     const {code, name, major, axle, prereqs, coreqs, takenCourses} = this.props;
     const credits = this._getCredits();
@@ -17,12 +23,21 @@ class ClassCard extends React.Component {
     return (
       <Card
         style={{marginTop: '2vh'}}>
+        <CourseModal open={this.state.openModal}
+                     handleClose={() => this.setState({openModal: false})}
+                     courseData={{code, name, major, axle, prereqs, coreqs, takenCourses}}
+        />
         <CardContent>
           <Grid container>
             <Grid item xs={6}>
-              <Typography>
-                <b>{code} - {name}</b>
-              </Typography>
+              {/*<Typography>*/}
+              <ButtonLink text={code + ' - ' + name}
+                          handleClick={this._openModal}/>
+                {/*<a style={{color: 'black'}}
+                   onClick={this._openModal}>
+                  <b>{code} - {name}</b>
+                </a>*/}
+              {/*</Typography>*/}
               <Typography>
                 {major}
               </Typography>
@@ -56,6 +71,12 @@ class ClassCard extends React.Component {
         </CardContent>
       </Card>
     )
+  }
+
+  _openModal = e => {
+    e.preventDefault();
+
+    this.setState({openModal: true});
   }
 
   _handleChange = () => {
