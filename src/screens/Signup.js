@@ -13,7 +13,8 @@ class Signup extends Component {
     email: '',
     pass: '',
     confPass: '',
-    errors: []
+    errors: [],
+    loading: false
   };
 
   componentDidMount() {
@@ -33,6 +34,7 @@ class Signup extends Component {
             onSubmit={(e) => this._onSubmit(e, history)}/>
         )} />
         <Grid container justify='center' direction='column' alignContent='center'>
+          {this.state.loading ? <h5 style={{textAlign: 'center'}}>Loading...</h5> : null}
           <h6 style={{textAlign: 'center'}}>or</h6>
           <Link to='/login'>Login</Link>
         </Grid>
@@ -54,7 +56,8 @@ class Signup extends Component {
 
     // Reset errors so that old errors don't persist
     this.setState({
-      errors: []
+      errors: [],
+      loading: true
     });
 
     // Match the password and confirmed password
@@ -79,10 +82,14 @@ class Signup extends Component {
         initSchedules(uid);
 
         // Navigate away
+        this.setState({loading: false});  // Needed?
         history.push('/dashboard');
       })
       .catch((error) => {
         console.log('Error creating account:', error);
+
+        // End loading gif
+        this.setState({loading: false});
 
         let temp = this.state.errors;
         switch (error.code) {
