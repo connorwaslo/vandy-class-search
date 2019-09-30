@@ -23,7 +23,7 @@ const useStyles = makeStyles(theme => ({
 export default function ClassModal({open, handleClose, courseData}) {
   const classes = useStyles();
 
-  const {code, name, major, axle, prereqs, coreqs, takenCourses} = courseData;
+  const {code, name, major, credits, axle, prereqs, coreqs, takenCourses} = courseData;
 
   return (
     <div>
@@ -44,6 +44,7 @@ export default function ClassModal({open, handleClose, courseData}) {
           <div className={classes.paper}>
             <h1 id='transition-modal-title'>{code} - {name}</h1>
             <h2 id='transition-modal-description'>{major}</h2>
+            <p id='transition-modal-description'>Credits: {credits}</p>
             <p id='transition-modal-description'>AXLE: {axle}</p>
             <p id='transition-modal-description'>Pre-Reqs: {prereqs}</p>
             <p id='transition-modal-description'>Co-Reqs: {coreqs}</p>

@@ -7,7 +7,7 @@ import Typography from "@material-ui/core/Typography";
 import firebase from 'firebase/app';
 import 'firebase/database';
 import 'firebase/auth';
-import CourseModal from "../../containers/CourseModalContainer";
+import CourseModal from "../../containers/CourseModal";
 import ButtonLink from "../ui/ButtonLink";
 
 class ClassCard extends React.Component {
@@ -25,19 +25,13 @@ class ClassCard extends React.Component {
         style={{marginTop: '2vh'}}>
         <CourseModal open={this.state.openModal}
                      handleClose={() => this.setState({openModal: false})}
-                     courseData={{code, name, major, axle, prereqs, coreqs, takenCourses}}
+                     courseData={{code, name, major, credits, axle, prereqs, coreqs, takenCourses}}
         />
         <CardContent>
           <Grid container>
             <Grid item xs={6}>
-              {/*<Typography>*/}
               <ButtonLink text={code + ' - ' + name}
                           handleClick={this._openModal}/>
-                {/*<a style={{color: 'black'}}
-                   onClick={this._openModal}>
-                  <b>{code} - {name}</b>
-                </a>*/}
-              {/*</Typography>*/}
               <Typography>
                 {major}
               </Typography>
