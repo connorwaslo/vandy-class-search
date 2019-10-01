@@ -4,7 +4,7 @@ import firebase from 'firebase/app';
 import 'firebase/database';
 import 'firebase/auth';
 import {
-  changeAuthStatus, loginEmail, setClassTaken, setTotalPages,
+  changeAuthStatus, loginEmail, setTriedLoading, setClassTaken, setTotalPages,
   addSchedule, addScheduleCourse, loadScheduleCourseFromDatabase
 } from "../ducks/actions";
 import {PAGE_SIZE} from "./Dashboard";
@@ -13,7 +13,7 @@ import {getObjectSize} from "../utils/Utils";
 
 class Loading extends Component {
   componentDidMount() {
-    let {setClassTaken, setTotalPages, changeAuthStatus, loginEmail, validCourses} = this.props;
+    let {setClassTaken, setTotalPages, changeAuthStatus, loginEmail, setTriedLoading, validCourses} = this.props;
 
     firebase.auth().onAuthStateChanged(user => {
       if (user) {
@@ -148,10 +148,10 @@ class Loading extends Component {
 
                   // Finally, set loading to done
                   // this.props.history.push('/dashboard');
-                  this.props.finish();
+                  setTriedLoading(true);
                 } else {
                   // this.props.history.push('/dashboard');
-                  this.props.finish();
+                  setTriedLoading(true);
                 }
               });
           })
@@ -161,8 +161,8 @@ class Loading extends Component {
         // Reset the number of pages to -1 because no data available
         this.props.setTotalPages(-1);
 
-        // Do nothing
-        this.props.finish();
+        // Stop loading
+        setTriedLoading(true);
       }
     })
   };
@@ -195,6 +195,9 @@ const mapDispatchToProps = dispatch => {
     },
     loginEmail: (email) => {
       dispatch(loginEmail(email));
+    },
+    setTriedLoading: (value) => {
+      dispatch(setTriedLoading(value));
     },
     setClassTaken: (course) => {
       dispatch(setClassTaken(course));

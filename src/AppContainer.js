@@ -13,8 +13,8 @@ import Schedule from "./screens/Schedule";
 
 class AppContainer extends React.Component {
   render() {
-    if (this.props.loading) {
-      return <Loading finish={this.props.finish}/>
+    if (!this.props.triedLoading) {
+      return <Loading />
     }
 
     // console.log('Taken Courses:', this.props.takenCourses);
@@ -39,7 +39,8 @@ const mapStateToProps = state => {
     email: state.auth.email,
     loggedIn: state.auth.loggedIn,
     searches: state.searches,
-    takenCourses: state.courses.takenCourses
+    takenCourses: state.courses.takenCourses,
+    triedLoading: state.auth.triedLoading
   }
 };
 

@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import {connect} from "react-redux";
-import {loginEmail} from "../ducks/actions";
+import {loginEmail, setTriedLoading} from "../ducks/actions";
 import {Route, Link, withRouter} from 'react-router-dom';
 import LoginForm from "../components/forms/LoginForm";
 import firebase from 'firebase/app';
@@ -54,6 +54,8 @@ class Login extends Component {
       .then(() => {
         // Dispatch action to redux store
         this.props.login(email, true);
+        // Code from Loading.js Line 25 on needs to happen here as well
+        this.props.setTriedLoading(false);
 
         history.push('/dashboard');
       })
@@ -76,6 +78,9 @@ const mapDispatchToProps = (dispatch) => {
   return {
     login: (email) => {
       dispatch(loginEmail(email));
+    },
+    setTriedLoading: (value) => {
+      dispatch(setTriedLoading(value));
     }
   }
 };

@@ -31,7 +31,6 @@ console.log(store.getState());
 
 class App extends React.Component {
   state = {
-    loading: true,
     showModal: false
   };
 
@@ -39,16 +38,10 @@ class App extends React.Component {
     return (
       <Provider store={store}>
         <PersistGate persistor={persistor}>
-          <AppContainer loading={this.state.loading}
-                        finish={this._finishLoading}
-                        store={store}/>
+          <AppContainer store={store}/>
         </PersistGate>
       </Provider>
     )
-  };
-
-  _finishLoading = () => {
-    this.setState({ loading: false });
   };
 }
 

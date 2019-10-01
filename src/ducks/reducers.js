@@ -16,7 +16,7 @@ import {
   ADD_CLASS_TO_SCHEDULE,
   REMOVE_CLASS_FROM_SCHEDULE,
   CHANGE_SCHEDULE_SELECTION,
-  CHANGE_SCHEDULE_NAME, LOAD_CLASS_TO_SCHEDULE_FROM_DATABASE
+  CHANGE_SCHEDULE_NAME, LOAD_CLASS_TO_SCHEDULE_FROM_DATABASE, TRIED_LOADING
 } from "./actionTypes";
 import {combineReducers} from "redux";
 import {guid} from "react-agenda";
@@ -25,7 +25,8 @@ import {getRandomInt} from "../utils/Utils";
 const initialAuthState = {
   email: '',
   loggedIn: false, // Is user logged in?
-  selectSchedule: 0
+  selectSchedule: 0,
+  triedLoading: false
 };
 
 // Auth action reducers
@@ -52,6 +53,11 @@ let auth = (state = initialAuthState, action) => {
         ...state,
         email: '',
         loggedIn: false
+      };
+    case TRIED_LOADING:
+      return {
+        ...state,
+        triedLoading: action.value
       };
     default:
       return state;

@@ -15,7 +15,7 @@ import {
   REMOVE_SCHEDULE,
   ADD_CLASS_TO_SCHEDULE,
   REMOVE_CLASS_FROM_SCHEDULE,
-  CHANGE_SCHEDULE_SELECTION, CHANGE_SCHEDULE_NAME, LOAD_CLASS_TO_SCHEDULE_FROM_DATABASE
+  CHANGE_SCHEDULE_SELECTION, CHANGE_SCHEDULE_NAME, LOAD_CLASS_TO_SCHEDULE_FROM_DATABASE, TRIED_LOADING
 } from "./actionTypes";
 
 // Auth actions
@@ -36,6 +36,13 @@ export let changeAuthStatus = loginStatus => {
 export let logOut = () => {
   return {
     type: LOG_OUT
+  }
+};
+
+export let setTriedLoading = value => {
+  return {
+    type: TRIED_LOADING,
+    value
   }
 };
 
