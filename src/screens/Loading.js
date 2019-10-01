@@ -147,8 +147,10 @@ class Loading extends Component {
                   });
 
                   // Finally, set loading to done
+                  // this.props.history.push('/dashboard');
                   this.props.finish();
                 } else {
+                  // this.props.history.push('/dashboard');
                   this.props.finish();
                 }
               });
@@ -167,8 +169,8 @@ class Loading extends Component {
 
   render() {
     return (
-      <div>
-        <h1>Loading...</h1>
+      <div style={{width: '100%', height: '100%', dislay: 'flex', justifyContent: 'center', alignItems: 'center'}}>
+        <h1 style={{textAlign: 'center'}}>Loading...</h1>
       </div>
     )
   }
