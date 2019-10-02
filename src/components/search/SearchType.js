@@ -14,7 +14,7 @@ const useStyles = makeStyles(theme => ({
 }));
 
 const SearchType = (props) => (
-  <FormControl minWidth={1} className={useStyles().formControl}>
+  <FormControl className={useStyles().formControl}>
     <Select
       value={props.values}
       onChange={props.handleChange}
