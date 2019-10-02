@@ -16,7 +16,7 @@ import {
   ADD_CLASS_TO_SCHEDULE,
   REMOVE_CLASS_FROM_SCHEDULE,
   CHANGE_SCHEDULE_SELECTION,
-  CHANGE_SCHEDULE_NAME, LOAD_CLASS_TO_SCHEDULE_FROM_DATABASE, TRIED_LOADING
+  CHANGE_SCHEDULE_NAME, LOAD_CLASS_TO_SCHEDULE_FROM_DATABASE, TRIED_LOADING, RESET_APP
 } from "./actionTypes";
 import {combineReducers} from "redux";
 import {guid} from "react-agenda";
@@ -323,6 +323,14 @@ let schedules = (state = initialScheduleState, action) => {
   }
 };
 
-export let rootReducer = combineReducers({
+let allReducers = combineReducers({
   auth, searches, results, courses, schedules
 });
+
+export let rootReducer = (state, action) => {
+  if (action.type === RESET_APP) {
+    state = undefined;
+  }
+
+  return allReducers(state, action);
+}

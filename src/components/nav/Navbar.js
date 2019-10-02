@@ -2,7 +2,7 @@ import React from 'react';
 import {CssBaseline, makeStyles} from "@material-ui/core";
 import {connect} from "react-redux";
 import {persistor} from "../../App";
-import {logOut} from "../../ducks/actions";
+import {logOut, resetApp} from "../../ducks/actions";
 import {Link, withRouter} from 'react-router-dom';
 import ProfileButton from './ProfileButton';
 import firebase from 'firebase/app';
@@ -46,6 +46,7 @@ function Navbar(props) {
       .then(() => {
         persistor.purge().then(() => {
           props.logOut(); // Clear auth state in store
+          props.resetApp(); // Clear all state data to be initialState
 
           // Navigate back to login screen
           props.history.push('/login');
@@ -84,6 +85,9 @@ const mapDispatchToProps = dispatch => {
   return {
     logOut: () => {
       dispatch(logOut());
+    },
+    resetApp: () => {
+      dispatch(resetApp());
     }
   }
 };

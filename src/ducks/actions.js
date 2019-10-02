@@ -15,7 +15,7 @@ import {
   REMOVE_SCHEDULE,
   ADD_CLASS_TO_SCHEDULE,
   REMOVE_CLASS_FROM_SCHEDULE,
-  CHANGE_SCHEDULE_SELECTION, CHANGE_SCHEDULE_NAME, LOAD_CLASS_TO_SCHEDULE_FROM_DATABASE, TRIED_LOADING
+  CHANGE_SCHEDULE_SELECTION, CHANGE_SCHEDULE_NAME, LOAD_CLASS_TO_SCHEDULE_FROM_DATABASE, TRIED_LOADING, RESET_APP
 } from "./actionTypes";
 
 // Auth actions
@@ -45,6 +45,12 @@ export let setTriedLoading = value => {
     value
   }
 };
+
+export let resetApp = () => {
+  return {
+    type: RESET_APP
+  }
+}
 
 // Search actions
 export let changeSearchType = (newType, index) => {
